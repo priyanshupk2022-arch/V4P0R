@@ -1,4 +1,7 @@
 import { z } from 'zod';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export const envSchema = z.object({
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
@@ -20,7 +23,6 @@ export function parseEnv(envObj?: Record<string, string | undefined>): EnvConfig
   const envToParse = envObj || process.env;
   
   if (envToParse.NODE_ENV !== 'production') {
-    // Provide defaults for test/development if not present
     const fallbacks = {
       SUPABASE_URL: envToParse.SUPABASE_URL || 'https://mock.supabase.co',
       SUPABASE_ANON_KEY: envToParse.SUPABASE_ANON_KEY || 'mock-anon-key',
@@ -38,3 +40,4 @@ export function parseEnv(envObj?: Record<string, string | undefined>): EnvConfig
 }
 
 export const config = parseEnv();
+export const env = config;
