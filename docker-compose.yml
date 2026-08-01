@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  vapor-next-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    env_file:
+      - .env
+
+  vapor-core-rust:
+    build:
+      context: ./services/vapor-core-rust
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - RUST_LOG=info
+
+  vapor-stream-go:
+    build:
+      context: ./services/vapor-stream-go
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+
+  vapor-ai-python:
+    build:
+      context: ./services/vapor-ai-python
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    env_file:
+      - .env

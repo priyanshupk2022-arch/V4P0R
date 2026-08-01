@@ -1,0 +1,16 @@
+[package]
+name = "vapor-core-rust"
+version = "0.1.0"
+edition = "2021"
+description = "VAPOR Ultra-Low Latency Rust Financial Engine"
+
+[dependencies]
+tokio = { version = "1.38", features = ["full"] }
+axum = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+hmac = "0.12"
+sha2 = "0.10"
+subtle = "2.5"
+tracing = "0.1"
+tracing-subscriber = "0.3"
