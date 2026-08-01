@@ -1,0 +1,11 @@
+{
+  "node_id": "NODE-0301",
+  "title": "Integer Minor Units (centsMath) Utility",
+  "status": "VERIFIED",
+  "timestamp": "2026-08-01T19:21:30+05:30",
+  "files_created": [
+    "src/domain/budget/centsMath.ts",
+    "tests/unit/centsMath.test.ts"
+  ],
+  "verification_command": "npx vitest run tests/unit/centsMath.test.ts"
+}
