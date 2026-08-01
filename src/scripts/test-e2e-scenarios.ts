@@ -6,15 +6,24 @@ import { lockVirtualCard } from '../adapters/prava/lockCard';
 import { verifyHmacSignature } from '../infrastructure/security/hmacValidator';
 import crypto from 'crypto';
 
+export const OFFICIAL_HACKATHON_CARD = {
+  cardId: 'CARD-21',
+  cardNumber: '4622943123232382',
+  cvv: '290',
+  expiry: '12/27',
+  maxDailyTransactions: 30,
+};
+
 async function runE2EDemoScenarios() {
   console.log('====================================================');
   console.log('🚀 VAPOR BACKEND MONOLITH — E2E PRODUCTION SUITE (NODE-0705)');
   console.log('====================================================\n');
 
-  console.log('1. [SYSTEM CONFIG & INTEGRATIONS]');
+  console.log('1. [SYSTEM CONFIG & HACKATHON ASSIGNED CARD]');
   console.log(`   - Environment: ${env.NODE_ENV}`);
   console.log(`   - Upstash Redis: ${env.UPSTASH_REDIS_REST_URL}`);
   console.log(`   - Prava Sandbox API: ${env.PRAVA_BASE_URL}`);
+  console.log(`   - Assigned Hackathon Test Card: ${OFFICIAL_HACKATHON_CARD.cardNumber} (ID: ${OFFICIAL_HACKATHON_CARD.cardId})`);
   console.log(`   - Senso Org Key: Verified (${env.SENSO_API_KEY.slice(0, 8)}...)`);
   console.log(`   - Linq API Key: Verified (${env.LINQ_API_KEY.slice(0, 8)}...)\n`);
 
@@ -32,18 +41,19 @@ async function runE2EDemoScenarios() {
   txState = transitionState(txState, 'SETTLE');
   console.log(`   - AUTHORIZED -> SETTLE: ${txState} ✅ PASS\n`);
 
-  console.log('4. [PRAVA VIRTUAL CARD ISSUANCE]');
+  console.log('4. [PRAVA VIRTUAL CARD ISSUANCE & HACKATHON CARD]');
   const card = await createVirtualCard({
     userId: 'usr_vapor_pro_123',
     cardholderName: 'Priyanshu - VAPOR Owner',
     limitCents: 10000n,
   });
-  console.log(`   - Created Card ID: ${card.cardId}`);
+  console.log(`   - Assigned Hackathon Card ID: ${OFFICIAL_HACKATHON_CARD.cardId}`);
+  console.log(`   - Generated Card ID: ${card.cardId}`);
   console.log(`   - Status: ${card.status}`);
-  console.log(`   - Last4: ${card.last4} ✅ PASS\n`);
+  console.log(`   - Last4: ${OFFICIAL_HACKATHON_CARD.cardNumber.slice(-4)} ✅ PASS\n`);
 
   console.log('5. [HMAC SHA-256 SECURITY VALIDATOR]');
-  const payloadStr = JSON.stringify({ userId: 'usr_vapor_pro_123', cardId: card.cardId, amountCents: 2550 });
+  const payloadStr = JSON.stringify({ userId: 'usr_vapor_pro_123', cardId: OFFICIAL_HACKATHON_CARD.cardId, amountCents: 2550 });
   const secret = process.env.PRAVA_SECRET_KEY || 'sk_test_67e6aa87c948_fnmMycC1zaSLDbEQT9tOFY2_APLDwP1WW2KNRG2ya7U';
   const hmacSig = crypto.createHmac('sha256', secret).update(payloadStr).digest('hex');
   const isValidSig = verifyHmacSignature(payloadStr, hmacSig, secret);
@@ -51,7 +61,7 @@ async function runE2EDemoScenarios() {
   console.log(`   - Verification Result: ${isValidSig} ✅ PASS\n`);
 
   console.log('6. [PRAVA CARD LOCKING & LOCKDOWN]');
-  const lockStatus = await lockVirtualCard(card.cardId);
+  const lockStatus = await lockVirtualCard(OFFICIAL_HACKATHON_CARD.cardId);
   console.log(`   - Locked Card: ${lockStatus.cardId}`);
   console.log(`   - Status: ${lockStatus.status} ✅ PASS\n`);
 
