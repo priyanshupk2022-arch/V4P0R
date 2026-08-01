@@ -7,6 +7,7 @@ use axum::{
 };
 use ledger::BalanceAccount;
 use serde::{Deserialize, Serialize};
+use std::collections::HashMap;
 use std::net::SocketAddr;
 use std::sync::{Arc, Mutex};
 
@@ -30,10 +31,11 @@ struct AuthorizeResponse {
     user_id: String,
     remaining_balance_cents: Option<i64>,
     reason: Option<String>,
+    latency_microseconds: u128,
 }
 
 struct AppState {
-    account: Mutex<BalanceAccount>,
+    accounts: Mutex<HashMap<String, BalanceAccount>>,
 }
 
 #[tokio::main]
@@ -41,7 +43,7 @@ async fn main() {
     tracing_subscriber::fmt::init();
 
     let state = Arc::new(AppState {
-        account: Mutex::new(BalanceAccount::new("usr_vapor_rust_01".to_string(), 10000)), // $100.00 initial
+        accounts: Mutex::new(HashMap::new()),
     });
 
     let app = Router::new()
@@ -69,7 +71,14 @@ async fn authorize_handler(
     axum::extract::State(state): axum::extract::State<Arc<AppState>>,
     Json(payload): Json<AuthorizeRequest>,
 ) -> Json<AuthorizeResponse> {
-    let mut account = state.account.lock().unwrap();
+    let start = std::time::Instant::now();
+    let mut accounts = state.accounts.lock().unwrap();
+
+    let account = accounts
+        .entry(payload.user_id.clone())
+        .or_insert_with(|| BalanceAccount::new(payload.user_id.clone(), 10000));
+
+    let latency = start.elapsed().as_micros();
 
     match account.deduct_atomic(payload.amount_cents) {
         Ok(new_balance) => Json(AuthorizeResponse {
@@ -77,12 +86,15 @@ async fn authorize_handler(
             user_id: payload.user_id,
             remaining_balance_cents: Some(new_balance),
             reason: None,
+            latency_microseconds: latency,
         }),
         Err(err) => Json(AuthorizeResponse {
             approved: false,
             user_id: payload.user_id,
             remaining_balance_cents: Some(account.balance_cents),
             reason: Some(err),
+            latency_microseconds: latency,
         }),
     }
 }
+
