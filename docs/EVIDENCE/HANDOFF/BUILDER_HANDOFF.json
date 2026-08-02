@@ -1,5 +1,5 @@
 {
-  "commit_sha": "0e80e861be97fbd359955e9933cc76c00be19d7a",
+  "commit_sha": "ffb233fe68a6434bfd8823a9c3ae6f5b8627a0a5",
   "branch": "codex/vapor-engine-build",
   "graph_hash": "1d8fa87bcd173ba0c7794e898c0cf09781821eaf63c352a8fb97007a1dc7ccbe",
   "run_id": "run-2026-08-02T15-05-11-766Z",
@@ -34,8 +34,8 @@
     "G20": "LOCKED (Gated by CODEX_INDEPENDENT_PASS)"
   },
   "deployment": {
-    "public_url": "https://vapor-6qtkdopd3-priyanshupk2022-archs-projects.vercel.app",
-    "deployment_id": "dpl_BKMPePVZ14SPQAqrJD55BhMfrmtj"
+    "public_url": "https://vapor-rcm48lj5s-priyanshupk2022-archs-projects.vercel.app",
+    "deployment_id": "dpl_3VsyvojfNFpJiTCT54BHcWhaB9yv"
   },
   "prava_sandbox_golden_path": {
     "session_id": "prv_sess_948201a",
