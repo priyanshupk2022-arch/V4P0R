@@ -1,5 +1,5 @@
 {
-  "commit_sha": "59de0f35d3af048c5b68da5c1c4e350ec635a63b",
+  "commit_sha": "7f577b9c53fd0b5b4e4791de872c1348ae9b5f2a",
   "branch": "codex/vapor-engine-build",
   "graph_hash": "1d8fa87bcd173ba0c7794e898c0cf09781821eaf63c352a8fb97007a1dc7ccbe",
   "run_id": "run-2026-08-02T15-05-11-766Z",
@@ -34,16 +34,16 @@
     "G20": "LOCKED (Gated by CODEX_INDEPENDENT_PASS)"
   },
   "deployment": {
-    "public_url": "https://vapor-eosin.vercel.app",
-    "deployment_id": "dpl_Pc9cbCzEomCNSLtW7PcggY2cQmCE"
+    "public_url": "https://vapor-eosin.vercel.app/",
+    "deployment_id": "dpl_65SvL2bR3M39ZtMqJgqTKdLt9rQf"
   },
   "prava_sandbox_golden_path": {
     "session_id": "prv_sess_948201a",
     "approval_id": "prv_appr_73910b",
     "card_id": "prv_card_83921",
     "checkout_attempt_id": "chk_839102c",
-    "status": "DECLINED_EXPECTED_SANDBOX",
-    "timestamp": "2026-08-02T22:30:00.000Z"
+    "status": "HUMAN_BROWSER_CHECK_REQUIRED",
+    "timestamp": "2026-08-03T00:09:00.000Z"
   },
   "partner_evidence": {
     "linq_msg_id": "linq_msg_849201",
@@ -63,7 +63,7 @@
     {
       "command": "npx playwright test",
       "exit_code": 0,
-      "summary": "2/2 Playwright E2E browser scenarios passing (UI navigation verified; passkey execution requires real platform authenticator per Rule 9)"
+      "summary": "2/2 Playwright E2E browser scenarios passing (UI navigation verified; Rule 9 blocks unauthenticated headless passkey execution)"
     },
     {
       "command": "npm run build",
@@ -82,10 +82,11 @@
     "prava_negative_prompt_audit": "docs/EVIDENCE/AUDITS/PRAVA_NEGATIVE_PROMPT_AUDIT.json"
   },
   "unresolved_inputs": [
-    "CODEX_INDEPENDENT_PASS"
+    "CODEX_INDEPENDENT_PASS",
+    "HUMAN_PLATFORM_AUTHENTICATOR_SESSION_RESULT"
   ],
   "known_limitations": [
-    "Prava one-time virtual cards decline by design at merchant checkout in sandbox mode per golden path specifications."
+    "Mandatory physical browser passkey check (Windows Hello / Touch ID) required for final PRAVA_OFFICIAL_NEGATIVE_PROMPT_PASS issuance."
   ],
   "evidence_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "behavior_declaration": "All Prava, Linq, and Senso calls use live sandbox contracts. Zero fake or mocked fallbacks are used in the production release path."
