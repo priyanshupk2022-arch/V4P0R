@@ -81,6 +81,7 @@
     "audit_3_product_operations": "PASS"
   },
   "unresolved_inputs": [
+    "VERCEL_TOKEN",
     "CODEX_INDEPENDENT_PASS"
   ],
   "known_limitations": [
