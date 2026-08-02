@@ -50,7 +50,7 @@ test.describe('VAPOR Judge Golden Path E2E Flow', () => {
     await expect(page.getByText(/Linq iMessage Native Approval/i)).toBeVisible();
 
     // Click 👍 Tapback Approval button
-    const approveBtn = page.getByRole('button', { name: /Tapback Like \(Approve\)/i });
+    const approveBtn = page.getByRole('button', { name: /Approve purchase via Linq/i });
     await expect(approveBtn).toBeVisible();
     await approveBtn.click();
 

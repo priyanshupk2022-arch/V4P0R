@@ -1,0 +1,49 @@
+{
+  "services": {
+    "frontend": {
+      "root": ".",
+      "framework": "nextjs"
+    },
+    "vapor-ai-python": {
+      "root": "services/vapor-ai-python",
+      "entrypoint": "main:app"
+    },
+    "vapor-core-rust": {
+      "root": "services/vapor-core-rust"
+    },
+    "vapor-stream-go": {
+      "root": "services/vapor-stream-go",
+      "entrypoint": "main.go"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/vapor-ai-python(/.*)?",
+      "destination": {
+        "type": "service",
+        "service": "vapor-ai-python"
+      }
+    },
+    {
+      "source": "/api/vapor-core-rust(/.*)?",
+      "destination": {
+        "type": "service",
+        "service": "vapor-core-rust"
+      }
+    },
+    {
+      "source": "/api/vapor-stream-go(/.*)?",
+      "destination": {
+        "type": "service",
+        "service": "vapor-stream-go"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "frontend"
+      }
+    }
+  ]
+}
