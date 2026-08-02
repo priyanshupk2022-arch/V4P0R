@@ -1,0 +1,4 @@
+interface:
+  display_name: "VAPOR Engine"
+  short_description: "Run VAPOR's evidence-gated multi-agent build loop"
+  default_prompt: "Use the VAPOR Engine to execute the current roadmap node with isolated subagents, test oracles, evidence, and state updates."
