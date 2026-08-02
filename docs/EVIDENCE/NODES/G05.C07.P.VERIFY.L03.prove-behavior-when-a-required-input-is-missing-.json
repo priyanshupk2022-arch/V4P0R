@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C07.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Bind every approval to one exact merchant, amount, currency, item count, and expiry\".",
+  "title": "Prove behavior when a required input is missing or invalid — Bind every approval to one exact merchant, amount, currency, item count, and expiry",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

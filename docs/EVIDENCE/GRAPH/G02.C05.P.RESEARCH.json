@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Probe local, deployed, and browser runtime reachability without leaking credentials only after its preceding package evidence passes.",
+  "title": "research package for Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:36:43.335Z",
+  "contains_secrets": false
+}

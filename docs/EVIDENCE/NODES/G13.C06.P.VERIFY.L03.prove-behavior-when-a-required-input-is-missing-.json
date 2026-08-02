@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Prove behavior when a required input is missing or invalid — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

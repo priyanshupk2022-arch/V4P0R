@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

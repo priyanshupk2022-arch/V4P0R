@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:01.654Z",
+  "contains_secrets": false
+}

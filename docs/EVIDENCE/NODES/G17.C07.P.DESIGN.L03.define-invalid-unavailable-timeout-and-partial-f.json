@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

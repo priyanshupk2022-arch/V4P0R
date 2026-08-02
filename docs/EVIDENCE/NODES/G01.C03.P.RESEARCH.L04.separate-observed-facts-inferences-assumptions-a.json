@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T15:51:03.797Z",
+  "contains_secrets": false
+}

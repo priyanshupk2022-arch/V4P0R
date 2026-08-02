@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C07.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Prove the primary rejection or negative outcome — Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

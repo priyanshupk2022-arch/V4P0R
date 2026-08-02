@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:35:07.052Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define security, privacy, and redaction requirements — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:58:06.661Z",
+  "contains_secrets": false
+}

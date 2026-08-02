@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

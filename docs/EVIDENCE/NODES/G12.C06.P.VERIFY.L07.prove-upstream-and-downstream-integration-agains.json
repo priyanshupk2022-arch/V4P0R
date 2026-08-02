@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Test the real sandbox golden path without treating mocks as integration proof\".",
+  "title": "Prove upstream and downstream integration against current contracts — Test the real sandbox golden path without treating mocks as integration proof",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

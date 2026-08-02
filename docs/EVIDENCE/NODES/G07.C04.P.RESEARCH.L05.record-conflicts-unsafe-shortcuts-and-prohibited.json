@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

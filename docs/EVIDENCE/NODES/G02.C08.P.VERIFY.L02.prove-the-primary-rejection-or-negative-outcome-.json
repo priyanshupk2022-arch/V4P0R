@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Prove the primary rejection or negative outcome — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:59:54.721Z",
+  "contains_secrets": false
+}

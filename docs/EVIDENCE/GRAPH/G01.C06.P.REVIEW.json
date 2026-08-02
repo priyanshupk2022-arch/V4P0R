@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Schedule independent ready nodes while preserving exclusive resource locks only after its preceding package evidence passes.",
+  "title": "review package for Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:14:37.738Z",
+  "contains_secrets": false
+}

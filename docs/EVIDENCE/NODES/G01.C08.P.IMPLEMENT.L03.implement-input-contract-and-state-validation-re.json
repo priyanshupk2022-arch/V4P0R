@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Implement input, contract, and state validation — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:05:48.668Z",
+  "contains_secrets": false
+}

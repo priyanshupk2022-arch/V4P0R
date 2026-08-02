@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

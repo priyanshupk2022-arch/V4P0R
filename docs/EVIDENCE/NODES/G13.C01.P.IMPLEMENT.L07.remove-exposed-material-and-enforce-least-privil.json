@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C01.P.IMPLEMENT.L07.remove-exposed-material-and-enforce-least-privil",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove exposed material and enforce least privilege, secure defaults, and safe headers for capability \"Create and test a threat model for users, tenants, providers, webhooks, browser, and operators\".",
+  "title": "Remove exposed material and enforce least privilege, secure defaults, and safe headers — Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

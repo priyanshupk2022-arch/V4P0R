@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:53:31.407Z",
+  "contains_secrets": false
+}

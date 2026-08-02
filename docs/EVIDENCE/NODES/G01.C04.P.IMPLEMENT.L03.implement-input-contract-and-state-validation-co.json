@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Implement input, contract, and state validation — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:02:58.239Z",
+  "contains_secrets": false
+}

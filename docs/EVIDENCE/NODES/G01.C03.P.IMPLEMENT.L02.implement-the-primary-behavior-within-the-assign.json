@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Implement the primary behavior within the assigned write scope — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T16:02:11.969Z",
+  "contains_secrets": false
+}

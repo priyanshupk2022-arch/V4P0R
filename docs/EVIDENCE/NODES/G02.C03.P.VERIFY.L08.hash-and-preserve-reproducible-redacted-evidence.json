@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Hash and preserve reproducible redacted evidence — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:49:02.925Z",
+  "contains_secrets": false
+}

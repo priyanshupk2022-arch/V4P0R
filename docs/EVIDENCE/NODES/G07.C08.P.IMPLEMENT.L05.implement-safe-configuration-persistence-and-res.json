@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C08.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

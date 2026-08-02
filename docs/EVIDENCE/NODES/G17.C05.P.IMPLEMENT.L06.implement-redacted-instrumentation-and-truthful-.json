@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C05.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

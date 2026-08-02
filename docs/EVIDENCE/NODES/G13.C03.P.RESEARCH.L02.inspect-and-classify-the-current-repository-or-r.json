@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

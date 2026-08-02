@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts\".",
+  "title": "Hash and preserve reproducible redacted evidence — Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

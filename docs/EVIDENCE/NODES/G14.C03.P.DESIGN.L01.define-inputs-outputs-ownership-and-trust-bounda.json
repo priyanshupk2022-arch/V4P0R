@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

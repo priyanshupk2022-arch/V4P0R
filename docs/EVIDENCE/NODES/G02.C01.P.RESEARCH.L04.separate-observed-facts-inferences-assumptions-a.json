@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:22:40.067Z",
+  "contains_secrets": false
+}

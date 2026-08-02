@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Inspect dependency and skill supply-chain risk and historical credential exposure only after its preceding package evidence passes.",
+  "title": "verify package for Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:07.198Z",
+  "contains_secrets": false
+}

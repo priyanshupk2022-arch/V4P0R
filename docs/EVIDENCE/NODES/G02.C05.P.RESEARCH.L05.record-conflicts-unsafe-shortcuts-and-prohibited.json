@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:37:06.506Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C05.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Assemble raw release outputs and redacted provider and browser proof\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Assemble raw release outputs and redacted provider and browser proof",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

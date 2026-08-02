@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C07.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

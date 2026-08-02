@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

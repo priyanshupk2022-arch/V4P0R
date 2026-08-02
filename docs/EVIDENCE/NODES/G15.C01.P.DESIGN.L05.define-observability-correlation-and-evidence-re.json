@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Define observability, correlation, and evidence requirements — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

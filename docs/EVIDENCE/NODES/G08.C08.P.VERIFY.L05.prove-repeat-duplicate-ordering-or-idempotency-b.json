@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

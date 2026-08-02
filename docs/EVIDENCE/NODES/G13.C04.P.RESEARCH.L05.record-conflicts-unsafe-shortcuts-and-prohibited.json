@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

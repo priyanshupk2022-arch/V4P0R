@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Enforce least-privilege RBAC for every API and workflow transition\".",
+  "title": "Perform an independent security and reliability challenge — Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.473Z",
+  "contains_secrets": false
+}

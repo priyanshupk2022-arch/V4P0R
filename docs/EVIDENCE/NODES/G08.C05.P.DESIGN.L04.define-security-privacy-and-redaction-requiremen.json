@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Define security, privacy, and redaction requirements — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

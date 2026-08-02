@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Perform an independent security and reliability challenge — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:15:27.197Z",
+  "contains_secrets": false
+}

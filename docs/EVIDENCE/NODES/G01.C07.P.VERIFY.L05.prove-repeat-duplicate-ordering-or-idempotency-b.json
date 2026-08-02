@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:23:31.994Z",
+  "contains_secrets": false
+}

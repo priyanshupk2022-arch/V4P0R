@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:08:35.822Z",
+  "contains_secrets": false
+}

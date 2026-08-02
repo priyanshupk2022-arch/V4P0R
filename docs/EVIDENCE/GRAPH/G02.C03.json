@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify Senso organization search authentication and response semantics\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:30:22.947Z",
+  "contains_secrets": false
+}

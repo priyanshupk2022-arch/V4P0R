@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C05.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

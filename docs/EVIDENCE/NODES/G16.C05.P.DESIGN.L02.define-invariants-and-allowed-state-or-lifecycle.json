@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:06.776Z",
+  "contains_secrets": false
+}

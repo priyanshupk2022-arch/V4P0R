@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C08.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

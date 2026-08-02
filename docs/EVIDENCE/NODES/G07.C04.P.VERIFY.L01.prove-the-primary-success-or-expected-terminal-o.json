@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Prove the primary success or expected terminal outcome — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

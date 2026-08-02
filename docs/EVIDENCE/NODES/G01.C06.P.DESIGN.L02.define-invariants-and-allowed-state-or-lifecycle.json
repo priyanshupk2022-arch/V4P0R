@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:58:33.880Z",
+  "contains_secrets": false
+}

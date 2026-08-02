@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Prove upstream and downstream integration against current contracts — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

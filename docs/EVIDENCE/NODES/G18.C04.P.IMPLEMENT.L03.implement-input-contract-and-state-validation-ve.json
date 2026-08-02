@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ve",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts\".",
+  "title": "Implement input, contract, and state validation — Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

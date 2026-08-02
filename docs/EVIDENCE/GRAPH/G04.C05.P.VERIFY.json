@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths only after its preceding package evidence passes.",
+  "title": "verify package for Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.371Z",
+  "contains_secrets": false
+}

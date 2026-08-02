@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Define observability, correlation, and evidence requirements — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

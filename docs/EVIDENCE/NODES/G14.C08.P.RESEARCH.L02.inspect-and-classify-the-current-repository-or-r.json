@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

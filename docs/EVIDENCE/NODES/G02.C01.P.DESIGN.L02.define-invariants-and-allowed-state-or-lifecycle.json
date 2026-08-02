@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:23:17.228Z",
+  "contains_secrets": false
+}

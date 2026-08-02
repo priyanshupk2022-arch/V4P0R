@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C02.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

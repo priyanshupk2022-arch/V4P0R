@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

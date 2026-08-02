@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C01.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Define one canonical purchase-request aggregate and identifier model only after its preceding package evidence passes.",
+  "title": "verify package for Define one canonical purchase-request aggregate and identifier model",
+  "timestamp": "2026-08-02T16:59:55.015Z",
+  "contains_secrets": false
+}

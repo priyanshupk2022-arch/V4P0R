@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.VERIFY.L09.prove-live-safe-happy-invalid-unavailable-replay",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.726Z",
+  "contains_secrets": false
+}

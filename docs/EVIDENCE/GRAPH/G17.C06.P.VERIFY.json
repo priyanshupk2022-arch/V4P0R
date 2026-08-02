@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence only after its preceding package evidence passes.",
+  "title": "verify package for Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.764Z",
+  "contains_secrets": false
+}

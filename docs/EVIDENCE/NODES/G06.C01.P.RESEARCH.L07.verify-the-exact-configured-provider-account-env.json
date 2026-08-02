@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C01.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Convert a purchase intent into bounded product and merchant discovery criteria\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Convert a purchase intent into bounded product and merchant discovery criteria",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

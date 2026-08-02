@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Expose one validated server API for starting and resuming the golden purchase flow\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Expose one validated server API for starting and resuming the golden purchase flow",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

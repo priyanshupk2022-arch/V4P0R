@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Prove behavior when a required input is missing or invalid — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

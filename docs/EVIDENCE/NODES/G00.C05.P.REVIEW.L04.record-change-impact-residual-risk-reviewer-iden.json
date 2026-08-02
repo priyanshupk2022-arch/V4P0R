@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:46:14.612Z",
+  "contains_secrets": false
+}

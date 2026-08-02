@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Identify and cite the controlling source and its freshness — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

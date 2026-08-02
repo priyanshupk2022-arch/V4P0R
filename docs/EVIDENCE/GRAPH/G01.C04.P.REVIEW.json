@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Compile focused current-node context below the configured attention budget only after its preceding package evidence passes.",
+  "title": "review package for Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:15:11.179Z",
+  "contains_secrets": false
+}

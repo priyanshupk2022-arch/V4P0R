@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:59:54.772Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.REVIEW.L05.forward-test-the-control-path-with-a-fresh-agent",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Forward-test the control path with a fresh agent and bounded context for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Forward-test the control path with a fresh agent and bounded context — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:16:38.750Z",
+  "contains_secrets": false
+}

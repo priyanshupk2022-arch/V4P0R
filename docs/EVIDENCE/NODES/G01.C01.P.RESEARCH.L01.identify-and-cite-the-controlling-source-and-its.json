@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Identify and cite the controlling source and its freshness — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:49:31.617Z",
+  "contains_secrets": false
+}

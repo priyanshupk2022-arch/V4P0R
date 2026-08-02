@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Recover durable workflow state after process restart and delayed webhook delivery\".",
+  "title": "Define observability, correlation, and evidence requirements — Recover durable workflow state after process restart and delayed webhook delivery",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

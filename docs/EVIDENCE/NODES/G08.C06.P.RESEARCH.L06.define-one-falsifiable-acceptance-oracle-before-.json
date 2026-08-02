@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

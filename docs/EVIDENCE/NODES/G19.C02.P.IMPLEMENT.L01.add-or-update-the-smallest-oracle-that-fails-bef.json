@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Verify the missing-input registry and unresolved release-blocker count are zero\".",
+  "title": "Add or update the smallest oracle that fails before the change — Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.856Z",
+  "contains_secrets": false
+}

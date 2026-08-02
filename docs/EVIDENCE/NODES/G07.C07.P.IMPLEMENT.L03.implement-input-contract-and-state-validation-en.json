@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-en",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Implement input, contract, and state validation — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.DESIGN.L07.define-immutable-release-identity-health-alerts-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define immutable release identity, health, alerts, SLOs, recovery, and rollback for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Define immutable release identity, health, alerts, SLOs, recovery, and rollback — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C02.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Call the real configured Senso organization search contract\".",
+  "title": "Prove the primary success or expected terminal outcome — Call the real configured Senso organization search contract",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

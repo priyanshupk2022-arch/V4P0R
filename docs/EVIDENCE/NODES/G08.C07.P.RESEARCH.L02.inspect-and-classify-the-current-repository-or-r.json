@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

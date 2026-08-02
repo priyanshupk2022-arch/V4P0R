@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Resume safely from the latest verified checkpoint after interruption only after its preceding package evidence passes.",
+  "title": "design package for Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:55:11.107Z",
+  "contains_secrets": false
+}

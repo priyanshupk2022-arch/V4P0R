@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Reconcile migrations into one ordered repeatable deployment history\".",
+  "title": "Define security, privacy, and redaction requirements — Reconcile migrations into one ordered repeatable deployment history",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

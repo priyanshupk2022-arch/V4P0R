@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

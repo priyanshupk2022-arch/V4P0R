@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C01.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Convert a purchase intent into bounded product and merchant discovery criteria\".",
+  "title": "Prove the primary success or expected terminal outcome — Convert a purchase intent into bounded product and merchant discovery criteria",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

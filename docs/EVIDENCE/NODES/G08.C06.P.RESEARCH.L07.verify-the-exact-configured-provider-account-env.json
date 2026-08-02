@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

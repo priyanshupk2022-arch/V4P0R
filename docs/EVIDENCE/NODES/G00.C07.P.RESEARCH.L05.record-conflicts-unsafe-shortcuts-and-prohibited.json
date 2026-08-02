@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:24:29.179Z",
+  "contains_secrets": false
+}

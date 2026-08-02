@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.RESEARCH.L07.verify-account-specific-guidance-official-docs-s",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify account-specific guidance, official docs, SDK types, and safe observed fields for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Verify account-specific guidance, official docs, SDK types, and safe observed fields — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:48:54.366Z",
+  "contains_secrets": false
+}

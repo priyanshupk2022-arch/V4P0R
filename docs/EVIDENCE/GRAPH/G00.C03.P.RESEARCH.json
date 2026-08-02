@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Map every public claim to current code and reproducible evidence only after its preceding package evidence passes.",
+  "title": "research package for Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:20:23.283Z",
+  "contains_secrets": false
+}

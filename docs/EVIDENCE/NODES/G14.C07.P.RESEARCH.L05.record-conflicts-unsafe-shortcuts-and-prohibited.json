@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

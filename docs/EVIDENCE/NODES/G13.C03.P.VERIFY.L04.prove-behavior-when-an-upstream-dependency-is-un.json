@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

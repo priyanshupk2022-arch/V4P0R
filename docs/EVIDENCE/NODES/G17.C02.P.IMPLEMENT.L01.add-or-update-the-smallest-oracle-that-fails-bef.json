@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Add or update the smallest oracle that fails before the change — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Rebuild and test the sealed snapshot in a clean environment\".",
+  "title": "Define observability, correlation, and evidence requirements — Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

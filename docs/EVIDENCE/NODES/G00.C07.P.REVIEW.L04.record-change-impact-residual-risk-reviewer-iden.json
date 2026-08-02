@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:47:09.495Z",
+  "contains_secrets": false
+}

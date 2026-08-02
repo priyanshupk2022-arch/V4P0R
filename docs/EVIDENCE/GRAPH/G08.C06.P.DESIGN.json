@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Prevent blind retries and credential reuse across timeout or uncertain-result states only after its preceding package evidence passes.",
+  "title": "design package for Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

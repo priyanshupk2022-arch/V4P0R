@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C04.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Make client and provider retries idempotent without duplicating approvals or payment attempts\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Make client and provider retries idempotent without duplicating approvals or payment attempts",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

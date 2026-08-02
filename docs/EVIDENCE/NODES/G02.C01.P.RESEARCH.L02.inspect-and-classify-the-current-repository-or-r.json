@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:22:29.476Z",
+  "contains_secrets": false
+}

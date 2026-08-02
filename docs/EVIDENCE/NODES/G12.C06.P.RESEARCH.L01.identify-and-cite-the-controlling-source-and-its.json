@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C06.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Test the real sandbox golden path without treating mocks as integration proof\".",
+  "title": "Identify and cite the controlling source and its freshness — Test the real sandbox golden path without treating mocks as integration proof",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

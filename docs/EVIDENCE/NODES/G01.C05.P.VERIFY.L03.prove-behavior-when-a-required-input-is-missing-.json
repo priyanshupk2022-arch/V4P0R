@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Prove behavior when a required input is missing or invalid — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:14:00.002Z",
+  "contains_secrets": false
+}

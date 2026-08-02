@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:40.383Z",
+  "contains_secrets": false
+}

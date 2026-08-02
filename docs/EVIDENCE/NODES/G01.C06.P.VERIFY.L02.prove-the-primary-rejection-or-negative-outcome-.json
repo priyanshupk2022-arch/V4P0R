@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Prove the primary rejection or negative outcome — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:08:14.014Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C07.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Prove the primary rejection or negative outcome — Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

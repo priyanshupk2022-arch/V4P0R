@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C05.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Recover durable workflow state after process restart and delayed webhook delivery only after its preceding package evidence passes.",
+  "title": "verify package for Recover durable workflow state after process restart and delayed webhook delivery",
+  "timestamp": "2026-08-02T16:59:57.882Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

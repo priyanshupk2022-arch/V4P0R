@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C02.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Derive organization and role only from durable membership only after its preceding package evidence passes.",
+  "title": "verify package for Derive organization and role only from durable membership",
+  "timestamp": "2026-08-02T16:59:55.371Z",
+  "contains_secrets": false
+}

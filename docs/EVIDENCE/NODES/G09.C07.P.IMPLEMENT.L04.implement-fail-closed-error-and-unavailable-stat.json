@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C07.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+  "timestamp": "2026-08-02T16:59:57.124Z",
+  "contains_secrets": false
+}

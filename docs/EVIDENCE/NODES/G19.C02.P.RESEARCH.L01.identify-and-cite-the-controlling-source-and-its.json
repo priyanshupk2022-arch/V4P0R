@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Verify the missing-input registry and unresolved release-blocker count are zero\".",
+  "title": "Identify and cite the controlling source and its freshness — Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

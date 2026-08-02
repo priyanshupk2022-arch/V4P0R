@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Enforce atomic provider, approval, transaction, and audit persistence only after its preceding package evidence passes.",
+  "title": "verify package for Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:14.506Z",
+  "contains_secrets": false
+}

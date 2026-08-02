@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C08.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Render source-backed discovery evidence without fabricated confidence or verified badges\".",
+  "title": "Identify and cite the controlling source and its freshness — Render source-backed discovery evidence without fabricated confidence or verified badges",
+  "timestamp": "2026-08-02T16:59:55.651Z",
+  "contains_secrets": false
+}

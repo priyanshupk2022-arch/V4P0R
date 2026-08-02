@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Provide health, readiness, structured redacted logs, metrics, traces, and correlation only after its preceding package evidence passes.",
+  "title": "design package for Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:03.302Z",
+  "contains_secrets": false
+}

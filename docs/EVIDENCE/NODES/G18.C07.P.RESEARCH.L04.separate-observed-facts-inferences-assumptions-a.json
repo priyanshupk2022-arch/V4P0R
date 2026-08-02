@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C07.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

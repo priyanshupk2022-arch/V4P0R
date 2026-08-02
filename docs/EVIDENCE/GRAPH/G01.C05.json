@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:48:24.233Z",
+  "contains_secrets": false
+}

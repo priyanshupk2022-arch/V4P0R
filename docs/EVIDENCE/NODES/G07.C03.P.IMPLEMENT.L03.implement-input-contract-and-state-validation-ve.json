@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C03.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ve",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Verify raw Standard Webhooks signatures and timestamp freshness\".",
+  "title": "Implement input, contract, and state validation — Verify raw Standard Webhooks signatures and timestamp freshness",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

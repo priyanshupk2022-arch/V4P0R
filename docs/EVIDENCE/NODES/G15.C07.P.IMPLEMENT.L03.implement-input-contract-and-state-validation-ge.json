@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ge",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement input, contract, and state validation for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Implement input, contract, and state validation — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

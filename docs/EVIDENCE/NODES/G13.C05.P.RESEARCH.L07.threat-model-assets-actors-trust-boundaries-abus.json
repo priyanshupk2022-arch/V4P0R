@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C05.P.RESEARCH.L07.threat-model-assets-actors-trust-boundaries-abus",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs for capability \"Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege\".",
+  "title": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs — Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

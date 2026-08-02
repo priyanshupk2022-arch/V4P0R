@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.713Z",
+  "contains_secrets": false
+}

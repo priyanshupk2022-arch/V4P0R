@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C03.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Verify all three professor passes bind to one unchanged sealed snapshot\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Verify all three professor passes bind to one unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C05.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

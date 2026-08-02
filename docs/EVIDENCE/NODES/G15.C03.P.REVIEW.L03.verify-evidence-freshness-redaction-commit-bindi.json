@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

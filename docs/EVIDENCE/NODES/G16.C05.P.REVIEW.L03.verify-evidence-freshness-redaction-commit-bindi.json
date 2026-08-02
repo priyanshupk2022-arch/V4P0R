@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

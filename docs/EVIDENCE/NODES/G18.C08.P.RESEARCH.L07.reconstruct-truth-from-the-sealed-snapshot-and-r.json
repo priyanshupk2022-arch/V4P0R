@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

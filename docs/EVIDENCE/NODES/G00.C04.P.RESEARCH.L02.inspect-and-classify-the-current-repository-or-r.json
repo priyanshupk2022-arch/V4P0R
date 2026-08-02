@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:22:35.848Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:40:23.833Z",
+  "contains_secrets": false
+}

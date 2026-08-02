@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C02.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants\".",
+  "title": "Prove the primary rejection or negative outcome — Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

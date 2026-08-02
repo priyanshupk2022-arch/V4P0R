@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

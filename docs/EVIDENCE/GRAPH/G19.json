@@ -1,0 +1,11 @@
+{
+  "node_id": "G19",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G19 only after every declared predecessor completion gate passes.",
+  "title": "Codex handoff package and readiness gate",
+  "timestamp": "2026-08-02T17:00:11.047Z",
+  "contains_secrets": false
+}

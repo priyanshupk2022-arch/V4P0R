@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Define security, privacy, and redaction requirements — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

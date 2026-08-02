@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.RESEARCH.L07.verify-account-specific-guidance-official-docs-s",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify account-specific guidance, official docs, SDK types, and safe observed fields for capability \"Verify Linq message creation and Standard Webhooks reaction contracts\".",
+  "title": "Verify account-specific guidance, official docs, SDK types, and safe observed fields — Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:27:23.844Z",
+  "contains_secrets": false
+}

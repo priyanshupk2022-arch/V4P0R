@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T15:56:39.097Z",
+  "contains_secrets": false
+}

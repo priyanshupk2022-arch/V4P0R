@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.DESIGN.L07.select-one-contract-and-define-terminal-states-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Select one contract and define terminal states, retries, idempotency, and redaction for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Select one contract and define terminal states, retries, idempotency, and redaction — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:49:17.922Z",
+  "contains_secrets": false
+}

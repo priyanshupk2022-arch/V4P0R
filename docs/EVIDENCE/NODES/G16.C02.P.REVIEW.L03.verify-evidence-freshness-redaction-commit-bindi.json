@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

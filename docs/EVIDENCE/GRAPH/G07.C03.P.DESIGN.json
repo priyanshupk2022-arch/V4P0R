@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C03.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Verify raw Standard Webhooks signatures and timestamp freshness only after its preceding package evidence passes.",
+  "title": "design package for Verify raw Standard Webhooks signatures and timestamp freshness",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

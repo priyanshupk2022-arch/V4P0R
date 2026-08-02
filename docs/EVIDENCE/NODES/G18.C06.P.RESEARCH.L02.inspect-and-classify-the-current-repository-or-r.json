@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

@@ -25,7 +25,7 @@ describe('Config Validation', () => {
       NODE_ENV: 'test',
     };
     const config = parseEnv(env);
-    expect(config.PRAVA_BASE_URL).toBe('https://api.sandbox.prava.io');
+    expect(config.PRAVA_BASE_URL).toBe('https://sandbox.api.prava.space');
     
     const envWithPrava = {
       NODE_ENV: 'test',

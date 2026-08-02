@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

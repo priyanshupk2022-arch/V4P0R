@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Implement the primary behavior within the assigned write scope — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:04:06.533Z",
+  "contains_secrets": false
+}

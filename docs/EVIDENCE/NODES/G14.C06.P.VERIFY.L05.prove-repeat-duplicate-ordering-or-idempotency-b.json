@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Handle partial database, provider, network, and browser failures without synthetic completion\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:57.338Z",
+  "contains_secrets": false
+}

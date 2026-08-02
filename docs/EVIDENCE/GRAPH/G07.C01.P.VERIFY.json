@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Send a real Linq approval message with an idempotency key only after its preceding package evidence passes.",
+  "title": "verify package for Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

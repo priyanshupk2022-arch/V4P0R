@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Test the public product with fresh-browser, responsive, and accessibility oracles only after its preceding package evidence passes.",
+  "title": "verify package for Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:01.654Z",
+  "contains_secrets": false
+}

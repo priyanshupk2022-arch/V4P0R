@@ -3,22 +3,35 @@ import { createPravaSession } from '../../../../adapters/prava/createSession';
 import { recordDoubleEntryLedger } from '../../../../infrastructure/database/supabaseClient';
 import { toCents } from '../../../../domain/budget/centsMath';
 import { normalizeUnicodeInput } from '../../../../infrastructure/security/hmacValidator';
+import { extractSessionFromHeaders } from '../../../../infrastructure/auth/authMiddleware';
+import { hasPermission } from '../../../../domain/auth/rbac';
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
-    const { userId, userEmail, totalAmount, merchantName, merchantUrl, items } = body;
+    const session = await extractSessionFromHeaders(req);
+    if (!session) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+    if (!hasPermission(session.role, 'approve_request')) {
+      return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
 
-    if (!userId || !userEmail || !totalAmount || !merchantName) {
+    const body = await req.json();
+    const { totalAmount, merchantName, merchantUrl, items } = body;
+
+    if (!totalAmount || !merchantName || !merchantUrl) {
       return NextResponse.json(
-        { error: 'Missing required parameters: userId, userEmail, totalAmount, merchantName' },
+        { error: 'Missing required parameters: totalAmount, merchantName, merchantUrl' },
         { status: 400 }
       );
     }
 
     // 1. Sanitize & Normalize Inputs
     const cleanMerchantName = normalizeUnicodeInput(merchantName);
-    const cleanUserEmail = userEmail.trim().toLowerCase();
+    const merchant = new URL(merchantUrl);
+    if (merchant.protocol !== 'https:') {
+      return NextResponse.json({ error: 'merchantUrl must use HTTPS' }, { status: 400 });
+    }
 
     // 2. Safe Arbitrary-Precision Cent Conversion
     const amountCents = toCents(totalAmount);
@@ -29,19 +42,17 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const sessionId = `sess_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
-
     // 3. Invoke Prava Create Session Adapter
     const pravaSession = await createPravaSession({
-      user_id: userId,
-      user_email: cleanUserEmail,
+      user_id: session.userId,
+      user_email: session.email,
       total_amount: totalAmount.toString(),
       currency: 'USD',
       purchase_context: [
         {
           merchant_details: {
             name: cleanMerchantName,
-            url: merchantUrl || 'https://vapor.app',
+            url: merchant.toString(),
             country_code_iso2: 'US',
           },
           product_details: items || [
@@ -59,8 +70,8 @@ export async function POST(req: NextRequest) {
 
     // 4. Record INITIATED transaction in Supabase Double-Entry Ledger
     await recordDoubleEntryLedger({
-      transactionId: sessionId,
-      accountId: `acc_${userId}`,
+      transactionId: pravaSession.order_id,
+      accountId: `acc_${session.userId}`,
       amountCents: amountCents,
       merchantName: cleanMerchantName,
       status: 'INITIATED',
@@ -68,9 +79,8 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({
       status: 'success',
-      sessionId: pravaSession.id || sessionId,
-      checkoutUrl: pravaSession.checkout_url,
-      clientSecret: pravaSession.client_secret,
+      sessionId: pravaSession.session_id,
+      checkoutUrl: pravaSession.iframe_url,
       totalAmount: totalAmount,
       currency: 'USD',
       createdAt: new Date().toISOString(),

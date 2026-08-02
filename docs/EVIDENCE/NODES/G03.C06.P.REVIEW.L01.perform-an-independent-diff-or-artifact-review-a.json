@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:54.197Z",
+  "contains_secrets": false
+}

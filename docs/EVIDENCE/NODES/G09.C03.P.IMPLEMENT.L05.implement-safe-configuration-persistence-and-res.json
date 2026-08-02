@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C03.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Navigate product, cart, address, and checkout steps deterministically\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Navigate product, cart, address, and checkout steps deterministically",
+  "timestamp": "2026-08-02T16:59:57.124Z",
+  "contains_secrets": false
+}

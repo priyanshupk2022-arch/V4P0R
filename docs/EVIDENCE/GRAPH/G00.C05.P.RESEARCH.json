@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps only after its preceding package evidence passes.",
+  "title": "research package for Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:20:32.957Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.REVIEW.L05.independently-correlate-provider-evidence-with-d",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently correlate provider evidence with durable VAPOR state and redact secrets for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Independently correlate provider evidence with durable VAPOR state and redact secrets — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.845Z",
+  "contains_secrets": false
+}

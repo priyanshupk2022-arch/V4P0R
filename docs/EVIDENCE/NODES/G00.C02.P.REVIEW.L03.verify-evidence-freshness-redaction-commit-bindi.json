@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:44:46.227Z",
+  "contains_secrets": false
+}

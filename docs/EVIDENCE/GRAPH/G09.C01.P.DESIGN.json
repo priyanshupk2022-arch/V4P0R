@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Select and validate one automatable end merchant and deterministic product scenario only after its preceding package evidence passes.",
+  "title": "design package for Select and validate one automatable end merchant and deterministic product scenario",
+  "timestamp": "2026-08-02T16:59:57.025Z",
+  "contains_secrets": false
+}

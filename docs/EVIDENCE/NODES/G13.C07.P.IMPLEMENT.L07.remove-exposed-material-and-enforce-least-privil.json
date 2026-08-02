@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.IMPLEMENT.L07.remove-exposed-material-and-enforce-least-privil",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove exposed material and enforce least privilege, secure defaults, and safe headers for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Remove exposed material and enforce least privilege, secure defaults, and safe headers — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:01.654Z",
+  "contains_secrets": false
+}

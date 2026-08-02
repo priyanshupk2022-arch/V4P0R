@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-st",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage\".",
+  "title": "Implement input, contract, and state validation — Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C08.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Persist policy inputs, decision, version, approver, and redacted audit evidence atomically\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Persist policy inputs, decision, version, approver, and redacted audit evidence atomically",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

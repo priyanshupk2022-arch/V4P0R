@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

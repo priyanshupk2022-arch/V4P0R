@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

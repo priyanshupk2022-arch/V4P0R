@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.RESEARCH.L07.verify-account-specific-guidance-official-docs-s",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify account-specific guidance, official docs, SDK types, and safe observed fields for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Verify account-specific guidance, official docs, SDK types, and safe observed fields — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:29.944Z",
+  "contains_secrets": false
+}

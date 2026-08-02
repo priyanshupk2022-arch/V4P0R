@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C07.P.IMPLEMENT.L07.use-integer-money-and-durable-atomic-transitions",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Use integer money and durable atomic transitions for every consequential decision for capability \"Bind every approval to one exact merchant, amount, currency, item count, and expiry\".",
+  "title": "Use integer money and durable atomic transitions for every consequential decision — Bind every approval to one exact merchant, amount, currency, item count, and expiry",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

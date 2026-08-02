@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C02.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Persist returned chat and message identifiers against one pending approval\".",
+  "title": "Hash and preserve reproducible redacted evidence — Persist returned chat and message identifiers against one pending approval",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

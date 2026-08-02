@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success\".",
+  "title": "Hash and preserve reproducible redacted evidence — Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:59:14.086Z",
+  "contains_secrets": false
+}

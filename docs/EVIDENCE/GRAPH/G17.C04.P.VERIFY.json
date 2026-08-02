@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior only after its preceding package evidence passes.",
+  "title": "verify package for Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:08.764Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C05.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Test approval and payment workflows under races, restarts, late events, and partial failure\".",
+  "title": "Add or update the smallest oracle that fails before the change — Test approval and payment workflows under races, restarts, late events, and partial failure",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

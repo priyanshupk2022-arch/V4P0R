@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

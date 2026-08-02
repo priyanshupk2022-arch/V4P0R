@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C01.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Create and test a threat model for users, tenants, providers, webhooks, browser, and operators only after its preceding package evidence passes.",
+  "title": "implement package for Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+  "timestamp": "2026-08-02T17:00:01.217Z",
+  "contains_secrets": false
+}

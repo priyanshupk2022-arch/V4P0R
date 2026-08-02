@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C03.P.VERIFY.L09.prove-malformed-unauthorized-cross-tenant-timeou",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior for capability \"Generate and propagate correlation IDs across requests, database, providers, browser, and evidence\".",
+  "title": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior — Generate and propagate correlation IDs across requests, database, providers, browser, and evidence",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

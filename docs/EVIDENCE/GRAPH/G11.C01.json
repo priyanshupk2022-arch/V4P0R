@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C01",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Present the US-first procurement problem and product value without unsupported claims\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Present the US-first procurement problem and product value without unsupported claims",
+  "timestamp": "2026-08-02T16:59:58.511Z",
+  "contains_secrets": false
+}

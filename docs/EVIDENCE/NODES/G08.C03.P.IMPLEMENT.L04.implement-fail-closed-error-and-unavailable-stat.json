@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

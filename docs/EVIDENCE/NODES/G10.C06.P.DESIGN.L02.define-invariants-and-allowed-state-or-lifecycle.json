@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Handle partial database, provider, network, and browser failures without synthetic completion\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

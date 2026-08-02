@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

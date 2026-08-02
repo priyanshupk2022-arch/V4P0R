@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C01.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Present the US-first procurement problem and product value without unsupported claims\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Present the US-first procurement problem and product value without unsupported claims",
+  "timestamp": "2026-08-02T16:59:59.310Z",
+  "contains_secrets": false
+}

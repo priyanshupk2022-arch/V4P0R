@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Record residual low-risk limitations and prohibit unsupported readiness claims\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

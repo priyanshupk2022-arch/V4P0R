@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C08.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Render source-backed discovery evidence without fabricated confidence or verified badges\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Render source-backed discovery evidence without fabricated confidence or verified badges",
+  "timestamp": "2026-08-02T16:59:55.651Z",
+  "contains_secrets": false
+}

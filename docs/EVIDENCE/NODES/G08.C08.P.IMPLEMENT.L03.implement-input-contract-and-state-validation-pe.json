@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-pe",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Implement input, contract, and state validation — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

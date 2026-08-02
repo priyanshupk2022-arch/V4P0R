@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

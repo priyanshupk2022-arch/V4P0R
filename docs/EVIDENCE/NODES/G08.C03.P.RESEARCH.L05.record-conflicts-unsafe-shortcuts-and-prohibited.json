@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

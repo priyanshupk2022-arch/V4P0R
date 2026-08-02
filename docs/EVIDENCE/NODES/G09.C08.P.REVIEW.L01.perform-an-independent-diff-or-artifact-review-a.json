@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C08.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence",
+  "timestamp": "2026-08-02T16:59:57.277Z",
+  "contains_secrets": false
+}

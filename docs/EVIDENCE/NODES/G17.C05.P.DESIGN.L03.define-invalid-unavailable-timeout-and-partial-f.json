@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

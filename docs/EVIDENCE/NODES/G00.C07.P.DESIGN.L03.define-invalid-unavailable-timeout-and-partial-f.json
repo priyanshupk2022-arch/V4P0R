@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:29:38.194Z",
+  "contains_secrets": false
+}

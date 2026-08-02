@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Record residual low-risk limitations and prohibit unsupported readiness claims\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

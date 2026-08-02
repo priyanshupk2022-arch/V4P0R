@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths\".",
+  "title": "Identify and cite the controlling source and its freshness — Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

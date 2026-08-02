@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

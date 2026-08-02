@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

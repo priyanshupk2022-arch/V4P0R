@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-cr",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Implement input, contract, and state validation — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

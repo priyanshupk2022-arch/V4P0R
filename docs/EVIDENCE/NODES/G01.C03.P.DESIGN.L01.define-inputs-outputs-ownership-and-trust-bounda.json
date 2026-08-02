@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T15:56:34.175Z",
+  "contains_secrets": false
+}

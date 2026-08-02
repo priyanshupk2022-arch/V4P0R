@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Implement the primary behavior within the assigned write scope — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

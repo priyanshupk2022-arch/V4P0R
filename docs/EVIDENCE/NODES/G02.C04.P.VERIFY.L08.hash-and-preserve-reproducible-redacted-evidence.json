@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Hash and preserve reproducible redacted evidence — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:36:01.162Z",
+  "contains_secrets": false
+}

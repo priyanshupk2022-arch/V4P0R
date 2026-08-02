@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C03.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries\".",
+  "title": "Prove the primary rejection or negative outcome — Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

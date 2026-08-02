@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

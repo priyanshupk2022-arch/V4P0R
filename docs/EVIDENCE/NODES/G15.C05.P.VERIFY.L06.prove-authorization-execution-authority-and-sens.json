@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

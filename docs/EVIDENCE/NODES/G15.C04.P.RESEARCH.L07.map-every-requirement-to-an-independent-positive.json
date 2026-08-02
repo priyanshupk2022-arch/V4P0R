@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.RESEARCH.L07.map-every-requirement-to-an-independent-positive",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Map every requirement to an independent positive and negative oracle for capability \"Prove real Linq and Senso behavior with current account-enabled contracts\".",
+  "title": "Map every requirement to an independent positive and negative oracle — Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

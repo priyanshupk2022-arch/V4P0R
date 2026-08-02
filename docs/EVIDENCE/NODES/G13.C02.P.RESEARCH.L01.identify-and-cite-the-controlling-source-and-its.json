@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Identify and cite the controlling source and its freshness — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

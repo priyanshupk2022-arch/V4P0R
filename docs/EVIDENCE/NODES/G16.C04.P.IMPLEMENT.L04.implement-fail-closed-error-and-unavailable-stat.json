@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

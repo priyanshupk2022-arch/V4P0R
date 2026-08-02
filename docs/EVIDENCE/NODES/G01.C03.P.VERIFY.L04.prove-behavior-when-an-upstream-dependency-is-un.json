@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T16:07:36.260Z",
+  "contains_secrets": false
+}

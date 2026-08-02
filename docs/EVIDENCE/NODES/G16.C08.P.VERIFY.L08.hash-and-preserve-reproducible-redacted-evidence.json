@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Hash and preserve reproducible redacted evidence — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

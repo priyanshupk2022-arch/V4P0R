@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T16:09:51.803Z",
+  "contains_secrets": false
+}

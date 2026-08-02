@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Define security, privacy, and redaction requirements — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

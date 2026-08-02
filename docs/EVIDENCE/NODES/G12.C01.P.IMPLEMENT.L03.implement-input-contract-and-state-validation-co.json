@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Implement input, contract, and state validation — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

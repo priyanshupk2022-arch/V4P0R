@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:55:17.850Z",
+  "contains_secrets": false
+}

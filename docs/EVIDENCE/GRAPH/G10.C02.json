@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.338Z",
+  "contains_secrets": false
+}

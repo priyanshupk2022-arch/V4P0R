@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

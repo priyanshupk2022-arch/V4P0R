@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Prove the primary success or expected terminal outcome — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

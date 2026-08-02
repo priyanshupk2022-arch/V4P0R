@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:45:40.210Z",
+  "contains_secrets": false
+}

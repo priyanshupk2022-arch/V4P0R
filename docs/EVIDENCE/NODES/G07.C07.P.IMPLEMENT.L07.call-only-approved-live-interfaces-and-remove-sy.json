@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.IMPLEMENT.L07.call-only-approved-live-interfaces-and-remove-sy",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Call only approved live interfaces and remove synthetic provider fallbacks for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Call only approved live interfaces and remove synthetic provider fallbacks — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Add or update the smallest oracle that fails before the change — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

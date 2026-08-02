@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Send a real Linq approval message with an idempotency key\".",
+  "title": "Define security, privacy, and redaction requirements — Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

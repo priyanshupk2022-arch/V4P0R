@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open and coordinate the evidence-gated capability \"Run repository, history, artifact, browser, log, and trace redaction scans\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:04.798Z",
+  "contains_secrets": false
+}

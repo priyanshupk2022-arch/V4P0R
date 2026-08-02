@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Prove upstream and downstream integration against current contracts — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

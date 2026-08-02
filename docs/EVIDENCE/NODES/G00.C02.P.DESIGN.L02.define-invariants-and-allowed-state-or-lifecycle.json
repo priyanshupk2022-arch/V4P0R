@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:26:42.999Z",
+  "contains_secrets": false
+}

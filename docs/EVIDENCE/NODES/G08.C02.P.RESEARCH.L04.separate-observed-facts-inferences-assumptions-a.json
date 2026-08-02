@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

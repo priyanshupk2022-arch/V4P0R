@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:23:18.348Z",
+  "contains_secrets": false
+}

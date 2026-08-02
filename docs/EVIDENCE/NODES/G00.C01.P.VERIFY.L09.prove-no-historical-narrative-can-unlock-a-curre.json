@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.VERIFY.L09.prove-no-historical-narrative-can-unlock-a-curre",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove no historical narrative can unlock a current implementation gate for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Prove no historical narrative can unlock a current implementation gate — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:37:30.958Z",
+  "contains_secrets": false
+}

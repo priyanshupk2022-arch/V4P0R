@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.DESIGN.L07.define-finding-fingerprint-severity-release-impa",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define finding fingerprint, severity, release impact, reproduction, and restart scope for capability \"Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts\".",
+  "title": "Define finding fingerprint, severity, release impact, reproduction, and restart scope — Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:53:07.324Z",
+  "contains_secrets": false
+}

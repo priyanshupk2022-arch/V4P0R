@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:04:21.834Z",
+  "contains_secrets": false
+}

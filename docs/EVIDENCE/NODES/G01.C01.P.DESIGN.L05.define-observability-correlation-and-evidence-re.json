@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define observability, correlation, and evidence requirements — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:55:39.904Z",
+  "contains_secrets": false
+}

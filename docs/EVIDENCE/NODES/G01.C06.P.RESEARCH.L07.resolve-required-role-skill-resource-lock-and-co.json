@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.RESEARCH.L07.resolve-required-role-skill-resource-lock-and-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Resolve required role, skill, resource lock, and context sources for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Resolve required role, skill, resource lock, and context sources — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:53:12.205Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:51:42.315Z",
+  "contains_secrets": false
+}

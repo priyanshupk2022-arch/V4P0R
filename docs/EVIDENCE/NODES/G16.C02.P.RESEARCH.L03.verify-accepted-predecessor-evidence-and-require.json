@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C02.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

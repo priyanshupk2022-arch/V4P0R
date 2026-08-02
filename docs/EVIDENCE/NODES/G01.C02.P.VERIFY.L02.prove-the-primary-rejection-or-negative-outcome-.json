@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Prove the primary rejection or negative outcome — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:06:37.284Z",
+  "contains_secrets": false
+}

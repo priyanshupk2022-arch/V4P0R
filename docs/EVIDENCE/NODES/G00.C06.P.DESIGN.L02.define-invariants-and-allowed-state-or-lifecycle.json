@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:29:01.400Z",
+  "contains_secrets": false
+}

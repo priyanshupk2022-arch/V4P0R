@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:46:25.373Z",
+  "contains_secrets": false
+}

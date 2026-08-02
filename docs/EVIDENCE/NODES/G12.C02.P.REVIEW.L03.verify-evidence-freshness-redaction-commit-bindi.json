@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C07.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Make retrieved evidence materially affect deterministic policy or human review\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Make retrieved evidence materially affect deterministic policy or human review",
+  "timestamp": "2026-08-02T16:59:55.651Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.IMPLEMENT.L07.connect-ui-actions-to-real-server-workflows-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Connect UI actions to real server workflows and remove simulated release-path success for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Connect UI actions to real server workflows and remove simulated release-path success — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:59.310Z",
+  "contains_secrets": false
+}

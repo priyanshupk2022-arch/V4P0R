@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:28:56.773Z",
+  "contains_secrets": false
+}

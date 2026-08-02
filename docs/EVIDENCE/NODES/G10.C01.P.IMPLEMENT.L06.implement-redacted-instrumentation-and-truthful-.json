@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C01.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Expose one validated server API for starting and resuming the golden purchase flow\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Expose one validated server API for starting and resuming the golden purchase flow",
+  "timestamp": "2026-08-02T16:59:57.713Z",
+  "contains_secrets": false
+}

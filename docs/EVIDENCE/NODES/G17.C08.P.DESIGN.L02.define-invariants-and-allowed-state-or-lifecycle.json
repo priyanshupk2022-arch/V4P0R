@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Certify pass only for the same sealed snapshot when no release blocker remains\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

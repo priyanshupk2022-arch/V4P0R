@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

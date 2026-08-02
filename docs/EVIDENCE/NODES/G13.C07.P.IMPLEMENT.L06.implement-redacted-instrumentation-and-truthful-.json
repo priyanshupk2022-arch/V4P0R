@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:01.654Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:00.891Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

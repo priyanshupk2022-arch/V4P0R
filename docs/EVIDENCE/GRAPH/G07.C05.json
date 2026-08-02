@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Map only the documented like and dislike reactions to approve and reject\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Map only the documented like and dislike reactions to approve and reject",
+  "timestamp": "2026-08-02T16:59:56.192Z",
+  "contains_secrets": false
+}

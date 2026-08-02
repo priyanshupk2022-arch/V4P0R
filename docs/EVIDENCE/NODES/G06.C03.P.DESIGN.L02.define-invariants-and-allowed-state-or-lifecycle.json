@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C03.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Limit and authorize retrieval to the requesting tenant's knowledge context\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Limit and authorize retrieval to the requesting tenant's knowledge context",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

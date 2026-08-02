@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

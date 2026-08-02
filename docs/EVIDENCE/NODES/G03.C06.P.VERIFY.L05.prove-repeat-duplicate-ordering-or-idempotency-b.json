@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:32.774Z",
+  "contains_secrets": false
+}

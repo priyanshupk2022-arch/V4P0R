@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\".",
+  "title": "Prove the primary rejection or negative outcome — Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

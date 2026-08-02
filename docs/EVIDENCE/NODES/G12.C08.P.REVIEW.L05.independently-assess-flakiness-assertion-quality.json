@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.REVIEW.L05.independently-assess-flakiness-assertion-quality",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

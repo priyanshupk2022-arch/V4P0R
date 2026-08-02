@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.873Z",
+  "contains_secrets": false
+}

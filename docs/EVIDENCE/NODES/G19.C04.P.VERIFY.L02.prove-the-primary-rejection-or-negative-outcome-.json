@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\".",
+  "title": "Prove the primary rejection or negative outcome — Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

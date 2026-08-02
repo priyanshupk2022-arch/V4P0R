@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:58:55.791Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

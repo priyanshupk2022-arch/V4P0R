@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII only after its preceding package evidence passes.",
+  "title": "design package for Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:00.891Z",
+  "contains_secrets": false
+}

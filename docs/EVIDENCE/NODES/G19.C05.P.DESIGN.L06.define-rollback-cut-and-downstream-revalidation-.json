@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C05.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Assemble raw release outputs and redacted provider and browser proof\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Assemble raw release outputs and redacted provider and browser proof",
+  "timestamp": "2026-08-02T17:00:11.553Z",
+  "contains_secrets": false
+}

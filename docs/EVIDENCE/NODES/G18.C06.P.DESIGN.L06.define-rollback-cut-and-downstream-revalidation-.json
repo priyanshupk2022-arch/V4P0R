@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:52:20.632Z",
+  "contains_secrets": false
+}

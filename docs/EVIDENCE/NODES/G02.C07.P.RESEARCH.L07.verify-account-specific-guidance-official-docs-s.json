@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.RESEARCH.L07.verify-account-specific-guidance-official-docs-s",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify account-specific guidance, official docs, SDK types, and safe observed fields for capability \"Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success\".",
+  "title": "Verify account-specific guidance, official docs, SDK types, and safe observed fields — Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:42:11.096Z",
+  "contains_secrets": false
+}

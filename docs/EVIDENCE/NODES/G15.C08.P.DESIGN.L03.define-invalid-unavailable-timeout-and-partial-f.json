@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

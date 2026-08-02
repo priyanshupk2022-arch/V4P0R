@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

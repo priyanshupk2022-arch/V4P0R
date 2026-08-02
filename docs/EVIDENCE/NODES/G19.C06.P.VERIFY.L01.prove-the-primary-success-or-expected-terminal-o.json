@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Record residual low-risk limitations and prohibit unsupported readiness claims\".",
+  "title": "Prove the primary success or expected terminal outcome — Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

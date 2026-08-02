@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

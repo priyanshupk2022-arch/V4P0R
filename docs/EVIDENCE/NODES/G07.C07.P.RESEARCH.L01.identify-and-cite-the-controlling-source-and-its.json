@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Identify and cite the controlling source and its freshness — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

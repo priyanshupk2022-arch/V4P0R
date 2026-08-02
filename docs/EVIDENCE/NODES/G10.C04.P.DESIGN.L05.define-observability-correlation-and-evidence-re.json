@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C04.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Make client and provider retries idempotent without duplicating approvals or payment attempts\".",
+  "title": "Define observability, correlation, and evidence requirements — Make client and provider retries idempotent without duplicating approvals or payment attempts",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

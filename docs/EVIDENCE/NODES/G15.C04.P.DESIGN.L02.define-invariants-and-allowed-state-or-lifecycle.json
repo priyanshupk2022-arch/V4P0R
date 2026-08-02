@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Prove real Linq and Senso behavior with current account-enabled contracts\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

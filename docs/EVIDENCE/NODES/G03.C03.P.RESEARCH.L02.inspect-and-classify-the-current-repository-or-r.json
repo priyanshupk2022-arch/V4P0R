@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Define one explicit purchase, approval, checkout, and result state machine\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Define one explicit purchase, approval, checkout, and result state machine",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

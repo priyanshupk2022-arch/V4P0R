@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C07.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states\".",
+  "title": "Define observability, correlation, and evidence requirements — Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

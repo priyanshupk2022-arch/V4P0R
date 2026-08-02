@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C01.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

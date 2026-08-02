@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:09.464Z",
+  "contains_secrets": false
+}

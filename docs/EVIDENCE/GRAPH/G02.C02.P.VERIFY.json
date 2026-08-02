@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Verify Linq message creation and Standard Webhooks reaction contracts only after its preceding package evidence passes.",
+  "title": "verify package for Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:59:54.721Z",
+  "contains_secrets": false
+}

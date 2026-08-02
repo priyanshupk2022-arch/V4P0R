@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C02.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Call the real configured Senso organization search contract\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Call the real configured Senso organization search contract",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

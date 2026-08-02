@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:41:23.295Z",
+  "contains_secrets": false
+}

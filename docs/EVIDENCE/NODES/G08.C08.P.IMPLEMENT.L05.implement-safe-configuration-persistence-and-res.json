@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

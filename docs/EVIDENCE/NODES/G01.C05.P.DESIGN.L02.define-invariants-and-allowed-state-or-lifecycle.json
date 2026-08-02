@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:57:55.724Z",
+  "contains_secrets": false
+}

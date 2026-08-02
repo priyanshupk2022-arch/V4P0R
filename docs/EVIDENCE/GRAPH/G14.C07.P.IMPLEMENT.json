@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Create and test database backup, restoration, migration recovery, and data-retention operations only after its preceding package evidence passes.",
+  "title": "implement package for Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.604Z",
+  "contains_secrets": false
+}

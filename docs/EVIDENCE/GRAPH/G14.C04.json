@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Provide health, readiness, structured redacted logs, metrics, traces, and correlation\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:02.893Z",
+  "contains_secrets": false
+}

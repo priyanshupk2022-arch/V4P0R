@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C03.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Prove upstream and downstream integration against current contracts — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:07:04.116Z",
+  "contains_secrets": false
+}

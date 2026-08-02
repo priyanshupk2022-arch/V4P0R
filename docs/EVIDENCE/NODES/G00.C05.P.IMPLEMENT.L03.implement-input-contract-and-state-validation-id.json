@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-id",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Implement input, contract, and state validation — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:33:41.836Z",
+  "contains_secrets": false
+}

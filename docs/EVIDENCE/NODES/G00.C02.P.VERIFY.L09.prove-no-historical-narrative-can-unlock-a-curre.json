@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.VERIFY.L09.prove-no-historical-narrative-can-unlock-a-curre",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove no historical narrative can unlock a current implementation gate for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Prove no historical narrative can unlock a current implementation gate — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:38:24.524Z",
+  "contains_secrets": false
+}

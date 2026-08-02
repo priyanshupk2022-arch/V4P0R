@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly",
+  "timestamp": "2026-08-02T16:59:55.527Z",
+  "contains_secrets": false
+}

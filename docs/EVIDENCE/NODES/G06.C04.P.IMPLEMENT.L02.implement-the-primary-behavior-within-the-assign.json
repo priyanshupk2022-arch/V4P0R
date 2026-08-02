@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C04.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Persist safe citations, content identifiers, excerpts, relevance, and policy version\".",
+  "title": "Implement the primary behavior within the assigned write scope — Persist safe citations, content identifiers, excerpts, relevance, and policy version",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

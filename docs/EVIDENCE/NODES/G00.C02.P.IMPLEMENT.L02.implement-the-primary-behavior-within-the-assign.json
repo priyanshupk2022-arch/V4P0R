@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Implement the primary behavior within the assigned write scope — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:31:55.894Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C07.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Make retrieved evidence materially affect deterministic policy or human review only after its preceding package evidence passes.",
+  "title": "design package for Make retrieved evidence materially affect deterministic policy or human review",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

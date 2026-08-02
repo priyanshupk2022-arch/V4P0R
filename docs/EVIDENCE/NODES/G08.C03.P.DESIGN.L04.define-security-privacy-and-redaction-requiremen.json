@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Define security, privacy, and redaction requirements — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

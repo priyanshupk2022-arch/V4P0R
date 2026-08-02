@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.873Z",
+  "contains_secrets": false
+}

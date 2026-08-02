@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Prove the primary success or expected terminal outcome — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Certify pass only for the same sealed snapshot when no release blocker remains\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

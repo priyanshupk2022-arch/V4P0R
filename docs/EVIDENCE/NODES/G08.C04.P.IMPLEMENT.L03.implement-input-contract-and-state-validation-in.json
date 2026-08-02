@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C04.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-in",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Invoke the approved permission to obtain a one-time checkout credential\".",
+  "title": "Implement input, contract, and state validation — Invoke the approved permission to obtain a one-time checkout credential",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

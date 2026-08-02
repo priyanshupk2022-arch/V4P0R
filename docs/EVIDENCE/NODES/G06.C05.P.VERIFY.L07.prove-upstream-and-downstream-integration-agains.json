@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Prove upstream and downstream integration against current contracts — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:56.010Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

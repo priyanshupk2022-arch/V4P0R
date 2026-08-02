@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Prove the primary rejection or negative outcome — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:48:55.693Z",
+  "contains_secrets": false
+}

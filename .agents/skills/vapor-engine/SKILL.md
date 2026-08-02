@@ -1,48 +1,122 @@
 ---
 name: vapor-engine
-description: Orchestrate VAPOR as an evidence-gated multi-agent build graph with research, focused context compilation, isolated implementation, test oracles, independent verification, commits, CI, impact analysis, and memory updates. Use for executing any VAPOR roadmap node or the time-boxed hackathon build.
+description: Execute VAPOR's authoritative production DAG with role-based specialist subagents, mandatory relevant skills, focused context, resumable missing inputs, deterministic graph validation, evidence-gated verification, autonomous commits/deployment/sandbox calls, and three fresh professor audits. Use for any VAPOR implementation, integration, verification, deployment, audit, or release-control work.
 ---
 
 # VAPOR Engine
 
-## Load order
+## Load authority
 
-1. Read `plans/04-vapor-engine-workflow.md` and `docs/ENGINE_STATE.md` if present.
-2. Read only the current node from `plans/01-hackathon-critical-path.md`.
-3. Read `vapor-contracts` for provider work and `vapor-release-gates` for every node.
-4. Build a focused context pack from relevant source, tests, dependency edges, current failures, and accepted predecessor evidence. Keep it below roughly 2,000 lines.
+1. Read `plans/07-vapor-master-execution-system.md` completely.
+2. Read `orchestration/generated/vapor-graph-summary.md`, `orchestration/generated/vapor-graph-index.json`, `orchestration/state.json`, and `orchestration/missing-inputs.json`.
+3. Read `vapor-contracts` for every provider, credential, webhook, or checkout node.
+4. Read `vapor-release-gates` for every implementation, verification, audit, deployment, and completion decision.
+5. Treat plans 03-06 and historical readiness narratives as non-authoritative when they conflict with plan 07 or current evidence.
 
-## Execute one current node
+If the generated graph is missing, run:
 
-1. **Research:** verify unstable external contracts and inspect current code. Record sources and conflicts.
-2. **Plan:** define file ownership, dependencies, acceptance oracles, commands, and cut/rollback path.
-3. **Parallelize safely:** use isolated worktrees and disjoint write scopes. Never let agents concurrently own migrations, auth, package lock, or the same state machine.
-4. **Implement:** use Gemini 3.6 Flash as the fast executor. The parent orchestrates and integrates; it does not accept child completion claims without artifacts.
-5. **Verify internally:** run focused tests, security checks, static analysis, and browser tests through separate agents.
-6. **Independent review:** use a fresh-context verifier. On FAIL, diagnose from raw evidence, research only the failed area, fix, and reverify.
-7. **Evidence:** write `docs/EVIDENCE/NODE-<id>.md` with commit, sources, changed files, commands/exit codes, safe provider/browser evidence, risks, and reviewer decision.
-8. **Commit and CI:** allow clearly labeled local checkpoint commits for isolated worktree integration after focused checks. Create the final node/release commit only after independent PASS. Push/PR/deploy only with explicit authorization.
-9. **Impact and memory:** update `docs/ENGINE_STATE.md`, `docs/PROJECT_MAP.md`, dependency/contract changes, and next unlocked node.
+```powershell
+node scripts/vapor-graph.mjs build
+node scripts/vapor-graph.mjs validate
+```
 
-## Time-boxed build mode
+Never use `--reset-state` unless the previous run log has been preserved and the parent deliberately starts a new graph epoch.
 
-When the user asks for the full hackathon build, the parent orchestrator must run the current-node loop automatically through bootstrap, contract feasibility, parallel implementation, integration, and internal verification. After each internally accepted node, update memory and unlock the next node without asking the user for another prompt. Pause only for an external blocker, a required authority/credential, or a material product choice not covered by the bootstrap packet. End only at `READY FOR INDEPENDENT REVIEW` or `BLOCKED`.
+## Select work
 
-## Handoff sequence
+Run `node scripts/vapor-graph.mjs ready --limit 25`. Select all independent ready nodes that fit platform capacity and have disjoint write scopes/resource locks. Serialize migrations, identity, package lock, payment state, graph source, and shared provider contracts.
 
-Antigravity may finish with `READY FOR INDEPENDENT REVIEW`, never final PASS. Then:
+The parent orchestrator coordinates and integrates. It does not implement feature code or accept narrative completion claims.
 
-1. Codex independently audits and fixes the integrated sandbox build.
-2. Re-run full release gates and the Prava sandbox golden flow.
-3. Request Prava production access.
-4. When access arrives, configure separate production secrets and run a bounded smoke test.
-5. Record demo and submit.
+## Compile a current-node packet
 
-## Failure rules
+Run `node scripts/vapor-graph.mjs context <node-id>` and read `references/context-pack.md`. Add only:
 
-- On a transient error, retry within an explicit limit.
-- On a deterministic error, change the hypothesis or implementation; do not repeat blindly.
-- On a contract conflict, stop only the affected branch and notify the orchestrator.
-- On time pressure, cut breadth according to the workflow plan; never cut real Prava proof, independent verification, demo recording, or submission buffer.
+- accepted predecessor evidence;
+- authoritative current contracts;
+- relevant source, symbols, and tests;
+- exact current failures;
+- assigned role and required skills;
+- exact writable and forbidden paths;
+- positive, negative, timeout, duplicate, race, restart, security, and browser oracles that apply;
+- evidence destination and revalidation impact.
 
-Read `references/context-pack.md` when creating or refreshing memory/context artifacts.
+Keep focused context below roughly 2,000 relevant lines. Never include secret values, payment credentials, huge raw logs, the entire expanded registry, or builder conclusions.
+
+## Route skills before execution
+
+Read every skill selected by `orchestration/skill-router.json` completely before starting the node. Record a routing receipt containing skill names, resolved paths/versions, reason, conflicts, and missing capabilities.
+
+When a capability is missing, inspect installed skills, use `find-skills` when available, search Skills.sh, security-review the candidate, and install only a vetted relevant skill. If no safe skill exists, create and validate one from official sources. Do not silently substitute a generic workflow.
+
+## Dispatch responsible specialist subagents
+
+Use `orchestration/roles.json`. Every subagent acts as a PhD-level principal specialist with 30+ years equivalent professional judgment, but must prove work through artifacts.
+
+For each implementation package, use separate focused actors for:
+
+1. contract/source research;
+2. implementation and tests within one write scope;
+3. reliability/oracle verification;
+4. security review when auth, data, provider, payment, browser, deployment, secret, or skill supply chain is touched;
+5. integration review after related packages assemble.
+
+The implementer never approves the same node. Fresh reviewers receive the requirement, raw diff/artifacts, and oracles—not the intended answer or fix narrative.
+
+## Execute and recover
+
+Use the graph state machine:
+
+`LOCKED -> READY -> RUNNING -> VERIFYING -> PASS`
+
+On failure use `RETRYING`, `FAILED_DIAGNOSIS`, `FAIL`, or `REVALIDATE`. Change the hypothesis after deterministic failure; never repeat blindly.
+
+If a credential, access grant, or external artifact is missing:
+
+1. add only its name, purpose, secure destination, validation method, and dependent nodes to `orchestration/missing-inputs.json`;
+2. mark dependent nodes `WAITING_INPUT`;
+3. continue every unrelated ready node;
+4. present one consolidated missing-input checklist;
+5. validate supplied values by presence/behavior without printing them;
+6. resume waiting nodes automatically.
+
+A local network failure pauses only the affected runtime branch. Try the already-authorized deployed or browser execution plane where appropriate. Never replace required live proof with a mock.
+
+## Verify and record
+
+Resolve exact commands/observations in the context packet before `RUNNING`. Require current redacted evidence under `docs/EVIDENCE/`. A node may pass only through a different reviewer and a valid graph transition.
+
+Record append-only events in the active `orchestration/runs/<run-id>.jsonl`. Keep generated registry files immutable. After accepted work:
+
+- integrate isolated changes;
+- run focused and impact tests;
+- commit with a bounded message;
+- push/CI/deploy when it advances an authorized graph node;
+- update project map, evidence, contract decisions, and impact edges;
+- move affected prior evidence to `REVALIDATE`.
+
+Antigravity is authorized to edit, test, commit, push, deploy, and call sandbox providers. Stop only immediately before a real consequential production payment (`H_PRODUCTION_PAYMENT`) or final Devfolio publication (`H_FINAL_SUBMISSION`).
+
+## Complete the builder graph
+
+Continue until G00-G15 and every mandatory descendant pass. Passing compiler/tests alone is insufficient. Require the real Prava sandbox merchant-decline chain, real Linq and Senso evidence, public HTTPS browser proof, security scans, observability, backup/restore, rollback, and the complete release battery.
+
+## Run three fresh professor audits
+
+Read `orchestration/audit-protocol.json`. Seal one source/deployment/evidence snapshot, then run:
+
+1. G16: architecture, data, identity, and security professor.
+2. G17: providers, runtime, concurrency, and recovery professor.
+3. G18: product, deployment, operations, and claims professor.
+
+Auditors are read-only, mutually blind, fresh-context, and cannot be builders, fixers, integrators, or each other. Any release-blocking finding routes to bounded repair and independent retest, seals a new snapshot, resets the clean-pass counter, and restarts all three audits.
+
+## Terminal language
+
+After three consecutive clean audits and a complete G19 handoff package, emit exactly:
+
+`READY_FOR_CODEX_INDEPENDENT_AUDIT`
+
+Then stop. Do not invoke Codex and do not call the product bank-grade, certified, or production-payment proven without external evidence.
+
+After the user obtains Codex PASS, G20 may resume for production access, bounded smoke, demo assets, and final submission subject to the two human gates.

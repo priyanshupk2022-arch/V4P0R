@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Publish a truth baseline that cannot mark implementation nodes complete only after its preceding package evidence passes.",
+  "title": "research package for Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:20:47.258Z",
+  "contains_secrets": false
+}

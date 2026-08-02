@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C08.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

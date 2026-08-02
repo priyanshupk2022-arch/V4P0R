@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

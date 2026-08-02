@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:46:53.252Z",
+  "contains_secrets": false
+}

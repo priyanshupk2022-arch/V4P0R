@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:38:57.289Z",
+  "contains_secrets": false
+}

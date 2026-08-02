@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

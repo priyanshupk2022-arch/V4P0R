@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Persist only safe Prava identifiers, states, errors, and correlation evidence only after its preceding package evidence passes.",
+  "title": "research package for Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.214Z",
+  "contains_secrets": false
+}

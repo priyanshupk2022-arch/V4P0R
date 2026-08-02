@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:59:54.772Z",
+  "contains_secrets": false
+}

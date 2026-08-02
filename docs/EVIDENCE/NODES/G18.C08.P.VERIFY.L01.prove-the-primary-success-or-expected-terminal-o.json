@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Prove the primary success or expected terminal outcome — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

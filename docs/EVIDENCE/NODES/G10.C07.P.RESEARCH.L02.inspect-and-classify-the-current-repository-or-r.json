@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation",
+  "timestamp": "2026-08-02T16:59:57.376Z",
+  "contains_secrets": false
+}

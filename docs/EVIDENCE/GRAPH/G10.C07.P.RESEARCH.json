@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation only after its preceding package evidence passes.",
+  "title": "research package for Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation",
+  "timestamp": "2026-08-02T16:59:57.354Z",
+  "contains_secrets": false
+}

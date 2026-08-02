@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.IMPLEMENT.L07.call-only-approved-live-interfaces-and-remove-sy",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Call only approved live interfaces and remove synthetic provider fallbacks for capability \"Send a real Linq approval message with an idempotency key\".",
+  "title": "Call only approved live interfaces and remove synthetic provider fallbacks — Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.REVIEW.L05.forward-test-the-control-path-with-a-fresh-agent",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Forward-test the control path with a fresh agent and bounded context for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Forward-test the control path with a fresh agent and bounded context — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:21:55.531Z",
+  "contains_secrets": false
+}

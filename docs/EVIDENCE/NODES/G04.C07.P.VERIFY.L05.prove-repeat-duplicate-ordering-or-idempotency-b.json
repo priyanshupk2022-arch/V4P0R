@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C07.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Fail closed when any required secret, membership, policy, or database dependency is unavailable\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Fail closed when any required secret, membership, policy, or database dependency is unavailable",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

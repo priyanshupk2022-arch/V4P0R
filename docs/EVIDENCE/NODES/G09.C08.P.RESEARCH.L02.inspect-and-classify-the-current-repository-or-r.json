@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C08.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

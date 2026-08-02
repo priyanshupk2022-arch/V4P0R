@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Define security, privacy, and redaction requirements — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:55:22.789Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.RESEARCH.L07.verify-account-specific-guidance-official-docs-s",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify account-specific guidance, official docs, SDK types, and safe observed fields for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Verify account-specific guidance, official docs, SDK types, and safe observed fields — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:34:09.183Z",
+  "contains_secrets": false
+}

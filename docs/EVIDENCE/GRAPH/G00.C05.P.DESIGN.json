@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps only after its preceding package evidence passes.",
+  "title": "design package for Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:25:39.475Z",
+  "contains_secrets": false
+}

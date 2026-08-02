@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

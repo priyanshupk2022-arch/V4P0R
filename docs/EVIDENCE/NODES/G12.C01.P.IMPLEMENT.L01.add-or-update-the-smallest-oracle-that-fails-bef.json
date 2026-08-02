@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Add or update the smallest oracle that fails before the change — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

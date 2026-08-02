@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define security, privacy, and redaction requirements — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:55:34.337Z",
+  "contains_secrets": false
+}

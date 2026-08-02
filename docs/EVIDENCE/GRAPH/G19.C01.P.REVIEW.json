@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Verify all G00 through G18 mandatory descendants are current PASS only after its preceding package evidence passes.",
+  "title": "review package for Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.250Z",
+  "contains_secrets": false
+}

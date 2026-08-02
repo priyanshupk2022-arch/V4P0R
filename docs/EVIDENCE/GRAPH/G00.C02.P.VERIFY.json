@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Retract unsupported completion, production, ledger, security, and compliance claims only after its preceding package evidence passes.",
+  "title": "verify package for Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:36:07.641Z",
+  "contains_secrets": false
+}

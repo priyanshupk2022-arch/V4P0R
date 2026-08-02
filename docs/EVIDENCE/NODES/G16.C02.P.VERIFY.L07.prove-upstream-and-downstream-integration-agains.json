@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants\".",
+  "title": "Prove upstream and downstream integration against current contracts — Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

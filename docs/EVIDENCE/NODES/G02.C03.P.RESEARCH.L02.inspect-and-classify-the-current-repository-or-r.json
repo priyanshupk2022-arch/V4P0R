@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:32:31.496Z",
+  "contains_secrets": false
+}

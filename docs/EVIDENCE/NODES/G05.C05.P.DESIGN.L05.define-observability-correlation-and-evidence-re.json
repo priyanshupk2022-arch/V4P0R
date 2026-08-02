@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Create approval expiry, assigned approver, and first-valid-decision semantics\".",
+  "title": "Define observability, correlation, and evidence requirements — Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

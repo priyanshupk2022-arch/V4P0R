@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Attempt exactly one authorized sandbox checkout without blind credential retry\".",
+  "title": "Prove upstream and downstream integration against current contracts — Attempt exactly one authorized sandbox checkout without blind credential retry",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

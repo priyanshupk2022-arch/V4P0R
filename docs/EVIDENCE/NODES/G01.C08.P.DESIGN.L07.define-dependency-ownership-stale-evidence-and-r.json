@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.DESIGN.L07.define-dependency-ownership-stale-evidence-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define dependency, ownership, stale-evidence, and resume semantics for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Define dependency, ownership, stale-evidence, and resume semantics — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:00:13.414Z",
+  "contains_secrets": false
+}

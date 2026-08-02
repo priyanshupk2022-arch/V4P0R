@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Prove the primary success or expected terminal outcome — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

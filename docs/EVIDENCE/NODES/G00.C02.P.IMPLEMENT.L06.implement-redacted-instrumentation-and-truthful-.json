@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:32:14.350Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C08.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Deliver an accessible responsive under-two-minute judge journey on a public URL\".",
+  "title": "Prove behavior when a required input is missing or invalid — Deliver an accessible responsive under-two-minute judge journey on a public URL",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Verify real Linq message ownership, signatures, reactions, expiry, and first decision only after its preceding package evidence passes.",
+  "title": "implement package for Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.509Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Implement the primary behavior within the assigned write scope — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T16:59:54.972Z",
+  "contains_secrets": false
+}

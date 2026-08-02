@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.DESIGN.L07.define-dependency-ownership-stale-evidence-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define dependency, ownership, stale-evidence, and resume semantics for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define dependency, ownership, stale-evidence, and resume semantics — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:55:50.703Z",
+  "contains_secrets": false
+}

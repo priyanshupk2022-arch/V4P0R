@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Hash and preserve reproducible redacted evidence — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:13:38.529Z",
+  "contains_secrets": false
+}

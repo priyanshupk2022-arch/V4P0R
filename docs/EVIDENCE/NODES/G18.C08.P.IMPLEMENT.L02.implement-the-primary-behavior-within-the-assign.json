@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Implement the primary behavior within the assigned write scope — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

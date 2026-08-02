@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

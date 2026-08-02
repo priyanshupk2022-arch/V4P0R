@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches\".",
+  "title": "Perform an independent security and reliability challenge — Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

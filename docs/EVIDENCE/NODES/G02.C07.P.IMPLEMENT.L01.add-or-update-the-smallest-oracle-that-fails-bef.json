@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success\".",
+  "title": "Add or update the smallest oracle that fails before the change — Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:42:43.385Z",
+  "contains_secrets": false
+}

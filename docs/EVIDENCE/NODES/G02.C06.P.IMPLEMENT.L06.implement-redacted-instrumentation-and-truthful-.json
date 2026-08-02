@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:40:43.551Z",
+  "contains_secrets": false
+}

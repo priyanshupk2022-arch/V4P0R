@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:32:46.823Z",
+  "contains_secrets": false
+}

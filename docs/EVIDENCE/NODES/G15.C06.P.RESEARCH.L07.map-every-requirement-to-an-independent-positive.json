@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.RESEARCH.L07.map-every-requirement-to-an-independent-positive",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Map every requirement to an independent positive and negative oracle for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Map every requirement to an independent positive and negative oracle — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

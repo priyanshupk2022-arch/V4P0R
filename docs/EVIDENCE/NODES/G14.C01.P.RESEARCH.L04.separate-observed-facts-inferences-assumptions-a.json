@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

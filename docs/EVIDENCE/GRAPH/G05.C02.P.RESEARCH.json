@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C02.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Normalize merchant and category inputs without changing financial meaning only after its preceding package evidence passes.",
+  "title": "research package for Normalize merchant and category inputs without changing financial meaning",
+  "timestamp": "2026-08-02T16:59:55.544Z",
+  "contains_secrets": false
+}

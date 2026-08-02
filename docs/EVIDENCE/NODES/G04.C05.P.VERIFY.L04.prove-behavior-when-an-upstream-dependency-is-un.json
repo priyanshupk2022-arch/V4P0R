@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

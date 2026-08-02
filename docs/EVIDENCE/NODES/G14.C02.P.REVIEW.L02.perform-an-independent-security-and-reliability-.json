@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Perform an independent security and reliability challenge — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

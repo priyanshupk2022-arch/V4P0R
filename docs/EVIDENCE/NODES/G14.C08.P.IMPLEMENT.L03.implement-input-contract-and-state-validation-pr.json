@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-pr",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Implement input, contract, and state validation — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Prove upstream and downstream integration against current contracts — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:40:39.932Z",
+  "contains_secrets": false
+}

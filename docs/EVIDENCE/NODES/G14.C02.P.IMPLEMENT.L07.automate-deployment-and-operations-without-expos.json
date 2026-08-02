@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.IMPLEMENT.L07.automate-deployment-and-operations-without-expos",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Automate deployment and operations without exposing secrets or hiding unhealthy states for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Automate deployment and operations without exposing secrets or hiding unhealthy states — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

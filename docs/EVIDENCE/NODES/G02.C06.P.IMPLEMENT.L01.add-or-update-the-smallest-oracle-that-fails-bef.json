@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Add or update the smallest oracle that fails before the change — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:59:34.424Z",
+  "contains_secrets": false
+}

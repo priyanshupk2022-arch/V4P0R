@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Define observability, correlation, and evidence requirements — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:45:08.323Z",
+  "contains_secrets": false
+}

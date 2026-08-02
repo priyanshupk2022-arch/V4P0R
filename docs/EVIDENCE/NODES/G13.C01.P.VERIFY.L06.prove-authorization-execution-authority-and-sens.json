@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C01.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Create and test a threat model for users, tenants, providers, webhooks, browser, and operators\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

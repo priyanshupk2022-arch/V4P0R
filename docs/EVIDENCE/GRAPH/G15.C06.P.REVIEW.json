@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open the review package for Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash only after its preceding package evidence passes.",
+  "title": "review package for Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:06.017Z",
+  "contains_secrets": false
+}

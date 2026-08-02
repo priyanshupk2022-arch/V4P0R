@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:05:58.530Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Hash and preserve reproducible redacted evidence — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:23:27.292Z",
+  "contains_secrets": false
+}

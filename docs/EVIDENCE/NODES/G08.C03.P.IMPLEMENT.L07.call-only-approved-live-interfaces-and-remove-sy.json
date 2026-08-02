@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.IMPLEMENT.L07.call-only-approved-live-interfaces-and-remove-sy",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Call only approved live interfaces and remove synthetic provider fallbacks for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Call only approved live interfaces and remove synthetic provider fallbacks — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

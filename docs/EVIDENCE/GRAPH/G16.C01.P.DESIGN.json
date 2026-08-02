@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Reconstruct architecture and data flow from the sealed repository without builder narrative only after its preceding package evidence passes.",
+  "title": "design package for Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:06.693Z",
+  "contains_secrets": false
+}

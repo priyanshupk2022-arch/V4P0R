@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C06.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Attempt exactly one authorized sandbox checkout without blind credential retry\".",
+  "title": "Prove behavior when a required input is missing or invalid — Attempt exactly one authorized sandbox checkout without blind credential retry",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

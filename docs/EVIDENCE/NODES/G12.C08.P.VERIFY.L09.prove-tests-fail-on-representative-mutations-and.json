@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.VERIFY.L09.prove-tests-fail-on-representative-mutations-and",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove tests fail on representative mutations and do not pass through fabricated fallbacks for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Prove tests fail on representative mutations and do not pass through fabricated fallbacks — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

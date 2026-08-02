@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Identify and cite the controlling source and its freshness — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:52:42.960Z",
+  "contains_secrets": false
+}

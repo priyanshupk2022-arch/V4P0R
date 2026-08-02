@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.DESIGN.L07.define-containment-rotation-retention-deletion-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define containment, rotation, retention, deletion, alerting, and incident response for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Define containment, rotation, retention, deletion, alerting, and incident response — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:01.217Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

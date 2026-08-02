@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:16:17.005Z",
+  "contains_secrets": false
+}

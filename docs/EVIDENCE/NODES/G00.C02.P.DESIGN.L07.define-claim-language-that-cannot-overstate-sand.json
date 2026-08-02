@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.DESIGN.L07.define-claim-language-that-cannot-overstate-sand",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define claim language that cannot overstate sandbox, production, compliance, or traction for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Define claim language that cannot overstate sandbox, production, compliance, or traction — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:27:07.228Z",
+  "contains_secrets": false
+}

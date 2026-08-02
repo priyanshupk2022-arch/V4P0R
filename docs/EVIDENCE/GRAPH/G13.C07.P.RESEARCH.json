@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Audit installed and newly discovered skills before granting tools, network, or secret access only after its preceding package evidence passes.",
+  "title": "research package for Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:00.359Z",
+  "contains_secrets": false
+}

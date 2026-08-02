@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:59:54.721Z",
+  "contains_secrets": false
+}

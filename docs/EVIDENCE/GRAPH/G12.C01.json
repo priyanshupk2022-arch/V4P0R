@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:00.289Z",
+  "contains_secrets": false
+}

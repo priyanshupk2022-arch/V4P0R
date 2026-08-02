@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C05.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Assemble raw release outputs and redacted provider and browser proof\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Assemble raw release outputs and redacted provider and browser proof",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

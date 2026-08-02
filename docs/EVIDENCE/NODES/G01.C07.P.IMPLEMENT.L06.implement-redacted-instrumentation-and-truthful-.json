@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:05:29.306Z",
+  "contains_secrets": false
+}

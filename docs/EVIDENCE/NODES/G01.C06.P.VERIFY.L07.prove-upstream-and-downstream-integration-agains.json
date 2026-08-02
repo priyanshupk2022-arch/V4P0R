@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Prove upstream and downstream integration against current contracts — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:08:41.319Z",
+  "contains_secrets": false
+}

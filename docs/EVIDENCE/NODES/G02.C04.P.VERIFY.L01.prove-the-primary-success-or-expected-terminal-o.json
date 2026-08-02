@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Prove the primary success or expected terminal outcome — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:35:28.824Z",
+  "contains_secrets": false
+}

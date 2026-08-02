@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

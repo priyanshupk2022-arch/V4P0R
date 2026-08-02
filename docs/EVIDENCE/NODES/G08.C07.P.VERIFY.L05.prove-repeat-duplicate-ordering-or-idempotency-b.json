@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

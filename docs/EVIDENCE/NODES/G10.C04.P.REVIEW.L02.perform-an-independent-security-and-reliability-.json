@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C04.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Make client and provider retries idempotent without duplicating approvals or payment attempts\".",
+  "title": "Perform an independent security and reliability challenge — Make client and provider retries idempotent without duplicating approvals or payment attempts",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define security, privacy, and redaction requirements — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:58:44.850Z",
+  "contains_secrets": false
+}

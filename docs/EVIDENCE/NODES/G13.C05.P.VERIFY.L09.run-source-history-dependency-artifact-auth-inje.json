@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C05.P.VERIFY.L09.run-source-history-dependency-artifact-auth-inje",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks for capability \"Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege\".",
+  "title": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks — Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

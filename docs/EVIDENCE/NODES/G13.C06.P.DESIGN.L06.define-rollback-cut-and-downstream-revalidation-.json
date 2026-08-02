@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

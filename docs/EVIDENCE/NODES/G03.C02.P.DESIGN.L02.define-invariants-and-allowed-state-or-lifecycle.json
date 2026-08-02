@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C02.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Store all monetary values as integer minor units with ISO currency\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Store all monetary values as integer minor units with ISO currency",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

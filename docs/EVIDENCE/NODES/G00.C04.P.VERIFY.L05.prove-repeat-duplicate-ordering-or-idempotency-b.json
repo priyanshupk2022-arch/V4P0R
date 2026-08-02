@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:40.557Z",
+  "contains_secrets": false
+}

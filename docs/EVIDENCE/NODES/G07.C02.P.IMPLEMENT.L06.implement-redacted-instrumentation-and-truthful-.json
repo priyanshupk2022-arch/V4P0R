@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C02.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Persist returned chat and message identifiers against one pending approval\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Persist returned chat and message identifiers against one pending approval",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

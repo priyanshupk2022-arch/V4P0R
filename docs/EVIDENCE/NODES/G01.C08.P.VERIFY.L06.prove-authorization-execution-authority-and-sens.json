@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:21:11.179Z",
+  "contains_secrets": false
+}

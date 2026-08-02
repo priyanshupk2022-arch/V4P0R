@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:13:27.259Z",
+  "contains_secrets": false
+}

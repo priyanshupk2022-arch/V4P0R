@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L07.define-dependency-ownership-stale-evidence-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define dependency, ownership, stale-evidence, and resume semantics for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define dependency, ownership, stale-evidence, and resume semantics — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:58:22.928Z",
+  "contains_secrets": false
+}

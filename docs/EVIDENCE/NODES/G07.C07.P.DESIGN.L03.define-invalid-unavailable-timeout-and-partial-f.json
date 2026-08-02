@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

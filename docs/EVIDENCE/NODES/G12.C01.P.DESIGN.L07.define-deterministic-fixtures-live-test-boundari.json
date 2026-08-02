@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.DESIGN.L07.define-deterministic-fixtures-live-test-boundari",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

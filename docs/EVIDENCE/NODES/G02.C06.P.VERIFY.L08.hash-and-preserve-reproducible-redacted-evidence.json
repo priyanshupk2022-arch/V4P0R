@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Hash and preserve reproducible redacted evidence — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:59:54.721Z",
+  "contains_secrets": false
+}

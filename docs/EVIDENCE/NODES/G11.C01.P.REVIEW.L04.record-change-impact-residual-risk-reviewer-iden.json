@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Present the US-first procurement problem and product value without unsupported claims\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Present the US-first procurement problem and product value without unsupported claims",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

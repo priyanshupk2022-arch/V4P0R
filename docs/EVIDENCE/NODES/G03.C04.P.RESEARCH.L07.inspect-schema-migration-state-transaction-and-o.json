@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C04.P.RESEARCH.L07.inspect-schema-migration-state-transaction-and-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect schema, migration, state, transaction, and ownership conflicts for capability \"Reject invalid, duplicate, out-of-order, expired, and concurrent transitions\".",
+  "title": "Inspect schema, migration, state, transaction, and ownership conflicts — Reject invalid, duplicate, out-of-order, expired, and concurrent transitions",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

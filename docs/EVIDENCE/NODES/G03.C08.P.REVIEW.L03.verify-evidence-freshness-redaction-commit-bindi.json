@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:55.103Z",
+  "contains_secrets": false
+}

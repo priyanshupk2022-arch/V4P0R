@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.DESIGN.L07.define-deterministic-fixtures-live-test-boundari",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning for capability \"Prove real Linq and Senso behavior with current account-enabled contracts\".",
+  "title": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning — Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

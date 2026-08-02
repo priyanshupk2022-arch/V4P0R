@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C01.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Create or register the exact approved purchase through the selected Prava flow\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Create or register the exact approved purchase through the selected Prava flow",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

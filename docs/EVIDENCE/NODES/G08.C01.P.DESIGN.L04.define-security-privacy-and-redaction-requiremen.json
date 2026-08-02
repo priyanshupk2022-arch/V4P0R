@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C01.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Create or register the exact approved purchase through the selected Prava flow\".",
+  "title": "Define security, privacy, and redaction requirements — Create or register the exact approved purchase through the selected Prava flow",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

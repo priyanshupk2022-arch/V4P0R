@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.RESEARCH.L07.compare-every-readiness-claim-with-code-tests-ru",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Compare every readiness claim with code, tests, runtime, and external proof for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Compare every readiness claim with code, tests, runtime, and external proof — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:21:53.485Z",
+  "contains_secrets": false
+}

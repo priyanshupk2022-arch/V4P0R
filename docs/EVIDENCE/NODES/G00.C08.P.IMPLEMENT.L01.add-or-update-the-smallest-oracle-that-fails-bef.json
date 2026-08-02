@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Add or update the smallest oracle that fails before the change — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:35:22.868Z",
+  "contains_secrets": false
+}

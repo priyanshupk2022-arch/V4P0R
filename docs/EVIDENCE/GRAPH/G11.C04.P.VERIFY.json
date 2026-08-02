@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Show Prava permission and masked one-time-card readiness without exposing credentials only after its preceding package evidence passes.",
+  "title": "verify package for Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:59.524Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Send a real Linq approval message with an idempotency key\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

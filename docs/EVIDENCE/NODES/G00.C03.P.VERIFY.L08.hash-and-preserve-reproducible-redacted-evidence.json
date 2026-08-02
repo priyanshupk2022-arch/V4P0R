@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Hash and preserve reproducible redacted evidence — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:39:08.206Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:19.546Z",
+  "contains_secrets": false
+}

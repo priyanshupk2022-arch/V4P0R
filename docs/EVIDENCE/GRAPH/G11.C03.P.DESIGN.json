@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Show deterministic policy reasons and real Linq approval progress only after its preceding package evidence passes.",
+  "title": "design package for Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:58.943Z",
+  "contains_secrets": false
+}

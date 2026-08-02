@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Prove the primary success or expected terminal outcome — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Discover and vet missing skills through installed inventory, find-skills, and Skills.sh only after its preceding package evidence passes.",
+  "title": "verify package for Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T16:04:52.946Z",
+  "contains_secrets": false
+}

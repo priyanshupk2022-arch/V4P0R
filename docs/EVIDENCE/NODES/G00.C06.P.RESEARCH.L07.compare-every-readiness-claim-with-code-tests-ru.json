@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.RESEARCH.L07.compare-every-readiness-claim-with-code-tests-ru",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Compare every readiness claim with code, tests, runtime, and external proof for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Compare every readiness claim with code, tests, runtime, and external proof — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:24:05.507Z",
+  "contains_secrets": false
+}

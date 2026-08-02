@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C01.P.RESEARCH.L07.threat-model-assets-actors-trust-boundaries-abus",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs for capability \"Create and test a threat model for users, tenants, providers, webhooks, browser, and operators\".",
+  "title": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs — Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

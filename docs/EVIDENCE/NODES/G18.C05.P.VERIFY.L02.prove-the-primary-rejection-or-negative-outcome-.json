@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Prove the primary rejection or negative outcome — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Handle partial database, provider, network, and browser failures without synthetic completion\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

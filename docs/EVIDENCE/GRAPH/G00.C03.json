@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Map every public claim to current code and reproducible evidence\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:18:02.330Z",
+  "contains_secrets": false
+}

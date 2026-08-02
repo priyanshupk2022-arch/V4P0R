@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Retract unsupported completion, production, ledger, security, and compliance claims\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:17:57.837Z",
+  "contains_secrets": false
+}

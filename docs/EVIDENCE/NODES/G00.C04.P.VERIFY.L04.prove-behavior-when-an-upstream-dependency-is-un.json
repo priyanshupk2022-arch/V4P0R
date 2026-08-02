@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:35.131Z",
+  "contains_secrets": false
+}

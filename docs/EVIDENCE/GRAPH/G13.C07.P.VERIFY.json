@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Audit installed and newly discovered skills before granting tools, network, or secret access only after its preceding package evidence passes.",
+  "title": "verify package for Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

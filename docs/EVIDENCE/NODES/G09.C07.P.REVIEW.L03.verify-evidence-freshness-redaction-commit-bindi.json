@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C07.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+  "timestamp": "2026-08-02T16:59:57.277Z",
+  "contains_secrets": false
+}

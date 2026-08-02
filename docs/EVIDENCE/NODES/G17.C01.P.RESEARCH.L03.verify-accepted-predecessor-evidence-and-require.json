@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

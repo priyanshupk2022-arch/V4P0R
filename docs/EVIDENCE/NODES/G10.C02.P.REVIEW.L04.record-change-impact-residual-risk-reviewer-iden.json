@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

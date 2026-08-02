@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-te",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift\".",
+  "title": "Implement input, contract, and state validation — Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

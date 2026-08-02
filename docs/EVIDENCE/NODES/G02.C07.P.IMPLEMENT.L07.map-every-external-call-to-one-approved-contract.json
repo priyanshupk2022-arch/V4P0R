@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.IMPLEMENT.L07.map-every-external-call-to-one-approved-contract",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every external call to one approved contract record for capability \"Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success\".",
+  "title": "Map every external call to one approved contract record — Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:43:03.090Z",
+  "contains_secrets": false
+}

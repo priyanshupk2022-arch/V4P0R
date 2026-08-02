@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

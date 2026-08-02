@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

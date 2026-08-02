@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:02.530Z",
+  "contains_secrets": false
+}

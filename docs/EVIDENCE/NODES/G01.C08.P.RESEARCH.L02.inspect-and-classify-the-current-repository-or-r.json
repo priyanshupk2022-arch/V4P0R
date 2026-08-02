@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:53:58.335Z",
+  "contains_secrets": false
+}

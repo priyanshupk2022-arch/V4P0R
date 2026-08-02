@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C01.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Define one canonical purchase-request aggregate and identifier model\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Define one canonical purchase-request aggregate and identifier model",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

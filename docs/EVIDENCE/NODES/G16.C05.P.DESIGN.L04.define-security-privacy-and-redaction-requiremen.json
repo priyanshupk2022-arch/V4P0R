@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Define security, privacy, and redaction requirements — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:06.776Z",
+  "contains_secrets": false
+}

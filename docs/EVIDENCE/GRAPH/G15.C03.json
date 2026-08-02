@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open and coordinate the evidence-gated capability \"Prove the real Prava sandbox chain with safe correlated identifiers\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:04.798Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Prove behavior when a required input is missing or invalid — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:59:54.721Z",
+  "contains_secrets": false
+}

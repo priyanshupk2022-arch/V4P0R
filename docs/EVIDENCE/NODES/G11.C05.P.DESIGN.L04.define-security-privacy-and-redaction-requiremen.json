@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Show merchant checkout attempt and expected sandbox decline accurately\".",
+  "title": "Define security, privacy, and redaction requirements — Show merchant checkout attempt and expected sandbox decline accurately",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

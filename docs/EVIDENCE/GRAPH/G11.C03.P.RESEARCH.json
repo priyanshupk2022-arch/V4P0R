@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Show deterministic policy reasons and real Linq approval progress only after its preceding package evidence passes.",
+  "title": "research package for Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:58.585Z",
+  "contains_secrets": false
+}

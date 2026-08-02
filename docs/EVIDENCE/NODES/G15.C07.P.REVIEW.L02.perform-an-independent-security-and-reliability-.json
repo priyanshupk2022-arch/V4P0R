@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Perform an independent security and reliability challenge — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

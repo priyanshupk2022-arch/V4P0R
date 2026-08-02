@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:02.893Z",
+  "contains_secrets": false
+}

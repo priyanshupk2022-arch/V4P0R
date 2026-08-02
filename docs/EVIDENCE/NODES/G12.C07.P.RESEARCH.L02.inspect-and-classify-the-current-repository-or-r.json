@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Test the public product with fresh-browser, responsive, and accessibility oracles\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

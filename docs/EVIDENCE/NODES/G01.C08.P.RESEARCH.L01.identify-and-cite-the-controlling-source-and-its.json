@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Identify and cite the controlling source and its freshness — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:53:52.771Z",
+  "contains_secrets": false
+}

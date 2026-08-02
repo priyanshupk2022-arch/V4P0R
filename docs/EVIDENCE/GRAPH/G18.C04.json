@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:09.464Z",
+  "contains_secrets": false
+}

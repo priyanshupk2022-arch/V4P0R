@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C01.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Create or register the exact approved purchase through the selected Prava flow\".",
+  "title": "Hash and preserve reproducible redacted evidence — Create or register the exact approved purchase through the selected Prava flow",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

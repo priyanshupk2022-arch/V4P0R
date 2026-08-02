@@ -1,19 +1,36 @@
 # VAPOR Engine State
 
-## Current phase
+## Current status
 
-`BOOTSTRAP` — prepare truthful context, select the account-enabled Prava contract, then begin the sandbox feasibility slice.
+`GRAPH_READY_NOT_EXECUTED`
 
-## Known baseline
+The master control system is generated and validated. Product implementation has not been credited from this graph run.
 
-- Last committed baseline: `af31250`.
-- Existing N0 evidence is not accepted; its audit and readiness claims require correction.
-- Current working tree contains uncommitted planning, skills, and documentation changes. Preserve them and include them in the eventual reviewed integration.
+## Graph identity
 
-## Next unlock condition
+- Authority: `plans/07-vapor-master-execution-system.md`
+- Registry: `orchestration/generated/vapor-graph.jsonl`
+- Graph hash: `1d8fa87bcd173ba0c7794e898c0cf09781821eaf63c352a8fb97007a1dc7ccbe`
+- Total connected nodes: 6,931
+- Atomic L4 leaves: 5,880
+- Validator errors: 0
+- Validator warnings: 0
+- Active run: `run-2026-08-02T15-05-11-766Z`
+- Ready node: `G00`
 
-Create `docs/EVIDENCE/CONTRACT_MANIFEST.md` with a selected Prava account flow and a real feasibility result for the merchant checkout attempt.
+## Truth correction
 
-## Final sandbox handoff condition
+The previous `READY FOR HUMAN HANDOFF` and G0-G8 PASS table are retracted as execution authority. They were unsupported by the complete real-provider, public-deployment, security, operations, and three-audit evidence required by the approved graph.
 
-`READY FOR INDEPENDENT REVIEW` requires the complete integrated sandbox product, redacted Prava expected-decline evidence, browser trace, exact command outputs, and all release gates green.
+Existing application changes, tests, UI, adapters, and evidence remain in the working tree and must be classified and independently reverified by G00 onward. They are not discarded, but no historical narrative automatically marks a current node PASS.
+
+## Human gates
+
+- `H_PRODUCTION_PAYMENT`: not granted.
+- `H_FINAL_SUBMISSION`: not granted.
+
+All ordinary implementation, tests, commits, sandbox calls, deployment, and demo preparation are autonomous once Antigravity execution starts.
+
+## Next action
+
+Launch Antigravity with the exact message in `docs/ANTIGRAVITY_BOOTSTRAP.md`. Antigravity must validate the graph, report the first ready wave, and begin G00. Its successful terminal state is `READY_FOR_CODEX_INDEPENDENT_AUDIT`.

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

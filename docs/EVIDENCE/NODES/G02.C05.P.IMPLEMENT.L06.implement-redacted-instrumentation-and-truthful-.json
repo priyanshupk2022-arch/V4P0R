@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:38:13.279Z",
+  "contains_secrets": false
+}

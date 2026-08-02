@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.IMPLEMENT.L07.execute-a-read-only-fresh-context-audit-and-writ",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Execute a read-only fresh-context audit and write only sidecar evidence for capability \"Certify pass only for the same sealed snapshot when no release blocker remains\".",
+  "title": "Execute a read-only fresh-context audit and write only sidecar evidence — Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

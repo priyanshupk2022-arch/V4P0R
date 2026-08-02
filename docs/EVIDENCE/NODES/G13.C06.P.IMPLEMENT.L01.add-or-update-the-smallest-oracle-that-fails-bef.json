@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Add or update the smallest oracle that fails before the change — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

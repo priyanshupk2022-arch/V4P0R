@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Hash and preserve reproducible redacted evidence — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

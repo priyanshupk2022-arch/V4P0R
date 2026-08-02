@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

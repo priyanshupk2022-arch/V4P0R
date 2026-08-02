@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

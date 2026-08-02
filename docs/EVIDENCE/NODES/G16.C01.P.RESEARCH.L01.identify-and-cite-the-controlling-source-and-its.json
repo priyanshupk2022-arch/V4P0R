@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Identify and cite the controlling source and its freshness — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

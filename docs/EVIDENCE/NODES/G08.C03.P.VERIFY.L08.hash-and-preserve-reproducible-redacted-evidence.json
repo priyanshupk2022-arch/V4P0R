@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Hash and preserve reproducible redacted evidence — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

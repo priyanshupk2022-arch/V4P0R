@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Add or update the smallest oracle that fails before the change — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:04:36.777Z",
+  "contains_secrets": false
+}

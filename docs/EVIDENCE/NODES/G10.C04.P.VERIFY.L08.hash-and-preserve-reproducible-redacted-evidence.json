@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Make client and provider retries idempotent without duplicating approvals or payment attempts\".",
+  "title": "Hash and preserve reproducible redacted evidence — Make client and provider retries idempotent without duplicating approvals or payment attempts",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:15:32.615Z",
+  "contains_secrets": false
+}

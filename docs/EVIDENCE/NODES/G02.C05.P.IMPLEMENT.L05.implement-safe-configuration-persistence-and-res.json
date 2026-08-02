@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:38:09.398Z",
+  "contains_secrets": false
+}

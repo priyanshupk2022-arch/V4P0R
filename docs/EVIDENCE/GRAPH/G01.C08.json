@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Resume safely from the latest verified checkpoint after interruption\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:48:40.503Z",
+  "contains_secrets": false
+}

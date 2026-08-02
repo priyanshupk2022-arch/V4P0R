@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

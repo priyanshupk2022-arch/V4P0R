@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Prove upstream and downstream integration against current contracts — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

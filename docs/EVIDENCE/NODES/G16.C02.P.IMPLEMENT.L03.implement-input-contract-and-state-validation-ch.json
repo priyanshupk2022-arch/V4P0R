@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C02.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ch",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants\".",
+  "title": "Implement input, contract, and state validation — Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

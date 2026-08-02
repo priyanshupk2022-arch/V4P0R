@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:04.976Z",
+  "contains_secrets": false
+}

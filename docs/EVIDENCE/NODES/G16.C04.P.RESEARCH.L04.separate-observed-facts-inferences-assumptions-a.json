@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

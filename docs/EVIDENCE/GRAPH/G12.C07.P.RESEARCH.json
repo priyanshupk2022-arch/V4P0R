@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Test the public product with fresh-browser, responsive, and accessibility oracles only after its preceding package evidence passes.",
+  "title": "research package for Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:00.359Z",
+  "contains_secrets": false
+}

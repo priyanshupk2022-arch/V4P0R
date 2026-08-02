@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:09:02.002Z",
+  "contains_secrets": false
+}

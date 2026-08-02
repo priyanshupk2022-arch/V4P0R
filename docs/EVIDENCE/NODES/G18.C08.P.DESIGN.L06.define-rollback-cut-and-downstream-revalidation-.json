@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

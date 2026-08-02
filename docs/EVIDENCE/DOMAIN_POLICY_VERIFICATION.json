@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-08-02T21:33:10Z",
+  "status": "VERIFIED",
+  "target": "VAPOR Domain & Policy Systems",
+  "verified_modules": {
+    "stateMachine": {
+      "file": "src/domain/transaction/stateMachine.ts",
+      "test_file": "tests/unit/stateMachine.test.ts",
+      "status": "VERIFIED",
+      "details": {
+        "valid_transitions": [
+          "INITIATED + AUTHORIZE => AUTHORIZED",
+          "INITIATED + DECLINE => DECLINED",
+          "AUTHORIZED + SETTLE => SETTLED",
+          "AUTHORIZED + REVERSE => REVERSED",
+          "AUTHORIZED + EXPIRE => EXPIRED"
+        ],
+        "terminal_states": ["SETTLED", "DECLINED", "EXPIRED", "REVERSED"],
+        "error_handling": "Throws InvalidStateTransitionError on non-permitted transition attempts (30 test combinations verified)"
+      }
+    },
+    "centsMath": {
+      "file": "src/domain/budget/centsMath.ts",
+      "test_file": "tests/unit/centsMath.test.ts",
+      "status": "VERIFIED",
+      "details": {
+        "precision": "Exact integer cents precision using native BigInt arithmetic",
+        "toCents": "Converts dollar numbers/strings to BigInt cents; validates inputs and prevents fractional cent loss",
+        "toDollars": "Formats BigInt cents to two-decimal dollar strings with negative support",
+        "addCents": "Exact BigInt addition",
+        "subCents": "BigInt subtraction; guards against underflow by throwing InsufficientFundsError",
+        "mulCentsBasisPoints": "Scales cents by basis points (1 bp = 0.01%) via integer division by 10000n"
+      }
+    },
+    "policyEvaluator": {
+      "file": "src/domain/policy/evaluator.ts",
+      "test_file": "tests/unit/policyEvaluator.test.ts",
+      "status": "VERIFIED",
+      "details": {
+        "card_active_check": "Declines with DECLINED_CARD_INACTIVE when card policy is inactive",
+        "unicode_normalization": "Normalizes merchant names via normalizeUnicodeInput to prevent zero-width space and homoglyph bypasses",
+        "merchant_whitelist": "Case-insensitive whitelist validation after Unicode normalization",
+        "mcc_whitelist": "Restricts transactions to allowed Merchant Category Codes (MCC)",
+        "single_tx_cap": "Enforces singleTxCapCents threshold",
+        "monthly_limit": "Enforces remaining monthly budget (monthlyLimitCents - currentMonthlySpentCents)",
+        "time_window": "Enforces UTC operational hours restrictions (allowedHoursUtc)"
+      }
+    }
+  },
+  "unit_test_execution": {
+    "framework": "Vitest 2.1.9",
+    "test_files_passed": 4,
+    "total_tests_passed": 47,
+    "results": [
+      "✓ tests/unit/centsMath.test.ts (8 tests)",
+      "✓ tests/unit/stateMachine.test.ts (30 tests)",
+      "✓ tests/unit/policyEvaluator.test.ts (6 tests)",
+      "✓ tests/unit/authorizationEngine.test.ts (3 tests)"
+    ]
+  }
+}

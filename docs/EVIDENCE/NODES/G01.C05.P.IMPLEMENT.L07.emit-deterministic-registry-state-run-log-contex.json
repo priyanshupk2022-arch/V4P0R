@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:03:55.725Z",
+  "contains_secrets": false
+}

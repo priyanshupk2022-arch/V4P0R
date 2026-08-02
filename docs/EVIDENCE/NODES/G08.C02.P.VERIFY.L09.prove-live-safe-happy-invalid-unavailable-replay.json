@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.VERIFY.L09.prove-live-safe-happy-invalid-unavailable-replay",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

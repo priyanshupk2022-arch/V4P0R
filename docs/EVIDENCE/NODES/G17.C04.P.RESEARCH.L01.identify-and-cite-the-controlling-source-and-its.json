@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior\".",
+  "title": "Identify and cite the controlling source and its freshness — Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

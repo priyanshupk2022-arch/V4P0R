@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "snapshot_rule": "All three audits must bind to the same commit, source tree hash, deployment ID, contract manifest hash, and evidence-set hash. Any material change resets the clean-pass counter and starts a new audit epoch.",
+  "passes": [
+    {
+      "id": "P1",
+      "role": "audit-architecture",
+      "name": "Architecture, Data, Identity, and Security",
+      "fresh_context": true,
+      "read_only": true,
+      "must_not_receive": ["builder completion narrative", "earlier auditor verdict", "intended fix"],
+      "focus": ["architecture", "state machine", "money", "migrations", "atomicity", "RLS", "auth", "RBAC", "tenancy", "secrets", "threat model", "claims"]
+    },
+    {
+      "id": "P2",
+      "role": "audit-runtime",
+      "name": "Providers, Runtime, Concurrency, and Failure Recovery",
+      "fresh_context": true,
+      "read_only": true,
+      "must_not_receive": ["builder completion narrative", "P1 verdict", "intended fix"],
+      "focus": ["Prava", "Linq", "Senso", "merchant checkout", "idempotency", "webhooks", "timeouts", "duplicates", "races", "restart", "provider outage", "redaction"]
+    },
+    {
+      "id": "P3",
+      "role": "audit-release",
+      "name": "Product, Deployment, Operations, and Release Claims",
+      "fresh_context": true,
+      "read_only": true,
+      "must_not_receive": ["builder completion narrative", "P1 or P2 verdict", "intended fix"],
+      "focus": ["clean install", "full release battery", "public URL", "fresh browser", "accessibility", "responsive UX", "observability", "backup/restore", "rollback", "evidence integrity", "submission truth"]
+    }
+  ],
+  "finding_schema": {
+    "required": ["id", "fingerprint", "epoch", "pass", "snapshot", "title", "severity", "class", "release_blocker", "requirements", "affected_nodes", "expected", "observed", "evidence", "reproduction", "impact", "remediation_oracle", "restart_scope", "status"],
+    "severity": ["S0_CRITICAL", "S1_HIGH", "S2_MEDIUM", "S3_LOW"],
+    "status": ["OPEN", "FIXED_UNVERIFIED", "RETEST_PASS", "RETEST_FAIL", "FALSE_POSITIVE_PROVEN", "HUMAN_ACCEPTED_DEBT"]
+  },
+  "release_blockers": [
+    "any S0 or S1",
+    "any mandatory S2",
+    "any violated graph leaf or frozen invariant",
+    "fabricated or stale evidence",
+    "missing live provider or deployed-browser proof",
+    "unresolved WAITING_INPUT or REVALIDATE state",
+    "audits not bound to one final snapshot"
+  ],
+  "repair_loop": [
+    "merge findings by fingerprint",
+    "assign bounded fixes to non-auditor builders",
+    "mark fixes FIXED_UNVERIFIED",
+    "reproduce with a fresh retester",
+    "run targeted and impact regressions",
+    "seal a new snapshot",
+    "reset clean-pass counter to zero",
+    "rerun P1, P2, and P3 independently"
+  ],
+  "terminal_rule": "READY_FOR_CODEX_INDEPENDENT_AUDIT requires three consecutive clean passes, zero open release blockers, zero missing inputs, and complete current handoff evidence. It is not Codex PASS or authority for a production payment."
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C07.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof\".",
+  "title": "Prove behavior when a required input is missing or invalid — Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

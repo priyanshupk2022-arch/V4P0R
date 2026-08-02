@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C03.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Verify raw Standard Webhooks signatures and timestamp freshness\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Verify raw Standard Webhooks signatures and timestamp freshness",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

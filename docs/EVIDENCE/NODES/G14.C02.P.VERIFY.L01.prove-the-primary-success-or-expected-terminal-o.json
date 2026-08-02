@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Prove the primary success or expected terminal outcome — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

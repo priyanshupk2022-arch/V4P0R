@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Define observability, correlation, and evidence requirements — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:59:26.746Z",
+  "contains_secrets": false
+}

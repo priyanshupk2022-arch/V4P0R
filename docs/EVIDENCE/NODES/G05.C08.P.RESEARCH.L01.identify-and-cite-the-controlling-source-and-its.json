@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C08.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Persist policy inputs, decision, version, approver, and redacted audit evidence atomically\".",
+  "title": "Identify and cite the controlling source and its freshness — Persist policy inputs, decision, version, approver, and redacted audit evidence atomically",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

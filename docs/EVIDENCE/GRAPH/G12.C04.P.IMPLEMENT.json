@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift only after its preceding package evidence passes.",
+  "title": "implement package for Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:01.217Z",
+  "contains_secrets": false
+}

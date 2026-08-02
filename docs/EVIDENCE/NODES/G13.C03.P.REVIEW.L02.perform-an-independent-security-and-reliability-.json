@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Perform an independent security and reliability challenge — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Prove upstream and downstream integration against current contracts — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:42:17.883Z",
+  "contains_secrets": false
+}

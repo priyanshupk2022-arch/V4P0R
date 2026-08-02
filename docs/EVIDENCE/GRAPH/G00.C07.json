@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Define the implementation cut line without removing the Prava golden path\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:18:20.838Z",
+  "contains_secrets": false
+}

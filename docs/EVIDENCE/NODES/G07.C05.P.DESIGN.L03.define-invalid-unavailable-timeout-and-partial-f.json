@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Map only the documented like and dislike reactions to approve and reject\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Map only the documented like and dislike reactions to approve and reject",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

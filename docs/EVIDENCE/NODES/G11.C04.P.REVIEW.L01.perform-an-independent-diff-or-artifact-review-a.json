@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

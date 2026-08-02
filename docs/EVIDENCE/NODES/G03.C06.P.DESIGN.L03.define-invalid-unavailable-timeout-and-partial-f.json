@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

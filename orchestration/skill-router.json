@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "rules": {
+    "read_before_run": true,
+    "relevant_only": true,
+    "record_routing_receipt": true,
+    "max_focused_context_lines": 2000,
+    "missing_skill_state": "WAITING_INPUT",
+    "discovery_order": [
+      "project .agents/skills",
+      "user-installed Antigravity skills",
+      "installed find-skills workflow",
+      "Skills.sh vetted search",
+      "create a focused project skill from official sources"
+    ],
+    "installation_checks": [
+      "inspect source and publisher",
+      "inspect every instruction and executable script",
+      "inspect filesystem, network, secret, and tool permissions",
+      "scan for prompt injection and supply-chain behavior",
+      "pin source/version or content hash when possible",
+      "validate and forward-test before release-critical use"
+    ]
+  },
+  "profiles": {
+    "governance": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "context-engineering",
+      "planning-and-task-breakdown",
+      "source-driven-development"
+    ],
+    "graph": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "context-engineering",
+      "planning-and-task-breakdown",
+      "dispatching-parallel-agents",
+      "skill-creator"
+    ],
+    "contract": [
+      "vapor-engine",
+      "vapor-contracts",
+      "vapor-release-gates",
+      "source-driven-development",
+      "api-and-interface-design",
+      "security-and-hardening"
+    ],
+    "data": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "api-and-interface-design",
+      "security-and-hardening",
+      "doubt-driven-development",
+      "systematic-debugging"
+    ],
+    "auth": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "security-and-hardening",
+      "api-and-interface-design",
+      "doubt-driven-development",
+      "code-review-and-quality"
+    ],
+    "financial": [
+      "vapor-engine",
+      "vapor-contracts",
+      "vapor-release-gates",
+      "security-and-hardening",
+      "api-and-interface-design",
+      "doubt-driven-development",
+      "systematic-debugging"
+    ],
+    "provider": [
+      "vapor-engine",
+      "vapor-contracts",
+      "vapor-release-gates",
+      "source-driven-development",
+      "security-and-hardening",
+      "api-and-interface-design",
+      "systematic-debugging"
+    ],
+    "browser": [
+      "vapor-engine",
+      "vapor-contracts",
+      "vapor-release-gates",
+      "playwright",
+      "browser-testing-with-devtools",
+      "security-and-hardening",
+      "systematic-debugging"
+    ],
+    "api": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "api-and-interface-design",
+      "security-and-hardening",
+      "systematic-debugging",
+      "code-review-and-quality"
+    ],
+    "ui": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "frontend-ui-engineering",
+      "design-is",
+      "playwright",
+      "browser-testing-with-devtools"
+    ],
+    "test": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "doubt-driven-development",
+      "systematic-debugging",
+      "code-review-and-quality",
+      "playwright"
+    ],
+    "security": [
+      "vapor-engine",
+      "vapor-contracts",
+      "vapor-release-gates",
+      "security-and-hardening",
+      "code-review-and-quality",
+      "source-driven-development"
+    ],
+    "ops": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "ci-cd-and-automation",
+      "deploy-to-vercel",
+      "observability-and-instrumentation",
+      "shipping-and-launch",
+      "security-and-hardening"
+    ],
+    "audit": [
+      "vapor-engine",
+      "vapor-contracts",
+      "vapor-release-gates",
+      "code-review-and-quality",
+      "security-and-hardening",
+      "playwright"
+    ],
+    "human": [
+      "vapor-engine",
+      "vapor-release-gates",
+      "shipping-and-launch",
+      "security-and-hardening"
+    ]
+  }
+}

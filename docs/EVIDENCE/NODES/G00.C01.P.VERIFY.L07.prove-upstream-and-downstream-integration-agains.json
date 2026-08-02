@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Prove upstream and downstream integration against current contracts — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:37:19.698Z",
+  "contains_secrets": false
+}

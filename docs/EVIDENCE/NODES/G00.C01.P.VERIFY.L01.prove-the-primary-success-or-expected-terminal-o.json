@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Prove the primary success or expected terminal outcome — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:36:46.954Z",
+  "contains_secrets": false
+}

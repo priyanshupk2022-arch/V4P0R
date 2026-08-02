@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:42:23.917Z",
+  "contains_secrets": false
+}

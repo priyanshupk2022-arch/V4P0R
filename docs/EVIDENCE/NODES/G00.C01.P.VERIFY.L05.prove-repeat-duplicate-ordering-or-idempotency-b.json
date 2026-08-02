@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:37:08.873Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.VERIFY.L09.run-source-history-dependency-artifact-auth-inje",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

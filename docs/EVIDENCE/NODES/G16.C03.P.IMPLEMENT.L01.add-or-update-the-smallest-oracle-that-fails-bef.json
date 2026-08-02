@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C03.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries\".",
+  "title": "Add or update the smallest oracle that fails before the change — Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

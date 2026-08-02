@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Prove upstream and downstream integration against current contracts — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:14:21.541Z",
+  "contains_secrets": false
+}

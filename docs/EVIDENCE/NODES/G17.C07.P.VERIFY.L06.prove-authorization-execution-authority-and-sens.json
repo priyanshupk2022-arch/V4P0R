@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C07.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

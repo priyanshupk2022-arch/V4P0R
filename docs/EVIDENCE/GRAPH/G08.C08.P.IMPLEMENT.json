@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Persist only safe Prava identifiers, states, errors, and correlation evidence only after its preceding package evidence passes.",
+  "title": "implement package for Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

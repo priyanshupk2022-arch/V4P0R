@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

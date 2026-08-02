@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Verify all three professor passes bind to one unchanged sealed snapshot\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Verify all three professor passes bind to one unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

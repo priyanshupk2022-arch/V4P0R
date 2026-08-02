@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C06.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Reject duplicate, conflicting, late, unauthorized, and replayed decisions\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Reject duplicate, conflicting, late, unauthorized, and replayed decisions",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Record residual low-risk limitations and prohibit unsupported readiness claims\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:11.553Z",
+  "contains_secrets": false
+}

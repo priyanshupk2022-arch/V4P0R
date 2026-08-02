@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.RESEARCH.L07.map-every-visible-state-and-claim-to-a-durable-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every visible state and claim to a durable backend or provider state for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Map every visible state and claim to a durable backend or provider state — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Certify pass only for the same sealed snapshot when no release blocker remains\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.010Z",
+  "contains_secrets": false
+}

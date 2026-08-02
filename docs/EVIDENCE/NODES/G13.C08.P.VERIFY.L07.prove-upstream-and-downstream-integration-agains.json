@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Prove upstream and downstream integration against current contracts — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

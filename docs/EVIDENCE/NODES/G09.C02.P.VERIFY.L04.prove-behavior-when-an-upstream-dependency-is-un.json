@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C02.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Create a fresh isolated browser context with no stored payment or user data\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Create a fresh isolated browser context with no stored payment or user data",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

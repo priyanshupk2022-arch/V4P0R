@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Implement input, contract, and state validation — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:34:17.679Z",
+  "contains_secrets": false
+}

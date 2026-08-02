@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

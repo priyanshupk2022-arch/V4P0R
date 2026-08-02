@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:44:58.528Z",
+  "contains_secrets": false
+}

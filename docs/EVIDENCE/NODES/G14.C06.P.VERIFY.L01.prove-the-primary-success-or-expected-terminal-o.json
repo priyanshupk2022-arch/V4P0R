@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks\".",
+  "title": "Prove the primary success or expected terminal outcome — Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

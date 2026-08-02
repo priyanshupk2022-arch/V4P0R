@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:16.059Z",
+  "contains_secrets": false
+}

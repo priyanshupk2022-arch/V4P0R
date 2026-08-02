@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.010Z",
+  "contains_secrets": false
+}

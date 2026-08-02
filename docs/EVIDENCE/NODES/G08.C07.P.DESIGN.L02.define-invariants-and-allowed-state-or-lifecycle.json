@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.459Z",
+  "contains_secrets": false
+}

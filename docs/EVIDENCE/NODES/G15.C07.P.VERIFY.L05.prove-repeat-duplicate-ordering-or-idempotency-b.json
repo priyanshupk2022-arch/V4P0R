@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

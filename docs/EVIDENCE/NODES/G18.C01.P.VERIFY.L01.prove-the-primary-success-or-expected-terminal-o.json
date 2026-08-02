@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Rebuild and test the sealed snapshot in a clean environment\".",
+  "title": "Prove the primary success or expected terminal outcome — Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.REVIEW.L05.independently-reconcile-claim-scope-graph-and-ev",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently reconcile claim, scope, graph, and evidence registers for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Independently reconcile claim, scope, graph, and evidence registers — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:47:14.973Z",
+  "contains_secrets": false
+}

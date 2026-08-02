@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C03.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Define one explicit purchase, approval, checkout, and result state machine\".",
+  "title": "Prove the primary success or expected terminal outcome — Define one explicit purchase, approval, checkout, and result state machine",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

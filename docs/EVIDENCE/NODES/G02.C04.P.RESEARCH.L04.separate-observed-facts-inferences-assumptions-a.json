@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:33:54.756Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C05.P.DESIGN.L07.define-finding-fingerprint-severity-release-impa",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define finding fingerprint, severity, release impact, reproduction, and restart scope for capability \"Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage\".",
+  "title": "Define finding fingerprint, severity, release impact, reproduction, and restart scope — Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

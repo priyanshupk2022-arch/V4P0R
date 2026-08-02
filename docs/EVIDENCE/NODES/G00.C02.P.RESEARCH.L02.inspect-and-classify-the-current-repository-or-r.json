@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:21:29.964Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

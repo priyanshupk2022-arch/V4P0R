@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:56:38.047Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Present the US-first procurement problem and product value without unsupported claims only after its preceding package evidence passes.",
+  "title": "design package for Present the US-first procurement problem and product value without unsupported claims",
+  "timestamp": "2026-08-02T16:59:58.943Z",
+  "contains_secrets": false
+}

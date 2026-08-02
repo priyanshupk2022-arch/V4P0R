@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C06.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Reject duplicate, conflicting, late, unauthorized, and replayed decisions\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Reject duplicate, conflicting, late, unauthorized, and replayed decisions",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

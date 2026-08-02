@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

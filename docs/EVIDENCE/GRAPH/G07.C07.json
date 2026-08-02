@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.192Z",
+  "contains_secrets": false
+}

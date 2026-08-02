@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:22:50.168Z",
+  "contains_secrets": false
+}

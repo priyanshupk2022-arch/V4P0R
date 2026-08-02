@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

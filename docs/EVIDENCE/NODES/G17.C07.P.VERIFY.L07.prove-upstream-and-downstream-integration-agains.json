@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Prove upstream and downstream integration against current contracts — Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

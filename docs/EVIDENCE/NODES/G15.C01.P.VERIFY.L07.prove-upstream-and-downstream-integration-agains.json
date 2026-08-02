@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Prove upstream and downstream integration against current contracts — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

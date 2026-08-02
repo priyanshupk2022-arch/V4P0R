@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.RESEARCH.L07.compare-every-readiness-claim-with-code-tests-ru",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Compare every readiness claim with code, tests, runtime, and external proof for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Compare every readiness claim with code, tests, runtime, and external proof — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:23:32.496Z",
+  "contains_secrets": false
+}

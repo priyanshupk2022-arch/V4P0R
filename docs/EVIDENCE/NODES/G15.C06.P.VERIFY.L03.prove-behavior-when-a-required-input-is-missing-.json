@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Prove behavior when a required input is missing or invalid — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

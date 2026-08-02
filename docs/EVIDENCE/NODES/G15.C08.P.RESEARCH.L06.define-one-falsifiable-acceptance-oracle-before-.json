@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

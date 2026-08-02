@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C07.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles only after its preceding package evidence passes.",
+  "title": "review package for Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:07.554Z",
+  "contains_secrets": false
+}

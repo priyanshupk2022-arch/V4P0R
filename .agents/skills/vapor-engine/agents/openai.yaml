@@ -1,4 +1,4 @@
 interface:
   display_name: "VAPOR Engine"
-  short_description: "Run VAPOR's evidence-gated multi-agent build loop"
-  default_prompt: "Use the VAPOR Engine to execute the current roadmap node with isolated subagents, test oracles, evidence, and state updates."
+  short_description: "Execute VAPOR's production DAG to the Codex audit gate"
+  default_prompt: "Use $vapor-engine to execute ready graph nodes with mandatory skills, isolated specialist subagents, resumable missing inputs, evidence-gated verification, and three fresh professor audits."

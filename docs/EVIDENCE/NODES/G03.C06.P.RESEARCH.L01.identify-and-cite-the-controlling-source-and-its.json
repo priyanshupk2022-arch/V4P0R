@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Identify and cite the controlling source and its freshness — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

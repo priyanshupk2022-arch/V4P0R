@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Identify and cite the controlling source and its freshness — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Produce a reviewer-approved contract manifest for every external call\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:02.137Z",
+  "contains_secrets": false
+}

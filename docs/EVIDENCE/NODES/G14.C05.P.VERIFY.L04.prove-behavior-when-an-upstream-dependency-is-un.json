@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

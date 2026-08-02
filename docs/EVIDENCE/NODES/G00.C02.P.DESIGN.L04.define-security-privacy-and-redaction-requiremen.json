@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Define security, privacy, and redaction requirements — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:26:53.207Z",
+  "contains_secrets": false
+}

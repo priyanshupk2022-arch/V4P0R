@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Compile focused current-node context below the configured attention budget only after its preceding package evidence passes.",
+  "title": "design package for Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:54:49.216Z",
+  "contains_secrets": false
+}

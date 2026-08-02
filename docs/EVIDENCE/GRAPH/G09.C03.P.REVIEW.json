@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C03.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Navigate product, cart, address, and checkout steps deterministically only after its preceding package evidence passes.",
+  "title": "review package for Navigate product, cart, address, and checkout steps deterministically",
+  "timestamp": "2026-08-02T16:59:57.256Z",
+  "contains_secrets": false
+}

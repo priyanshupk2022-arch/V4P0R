@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Add or update the smallest oracle that fails before the change — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:01.654Z",
+  "contains_secrets": false
+}

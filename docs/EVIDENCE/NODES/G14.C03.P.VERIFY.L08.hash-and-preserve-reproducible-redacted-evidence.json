@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Hash and preserve reproducible redacted evidence — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

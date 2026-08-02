@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C04.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Create complete RLS policies for every tenant-owned table and operation\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Create complete RLS policies for every tenant-owned table and operation",
+  "timestamp": "2026-08-02T16:59:55.473Z",
+  "contains_secrets": false
+}

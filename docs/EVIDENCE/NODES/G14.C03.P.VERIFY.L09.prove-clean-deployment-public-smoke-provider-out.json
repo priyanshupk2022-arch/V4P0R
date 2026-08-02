@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.VERIFY.L09.prove-clean-deployment-public-smoke-provider-out",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove clean deployment, public smoke, provider outage, backup, restore, and rollback for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Prove clean deployment, public smoke, provider outage, backup, restore, and rollback — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

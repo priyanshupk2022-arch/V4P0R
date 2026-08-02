@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove behavior when a required input is missing or invalid — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:29.723Z",
+  "contains_secrets": false
+}

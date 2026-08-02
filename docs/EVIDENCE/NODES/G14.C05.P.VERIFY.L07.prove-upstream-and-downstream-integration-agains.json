@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches\".",
+  "title": "Prove upstream and downstream integration against current contracts — Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

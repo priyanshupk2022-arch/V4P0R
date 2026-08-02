@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:56:23.156Z",
+  "contains_secrets": false
+}

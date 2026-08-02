@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Enforce least-privilege RBAC for every API and workflow transition\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

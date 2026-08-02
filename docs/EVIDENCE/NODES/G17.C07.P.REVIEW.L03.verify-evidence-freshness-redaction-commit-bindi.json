@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C07.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

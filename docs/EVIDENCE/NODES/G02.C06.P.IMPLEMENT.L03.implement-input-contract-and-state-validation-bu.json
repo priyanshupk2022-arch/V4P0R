@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-bu",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Implement input, contract, and state validation — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:59:43.098Z",
+  "contains_secrets": false
+}

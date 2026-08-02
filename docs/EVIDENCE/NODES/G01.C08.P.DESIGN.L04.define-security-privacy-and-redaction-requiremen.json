@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Define security, privacy, and redaction requirements — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:59:58.406Z",
+  "contains_secrets": false
+}

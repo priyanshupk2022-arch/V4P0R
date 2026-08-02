@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Prove upstream and downstream integration against current contracts — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

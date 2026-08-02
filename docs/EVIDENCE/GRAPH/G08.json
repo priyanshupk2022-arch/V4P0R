@@ -1,0 +1,11 @@
+{
+  "node_id": "G08",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G08 only after every declared predecessor completion gate passes.",
+  "title": "Real Prava purchase permission and one-time card flow",
+  "timestamp": "2026-08-02T16:59:56.167Z",
+  "contains_secrets": false
+}

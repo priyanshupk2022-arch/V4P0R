@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Prove the primary rejection or negative outcome — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:13:04.669Z",
+  "contains_secrets": false
+}

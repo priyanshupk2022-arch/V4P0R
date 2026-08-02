@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:55.103Z",
+  "contains_secrets": false
+}

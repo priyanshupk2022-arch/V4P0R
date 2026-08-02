@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

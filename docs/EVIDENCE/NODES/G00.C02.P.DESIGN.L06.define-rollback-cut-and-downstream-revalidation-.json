@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:27:02.498Z",
+  "contains_secrets": false
+}

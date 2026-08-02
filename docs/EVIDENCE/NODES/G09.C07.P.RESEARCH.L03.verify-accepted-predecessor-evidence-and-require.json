@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C07.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Prove upstream and downstream integration against current contracts — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

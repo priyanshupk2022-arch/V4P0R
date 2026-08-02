@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior\".",
+  "title": "Define security, privacy, and redaction requirements — Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

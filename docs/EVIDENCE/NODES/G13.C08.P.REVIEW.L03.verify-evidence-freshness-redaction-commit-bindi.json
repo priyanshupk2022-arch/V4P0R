@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.633Z",
+  "contains_secrets": false
+}

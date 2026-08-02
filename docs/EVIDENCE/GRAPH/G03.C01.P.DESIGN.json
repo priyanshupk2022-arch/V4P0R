@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Define one canonical purchase-request aggregate and identifier model only after its preceding package evidence passes.",
+  "title": "design package for Define one canonical purchase-request aggregate and identifier model",
+  "timestamp": "2026-08-02T16:59:54.892Z",
+  "contains_secrets": false
+}

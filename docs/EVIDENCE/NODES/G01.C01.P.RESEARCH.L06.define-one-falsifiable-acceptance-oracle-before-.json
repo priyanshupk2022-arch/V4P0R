@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:49:58.673Z",
+  "contains_secrets": false
+}

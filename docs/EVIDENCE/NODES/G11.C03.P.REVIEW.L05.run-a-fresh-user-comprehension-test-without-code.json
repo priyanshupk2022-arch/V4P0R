@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.REVIEW.L05.run-a-fresh-user-comprehension-test-without-code",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Run a fresh-user comprehension test without code knowledge or team-only access for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Run a fresh-user comprehension test without code knowledge or team-only access — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C04.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Reject invalid, duplicate, out-of-order, expired, and concurrent transitions only after its preceding package evidence passes.",
+  "title": "research package for Reject invalid, duplicate, out-of-order, expired, and concurrent transitions",
+  "timestamp": "2026-08-02T16:59:54.829Z",
+  "contains_secrets": false
+}

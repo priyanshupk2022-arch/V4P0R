@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-te",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Implement input, contract, and state validation — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

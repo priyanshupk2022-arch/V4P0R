@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Prove the primary rejection or negative outcome — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:42:39.553Z",
+  "contains_secrets": false
+}

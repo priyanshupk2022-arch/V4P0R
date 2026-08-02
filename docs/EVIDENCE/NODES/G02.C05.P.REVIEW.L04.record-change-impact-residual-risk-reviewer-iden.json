@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:59:54.753Z",
+  "contains_secrets": false
+}

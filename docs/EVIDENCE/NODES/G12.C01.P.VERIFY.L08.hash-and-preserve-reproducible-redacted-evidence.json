@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Hash and preserve reproducible redacted evidence — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

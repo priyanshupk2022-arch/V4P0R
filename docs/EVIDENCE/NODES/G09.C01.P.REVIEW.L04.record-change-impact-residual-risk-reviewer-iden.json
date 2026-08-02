@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Select and validate one automatable end merchant and deterministic product scenario\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Select and validate one automatable end merchant and deterministic product scenario",
+  "timestamp": "2026-08-02T16:59:57.277Z",
+  "contains_secrets": false
+}

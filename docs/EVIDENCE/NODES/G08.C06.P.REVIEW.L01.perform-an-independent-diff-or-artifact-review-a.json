@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.845Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.VERIFY.L09.prove-no-historical-narrative-can-unlock-a-curre",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove no historical narrative can unlock a current implementation gate for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Prove no historical narrative can unlock a current implementation gate — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:40:50.750Z",
+  "contains_secrets": false
+}

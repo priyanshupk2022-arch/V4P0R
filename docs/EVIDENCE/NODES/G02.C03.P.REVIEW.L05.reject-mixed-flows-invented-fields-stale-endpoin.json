@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.REVIEW.L05.reject-mixed-flows-invented-fields-stale-endpoin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Reject mixed flows, invented fields, stale endpoints, and credential-bearing evidence for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Reject mixed flows, invented fields, stale endpoints, and credential-bearing evidence — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:33:25.945Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C07.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

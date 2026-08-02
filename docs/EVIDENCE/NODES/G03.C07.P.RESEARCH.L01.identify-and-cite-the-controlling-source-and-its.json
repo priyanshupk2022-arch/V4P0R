@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Identify and cite the controlling source and its freshness — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

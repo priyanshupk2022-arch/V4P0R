@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Prove the primary rejection or negative outcome — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:21.857Z",
+  "contains_secrets": false
+}

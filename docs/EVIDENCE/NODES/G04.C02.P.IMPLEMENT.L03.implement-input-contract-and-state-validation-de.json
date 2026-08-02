@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C02.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-de",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Derive organization and role only from durable membership\".",
+  "title": "Implement input, contract, and state validation — Derive organization and role only from durable membership",
+  "timestamp": "2026-08-02T16:59:55.322Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

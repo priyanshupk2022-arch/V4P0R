@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Detect graph drift, stale evidence, ownership collisions, and revalidation impact only after its preceding package evidence passes.",
+  "title": "verify package for Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:19:39.262Z",
+  "contains_secrets": false
+}

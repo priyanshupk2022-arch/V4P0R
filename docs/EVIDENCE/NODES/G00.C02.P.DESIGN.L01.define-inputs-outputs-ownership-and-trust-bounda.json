@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:26:37.753Z",
+  "contains_secrets": false
+}

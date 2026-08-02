@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Prove behavior when a required input is missing or invalid — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

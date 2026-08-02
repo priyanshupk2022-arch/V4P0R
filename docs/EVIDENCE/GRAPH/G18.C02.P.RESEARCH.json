@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Run the public product journey in a fresh unauthenticated or judge-safe browser only after its preceding package evidence passes.",
+  "title": "research package for Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:09.536Z",
+  "contains_secrets": false
+}

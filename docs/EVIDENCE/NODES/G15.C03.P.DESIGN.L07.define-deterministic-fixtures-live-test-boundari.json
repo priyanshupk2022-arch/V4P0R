@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.DESIGN.L07.define-deterministic-fixtures-live-test-boundari",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

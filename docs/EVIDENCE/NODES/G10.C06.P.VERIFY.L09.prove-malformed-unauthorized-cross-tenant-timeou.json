@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06.P.VERIFY.L09.prove-malformed-unauthorized-cross-tenant-timeou",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior for capability \"Handle partial database, provider, network, and browser failures without synthetic completion\".",
+  "title": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior — Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

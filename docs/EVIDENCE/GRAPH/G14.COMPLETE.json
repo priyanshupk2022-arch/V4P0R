@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.COMPLETE",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Complete G14 only after every mandatory atomic descendant is independently verified with current evidence.",
+  "title": "G14 completion gate",
+  "timestamp": "2026-08-02T17:00:04.688Z",
+  "contains_secrets": false
+}

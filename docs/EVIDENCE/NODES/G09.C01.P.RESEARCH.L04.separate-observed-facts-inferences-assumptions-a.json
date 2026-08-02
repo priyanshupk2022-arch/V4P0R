@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Select and validate one automatable end merchant and deterministic product scenario\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Select and validate one automatable end merchant and deterministic product scenario",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

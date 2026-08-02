@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Verify all G00 through G18 mandatory descendants are current PASS only after its preceding package evidence passes.",
+  "title": "research package for Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:11.199Z",
+  "contains_secrets": false
+}

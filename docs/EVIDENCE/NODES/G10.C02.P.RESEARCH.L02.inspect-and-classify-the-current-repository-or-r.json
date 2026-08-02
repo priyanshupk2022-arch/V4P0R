@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.376Z",
+  "contains_secrets": false
+}

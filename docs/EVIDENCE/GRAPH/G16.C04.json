@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:06.401Z",
+  "contains_secrets": false
+}

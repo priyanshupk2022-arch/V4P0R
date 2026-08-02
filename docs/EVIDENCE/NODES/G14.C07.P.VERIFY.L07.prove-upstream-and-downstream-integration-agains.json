@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Prove upstream and downstream integration against current contracts — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

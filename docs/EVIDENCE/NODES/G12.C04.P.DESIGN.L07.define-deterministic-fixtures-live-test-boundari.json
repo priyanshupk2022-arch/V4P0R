@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.DESIGN.L07.define-deterministic-fixtures-live-test-boundari",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning for capability \"Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift\".",
+  "title": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning — Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C07.P.DESIGN.L07.define-accessible-responsive-idle-working-waitin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define accessible responsive idle, working, waiting, success, decline, unavailable, and failure states for capability \"Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states\".",
+  "title": "Define accessible responsive idle, working, waiting, success, decline, unavailable, and failure states — Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

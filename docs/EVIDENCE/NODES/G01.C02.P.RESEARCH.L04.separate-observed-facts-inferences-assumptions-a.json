@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:50:25.717Z",
+  "contains_secrets": false
+}

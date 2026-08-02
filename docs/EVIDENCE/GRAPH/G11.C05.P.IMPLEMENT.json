@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C05.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Show merchant checkout attempt and expected sandbox decline accurately only after its preceding package evidence passes.",
+  "title": "implement package for Show merchant checkout attempt and expected sandbox decline accurately",
+  "timestamp": "2026-08-02T16:59:59.212Z",
+  "contains_secrets": false
+}

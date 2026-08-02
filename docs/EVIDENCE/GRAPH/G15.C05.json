@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify the public URL from a fresh judge-safe browser context\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:04.798Z",
+  "contains_secrets": false
+}

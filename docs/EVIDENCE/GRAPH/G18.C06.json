@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.464Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:08:30.327Z",
+  "contains_secrets": false
+}

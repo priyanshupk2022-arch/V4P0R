@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.RESEARCH.L07.verify-account-specific-guidance-official-docs-s",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify account-specific guidance, official docs, SDK types, and safe observed fields for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Verify account-specific guidance, official docs, SDK types, and safe observed fields — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:22:57.201Z",
+  "contains_secrets": false
+}

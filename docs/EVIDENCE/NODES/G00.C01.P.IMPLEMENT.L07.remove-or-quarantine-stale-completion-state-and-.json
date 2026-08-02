@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.IMPLEMENT.L07.remove-or-quarantine-stale-completion-state-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove or quarantine stale completion state and unsupported authority for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Remove or quarantine stale completion state and unsupported authority — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:31:46.721Z",
+  "contains_secrets": false
+}

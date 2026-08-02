@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C08.P.IMPLEMENT.L07.connect-ui-actions-to-real-server-workflows-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Connect UI actions to real server workflows and remove simulated release-path success for capability \"Deliver an accessible responsive under-two-minute judge journey on a public URL\".",
+  "title": "Connect UI actions to real server workflows and remove simulated release-path success — Deliver an accessible responsive under-two-minute judge journey on a public URL",
+  "timestamp": "2026-08-02T16:59:59.310Z",
+  "contains_secrets": false
+}

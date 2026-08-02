@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:48:35.129Z",
+  "contains_secrets": false
+}

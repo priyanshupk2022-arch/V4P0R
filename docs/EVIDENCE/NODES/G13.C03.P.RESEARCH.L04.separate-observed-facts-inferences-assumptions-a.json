@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

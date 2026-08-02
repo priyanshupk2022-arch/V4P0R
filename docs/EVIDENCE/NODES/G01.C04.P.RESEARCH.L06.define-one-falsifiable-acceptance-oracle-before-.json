@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:51:53.323Z",
+  "contains_secrets": false
+}

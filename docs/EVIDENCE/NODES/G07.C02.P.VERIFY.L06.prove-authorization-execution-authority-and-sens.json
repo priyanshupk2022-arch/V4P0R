@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C02.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Persist returned chat and message identifiers against one pending approval\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Persist returned chat and message identifiers against one pending approval",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

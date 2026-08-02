@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C07.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states\".",
+  "title": "Prove behavior when a required input is missing or invalid — Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

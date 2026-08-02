@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Create or register the exact approved purchase through the selected Prava flow only after its preceding package evidence passes.",
+  "title": "design package for Create or register the exact approved purchase through the selected Prava flow",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

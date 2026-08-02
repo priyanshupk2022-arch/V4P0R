@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.VERIFY.L09.prove-no-historical-narrative-can-unlock-a-curre",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove no historical narrative can unlock a current implementation gate for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Prove no historical narrative can unlock a current implementation gate — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:41:39.608Z",
+  "contains_secrets": false
+}

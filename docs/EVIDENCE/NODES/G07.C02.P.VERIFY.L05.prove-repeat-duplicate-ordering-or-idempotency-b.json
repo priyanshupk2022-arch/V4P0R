@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Persist returned chat and message identifiers against one pending approval\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Persist returned chat and message identifiers against one pending approval",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

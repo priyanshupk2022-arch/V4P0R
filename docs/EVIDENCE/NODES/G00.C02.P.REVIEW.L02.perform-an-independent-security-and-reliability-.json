@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Perform an independent security and reliability challenge — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:44:40.838Z",
+  "contains_secrets": false
+}

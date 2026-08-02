@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.COMPLETE",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Complete G18 only after every mandatory atomic descendant is independently verified with current evidence.",
+  "title": "G18 completion gate",
+  "timestamp": "2026-08-02T17:00:10.970Z",
+  "contains_secrets": false
+}

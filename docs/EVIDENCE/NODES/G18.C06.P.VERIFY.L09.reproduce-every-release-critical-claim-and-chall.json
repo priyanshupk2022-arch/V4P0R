@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

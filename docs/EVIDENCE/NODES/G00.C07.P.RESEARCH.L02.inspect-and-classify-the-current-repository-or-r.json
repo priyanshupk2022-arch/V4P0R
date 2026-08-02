@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:24:14.964Z",
+  "contains_secrets": false
+}

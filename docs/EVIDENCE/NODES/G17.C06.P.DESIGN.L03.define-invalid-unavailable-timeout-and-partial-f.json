@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

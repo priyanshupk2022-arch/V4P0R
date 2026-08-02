@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C04.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Invoke the approved permission to obtain a one-time checkout credential\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Invoke the approved permission to obtain a one-time checkout credential",
+  "timestamp": "2026-08-02T16:59:56.845Z",
+  "contains_secrets": false
+}

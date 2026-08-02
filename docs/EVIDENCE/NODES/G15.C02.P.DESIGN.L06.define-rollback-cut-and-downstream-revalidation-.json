@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

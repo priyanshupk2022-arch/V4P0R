@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C05.P.RESEARCH.L07.map-every-requirement-to-an-independent-positive",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every requirement to an independent positive and negative oracle for capability \"Test approval and payment workflows under races, restarts, late events, and partial failure\".",
+  "title": "Map every requirement to an independent positive and negative oracle — Test approval and payment workflows under races, restarts, late events, and partial failure",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

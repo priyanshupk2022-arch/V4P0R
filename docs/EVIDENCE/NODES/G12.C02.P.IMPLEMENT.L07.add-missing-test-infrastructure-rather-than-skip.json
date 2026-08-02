@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.IMPLEMENT.L07.add-missing-test-infrastructure-rather-than-skip",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Add missing test infrastructure rather than skipping absent checks for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Add missing test infrastructure rather than skipping absent checks — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

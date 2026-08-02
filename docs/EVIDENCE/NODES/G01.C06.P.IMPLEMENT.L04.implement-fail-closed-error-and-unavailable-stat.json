@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:04:16.831Z",
+  "contains_secrets": false
+}

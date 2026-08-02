@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:59:53.444Z",
+  "contains_secrets": false
+}

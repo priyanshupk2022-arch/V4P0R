@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C02.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Call the real configured Senso organization search contract only after its preceding package evidence passes.",
+  "title": "research package for Call the real configured Senso organization search contract",
+  "timestamp": "2026-08-02T16:59:55.544Z",
+  "contains_secrets": false
+}

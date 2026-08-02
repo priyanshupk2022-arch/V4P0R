@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

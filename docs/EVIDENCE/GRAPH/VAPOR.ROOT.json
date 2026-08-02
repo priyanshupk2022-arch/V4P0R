@@ -1,0 +1,11 @@
+{
+  "node_id": "VAPOR.ROOT",
+  "decision": "PASS",
+  "authority": "User approved creation of the VAPOR master execution control system in this conversation on 2026-08-02.",
+  "scope": "Create orchestration, graph, skill, context, missing-input, audit, validation, and bootstrap artifacts. Do not execute product implementation, provider calls, deployment, commit, push, production payment, or submission in this control-plane build step.",
+  "human_gates_reserved": [
+    "H_PRODUCTION_PAYMENT",
+    "H_FINAL_SUBMISSION"
+  ],
+  "contains_secrets": false
+}

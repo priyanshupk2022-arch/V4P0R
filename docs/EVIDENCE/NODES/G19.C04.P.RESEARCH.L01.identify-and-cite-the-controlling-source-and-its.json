@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\".",
+  "title": "Identify and cite the controlling source and its freshness — Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

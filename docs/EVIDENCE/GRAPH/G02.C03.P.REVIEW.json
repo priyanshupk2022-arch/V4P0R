@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Verify Senso organization search authentication and response semantics only after its preceding package evidence passes.",
+  "title": "review package for Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:33:02.650Z",
+  "contains_secrets": false
+}

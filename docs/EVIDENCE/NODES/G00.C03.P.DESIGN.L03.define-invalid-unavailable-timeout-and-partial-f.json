@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:27:21.542Z",
+  "contains_secrets": false
+}

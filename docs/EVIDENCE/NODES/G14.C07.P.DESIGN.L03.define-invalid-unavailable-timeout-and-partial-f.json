@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

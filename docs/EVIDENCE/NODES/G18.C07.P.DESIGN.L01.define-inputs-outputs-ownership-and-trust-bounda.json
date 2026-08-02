@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C07.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

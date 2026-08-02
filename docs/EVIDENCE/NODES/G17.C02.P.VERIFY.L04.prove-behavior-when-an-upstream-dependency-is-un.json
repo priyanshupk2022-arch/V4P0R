@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

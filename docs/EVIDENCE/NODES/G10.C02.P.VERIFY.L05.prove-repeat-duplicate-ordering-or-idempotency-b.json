@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

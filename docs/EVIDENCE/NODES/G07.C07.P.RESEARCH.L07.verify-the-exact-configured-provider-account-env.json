@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C07.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Enforce first-valid-decision behavior under duplicate and concurrent reactions\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

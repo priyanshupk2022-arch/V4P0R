@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:11.089Z",
+  "contains_secrets": false
+}

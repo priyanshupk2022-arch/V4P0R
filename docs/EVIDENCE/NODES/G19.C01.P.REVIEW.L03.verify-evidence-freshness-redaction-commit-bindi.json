@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

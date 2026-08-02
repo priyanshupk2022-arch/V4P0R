@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Hash and preserve reproducible redacted evidence — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:21:21.023Z",
+  "contains_secrets": false
+}

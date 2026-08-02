@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

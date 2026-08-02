@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.VERIFY.L09.run-source-history-dependency-artifact-auth-inje",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

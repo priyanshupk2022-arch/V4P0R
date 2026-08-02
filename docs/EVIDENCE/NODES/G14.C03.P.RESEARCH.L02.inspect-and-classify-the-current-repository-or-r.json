@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

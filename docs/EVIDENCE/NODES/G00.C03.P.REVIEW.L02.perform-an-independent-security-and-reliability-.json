@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Perform an independent security and reliability challenge — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:45:07.791Z",
+  "contains_secrets": false
+}

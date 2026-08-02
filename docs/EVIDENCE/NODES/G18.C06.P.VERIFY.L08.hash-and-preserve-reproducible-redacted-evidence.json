@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Hash and preserve reproducible redacted evidence — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

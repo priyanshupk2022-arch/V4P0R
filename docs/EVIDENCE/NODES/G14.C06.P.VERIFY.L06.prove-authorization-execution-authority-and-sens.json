@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

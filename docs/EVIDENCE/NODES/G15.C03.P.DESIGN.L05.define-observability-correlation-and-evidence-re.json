@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Define observability, correlation, and evidence requirements — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Publish a truth baseline that cannot mark implementation nodes complete only after its preceding package evidence passes.",
+  "title": "verify package for Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:36:39.865Z",
+  "contains_secrets": false
+}

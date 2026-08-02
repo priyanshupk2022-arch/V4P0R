@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open and coordinate the evidence-gated capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:04.798Z",
+  "contains_secrets": false
+}

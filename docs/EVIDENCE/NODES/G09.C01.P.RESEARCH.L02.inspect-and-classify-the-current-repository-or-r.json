@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C01.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Select and validate one automatable end merchant and deterministic product scenario\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Select and validate one automatable end merchant and deterministic product scenario",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:53:21.800Z",
+  "contains_secrets": false
+}

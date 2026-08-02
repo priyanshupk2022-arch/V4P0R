@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-sh",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Show merchant checkout attempt and expected sandbox decline accurately\".",
+  "title": "Implement input, contract, and state validation — Show merchant checkout attempt and expected sandbox decline accurately",
+  "timestamp": "2026-08-02T16:59:59.310Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:31:12.549Z",
+  "contains_secrets": false
+}

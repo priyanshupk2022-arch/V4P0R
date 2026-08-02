@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:49:14.509Z",
+  "contains_secrets": false
+}

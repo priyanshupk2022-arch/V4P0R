@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

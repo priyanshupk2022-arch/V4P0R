@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:30:45.224Z",
+  "contains_secrets": false
+}

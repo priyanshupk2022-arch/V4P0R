@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:21:01.861Z",
+  "contains_secrets": false
+}

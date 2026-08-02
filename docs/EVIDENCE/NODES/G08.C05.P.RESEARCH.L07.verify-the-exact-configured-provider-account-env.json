@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

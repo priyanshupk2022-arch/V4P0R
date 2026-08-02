@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Prove behavior when a required input is missing or invalid — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

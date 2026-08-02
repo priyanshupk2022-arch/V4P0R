@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.DESIGN.L07.define-finding-fingerprint-severity-release-impa",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define finding fingerprint, severity, release impact, reproduction, and restart scope for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Define finding fingerprint, severity, release impact, reproduction, and restart scope — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

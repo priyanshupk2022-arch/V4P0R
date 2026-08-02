@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.IMPLEMENT.L07.map-every-external-call-to-one-approved-contract",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every external call to one approved contract record for capability \"Verify Linq message creation and Standard Webhooks reaction contracts\".",
+  "title": "Map every external call to one approved contract record — Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:59:54.695Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-en",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege\".",
+  "title": "Implement input, contract, and state validation — Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

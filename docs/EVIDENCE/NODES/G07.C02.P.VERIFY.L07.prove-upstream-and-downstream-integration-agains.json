@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Persist returned chat and message identifiers against one pending approval\".",
+  "title": "Prove upstream and downstream integration against current contracts — Persist returned chat and message identifiers against one pending approval",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

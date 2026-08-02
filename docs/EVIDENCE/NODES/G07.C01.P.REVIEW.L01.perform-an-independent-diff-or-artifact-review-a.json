@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Send a real Linq approval message with an idempotency key\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

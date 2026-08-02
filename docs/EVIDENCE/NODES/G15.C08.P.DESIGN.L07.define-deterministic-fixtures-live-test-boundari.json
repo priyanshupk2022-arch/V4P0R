@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.DESIGN.L07.define-deterministic-fixtures-live-test-boundari",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

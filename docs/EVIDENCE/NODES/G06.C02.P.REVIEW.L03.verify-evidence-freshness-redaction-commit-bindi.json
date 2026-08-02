@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Call the real configured Senso organization search contract\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Call the real configured Senso organization search contract",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

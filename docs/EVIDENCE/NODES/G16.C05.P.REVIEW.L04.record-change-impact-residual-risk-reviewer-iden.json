@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

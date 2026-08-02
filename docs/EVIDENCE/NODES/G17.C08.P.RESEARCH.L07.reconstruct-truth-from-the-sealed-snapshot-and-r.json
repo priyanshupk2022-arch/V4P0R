@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Certify pass only for the same sealed snapshot when no release blocker remains\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

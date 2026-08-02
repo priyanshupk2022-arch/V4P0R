@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:42:01.368Z",
+  "contains_secrets": false
+}

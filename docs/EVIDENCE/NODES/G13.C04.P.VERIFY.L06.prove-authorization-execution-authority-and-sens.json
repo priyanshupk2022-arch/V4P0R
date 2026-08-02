@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

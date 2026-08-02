@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Create and test a threat model for users, tenants, providers, webhooks, browser, and operators\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

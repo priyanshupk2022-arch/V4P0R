@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Define observability, correlation, and evidence requirements — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:29:47.381Z",
+  "contains_secrets": false
+}

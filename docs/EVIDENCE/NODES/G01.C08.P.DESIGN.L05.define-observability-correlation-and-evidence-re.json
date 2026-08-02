@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Define observability, correlation, and evidence requirements — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:00:03.209Z",
+  "contains_secrets": false
+}

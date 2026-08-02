@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C05.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Reconcile migrations into one ordered repeatable deployment history only after its preceding package evidence passes.",
+  "title": "implement package for Reconcile migrations into one ordered repeatable deployment history",
+  "timestamp": "2026-08-02T16:59:54.954Z",
+  "contains_secrets": false
+}

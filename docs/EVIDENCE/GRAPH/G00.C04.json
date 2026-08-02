@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Freeze the US-first global-expansion product positioning and golden flow\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:18:07.037Z",
+  "contains_secrets": false
+}

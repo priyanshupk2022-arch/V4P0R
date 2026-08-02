@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C03.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Explain allow, reject, and human-escalation decisions with stable reason codes\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Explain allow, reject, and human-escalation decisions with stable reason codes",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

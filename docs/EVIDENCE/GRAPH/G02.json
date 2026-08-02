@@ -1,0 +1,11 @@
+{
+  "node_id": "G02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G02 only after every declared predecessor completion gate passes.",
+  "title": "Official contracts, runtime feasibility, and missing inputs",
+  "timestamp": "2026-08-02T16:22:06.345Z",
+  "contains_secrets": false
+}

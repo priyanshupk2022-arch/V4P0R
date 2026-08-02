@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

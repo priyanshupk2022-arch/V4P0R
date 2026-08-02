@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Prove behavior when a required input is missing or invalid — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

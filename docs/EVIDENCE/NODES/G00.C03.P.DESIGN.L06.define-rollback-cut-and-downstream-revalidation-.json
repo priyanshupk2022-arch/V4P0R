@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:27:37.093Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.VERIFY.L09.reject-orphan-duplicate-cycle-unreachable-collis",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Reject orphan, duplicate, cycle, unreachable, collision, and padding cases for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Reject orphan, duplicate, cycle, unreachable, collision, and padding cases — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:14:32.412Z",
+  "contains_secrets": false
+}

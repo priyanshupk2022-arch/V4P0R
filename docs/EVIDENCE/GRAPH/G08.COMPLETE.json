@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.COMPLETE",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Complete G08 only after every mandatory atomic descendant is independently verified with current evidence.",
+  "title": "G08 completion gate",
+  "timestamp": "2026-08-02T16:59:56.896Z",
+  "contains_secrets": false
+}

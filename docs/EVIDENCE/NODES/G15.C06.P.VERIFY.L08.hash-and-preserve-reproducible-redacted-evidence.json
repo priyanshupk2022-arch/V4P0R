@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Hash and preserve reproducible redacted evidence — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Define observability, correlation, and evidence requirements — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

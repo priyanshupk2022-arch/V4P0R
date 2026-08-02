@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Prove the primary success or expected terminal outcome — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:08:08.552Z",
+  "contains_secrets": false
+}

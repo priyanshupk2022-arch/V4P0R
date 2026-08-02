@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

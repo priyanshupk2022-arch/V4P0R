@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C03.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Verify all three professor passes bind to one unchanged sealed snapshot\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Verify all three professor passes bind to one unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

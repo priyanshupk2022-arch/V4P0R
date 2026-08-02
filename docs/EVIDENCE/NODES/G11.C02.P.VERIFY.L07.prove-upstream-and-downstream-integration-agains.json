@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Accept a real purchase intent and display product and Senso evidence\".",
+  "title": "Prove upstream and downstream integration against current contracts — Accept a real purchase intent and display product and Senso evidence",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

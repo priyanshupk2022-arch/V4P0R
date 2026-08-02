@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C05.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege only after its preceding package evidence passes.",
+  "title": "review package for Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

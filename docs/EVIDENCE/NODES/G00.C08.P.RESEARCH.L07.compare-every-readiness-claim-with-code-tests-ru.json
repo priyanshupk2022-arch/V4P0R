@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.RESEARCH.L07.compare-every-readiness-claim-with-code-tests-ru",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Compare every readiness claim with code, tests, runtime, and external proof for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Compare every readiness claim with code, tests, runtime, and external proof — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:25:13.396Z",
+  "contains_secrets": false
+}

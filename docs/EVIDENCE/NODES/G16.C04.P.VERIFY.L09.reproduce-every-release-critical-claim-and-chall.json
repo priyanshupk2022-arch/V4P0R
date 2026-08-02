@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

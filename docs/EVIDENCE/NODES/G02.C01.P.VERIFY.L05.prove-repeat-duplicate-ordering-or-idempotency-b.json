@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:59:54.721Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05.P.REVIEW.L05.independently-operate-the-runbooks-from-a-fresh-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently operate the runbooks from a fresh environment for capability \"Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches\".",
+  "title": "Independently operate the runbooks from a fresh environment — Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

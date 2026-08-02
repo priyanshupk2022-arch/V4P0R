@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

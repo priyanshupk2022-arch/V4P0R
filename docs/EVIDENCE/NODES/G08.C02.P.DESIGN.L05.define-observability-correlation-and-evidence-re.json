@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Define observability, correlation, and evidence requirements — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.DESIGN.L07.define-finding-fingerprint-severity-release-impa",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define finding fingerprint, severity, release impact, reproduction, and restart scope for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Define finding fingerprint, severity, release impact, reproduction, and restart scope — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

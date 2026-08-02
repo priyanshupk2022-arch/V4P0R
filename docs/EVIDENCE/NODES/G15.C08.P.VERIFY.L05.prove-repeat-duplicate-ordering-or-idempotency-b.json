@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

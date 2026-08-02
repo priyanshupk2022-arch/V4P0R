@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C01.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Present the US-first procurement problem and product value without unsupported claims only after its preceding package evidence passes.",
+  "title": "research package for Present the US-first procurement problem and product value without unsupported claims",
+  "timestamp": "2026-08-02T16:59:58.585Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C08.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Deliver an accessible responsive under-two-minute judge journey on a public URL only after its preceding package evidence passes.",
+  "title": "review package for Deliver an accessible responsive under-two-minute judge journey on a public URL",
+  "timestamp": "2026-08-02T16:59:59.915Z",
+  "contains_secrets": false
+}

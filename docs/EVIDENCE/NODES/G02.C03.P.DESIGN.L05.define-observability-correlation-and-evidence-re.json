@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Define observability, correlation, and evidence requirements — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:31:25.861Z",
+  "contains_secrets": false
+}

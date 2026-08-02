@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C02.P.RESEARCH.L07.inspect-merchant-flow-automation-constraints-sen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect merchant flow, automation constraints, sensitive fields, CAPTCHA, and terminal outcomes for capability \"Create a fresh isolated browser context with no stored payment or user data\".",
+  "title": "Inspect merchant flow, automation constraints, sensitive fields, CAPTCHA, and terminal outcomes — Create a fresh isolated browser context with no stored payment or user data",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

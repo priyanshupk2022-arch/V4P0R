@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Implement the primary behavior within the assigned write scope — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:37:57.274Z",
+  "contains_secrets": false
+}

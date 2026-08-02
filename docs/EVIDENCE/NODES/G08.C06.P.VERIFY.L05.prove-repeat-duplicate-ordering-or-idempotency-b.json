@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.726Z",
+  "contains_secrets": false
+}

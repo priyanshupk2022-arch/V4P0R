@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Verify real Linq message ownership, signatures, reactions, expiry, and first decision only after its preceding package evidence passes.",
+  "title": "review package for Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:09.078Z",
+  "contains_secrets": false
+}

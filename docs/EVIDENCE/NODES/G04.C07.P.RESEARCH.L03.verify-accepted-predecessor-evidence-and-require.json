@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C07.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Fail closed when any required secret, membership, policy, or database dependency is unavailable\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Fail closed when any required secret, membership, policy, or database dependency is unavailable",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

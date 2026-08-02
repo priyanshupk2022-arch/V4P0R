@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Define one explicit purchase, approval, checkout, and result state machine\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Define one explicit purchase, approval, checkout, and result state machine",
+  "timestamp": "2026-08-02T16:59:54.818Z",
+  "contains_secrets": false
+}

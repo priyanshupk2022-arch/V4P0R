@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:20:24.043Z",
+  "contains_secrets": false
+}

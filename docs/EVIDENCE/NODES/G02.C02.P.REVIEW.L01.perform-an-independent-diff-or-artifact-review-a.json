@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Verify Linq message creation and Standard Webhooks reaction contracts\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:59:54.791Z",
+  "contains_secrets": false
+}

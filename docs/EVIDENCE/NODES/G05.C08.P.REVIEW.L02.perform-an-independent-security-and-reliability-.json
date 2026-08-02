@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C08.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Persist policy inputs, decision, version, approver, and redacted audit evidence atomically\".",
+  "title": "Perform an independent security and reliability challenge — Persist policy inputs, decision, version, approver, and redacted audit evidence atomically",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

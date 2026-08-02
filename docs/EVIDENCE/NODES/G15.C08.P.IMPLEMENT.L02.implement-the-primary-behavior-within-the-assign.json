@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Implement the primary behavior within the assigned write scope — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

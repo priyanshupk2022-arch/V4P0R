@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:55:28.646Z",
+  "contains_secrets": false
+}

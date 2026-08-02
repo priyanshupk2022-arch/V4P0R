@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C08.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

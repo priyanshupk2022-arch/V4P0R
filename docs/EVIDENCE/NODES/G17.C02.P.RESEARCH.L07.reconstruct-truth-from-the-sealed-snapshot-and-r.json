@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

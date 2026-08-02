@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C07.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Fail closed when any required secret, membership, policy, or database dependency is unavailable\".",
+  "title": "Define observability, correlation, and evidence requirements — Fail closed when any required secret, membership, policy, or database dependency is unavailable",
+  "timestamp": "2026-08-02T16:59:55.256Z",
+  "contains_secrets": false
+}

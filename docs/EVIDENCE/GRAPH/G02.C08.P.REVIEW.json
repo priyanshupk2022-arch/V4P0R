@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Produce a reviewer-approved contract manifest for every external call only after its preceding package evidence passes.",
+  "title": "review package for Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:59:54.753Z",
+  "contains_secrets": false
+}

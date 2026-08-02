@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:02.893Z",
+  "contains_secrets": false
+}

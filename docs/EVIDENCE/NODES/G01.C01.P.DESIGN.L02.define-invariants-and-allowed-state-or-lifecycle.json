@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:55:23.232Z",
+  "contains_secrets": false
+}

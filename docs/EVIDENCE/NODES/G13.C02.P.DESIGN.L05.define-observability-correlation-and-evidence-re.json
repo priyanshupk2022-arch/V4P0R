@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Define observability, correlation, and evidence requirements — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

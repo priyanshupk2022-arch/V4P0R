@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Verify Linq message creation and Standard Webhooks reaction contracts\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:26:58.318Z",
+  "contains_secrets": false
+}

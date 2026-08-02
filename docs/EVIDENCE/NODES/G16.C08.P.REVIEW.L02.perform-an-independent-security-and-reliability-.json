@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Perform an independent security and reliability challenge — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

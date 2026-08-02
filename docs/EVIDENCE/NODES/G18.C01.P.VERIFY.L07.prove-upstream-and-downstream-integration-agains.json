@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Rebuild and test the sealed snapshot in a clean environment\".",
+  "title": "Prove upstream and downstream integration against current contracts — Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

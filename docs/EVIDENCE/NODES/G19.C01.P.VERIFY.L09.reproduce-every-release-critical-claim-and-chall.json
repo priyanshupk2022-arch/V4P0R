@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

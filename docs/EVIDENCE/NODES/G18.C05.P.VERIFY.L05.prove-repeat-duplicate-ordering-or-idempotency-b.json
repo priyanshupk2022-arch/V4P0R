@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

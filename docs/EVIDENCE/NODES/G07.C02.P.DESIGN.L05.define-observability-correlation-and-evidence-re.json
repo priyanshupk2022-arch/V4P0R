@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C02.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Persist returned chat and message identifiers against one pending approval\".",
+  "title": "Define observability, correlation, and evidence requirements — Persist returned chat and message identifiers against one pending approval",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

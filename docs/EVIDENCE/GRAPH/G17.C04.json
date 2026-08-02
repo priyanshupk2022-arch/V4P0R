@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:08.010Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:30:54.228Z",
+  "contains_secrets": false
+}

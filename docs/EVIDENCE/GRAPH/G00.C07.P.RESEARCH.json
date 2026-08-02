@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Define the implementation cut line without removing the Prava golden path only after its preceding package evidence passes.",
+  "title": "research package for Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:20:42.619Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Identify and cite the controlling source and its freshness — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:52:04.411Z",
+  "contains_secrets": false
+}

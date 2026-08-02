@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.REVIEW.L05.challenge-ledger-terminology-and-transaction-gua",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Challenge ledger terminology and transaction guarantees against actual database behavior for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Challenge ledger terminology and transaction guarantees against actual database behavior — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:55.103Z",
+  "contains_secrets": false
+}

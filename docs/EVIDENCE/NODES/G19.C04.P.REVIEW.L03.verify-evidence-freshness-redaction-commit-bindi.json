@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

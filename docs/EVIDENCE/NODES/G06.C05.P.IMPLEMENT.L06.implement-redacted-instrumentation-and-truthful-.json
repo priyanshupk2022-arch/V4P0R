@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

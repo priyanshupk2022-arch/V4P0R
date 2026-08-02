@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C03.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Generate and propagate correlation IDs across requests, database, providers, browser, and evidence\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Generate and propagate correlation IDs across requests, database, providers, browser, and evidence",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

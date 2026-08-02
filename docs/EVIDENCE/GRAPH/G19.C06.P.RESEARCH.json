@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Record residual low-risk limitations and prohibit unsupported readiness claims only after its preceding package evidence passes.",
+  "title": "research package for Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:11.199Z",
+  "contains_secrets": false
+}

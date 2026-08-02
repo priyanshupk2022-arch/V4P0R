@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Test the public product with fresh-browser, responsive, and accessibility oracles\".",
+  "title": "Hash and preserve reproducible redacted evidence — Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

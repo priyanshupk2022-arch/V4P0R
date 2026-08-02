@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C03.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-fr",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement input, contract, and state validation for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Implement input, contract, and state validation — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

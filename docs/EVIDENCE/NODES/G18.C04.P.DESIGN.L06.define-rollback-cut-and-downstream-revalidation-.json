@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

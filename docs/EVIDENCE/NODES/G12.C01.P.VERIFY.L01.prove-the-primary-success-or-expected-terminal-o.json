@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Prove the primary success or expected terminal outcome — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

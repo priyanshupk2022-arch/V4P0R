@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:37:30.568Z",
+  "contains_secrets": false
+}

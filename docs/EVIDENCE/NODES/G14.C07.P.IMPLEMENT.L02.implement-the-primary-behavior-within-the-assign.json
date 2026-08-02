@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Implement the primary behavior within the assigned write scope — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

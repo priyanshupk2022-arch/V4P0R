@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

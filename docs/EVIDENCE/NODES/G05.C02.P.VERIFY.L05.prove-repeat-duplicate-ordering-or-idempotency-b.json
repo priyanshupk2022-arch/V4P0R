@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Normalize merchant and category inputs without changing financial meaning\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Normalize merchant and category inputs without changing financial meaning",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Prove upstream and downstream integration against current contracts — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

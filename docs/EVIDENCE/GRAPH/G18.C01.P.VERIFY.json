@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Rebuild and test the sealed snapshot in a clean environment only after its preceding package evidence passes.",
+  "title": "verify package for Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:10.266Z",
+  "contains_secrets": false
+}

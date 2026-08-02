@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

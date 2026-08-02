@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.DESIGN.L07.define-dependency-ownership-stale-evidence-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define dependency, ownership, stale-evidence, and resume semantics for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Define dependency, ownership, stale-evidence, and resume semantics — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:56:28.771Z",
+  "contains_secrets": false
+}

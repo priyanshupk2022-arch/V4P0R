@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Implement the primary behavior within the assigned write scope — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:12:28.850Z",
+  "contains_secrets": false
+}

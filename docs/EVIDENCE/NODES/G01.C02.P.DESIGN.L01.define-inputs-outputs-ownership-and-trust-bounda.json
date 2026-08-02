@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:55:56.013Z",
+  "contains_secrets": false
+}

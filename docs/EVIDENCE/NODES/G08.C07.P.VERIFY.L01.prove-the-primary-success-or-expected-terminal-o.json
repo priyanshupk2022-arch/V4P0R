@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Prove the primary success or expected terminal outcome — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:35:50.158Z",
+  "contains_secrets": false
+}

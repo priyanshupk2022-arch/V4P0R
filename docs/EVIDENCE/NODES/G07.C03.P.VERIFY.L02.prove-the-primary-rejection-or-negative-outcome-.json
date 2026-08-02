@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C03.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Verify raw Standard Webhooks signatures and timestamp freshness\".",
+  "title": "Prove the primary rejection or negative outcome — Verify raw Standard Webhooks signatures and timestamp freshness",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

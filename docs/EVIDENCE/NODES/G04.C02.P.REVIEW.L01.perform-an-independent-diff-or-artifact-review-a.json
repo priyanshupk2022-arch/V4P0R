@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C02.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Derive organization and role only from durable membership\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Derive organization and role only from durable membership",
+  "timestamp": "2026-08-02T16:59:55.473Z",
+  "contains_secrets": false
+}

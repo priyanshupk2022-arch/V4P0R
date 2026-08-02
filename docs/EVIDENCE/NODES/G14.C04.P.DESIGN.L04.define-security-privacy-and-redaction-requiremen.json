@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Provide health, readiness, structured redacted logs, metrics, traces, and correlation\".",
+  "title": "Define security, privacy, and redaction requirements — Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

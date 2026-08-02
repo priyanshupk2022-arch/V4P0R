@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Prove upstream and downstream integration against current contracts — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

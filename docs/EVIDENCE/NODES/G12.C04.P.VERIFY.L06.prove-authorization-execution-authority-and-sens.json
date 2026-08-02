@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Prove the primary rejection or negative outcome — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

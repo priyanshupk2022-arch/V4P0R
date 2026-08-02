@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Implement durable unique constraints and append-only audit corrections only after its preceding package evidence passes.",
+  "title": "research package for Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:54.829Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C06.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Attempt exactly one authorized sandbox checkout without blind credential retry\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Attempt exactly one authorized sandbox checkout without blind credential retry",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

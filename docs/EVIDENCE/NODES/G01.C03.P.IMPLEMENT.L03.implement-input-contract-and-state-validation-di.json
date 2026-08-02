@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C03.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-di",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Discover and vet missing skills through installed inventory, find-skills, and Skills.sh\".",
+  "title": "Implement input, contract, and state validation — Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+  "timestamp": "2026-08-02T16:02:16.974Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Prove behavior when a required input is missing or invalid — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

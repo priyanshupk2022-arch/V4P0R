@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

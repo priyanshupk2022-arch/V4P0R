@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Persist decisions, contracts, evidence, inputs, commits, and change impact only after its preceding package evidence passes.",
+  "title": "review package for Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:15:16.535Z",
+  "contains_secrets": false
+}

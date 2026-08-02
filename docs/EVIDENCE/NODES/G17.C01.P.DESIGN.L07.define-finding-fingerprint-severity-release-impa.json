@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.DESIGN.L07.define-finding-fingerprint-severity-release-impa",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define finding fingerprint, severity, release impact, reproduction, and restart scope for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Define finding fingerprint, severity, release impact, reproduction, and restart scope — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

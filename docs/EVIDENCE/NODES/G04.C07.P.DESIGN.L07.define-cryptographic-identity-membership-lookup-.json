@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C07.P.DESIGN.L07.define-cryptographic-identity-membership-lookup-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Define cryptographic identity, membership lookup, RLS, and least-privilege rules for capability \"Fail closed when any required secret, membership, policy, or database dependency is unavailable\".",
+  "title": "Define cryptographic identity, membership lookup, RLS, and least-privilege rules — Fail closed when any required secret, membership, policy, or database dependency is unavailable",
+  "timestamp": "2026-08-02T16:59:55.256Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open the design package for Verify the public URL from a fresh judge-safe browser context only after its preceding package evidence passes.",
+  "title": "design package for Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.081Z",
+  "contains_secrets": false
+}

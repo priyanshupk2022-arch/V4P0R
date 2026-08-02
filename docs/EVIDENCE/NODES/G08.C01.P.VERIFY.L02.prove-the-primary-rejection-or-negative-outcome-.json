@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C01.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Create or register the exact approved purchase through the selected Prava flow\".",
+  "title": "Prove the primary rejection or negative outcome — Create or register the exact approved purchase through the selected Prava flow",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

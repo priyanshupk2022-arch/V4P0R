@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.IMPLEMENT.L07.remove-or-quarantine-stale-completion-state-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove or quarantine stale completion state and unsupported authority for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Remove or quarantine stale completion state and unsupported authority — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:32:18.948Z",
+  "contains_secrets": false
+}

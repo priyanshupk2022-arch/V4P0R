@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Prevent screenshots, traces, video, console, network logs, and errors from capturing card data\".",
+  "title": "Define observability, correlation, and evidence requirements — Prevent screenshots, traces, video, console, network logs, and errors from capturing card data",
+  "timestamp": "2026-08-02T16:59:57.047Z",
+  "contains_secrets": false
+}

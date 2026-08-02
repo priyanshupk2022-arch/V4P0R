@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-se",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Implement input, contract, and state validation — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:59:38.676Z",
+  "contains_secrets": false
+}

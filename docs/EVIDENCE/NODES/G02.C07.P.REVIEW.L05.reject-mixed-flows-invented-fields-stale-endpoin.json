@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.REVIEW.L05.reject-mixed-flows-invented-fields-stale-endpoin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Reject mixed flows, invented fields, stale endpoints, and credential-bearing evidence for capability \"Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success\".",
+  "title": "Reject mixed flows, invented fields, stale endpoints, and credential-bearing evidence — Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:59:14.107Z",
+  "contains_secrets": false
+}

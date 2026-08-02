@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:58:17.485Z",
+  "contains_secrets": false
+}

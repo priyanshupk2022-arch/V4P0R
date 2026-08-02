@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.158Z",
+  "contains_secrets": false
+}

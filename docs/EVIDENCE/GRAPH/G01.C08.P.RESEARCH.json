@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Resume safely from the latest verified checkpoint after interruption only after its preceding package evidence passes.",
+  "title": "research package for Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:49:24.847Z",
+  "contains_secrets": false
+}

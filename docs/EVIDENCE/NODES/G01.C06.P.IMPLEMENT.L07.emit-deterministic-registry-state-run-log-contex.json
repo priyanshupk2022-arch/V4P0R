@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:04:32.010Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Send a real Linq approval message with an idempotency key\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.DESIGN.L07.define-containment-rotation-retention-deletion-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define containment, rotation, retention, deletion, alerting, and incident response for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Define containment, rotation, retention, deletion, alerting, and incident response — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

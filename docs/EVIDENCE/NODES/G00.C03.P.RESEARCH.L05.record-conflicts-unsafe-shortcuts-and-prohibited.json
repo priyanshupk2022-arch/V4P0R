@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:22:16.758Z",
+  "contains_secrets": false
+}

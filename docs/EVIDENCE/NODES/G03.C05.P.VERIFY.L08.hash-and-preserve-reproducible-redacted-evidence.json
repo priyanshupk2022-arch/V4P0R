@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C05.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Reconcile migrations into one ordered repeatable deployment history\".",
+  "title": "Hash and preserve reproducible redacted evidence — Reconcile migrations into one ordered repeatable deployment history",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

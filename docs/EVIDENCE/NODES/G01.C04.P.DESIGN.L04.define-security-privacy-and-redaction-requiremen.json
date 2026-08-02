@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Define security, privacy, and redaction requirements — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:57:28.312Z",
+  "contains_secrets": false
+}

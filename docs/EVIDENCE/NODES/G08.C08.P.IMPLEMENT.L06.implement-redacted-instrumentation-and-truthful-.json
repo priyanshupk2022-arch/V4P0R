@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

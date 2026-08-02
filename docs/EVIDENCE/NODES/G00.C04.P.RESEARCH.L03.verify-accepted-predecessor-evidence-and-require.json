@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:22:40.536Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:29:51.940Z",
+  "contains_secrets": false
+}

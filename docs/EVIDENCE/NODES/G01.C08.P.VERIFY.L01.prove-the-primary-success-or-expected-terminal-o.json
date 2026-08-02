@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Prove the primary success or expected terminal outcome — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:23:13.135Z",
+  "contains_secrets": false
+}

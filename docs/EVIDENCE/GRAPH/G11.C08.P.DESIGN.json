@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C08.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Deliver an accessible responsive under-two-minute judge journey on a public URL only after its preceding package evidence passes.",
+  "title": "design package for Deliver an accessible responsive under-two-minute judge journey on a public URL",
+  "timestamp": "2026-08-02T16:59:58.943Z",
+  "contains_secrets": false
+}

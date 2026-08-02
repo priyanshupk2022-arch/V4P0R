@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

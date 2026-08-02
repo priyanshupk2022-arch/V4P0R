@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Hash and preserve reproducible redacted evidence — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:59:54.753Z",
+  "contains_secrets": false
+}

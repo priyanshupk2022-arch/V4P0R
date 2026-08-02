@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:52:48.086Z",
+  "contains_secrets": false
+}

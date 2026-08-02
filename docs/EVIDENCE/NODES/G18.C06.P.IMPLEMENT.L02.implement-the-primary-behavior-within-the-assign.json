@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Implement the primary behavior within the assigned write scope — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

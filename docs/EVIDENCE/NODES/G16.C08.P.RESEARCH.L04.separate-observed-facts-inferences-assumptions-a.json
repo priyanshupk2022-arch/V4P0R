@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

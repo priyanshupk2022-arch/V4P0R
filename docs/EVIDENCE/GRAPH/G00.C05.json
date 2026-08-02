@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:18:11.572Z",
+  "contains_secrets": false
+}

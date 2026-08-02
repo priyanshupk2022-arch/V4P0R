@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Define security, privacy, and redaction requirements — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:30:14.797Z",
+  "contains_secrets": false
+}

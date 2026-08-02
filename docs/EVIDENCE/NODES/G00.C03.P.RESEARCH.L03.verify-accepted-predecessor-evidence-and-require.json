@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:22:07.538Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C01.P.REVIEW.L05.challenge-ledger-terminology-and-transaction-gua",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Challenge ledger terminology and transaction guarantees against actual database behavior for capability \"Define one canonical purchase-request aggregate and identifier model\".",
+  "title": "Challenge ledger terminology and transaction guarantees against actual database behavior — Define one canonical purchase-request aggregate and identifier model",
+  "timestamp": "2026-08-02T16:59:55.103Z",
+  "contains_secrets": false
+}

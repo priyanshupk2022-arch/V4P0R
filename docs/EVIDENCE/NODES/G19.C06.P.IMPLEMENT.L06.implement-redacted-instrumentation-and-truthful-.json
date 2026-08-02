@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Record residual low-risk limitations and prohibit unsupported readiness claims\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:11.856Z",
+  "contains_secrets": false
+}

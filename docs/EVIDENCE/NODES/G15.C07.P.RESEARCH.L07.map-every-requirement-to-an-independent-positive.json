@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.RESEARCH.L07.map-every-requirement-to-an-independent-positive",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Map every requirement to an independent positive and negative oracle for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Map every requirement to an independent positive and negative oracle — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

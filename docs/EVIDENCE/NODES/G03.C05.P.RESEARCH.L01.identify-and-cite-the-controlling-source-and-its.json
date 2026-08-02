@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C05.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Reconcile migrations into one ordered repeatable deployment history\".",
+  "title": "Identify and cite the controlling source and its freshness — Reconcile migrations into one ordered repeatable deployment history",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

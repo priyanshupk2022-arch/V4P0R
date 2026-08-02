@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.DESIGN.L07.define-claim-language-that-cannot-overstate-sand",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define claim language that cannot overstate sandbox, production, compliance, or traction for capability \"Record the current branch, dirty worktree, baseline commit, and untrusted artifacts\".",
+  "title": "Define claim language that cannot overstate sandbox, production, compliance, or traction — Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:29:24.301Z",
+  "contains_secrets": false
+}

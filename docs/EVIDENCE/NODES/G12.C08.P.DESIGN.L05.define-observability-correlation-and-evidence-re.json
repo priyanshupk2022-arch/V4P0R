@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Define observability, correlation, and evidence requirements — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

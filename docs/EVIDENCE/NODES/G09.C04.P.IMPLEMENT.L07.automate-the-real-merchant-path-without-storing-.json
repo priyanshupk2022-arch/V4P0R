@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C04.P.IMPLEMENT.L07.automate-the-real-merchant-path-without-storing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Automate the real merchant path without storing or logging payment credentials for capability \"Pass the one-time card directly from the secure server boundary to checkout memory\".",
+  "title": "Automate the real merchant path without storing or logging payment credentials — Pass the one-time card directly from the secure server boundary to checkout memory",
+  "timestamp": "2026-08-02T16:59:57.124Z",
+  "contains_secrets": false
+}

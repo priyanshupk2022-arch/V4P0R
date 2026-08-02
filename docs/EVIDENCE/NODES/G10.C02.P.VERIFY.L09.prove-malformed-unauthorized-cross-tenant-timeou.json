@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.VERIFY.L09.prove-malformed-unauthorized-cross-tenant-timeou",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

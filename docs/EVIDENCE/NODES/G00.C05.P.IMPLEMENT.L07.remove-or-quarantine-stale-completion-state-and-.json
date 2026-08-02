@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C05.P.IMPLEMENT.L07.remove-or-quarantine-stale-completion-state-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove or quarantine stale completion state and unsupported authority for capability \"Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps\".",
+  "title": "Remove or quarantine stale completion state and unsupported authority — Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+  "timestamp": "2026-08-02T15:34:01.797Z",
+  "contains_secrets": false
+}

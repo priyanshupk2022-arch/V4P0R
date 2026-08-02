@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Record the current branch, dirty worktree, baseline commit, and untrusted artifacts only after its preceding package evidence passes.",
+  "title": "design package for Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:25:44.236Z",
+  "contains_secrets": false
+}

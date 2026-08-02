@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Verify the missing-input registry and unresolved release-blocker count are zero\".",
+  "title": "Prove the primary success or expected terminal outcome — Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

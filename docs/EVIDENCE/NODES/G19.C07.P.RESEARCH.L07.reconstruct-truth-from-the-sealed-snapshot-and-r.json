@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.RESEARCH.L07.reconstruct-truth-from-the-sealed-snapshot-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Reconstruct truth from the sealed snapshot and raw artifacts without builder conclusions — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

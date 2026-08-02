@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:06.776Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:05:57.458Z",
+  "contains_secrets": false
+}

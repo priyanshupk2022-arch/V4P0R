@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C04.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Pass the one-time card directly from the secure server boundary to checkout memory\".",
+  "title": "Define security, privacy, and redaction requirements — Pass the one-time card directly from the secure server boundary to checkout memory",
+  "timestamp": "2026-08-02T16:59:57.047Z",
+  "contains_secrets": false
+}

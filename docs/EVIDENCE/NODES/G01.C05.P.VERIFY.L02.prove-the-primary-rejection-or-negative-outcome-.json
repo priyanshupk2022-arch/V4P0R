@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Prove the primary rejection or negative outcome — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:13:54.592Z",
+  "contains_secrets": false
+}

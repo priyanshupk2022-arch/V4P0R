@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:58:01.252Z",
+  "contains_secrets": false
+}

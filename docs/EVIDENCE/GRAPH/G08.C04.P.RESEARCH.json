@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C04.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Invoke the approved permission to obtain a one-time checkout credential only after its preceding package evidence passes.",
+  "title": "research package for Invoke the approved permission to obtain a one-time checkout credential",
+  "timestamp": "2026-08-02T16:59:56.214Z",
+  "contains_secrets": false
+}

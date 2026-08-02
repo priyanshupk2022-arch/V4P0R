@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only only after its preceding package evidence passes.",
+  "title": "verify package for Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

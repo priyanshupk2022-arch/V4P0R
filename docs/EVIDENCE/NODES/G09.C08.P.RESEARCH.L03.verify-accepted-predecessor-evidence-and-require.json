@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C08.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

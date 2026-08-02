@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:00.289Z",
+  "contains_secrets": false
+}

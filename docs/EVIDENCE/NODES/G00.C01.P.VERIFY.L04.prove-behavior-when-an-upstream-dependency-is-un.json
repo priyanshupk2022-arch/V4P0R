@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:37:03.487Z",
+  "contains_secrets": false
+}

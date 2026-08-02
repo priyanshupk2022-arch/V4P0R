@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

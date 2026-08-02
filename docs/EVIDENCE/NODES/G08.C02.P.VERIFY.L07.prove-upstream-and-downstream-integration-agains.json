@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Prove upstream and downstream integration against current contracts — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

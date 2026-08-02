@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.DESIGN.L07.define-idempotency-retries-timeout-uncertain-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define idempotency, retries, timeout, uncertain result, webhook, and correlation behavior for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Define idempotency, retries, timeout, uncertain result, webhook, and correlation behavior — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.459Z",
+  "contains_secrets": false
+}

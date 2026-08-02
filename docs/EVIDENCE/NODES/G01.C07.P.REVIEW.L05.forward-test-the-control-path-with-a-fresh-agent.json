@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.REVIEW.L05.forward-test-the-control-path-with-a-fresh-agent",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Forward-test the control path with a fresh agent and bounded context for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Forward-test the control path with a fresh agent and bounded context — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:20:41.405Z",
+  "contains_secrets": false
+}

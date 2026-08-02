@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Persist decisions, contracts, evidence, inputs, commits, and change impact only after its preceding package evidence passes.",
+  "title": "design package for Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:54:54.689Z",
+  "contains_secrets": false
+}

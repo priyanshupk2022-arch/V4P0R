@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Implement the primary behavior within the assigned write scope — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:01:38.811Z",
+  "contains_secrets": false
+}

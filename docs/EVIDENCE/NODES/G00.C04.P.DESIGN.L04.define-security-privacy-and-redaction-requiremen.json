@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Define security, privacy, and redaction requirements — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:28:03.994Z",
+  "contains_secrets": false
+}

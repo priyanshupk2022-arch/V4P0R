@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.VERIFY.L09.prove-malformed-unauthorized-cross-tenant-timeou",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-pr",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Implement input, contract, and state validation — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:38:01.311Z",
+  "contains_secrets": false
+}

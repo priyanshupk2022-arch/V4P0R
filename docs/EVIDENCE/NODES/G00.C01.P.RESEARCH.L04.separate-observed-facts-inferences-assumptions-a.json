@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:21:06.932Z",
+  "contains_secrets": false
+}

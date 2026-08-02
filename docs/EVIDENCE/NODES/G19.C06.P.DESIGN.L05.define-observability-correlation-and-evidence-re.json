@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C06.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Record residual low-risk limitations and prohibit unsupported readiness claims\".",
+  "title": "Define observability, correlation, and evidence requirements — Record residual low-risk limitations and prohibit unsupported readiness claims",
+  "timestamp": "2026-08-02T17:00:11.553Z",
+  "contains_secrets": false
+}

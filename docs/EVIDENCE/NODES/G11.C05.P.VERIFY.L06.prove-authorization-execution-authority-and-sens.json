@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C05.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Show merchant checkout attempt and expected sandbox decline accurately\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Show merchant checkout attempt and expected sandbox decline accurately",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

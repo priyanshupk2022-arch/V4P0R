@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

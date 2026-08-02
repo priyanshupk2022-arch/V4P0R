@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.DESIGN.L07.select-one-contract-and-define-terminal-states-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Select one contract and define terminal states, retries, idempotency, and redaction for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Select one contract and define terminal states, retries, idempotency, and redaction — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:40:18.379Z",
+  "contains_secrets": false
+}

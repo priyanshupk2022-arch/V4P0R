@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:59:05.928Z",
+  "contains_secrets": false
+}

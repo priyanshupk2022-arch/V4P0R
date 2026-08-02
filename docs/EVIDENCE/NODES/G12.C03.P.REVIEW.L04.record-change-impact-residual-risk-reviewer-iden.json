@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

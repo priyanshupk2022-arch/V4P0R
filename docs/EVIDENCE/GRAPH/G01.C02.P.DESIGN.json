@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Route mandatory relevant skills before any node starts only after its preceding package evidence passes.",
+  "title": "design package for Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:54:38.257Z",
+  "contains_secrets": false
+}

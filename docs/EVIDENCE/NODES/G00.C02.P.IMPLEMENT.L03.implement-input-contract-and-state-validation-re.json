@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Implement input, contract, and state validation — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:32:00.511Z",
+  "contains_secrets": false
+}

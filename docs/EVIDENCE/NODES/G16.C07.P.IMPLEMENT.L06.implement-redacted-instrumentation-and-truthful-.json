@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C07.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

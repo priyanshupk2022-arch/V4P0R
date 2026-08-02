@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Durably reject duplicate webhook IDs and replayed reactions only after its preceding package evidence passes.",
+  "title": "design package for Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

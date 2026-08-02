@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.DESIGN.L07.define-claim-language-that-cannot-overstate-sand",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define claim language that cannot overstate sandbox, production, compliance, or traction for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Define claim language that cannot overstate sandbox, production, compliance, or traction — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:28:19.139Z",
+  "contains_secrets": false
+}

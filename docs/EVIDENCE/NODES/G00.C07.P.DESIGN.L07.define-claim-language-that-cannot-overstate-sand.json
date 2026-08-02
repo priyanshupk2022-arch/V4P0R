@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.DESIGN.L07.define-claim-language-that-cannot-overstate-sand",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define claim language that cannot overstate sandbox, production, compliance, or traction for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Define claim language that cannot overstate sandbox, production, compliance, or traction — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:29:56.581Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

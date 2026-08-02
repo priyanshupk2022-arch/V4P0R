@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-fr",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Implement input, contract, and state validation — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:33:06.998Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L09.reject-orphan-duplicate-cycle-unreachable-collis",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Reject orphan, duplicate, cycle, unreachable, collision, and padding cases for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Reject orphan, duplicate, cycle, unreachable, collision, and padding cases — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:12:26.418Z",
+  "contains_secrets": false
+}

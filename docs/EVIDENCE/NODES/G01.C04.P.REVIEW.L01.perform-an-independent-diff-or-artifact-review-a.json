@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:15:50.062Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C03.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Explain allow, reject, and human-escalation decisions with stable reason codes only after its preceding package evidence passes.",
+  "title": "review package for Explain allow, reject, and human-escalation decisions with stable reason codes",
+  "timestamp": "2026-08-02T16:59:56.010Z",
+  "contains_secrets": false
+}

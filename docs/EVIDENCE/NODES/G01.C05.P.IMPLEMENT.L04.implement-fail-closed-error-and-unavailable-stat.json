@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:03:39.837Z",
+  "contains_secrets": false
+}

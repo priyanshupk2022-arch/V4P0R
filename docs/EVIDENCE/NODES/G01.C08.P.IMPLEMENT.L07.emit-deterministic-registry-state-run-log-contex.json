@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:06:09.359Z",
+  "contains_secrets": false
+}

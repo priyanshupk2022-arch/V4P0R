@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Prove the primary success or expected terminal outcome — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

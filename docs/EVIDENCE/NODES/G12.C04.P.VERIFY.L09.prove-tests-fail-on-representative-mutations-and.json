@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C04.P.VERIFY.L09.prove-tests-fail-on-representative-mutations-and",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove tests fail on representative mutations and do not pass through fabricated fallbacks for capability \"Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift\".",
+  "title": "Prove tests fail on representative mutations and do not pass through fabricated fallbacks — Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

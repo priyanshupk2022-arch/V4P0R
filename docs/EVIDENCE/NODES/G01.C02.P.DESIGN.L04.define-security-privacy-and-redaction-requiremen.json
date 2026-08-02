@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Define security, privacy, and redaction requirements — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:56:12.316Z",
+  "contains_secrets": false
+}

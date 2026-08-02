@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

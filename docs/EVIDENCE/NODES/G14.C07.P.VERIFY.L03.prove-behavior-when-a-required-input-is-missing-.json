@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Prove behavior when a required input is missing or invalid — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

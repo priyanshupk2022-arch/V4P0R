@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C08.P.REVIEW.L05.independently-correlate-provider-evidence-with-d",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently correlate provider evidence with durable VAPOR state and redact secrets for capability \"Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully\".",
+  "title": "Independently correlate provider evidence with durable VAPOR state and redact secrets — Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

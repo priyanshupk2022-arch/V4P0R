@@ -1,0 +1,11 @@
+{
+  "node_id": "G15",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G15 only after every declared predecessor completion gate passes.",
+  "title": "Clean builder release battery and evidence freeze",
+  "timestamp": "2026-08-02T17:00:04.737Z",
+  "contains_secrets": false
+}

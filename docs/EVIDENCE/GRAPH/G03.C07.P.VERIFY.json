@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Implement durable unique constraints and append-only audit corrections only after its preceding package evidence passes.",
+  "title": "verify package for Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:55.015Z",
+  "contains_secrets": false
+}

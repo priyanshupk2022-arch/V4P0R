@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C01.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Select and validate one automatable end merchant and deterministic product scenario\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Select and validate one automatable end merchant and deterministic product scenario",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

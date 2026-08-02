@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:58:28.446Z",
+  "contains_secrets": false
+}

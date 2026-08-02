@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Validate the immutable hierarchical graph and append-only execution records only after its preceding package evidence passes.",
+  "title": "research package for Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:48:47.226Z",
+  "contains_secrets": false
+}

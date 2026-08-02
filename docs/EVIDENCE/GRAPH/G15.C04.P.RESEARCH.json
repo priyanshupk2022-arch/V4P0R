@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open the research package for Prove real Linq and Senso behavior with current account-enabled contracts only after its preceding package evidence passes.",
+  "title": "research package for Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:04.897Z",
+  "contains_secrets": false
+}

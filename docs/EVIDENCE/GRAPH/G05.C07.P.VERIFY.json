@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Bind every approval to one exact merchant, amount, currency, item count, and expiry only after its preceding package evidence passes.",
+  "title": "verify package for Bind every approval to one exact merchant, amount, currency, item count, and expiry",
+  "timestamp": "2026-08-02T16:59:55.879Z",
+  "contains_secrets": false
+}

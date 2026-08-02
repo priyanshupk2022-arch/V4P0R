@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:16:06.217Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Implement the primary behavior within the assigned write scope — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:55:10.585Z",
+  "contains_secrets": false
+}

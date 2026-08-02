@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Prove upstream and downstream integration against current contracts — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

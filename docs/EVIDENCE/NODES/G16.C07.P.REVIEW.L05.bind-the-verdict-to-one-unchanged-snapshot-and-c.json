@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C07.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

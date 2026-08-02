@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

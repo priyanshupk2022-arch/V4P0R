@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.VERIFY.L09.prove-contract-drift-malformed-response-rate-lim",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove contract drift, malformed response, rate limit, timeout, and provider-error behavior for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Prove contract drift, malformed response, rate limit, timeout, and provider-error behavior — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:36:05.890Z",
+  "contains_secrets": false
+}

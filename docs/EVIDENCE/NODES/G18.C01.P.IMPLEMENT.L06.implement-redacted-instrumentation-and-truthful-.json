@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Rebuild and test the sealed snapshot in a clean environment\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

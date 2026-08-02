@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:44:35.456Z",
+  "contains_secrets": false
+}

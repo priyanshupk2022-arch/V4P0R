@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

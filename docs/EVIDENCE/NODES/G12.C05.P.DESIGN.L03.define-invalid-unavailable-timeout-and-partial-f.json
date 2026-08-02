@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Test approval and payment workflows under races, restarts, late events, and partial failure\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Test approval and payment workflows under races, restarts, late events, and partial failure",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

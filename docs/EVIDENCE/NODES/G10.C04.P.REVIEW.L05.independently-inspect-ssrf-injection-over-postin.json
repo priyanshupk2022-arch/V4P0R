@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C04.P.REVIEW.L05.independently-inspect-ssrf-injection-over-postin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently inspect SSRF, injection, over-posting, data leak, and partial-commit paths for capability \"Make client and provider retries idempotent without duplicating approvals or payment attempts\".",
+  "title": "Independently inspect SSRF, injection, over-posting, data leak, and partial-commit paths — Make client and provider retries idempotent without duplicating approvals or payment attempts",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

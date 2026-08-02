@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C04.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Make client and provider retries idempotent without duplicating approvals or payment attempts\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Make client and provider retries idempotent without duplicating approvals or payment attempts",
+  "timestamp": "2026-08-02T16:59:57.713Z",
+  "contains_secrets": false
+}

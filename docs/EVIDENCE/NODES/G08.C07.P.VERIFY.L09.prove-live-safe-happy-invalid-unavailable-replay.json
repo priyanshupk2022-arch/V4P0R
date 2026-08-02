@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.VERIFY.L09.prove-live-safe-happy-invalid-unavailable-replay",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

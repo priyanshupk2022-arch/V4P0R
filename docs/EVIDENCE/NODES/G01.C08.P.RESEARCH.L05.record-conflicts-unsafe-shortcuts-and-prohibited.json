@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:54:14.957Z",
+  "contains_secrets": false
+}

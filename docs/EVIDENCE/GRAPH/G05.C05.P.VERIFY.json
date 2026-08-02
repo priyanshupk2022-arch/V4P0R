@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Create approval expiry, assigned approver, and first-valid-decision semantics only after its preceding package evidence passes.",
+  "title": "verify package for Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:55.879Z",
+  "contains_secrets": false
+}

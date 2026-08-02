@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:23.022Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Audit production dependencies, licenses, lockfile integrity, and build supply chain only after its preceding package evidence passes.",
+  "title": "review package for Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Document incident containment, credential rotation, data retention, and deletion behavior only after its preceding package evidence passes.",
+  "title": "verify package for Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

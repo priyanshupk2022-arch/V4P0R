@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

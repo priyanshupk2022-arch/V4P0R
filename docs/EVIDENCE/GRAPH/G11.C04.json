@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:58.511Z",
+  "contains_secrets": false
+}

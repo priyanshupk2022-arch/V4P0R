@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Implement the primary behavior within the assigned write scope — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:54.972Z",
+  "contains_secrets": false
+}

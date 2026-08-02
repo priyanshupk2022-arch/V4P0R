@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

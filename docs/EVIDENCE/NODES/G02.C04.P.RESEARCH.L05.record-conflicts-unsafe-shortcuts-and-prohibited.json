@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:33:59.605Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:00.891Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Reject duplicate, conflicting, late, unauthorized, and replayed decisions\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Reject duplicate, conflicting, late, unauthorized, and replayed decisions",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

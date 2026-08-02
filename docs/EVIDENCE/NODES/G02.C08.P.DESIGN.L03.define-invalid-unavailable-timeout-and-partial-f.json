@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:43.840Z",
+  "contains_secrets": false
+}

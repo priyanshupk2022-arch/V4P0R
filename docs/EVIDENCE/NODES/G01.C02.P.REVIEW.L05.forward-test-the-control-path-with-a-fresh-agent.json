@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.REVIEW.L05.forward-test-the-control-path-with-a-fresh-agent",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Forward-test the control path with a fresh agent and bounded context for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Forward-test the control path with a fresh agent and bounded context — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:09:45.984Z",
+  "contains_secrets": false
+}

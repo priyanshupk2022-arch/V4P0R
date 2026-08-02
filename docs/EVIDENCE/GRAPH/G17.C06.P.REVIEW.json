@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence only after its preceding package evidence passes.",
+  "title": "review package for Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:09.078Z",
+  "contains_secrets": false
+}

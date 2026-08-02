@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

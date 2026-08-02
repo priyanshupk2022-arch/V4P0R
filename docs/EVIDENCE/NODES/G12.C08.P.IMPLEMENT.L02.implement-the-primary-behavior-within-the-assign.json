@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Implement the primary behavior within the assigned write scope — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

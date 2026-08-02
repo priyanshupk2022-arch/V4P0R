@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Publish a truth baseline that cannot mark implementation nodes complete\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:18:25.327Z",
+  "contains_secrets": false
+}

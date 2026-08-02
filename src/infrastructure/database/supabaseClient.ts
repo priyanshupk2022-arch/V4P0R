@@ -7,8 +7,11 @@ let clientInstance: SupabaseClient | null = null;
 export function getSupabaseClient(): SupabaseClient {
   if (clientInstance) return clientInstance;
 
-  const url = env.SUPABASE_URL || 'https://mock-supabase.supabase.co';
-  const key = env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_ANON_KEY || 'mock-key';
+  const url = env.SUPABASE_URL;
+  const key = env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_ANON_KEY;
+  if (!url || !key || url.includes('mock.') || key.startsWith('mock-')) {
+    throw new Error('Supabase persistence is not configured');
+  }
 
   clientInstance = createClient(url, key);
   return clientInstance;
@@ -33,7 +36,7 @@ export async function recordDoubleEntryLedger(
 
   const recordOp = async () => {
     try {
-      await client.from('transactions').insert({
+      const transactionInsert = await client.from('transactions').insert({
         id: input.transactionId,
         account_id: input.accountId,
         card_id: input.cardId,
@@ -43,9 +46,10 @@ export async function recordDoubleEntryLedger(
         status: input.status,
         created_at: timestamp,
       });
+      if (transactionInsert.error) throw transactionInsert.error;
 
       // Insert DEBIT ledger entry
-      await client.from('ledger_entries').insert({
+      const debitInsert = await client.from('ledger_entries').insert({
         id: `led_dr_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
         transaction_id: input.transactionId,
         account_id: input.accountId,
@@ -53,9 +57,10 @@ export async function recordDoubleEntryLedger(
         amount_cents: amountStr,
         created_at: timestamp,
       });
+      if (debitInsert.error) throw debitInsert.error;
 
       // Insert CREDIT ledger entry
-      await client.from('ledger_entries').insert({
+      const creditInsert = await client.from('ledger_entries').insert({
         id: `led_cr_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
         transaction_id: input.transactionId,
         account_id: 'acc_system_settlement',
@@ -63,16 +68,13 @@ export async function recordDoubleEntryLedger(
         amount_cents: amountStr,
         created_at: timestamp,
       });
+      if (creditInsert.error) throw creditInsert.error;
 
       return { success: true, id: input.transactionId };
-    } catch {
-      return { success: true, id: input.transactionId };
+    } catch (error) {
+      throw new Error('Ledger persistence failed', { cause: error });
     }
   };
 
-  const timeoutPromise = new Promise<{ success: boolean; id: string }>((resolve) => {
-    setTimeout(() => resolve({ success: true, id: input.transactionId }), 1500);
-  });
-
-  return Promise.race([recordOp(), timeoutPromise]);
+  return recordOp();
 }

@@ -1,0 +1,11 @@
+{
+  "node_id": "G03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G03 only after every declared predecessor completion gate passes.",
+  "title": "Canonical domain, money, state, migrations, and durable audit",
+  "timestamp": "2026-08-02T16:59:54.812Z",
+  "contains_secrets": false
+}

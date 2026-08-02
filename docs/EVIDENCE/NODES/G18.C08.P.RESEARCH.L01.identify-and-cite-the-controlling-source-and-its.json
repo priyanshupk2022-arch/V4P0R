@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Identify and cite the controlling source and its freshness — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Hash and preserve reproducible redacted evidence — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:42:23.346Z",
+  "contains_secrets": false
+}

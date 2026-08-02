@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C01.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Verify user identity cryptographically on every protected server request\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Verify user identity cryptographically on every protected server request",
+  "timestamp": "2026-08-02T16:59:55.322Z",
+  "contains_secrets": false
+}

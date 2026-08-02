@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Identify and cite the controlling source and its freshness — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:32:28.482Z",
+  "contains_secrets": false
+}

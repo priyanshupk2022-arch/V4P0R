@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success only after its preceding package evidence passes.",
+  "title": "research package for Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:41:48.033Z",
+  "contains_secrets": false
+}

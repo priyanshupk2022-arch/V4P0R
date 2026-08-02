@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.RESEARCH.L07.map-every-visible-state-and-claim-to-a-durable-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every visible state and claim to a durable backend or provider state for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Map every visible state and claim to a durable backend or provider state — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

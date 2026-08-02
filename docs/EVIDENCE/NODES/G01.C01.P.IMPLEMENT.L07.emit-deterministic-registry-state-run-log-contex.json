@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:01:29.504Z",
+  "contains_secrets": false
+}

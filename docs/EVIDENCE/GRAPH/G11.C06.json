@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Render a refresh-safe durable audit timeline from server state\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:58.511Z",
+  "contains_secrets": false
+}

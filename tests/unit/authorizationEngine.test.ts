@@ -1,4 +1,8 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
+
+vi.mock('../../src/infrastructure/database/supabaseClient', () => ({
+  recordDoubleEntryLedger: vi.fn().mockResolvedValue({ success: true, id: 'tx_test' }),
+}));
 import { processAuthorization } from '../../src/domain/policy/authorizationEngine';
 import { generateHmacSignature } from '../../src/infrastructure/security/hmacValidator';
 

@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C07",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+  "timestamp": "2026-08-02T16:59:56.921Z",
+  "contains_secrets": false
+}

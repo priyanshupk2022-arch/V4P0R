@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C04.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Persist safe citations, content identifiers, excerpts, relevance, and policy version\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Persist safe citations, content identifiers, excerpts, relevance, and policy version",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

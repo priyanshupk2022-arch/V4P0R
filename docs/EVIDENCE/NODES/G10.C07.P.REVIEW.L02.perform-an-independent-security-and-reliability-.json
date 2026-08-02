@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C07.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation\".",
+  "title": "Perform an independent security and reliability challenge — Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

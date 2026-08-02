@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T15:49:47.826Z",
+  "contains_secrets": false
+}

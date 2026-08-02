@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C02.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Derive organization and role only from durable membership\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Derive organization and role only from durable membership",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

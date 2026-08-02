@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Prove upstream and downstream integration against current contracts — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:39.965Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Define security, privacy, and redaction requirements — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C06.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Compare every architecture and security claim with raw current evidence only after its preceding package evidence passes.",
+  "title": "verify package for Compare every architecture and security claim with raw current evidence",
+  "timestamp": "2026-08-02T17:00:07.198Z",
+  "contains_secrets": false
+}

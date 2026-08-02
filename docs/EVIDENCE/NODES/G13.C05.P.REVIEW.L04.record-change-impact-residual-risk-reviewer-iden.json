@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C05.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+  "timestamp": "2026-08-02T17:00:02.530Z",
+  "contains_secrets": false
+}

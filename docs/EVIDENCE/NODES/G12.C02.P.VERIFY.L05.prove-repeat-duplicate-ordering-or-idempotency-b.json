@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.881Z",
+  "contains_secrets": false
+}

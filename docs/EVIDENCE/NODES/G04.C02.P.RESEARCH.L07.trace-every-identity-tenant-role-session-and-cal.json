@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C02.P.RESEARCH.L07.trace-every-identity-tenant-role-session-and-cal",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Trace every identity, tenant, role, session, and caller-controlled input for capability \"Derive organization and role only from durable membership\".",
+  "title": "Trace every identity, tenant, role, session, and caller-controlled input — Derive organization and role only from durable membership",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

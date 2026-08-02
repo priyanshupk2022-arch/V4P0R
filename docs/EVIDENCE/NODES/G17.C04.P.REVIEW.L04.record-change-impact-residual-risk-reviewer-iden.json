@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

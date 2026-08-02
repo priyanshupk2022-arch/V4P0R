@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C07.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

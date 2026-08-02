@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C02.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Normalize merchant and category inputs without changing financial meaning\".",
+  "title": "Perform an independent security and reliability challenge — Normalize merchant and category inputs without changing financial meaning",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

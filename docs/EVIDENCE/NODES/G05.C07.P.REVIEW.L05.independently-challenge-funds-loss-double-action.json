@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C07.P.REVIEW.L05.independently-challenge-funds-loss-double-action",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently challenge funds-loss, double-action, and incorrect-approval paths for capability \"Bind every approval to one exact merchant, amount, currency, item count, and expiry\".",
+  "title": "Independently challenge funds-loss, double-action, and incorrect-approval paths — Bind every approval to one exact merchant, amount, currency, item count, and expiry",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

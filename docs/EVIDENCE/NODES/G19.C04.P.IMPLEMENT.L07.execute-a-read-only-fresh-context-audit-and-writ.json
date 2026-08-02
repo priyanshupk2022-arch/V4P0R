@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C04.P.IMPLEMENT.L07.execute-a-read-only-fresh-context-audit-and-writ",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Execute a read-only fresh-context audit and write only sidecar evidence for capability \"Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes\".",
+  "title": "Execute a read-only fresh-context audit and write only sidecar evidence — Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+  "timestamp": "2026-08-02T17:00:11.856Z",
+  "contains_secrets": false
+}

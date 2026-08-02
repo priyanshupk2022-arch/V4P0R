@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

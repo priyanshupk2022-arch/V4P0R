@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:59:32.226Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Prove upstream and downstream integration against current contracts — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:39:02.737Z",
+  "contains_secrets": false
+}

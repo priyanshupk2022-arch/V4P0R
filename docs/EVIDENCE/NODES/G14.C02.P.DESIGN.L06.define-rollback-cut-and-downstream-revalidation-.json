@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

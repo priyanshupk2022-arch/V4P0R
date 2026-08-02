@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.192Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify the missing-input registry and unresolved release-blocker count are zero\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.089Z",
+  "contains_secrets": false
+}

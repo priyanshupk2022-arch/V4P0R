@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

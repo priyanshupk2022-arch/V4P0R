@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C03.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Limit and authorize retrieval to the requesting tenant's knowledge context\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Limit and authorize retrieval to the requesting tenant's knowledge context",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

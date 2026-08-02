@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C05.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Assemble raw release outputs and redacted provider and browser proof\".",
+  "title": "Hash and preserve reproducible redacted evidence — Assemble raw release outputs and redacted provider and browser proof",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

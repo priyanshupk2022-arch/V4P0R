@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:00.891Z",
+  "contains_secrets": false
+}

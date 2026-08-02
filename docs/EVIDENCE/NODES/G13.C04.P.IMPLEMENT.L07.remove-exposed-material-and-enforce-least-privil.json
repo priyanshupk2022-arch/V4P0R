@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.IMPLEMENT.L07.remove-exposed-material-and-enforce-least-privil",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove exposed material and enforce least privilege, secure defaults, and safe headers for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Remove exposed material and enforce least privilege, secure defaults, and safe headers — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

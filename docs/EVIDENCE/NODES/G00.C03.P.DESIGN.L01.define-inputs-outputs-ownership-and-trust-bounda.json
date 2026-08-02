@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:27:12.011Z",
+  "contains_secrets": false
+}

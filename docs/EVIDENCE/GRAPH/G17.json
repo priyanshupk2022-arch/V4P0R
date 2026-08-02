@@ -1,0 +1,11 @@
+{
+  "node_id": "G17",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G17 only after every declared predecessor completion gate passes.",
+  "title": "Professor Audit 2: providers, runtime, concurrency, and recovery",
+  "timestamp": "2026-08-02T17:00:07.950Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:38:07.931Z",
+  "contains_secrets": false
+}

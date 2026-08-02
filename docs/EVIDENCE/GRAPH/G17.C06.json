@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.010Z",
+  "contains_secrets": false
+}

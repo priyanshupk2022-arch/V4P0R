@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Prove behavior when a required input is missing or invalid — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

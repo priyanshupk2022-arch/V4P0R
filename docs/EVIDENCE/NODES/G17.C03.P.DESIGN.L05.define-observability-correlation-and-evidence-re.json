@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Define observability, correlation, and evidence requirements — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

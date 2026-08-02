@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Prove the primary success or expected terminal outcome — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:38:29.882Z",
+  "contains_secrets": false
+}

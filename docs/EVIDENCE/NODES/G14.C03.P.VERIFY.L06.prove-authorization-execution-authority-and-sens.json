@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:21:06.389Z",
+  "contains_secrets": false
+}

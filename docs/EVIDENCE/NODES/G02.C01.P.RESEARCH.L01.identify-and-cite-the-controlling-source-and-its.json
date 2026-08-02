@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Identify and cite the controlling source and its freshness — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:22:24.556Z",
+  "contains_secrets": false
+}

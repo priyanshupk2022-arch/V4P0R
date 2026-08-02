@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C06.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Require matching message, assigned approver, phone identity, pending state, and expiry\".",
+  "title": "Prove the primary success or expected terminal outcome — Require matching message, assigned approver, phone identity, pending state, and expiry",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

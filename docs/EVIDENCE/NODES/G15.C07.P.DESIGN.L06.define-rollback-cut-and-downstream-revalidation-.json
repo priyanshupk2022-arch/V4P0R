@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

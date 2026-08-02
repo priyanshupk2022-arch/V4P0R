@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.VERIFY.L09.prove-live-safe-happy-invalid-unavailable-replay",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Prove live-safe happy, invalid, unavailable, replay, duplicate, and contract-drift behavior — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

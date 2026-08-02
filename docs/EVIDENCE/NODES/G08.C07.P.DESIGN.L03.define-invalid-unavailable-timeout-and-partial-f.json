@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.459Z",
+  "contains_secrets": false
+}

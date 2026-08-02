@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C03.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Verify all three professor passes bind to one unchanged sealed snapshot\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Verify all three professor passes bind to one unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

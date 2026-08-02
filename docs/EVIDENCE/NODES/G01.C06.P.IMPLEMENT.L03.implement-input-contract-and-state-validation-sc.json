@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-sc",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Implement input, contract, and state validation — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:04:11.685Z",
+  "contains_secrets": false
+}

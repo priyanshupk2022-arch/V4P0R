@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

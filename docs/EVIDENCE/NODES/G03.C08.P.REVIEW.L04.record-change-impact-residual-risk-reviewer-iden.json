@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:55.103Z",
+  "contains_secrets": false
+}

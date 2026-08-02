@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C04.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ve",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior\".",
+  "title": "Implement input, contract, and state validation — Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

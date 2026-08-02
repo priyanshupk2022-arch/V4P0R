@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Render a refresh-safe durable audit timeline from server state only after its preceding package evidence passes.",
+  "title": "design package for Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:58.943Z",
+  "contains_secrets": false
+}

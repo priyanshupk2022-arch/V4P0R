@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Prove behavior when a required input is missing or invalid — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:42:44.930Z",
+  "contains_secrets": false
+}

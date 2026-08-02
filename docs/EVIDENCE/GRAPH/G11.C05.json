@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Show merchant checkout attempt and expected sandbox decline accurately\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Show merchant checkout attempt and expected sandbox decline accurately",
+  "timestamp": "2026-08-02T16:59:58.511Z",
+  "contains_secrets": false
+}

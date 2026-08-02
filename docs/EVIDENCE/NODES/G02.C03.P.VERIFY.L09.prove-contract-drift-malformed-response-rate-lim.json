@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.VERIFY.L09.prove-contract-drift-malformed-response-rate-lim",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove contract drift, malformed response, rate limit, timeout, and provider-error behavior for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Prove contract drift, malformed response, rate limit, timeout, and provider-error behavior — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:32:58.016Z",
+  "contains_secrets": false
+}

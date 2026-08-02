@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:21:39.464Z",
+  "contains_secrets": false
+}

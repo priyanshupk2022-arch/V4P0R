@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

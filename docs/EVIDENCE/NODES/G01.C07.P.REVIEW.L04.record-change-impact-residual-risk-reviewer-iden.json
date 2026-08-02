@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:20:36.612Z",
+  "contains_secrets": false
+}

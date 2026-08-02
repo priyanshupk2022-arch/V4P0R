@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.REVIEW.L05.independently-assess-flakiness-assertion-quality",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

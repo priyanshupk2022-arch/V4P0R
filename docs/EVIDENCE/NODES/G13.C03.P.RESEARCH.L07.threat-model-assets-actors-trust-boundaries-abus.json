@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C03.P.RESEARCH.L07.threat-model-assets-actors-trust-boundaries-abus",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs for capability \"Rotate or revoke every credential ever committed or exposed\".",
+  "title": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs — Rotate or revoke every credential ever committed or exposed",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

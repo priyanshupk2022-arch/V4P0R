@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C01.P.DESIGN.L07.define-deterministic-decision-and-first-valid-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define deterministic decision and first-valid consequential human approval semantics for capability \"Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically\".",
+  "title": "Define deterministic decision and first-valid consequential human approval semantics — Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

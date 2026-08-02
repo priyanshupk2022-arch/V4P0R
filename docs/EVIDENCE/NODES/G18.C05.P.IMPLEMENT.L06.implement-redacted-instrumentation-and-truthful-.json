@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

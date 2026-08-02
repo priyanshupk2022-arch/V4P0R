@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C01.P.VERIFY.L09.prove-malformed-unauthorized-cross-tenant-timeou",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior for capability \"Expose one validated server API for starting and resuming the golden purchase flow\".",
+  "title": "Prove malformed, unauthorized, cross-tenant, timeout, retry, duplicate, and restart behavior — Expose one validated server API for starting and resuming the golden purchase flow",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

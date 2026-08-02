@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:06:53.396Z",
+  "contains_secrets": false
+}

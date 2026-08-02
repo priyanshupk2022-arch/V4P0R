@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

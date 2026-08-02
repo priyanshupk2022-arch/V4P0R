@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Enforce least-privilege RBAC for every API and workflow transition\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.158Z",
+  "contains_secrets": false
+}

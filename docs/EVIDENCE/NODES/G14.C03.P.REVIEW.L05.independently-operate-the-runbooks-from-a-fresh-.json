@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.REVIEW.L05.independently-operate-the-runbooks-from-a-fresh-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently operate the runbooks from a fresh environment for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Independently operate the runbooks from a fresh environment — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

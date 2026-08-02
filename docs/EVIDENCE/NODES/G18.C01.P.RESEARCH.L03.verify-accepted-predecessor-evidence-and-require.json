@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Rebuild and test the sealed snapshot in a clean environment\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

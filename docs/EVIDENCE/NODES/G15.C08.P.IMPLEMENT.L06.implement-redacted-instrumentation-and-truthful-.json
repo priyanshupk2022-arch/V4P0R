@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

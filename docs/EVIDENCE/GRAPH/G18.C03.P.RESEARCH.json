@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension only after its preceding package evidence passes.",
+  "title": "research package for Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:09.536Z",
+  "contains_secrets": false
+}

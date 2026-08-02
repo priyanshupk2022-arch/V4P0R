@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:13:16.097Z",
+  "contains_secrets": false
+}

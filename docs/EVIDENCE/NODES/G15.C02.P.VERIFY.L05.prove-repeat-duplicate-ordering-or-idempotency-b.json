@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

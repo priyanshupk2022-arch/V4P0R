@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Add or update the smallest oracle that fails before the change — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

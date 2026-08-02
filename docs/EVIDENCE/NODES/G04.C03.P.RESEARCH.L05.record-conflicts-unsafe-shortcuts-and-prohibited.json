@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Enforce least-privilege RBAC for every API and workflow transition\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

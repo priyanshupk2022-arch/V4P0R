@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C08.P.IMPLEMENT.L07.call-only-approved-live-interfaces-and-remove-sy",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Call only approved live interfaces and remove synthetic provider fallbacks for capability \"Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully\".",
+  "title": "Call only approved live interfaces and remove synthetic provider fallbacks — Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

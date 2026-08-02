@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:31:37.364Z",
+  "contains_secrets": false
+}

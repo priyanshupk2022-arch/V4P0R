@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Hash and preserve reproducible redacted evidence — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:56.795Z",
+  "contains_secrets": false
+}

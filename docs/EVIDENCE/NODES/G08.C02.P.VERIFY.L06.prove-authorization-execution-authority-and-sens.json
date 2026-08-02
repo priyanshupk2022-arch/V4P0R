@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C06.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Require matching message, assigned approver, phone identity, pending state, and expiry\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Require matching message, assigned approver, phone identity, pending state, and expiry",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

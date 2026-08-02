@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Select exactly one account-enabled Prava approval and one-time-card contract\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:22:11.788Z",
+  "contains_secrets": false
+}

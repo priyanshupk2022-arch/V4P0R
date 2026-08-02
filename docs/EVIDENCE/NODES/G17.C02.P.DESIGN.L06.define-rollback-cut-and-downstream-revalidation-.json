@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

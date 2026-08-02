@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:14:16.135Z",
+  "contains_secrets": false
+}

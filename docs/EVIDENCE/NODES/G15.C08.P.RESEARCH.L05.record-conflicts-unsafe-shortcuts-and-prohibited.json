@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

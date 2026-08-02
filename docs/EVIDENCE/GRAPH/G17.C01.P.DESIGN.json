@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Reconstruct provider and runtime behavior from sealed source and raw evidence only after its preceding package evidence passes.",
+  "title": "design package for Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.257Z",
+  "contains_secrets": false
+}

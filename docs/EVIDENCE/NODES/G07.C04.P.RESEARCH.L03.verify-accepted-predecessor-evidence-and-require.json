@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

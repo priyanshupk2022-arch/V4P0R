@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Implement the primary behavior within the assigned write scope — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:02:51.828Z",
+  "contains_secrets": false
+}

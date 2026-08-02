@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C05.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Prevent screenshots, traces, video, console, network logs, and errors from capturing card data\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Prevent screenshots, traces, video, console, network logs, and errors from capturing card data",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

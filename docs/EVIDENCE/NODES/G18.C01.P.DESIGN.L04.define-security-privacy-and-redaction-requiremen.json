@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Rebuild and test the sealed snapshot in a clean environment\".",
+  "title": "Define security, privacy, and redaction requirements — Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

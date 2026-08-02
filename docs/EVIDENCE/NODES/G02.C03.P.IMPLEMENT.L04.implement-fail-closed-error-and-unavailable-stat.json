@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:31:57.339Z",
+  "contains_secrets": false
+}

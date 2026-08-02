@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Select exactly one account-enabled Prava approval and one-time-card contract only after its preceding package evidence passes.",
+  "title": "design package for Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:44:45.743Z",
+  "contains_secrets": false
+}

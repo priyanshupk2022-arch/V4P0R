@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Define observability, correlation, and evidence requirements — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

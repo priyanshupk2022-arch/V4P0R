@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Render a refresh-safe durable audit timeline from server state\".",
+  "title": "Identify and cite the controlling source and its freshness — Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

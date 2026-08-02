@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.VERIFY.L09.prove-empty-install-upgrade-rollback-duplicate-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove empty install, upgrade, rollback, duplicate, race, restart, and restore behavior for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Prove empty install, upgrade, rollback, duplicate, race, restart, and restore behavior — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:47.057Z",
+  "contains_secrets": false
+}

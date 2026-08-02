@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C08.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Rate-limit and audit authentication, webhook, checkout, and public-demo abuse only after its preceding package evidence passes.",
+  "title": "review package for Rate-limit and audit authentication, webhook, checkout, and public-demo abuse",
+  "timestamp": "2026-08-02T16:59:55.455Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C07.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Bind every approval to one exact merchant, amount, currency, item count, and expiry\".",
+  "title": "Prove the primary success or expected terminal outcome — Bind every approval to one exact merchant, amount, currency, item count, and expiry",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

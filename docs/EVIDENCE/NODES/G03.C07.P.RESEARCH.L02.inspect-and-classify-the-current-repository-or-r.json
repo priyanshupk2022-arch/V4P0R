@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

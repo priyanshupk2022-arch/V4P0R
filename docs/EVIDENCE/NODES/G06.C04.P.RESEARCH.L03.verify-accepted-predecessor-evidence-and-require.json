@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C04.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Persist safe citations, content identifiers, excerpts, relevance, and policy version\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Persist safe citations, content identifiers, excerpts, relevance, and policy version",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

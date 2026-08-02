@@ -12,7 +12,7 @@ export const envSchema = z.object({
   UPSTASH_REDIS_REST_URL: z.string(),
   UPSTASH_REDIS_REST_TOKEN: z.string(),
   PRAVA_API_KEY: z.string(),
-  PRAVA_BASE_URL: z.string().default('https://api.sandbox.prava.io'),
+  PRAVA_BASE_URL: z.string().default('https://sandbox.api.prava.space'),
   SENSO_API_KEY: z.string(),
   LINQ_API_KEY: z.string(),
 });

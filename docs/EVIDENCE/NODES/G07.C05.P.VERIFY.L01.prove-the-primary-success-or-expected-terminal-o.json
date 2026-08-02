@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C05.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Map only the documented like and dislike reactions to approve and reject\".",
+  "title": "Prove the primary success or expected terminal outcome — Map only the documented like and dislike reactions to approve and reject",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

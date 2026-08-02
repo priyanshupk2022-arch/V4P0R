@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C03.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Limit and authorize retrieval to the requesting tenant's knowledge context only after its preceding package evidence passes.",
+  "title": "implement package for Limit and authorize retrieval to the requesting tenant's knowledge context",
+  "timestamp": "2026-08-02T16:59:55.756Z",
+  "contains_secrets": false
+}

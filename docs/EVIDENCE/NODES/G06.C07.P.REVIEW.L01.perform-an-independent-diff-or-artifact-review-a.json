@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C07.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Make retrieved evidence materially affect deterministic policy or human review\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Make retrieved evidence materially affect deterministic policy or human review",
+  "timestamp": "2026-08-02T16:59:56.167Z",
+  "contains_secrets": false
+}

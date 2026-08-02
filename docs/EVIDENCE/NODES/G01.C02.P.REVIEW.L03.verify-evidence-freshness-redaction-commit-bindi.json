@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:09:33.894Z",
+  "contains_secrets": false
+}

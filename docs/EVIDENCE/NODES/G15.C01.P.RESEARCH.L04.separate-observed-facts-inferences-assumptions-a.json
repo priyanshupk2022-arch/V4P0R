@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

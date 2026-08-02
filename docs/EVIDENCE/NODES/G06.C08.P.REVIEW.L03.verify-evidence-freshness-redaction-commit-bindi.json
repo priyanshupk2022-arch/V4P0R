@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Render source-backed discovery evidence without fabricated confidence or verified badges\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Render source-backed discovery evidence without fabricated confidence or verified badges",
+  "timestamp": "2026-08-02T16:59:56.167Z",
+  "contains_secrets": false
+}

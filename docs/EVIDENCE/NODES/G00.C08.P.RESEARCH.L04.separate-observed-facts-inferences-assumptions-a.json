@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:24:57.542Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C01.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Rebuild and test the sealed snapshot in a clean environment only after its preceding package evidence passes.",
+  "title": "implement package for Rebuild and test the sealed snapshot in a clean environment",
+  "timestamp": "2026-08-02T17:00:10.041Z",
+  "contains_secrets": false
+}

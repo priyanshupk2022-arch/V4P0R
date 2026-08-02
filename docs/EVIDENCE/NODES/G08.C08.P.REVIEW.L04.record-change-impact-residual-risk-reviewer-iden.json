@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.873Z",
+  "contains_secrets": false
+}

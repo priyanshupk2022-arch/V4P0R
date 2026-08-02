@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

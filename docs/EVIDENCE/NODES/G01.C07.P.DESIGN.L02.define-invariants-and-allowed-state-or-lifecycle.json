@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:59:10.783Z",
+  "contains_secrets": false
+}

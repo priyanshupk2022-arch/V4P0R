@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Add or update the smallest oracle that fails before the change — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

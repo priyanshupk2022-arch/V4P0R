@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C08.P.REVIEW.L05.run-a-fresh-user-comprehension-test-without-code",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Run a fresh-user comprehension test without code knowledge or team-only access for capability \"Deliver an accessible responsive under-two-minute judge journey on a public URL\".",
+  "title": "Run a fresh-user comprehension test without code knowledge or team-only access — Deliver an accessible responsive under-two-minute judge journey on a public URL",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

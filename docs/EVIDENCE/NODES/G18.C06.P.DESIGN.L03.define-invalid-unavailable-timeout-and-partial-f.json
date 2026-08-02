@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

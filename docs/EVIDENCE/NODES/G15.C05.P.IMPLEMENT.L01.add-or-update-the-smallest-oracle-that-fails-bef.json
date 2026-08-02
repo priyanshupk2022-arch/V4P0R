@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Add or update the smallest oracle that fails before the change — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

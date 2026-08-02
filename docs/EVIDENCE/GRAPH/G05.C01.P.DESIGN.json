@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically only after its preceding package evidence passes.",
+  "title": "design package for Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+  "timestamp": "2026-08-02T16:59:55.651Z",
+  "contains_secrets": false
+}

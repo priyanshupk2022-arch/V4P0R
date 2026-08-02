@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

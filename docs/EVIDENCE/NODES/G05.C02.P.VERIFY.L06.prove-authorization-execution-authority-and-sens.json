@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C02.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Normalize merchant and category inputs without changing financial meaning\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Normalize merchant and category inputs without changing financial meaning",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

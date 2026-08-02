@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

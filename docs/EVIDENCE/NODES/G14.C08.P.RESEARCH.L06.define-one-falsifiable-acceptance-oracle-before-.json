@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

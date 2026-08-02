@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C02.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Store all monetary values as integer minor units with ISO currency\".",
+  "title": "Implement the primary behavior within the assigned write scope — Store all monetary values as integer minor units with ISO currency",
+  "timestamp": "2026-08-02T16:59:54.972Z",
+  "contains_secrets": false
+}

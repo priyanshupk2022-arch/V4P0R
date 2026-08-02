@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.331Z",
+  "contains_secrets": false
+}

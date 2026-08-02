@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

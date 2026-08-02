@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-pr",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Implement input, contract, and state validation — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

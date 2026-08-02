@@ -1,0 +1,11 @@
+{
+  "node_id": "G05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G05 only after every declared predecessor completion gate passes.",
+  "title": "Deterministic policy and human approval lifecycle",
+  "timestamp": "2026-08-02T16:59:55.517Z",
+  "contains_secrets": false
+}

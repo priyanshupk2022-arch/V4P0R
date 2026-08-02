@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:39:35.442Z",
+  "contains_secrets": false
+}

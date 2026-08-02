@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Define observability, correlation, and evidence requirements — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:57:33.656Z",
+  "contains_secrets": false
+}

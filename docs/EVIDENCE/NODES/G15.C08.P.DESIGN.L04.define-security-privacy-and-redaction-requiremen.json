@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Define security, privacy, and redaction requirements — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

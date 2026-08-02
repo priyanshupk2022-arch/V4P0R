@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension\".",
+  "title": "Prove behavior when a required input is missing or invalid — Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

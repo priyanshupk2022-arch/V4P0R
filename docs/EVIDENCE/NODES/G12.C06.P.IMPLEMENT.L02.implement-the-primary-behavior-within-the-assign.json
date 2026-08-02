@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C06.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Test the real sandbox golden path without treating mocks as integration proof\".",
+  "title": "Implement the primary behavior within the assigned write scope — Test the real sandbox golden path without treating mocks as integration proof",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

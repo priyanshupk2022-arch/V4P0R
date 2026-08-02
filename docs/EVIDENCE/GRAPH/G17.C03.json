@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.010Z",
+  "contains_secrets": false
+}

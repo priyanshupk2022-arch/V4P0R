@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

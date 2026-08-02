@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:02.633Z",
+  "contains_secrets": false
+}

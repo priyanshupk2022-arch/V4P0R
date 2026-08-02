@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.RESEARCH.L07.compare-every-readiness-claim-with-code-tests-ru",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Compare every readiness claim with code, tests, runtime, and external proof for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Compare every readiness claim with code, tests, runtime, and external proof — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:21:20.789Z",
+  "contains_secrets": false
+}

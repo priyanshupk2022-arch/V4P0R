@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C06.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

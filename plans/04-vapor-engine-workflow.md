@@ -6,6 +6,8 @@
 
 Production access is expected shortly after the verified sandbox proof; it is intentionally requested after Codex signs the sandbox build.
 
+The demo and submission are release deliverables. Deploy a public judge URL during integration, verify it in a fresh browser context without team access, and reserve the final 90 minutes for assets and publish—not feature work.
+
 ## System graph
 
 ```mermaid
@@ -47,7 +49,8 @@ flowchart TD
     NN --> C
     MU -->|"All sandbox nodes PASS"| PR["Prava production request"]
     PR --> PS["Production smoke test"]
-    PS --> DEMO["Demo recording and submission"]
+    PS --> LIVE["Public deployment: live smoke and health check"]
+    LIVE --> DEMO["Pitch demo, assets and Devfolio publish"]
 ```
 
 ## Time budget from start of full execution
@@ -94,9 +97,17 @@ PASS requires a real product decision, exact approval/mandate, Passkey approval,
 
 Cut analytics, extra merchants, broad dashboards, secondary policy types, and decorative UI first. Do not cut the Prava sandbox oracle, user-visible end-to-end result, core security boundary, independent verification, demo recording, or submission buffer.
 
+## Final submission operating rule
+
+At least 90 minutes before the deadline, freeze feature work. Use that window for public deployment verification, screenshot/redaction review, a short pitch demo and YouTube upload, then Devfolio publication/status check. If the product is not ready, submit the strongest truthful working slice with clear limits; never delay publishing for cosmetic work.
+
 ## Production and submission gates
 
 - Request production only after Codex sandbox PASS.
 - Keep sandbox and production secrets/config/evidence separate.
 - Production smoke test must be bounded to the approved merchant/amount and require explicit user approval for a real consequential transaction.
 - Demo may show sandbox expected-decline proof and production-safe status; never expose payment credentials.
+- Before recording, open the public product URL in a fresh browser context without team credentials and prove the judge can start the intended flow.
+- The first screenshot must be the strongest product cover; capture separate request, approval/evidence, and checkout-result screens.
+- The final Devfolio description and challenges are human-written, concise, factual, and supported by `docs/DEVFOLIO_SUBMISSION_BRIEF.md`; no invented traction, payment success, integration, or security claim.
+- Publish the Devfolio project and explicitly check its status reads `Submitted`; saved draft is not a submission.

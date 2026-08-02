@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C02.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Normalize merchant and category inputs without changing financial meaning\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Normalize merchant and category inputs without changing financial meaning",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:45:02.359Z",
+  "contains_secrets": false
+}

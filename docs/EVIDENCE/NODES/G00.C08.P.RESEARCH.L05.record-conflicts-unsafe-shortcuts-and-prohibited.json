@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:25:02.688Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C06.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

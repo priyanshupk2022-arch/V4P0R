@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Prove real Linq and Senso behavior with current account-enabled contracts\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

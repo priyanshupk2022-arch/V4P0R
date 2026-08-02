@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Bind merchant, amount, currency, item count, use limit, and expiry to the permission only after its preceding package evidence passes.",
+  "title": "review package for Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.726Z",
+  "contains_secrets": false
+}

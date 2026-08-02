@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Define observability, correlation, and evidence requirements — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:56:17.737Z",
+  "contains_secrets": false
+}

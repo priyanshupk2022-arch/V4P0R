@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Perform an independent security and reliability challenge — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:47:26.110Z",
+  "contains_secrets": false
+}

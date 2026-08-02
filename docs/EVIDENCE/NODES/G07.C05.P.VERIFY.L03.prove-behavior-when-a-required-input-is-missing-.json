@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C05.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Map only the documented like and dislike reactions to approve and reject\".",
+  "title": "Prove behavior when a required input is missing or invalid — Map only the documented like and dislike reactions to approve and reject",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

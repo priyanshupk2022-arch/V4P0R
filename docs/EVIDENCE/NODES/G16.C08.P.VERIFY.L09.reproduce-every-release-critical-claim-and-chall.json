@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.VERIFY.L09.reproduce-every-release-critical-claim-and-chall",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Reproduce every release-critical claim and challenge missing, stale, or contradictory proof — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

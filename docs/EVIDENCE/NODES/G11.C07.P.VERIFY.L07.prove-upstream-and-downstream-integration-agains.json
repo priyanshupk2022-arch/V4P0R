@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states\".",
+  "title": "Prove upstream and downstream integration against current contracts — Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Create approval expiry, assigned approver, and first-valid-decision semantics\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

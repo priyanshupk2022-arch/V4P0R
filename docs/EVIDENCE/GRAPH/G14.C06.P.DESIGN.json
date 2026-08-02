@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks only after its preceding package evidence passes.",
+  "title": "design package for Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:03.302Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Verify Linq message creation and Standard Webhooks reaction contracts\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:44:50.345Z",
+  "contains_secrets": false
+}

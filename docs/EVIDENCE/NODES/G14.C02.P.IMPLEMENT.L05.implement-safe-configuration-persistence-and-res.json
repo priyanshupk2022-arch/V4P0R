@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

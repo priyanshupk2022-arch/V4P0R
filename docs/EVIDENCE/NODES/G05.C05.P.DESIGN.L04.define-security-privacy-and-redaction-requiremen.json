@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Create approval expiry, assigned approver, and first-valid-decision semantics\".",
+  "title": "Define security, privacy, and redaction requirements — Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

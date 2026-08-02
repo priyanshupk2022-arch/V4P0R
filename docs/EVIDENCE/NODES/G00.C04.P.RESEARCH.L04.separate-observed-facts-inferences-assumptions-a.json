@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:22:45.313Z",
+  "contains_secrets": false
+}

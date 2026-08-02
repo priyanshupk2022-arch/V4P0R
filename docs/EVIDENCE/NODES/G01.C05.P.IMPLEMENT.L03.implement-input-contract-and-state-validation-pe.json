@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-pe",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Implement input, contract, and state validation — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:03:34.709Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:47:03.991Z",
+  "contains_secrets": false
+}

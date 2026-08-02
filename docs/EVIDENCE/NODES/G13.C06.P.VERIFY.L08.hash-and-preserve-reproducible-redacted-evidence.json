@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Hash and preserve reproducible redacted evidence — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

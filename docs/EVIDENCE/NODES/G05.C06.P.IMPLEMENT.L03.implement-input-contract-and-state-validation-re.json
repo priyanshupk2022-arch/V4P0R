@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Reject duplicate, conflicting, late, unauthorized, and replayed decisions\".",
+  "title": "Implement input, contract, and state validation — Reject duplicate, conflicting, late, unauthorized, and replayed decisions",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

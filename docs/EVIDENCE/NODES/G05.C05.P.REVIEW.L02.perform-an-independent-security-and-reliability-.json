@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Create approval expiry, assigned approver, and first-valid-decision semantics\".",
+  "title": "Perform an independent security and reliability challenge — Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

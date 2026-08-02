@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C02.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Derive organization and role only from durable membership\".",
+  "title": "Identify and cite the controlling source and its freshness — Derive organization and role only from durable membership",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

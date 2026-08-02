@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C03.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Navigate product, cart, address, and checkout steps deterministically only after its preceding package evidence passes.",
+  "title": "implement package for Navigate product, cart, address, and checkout steps deterministically",
+  "timestamp": "2026-08-02T16:59:57.101Z",
+  "contains_secrets": false
+}

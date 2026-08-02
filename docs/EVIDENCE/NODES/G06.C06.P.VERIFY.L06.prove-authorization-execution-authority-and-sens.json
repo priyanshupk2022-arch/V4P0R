@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C06.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly",
+  "timestamp": "2026-08-02T16:59:56.010Z",
+  "contains_secrets": false
+}

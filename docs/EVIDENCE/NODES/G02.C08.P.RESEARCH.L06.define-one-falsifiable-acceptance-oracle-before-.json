@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:26.510Z",
+  "contains_secrets": false
+}

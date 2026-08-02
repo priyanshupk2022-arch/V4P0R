@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove the primary rejection or negative outcome — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:24.364Z",
+  "contains_secrets": false
+}

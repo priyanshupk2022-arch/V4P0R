@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:32:09.701Z",
+  "contains_secrets": false
+}

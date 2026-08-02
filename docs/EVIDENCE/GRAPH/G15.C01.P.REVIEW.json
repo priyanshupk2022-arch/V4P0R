@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open the review package for Run the complete release battery sequentially from a clean dependency installation only after its preceding package evidence passes.",
+  "title": "review package for Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:06.017Z",
+  "contains_secrets": false
+}

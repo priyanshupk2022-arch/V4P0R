@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.RESEARCH.L07.resolve-required-role-skill-resource-lock-and-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Resolve required role, skill, resource lock, and context sources for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Resolve required role, skill, resource lock, and context sources — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:52:37.353Z",
+  "contains_secrets": false
+}

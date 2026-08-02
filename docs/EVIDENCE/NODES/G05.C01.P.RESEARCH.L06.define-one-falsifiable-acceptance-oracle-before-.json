@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C01.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

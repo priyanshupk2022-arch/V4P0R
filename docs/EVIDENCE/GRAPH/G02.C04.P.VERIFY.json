@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Record provider versions, terminal states, retries, idempotency, and unknowns only after its preceding package evidence passes.",
+  "title": "verify package for Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:35:24.097Z",
+  "contains_secrets": false
+}

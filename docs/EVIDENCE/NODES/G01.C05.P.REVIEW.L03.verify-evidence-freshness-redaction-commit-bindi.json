@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:16:27.938Z",
+  "contains_secrets": false
+}

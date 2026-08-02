@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution\".",
+  "title": "Hash and preserve reproducible redacted evidence — Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

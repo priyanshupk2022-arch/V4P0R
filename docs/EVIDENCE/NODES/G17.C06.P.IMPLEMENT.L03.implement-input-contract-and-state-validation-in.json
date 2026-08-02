@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-in",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence\".",
+  "title": "Implement input, contract, and state validation — Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

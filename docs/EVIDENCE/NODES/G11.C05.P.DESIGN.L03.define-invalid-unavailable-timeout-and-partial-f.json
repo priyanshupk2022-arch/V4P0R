@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C05.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Show merchant checkout attempt and expected sandbox decline accurately\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Show merchant checkout attempt and expected sandbox decline accurately",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

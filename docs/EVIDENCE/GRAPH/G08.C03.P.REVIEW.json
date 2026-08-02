@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Complete the documented user or Passkey approval requirement only after its preceding package evidence passes.",
+  "title": "review package for Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.726Z",
+  "contains_secrets": false
+}

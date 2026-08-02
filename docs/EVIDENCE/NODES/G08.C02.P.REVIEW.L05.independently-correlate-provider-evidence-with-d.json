@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.REVIEW.L05.independently-correlate-provider-evidence-with-d",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently correlate provider evidence with durable VAPOR state and redact secrets for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Independently correlate provider evidence with durable VAPOR state and redact secrets — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

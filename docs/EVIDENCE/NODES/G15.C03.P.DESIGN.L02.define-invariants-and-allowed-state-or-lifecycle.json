@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C02.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Accept a real purchase intent and display product and Senso evidence only after its preceding package evidence passes.",
+  "title": "research package for Accept a real purchase intent and display product and Senso evidence",
+  "timestamp": "2026-08-02T16:59:58.585Z",
+  "contains_secrets": false
+}

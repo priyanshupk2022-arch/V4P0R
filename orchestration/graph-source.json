@@ -1,0 +1,416 @@
+{
+  "version": "1.0.0",
+  "minimum_atomic_leaves": 5000,
+  "root": "VAPOR.ROOT",
+  "antigravity_terminal": "G19.COMPLETE",
+  "journey_terminal": "G20.COMPLETE",
+  "authority": "plans/07-vapor-master-execution-system.md",
+  "outcomes": [
+    {
+      "id": "G00",
+      "title": "Control-plane correction and repository truth baseline",
+      "profile": "governance",
+      "role": "truth-baseline",
+      "depends_on": ["VAPOR.ROOT"],
+      "sources": ["plans/07-vapor-master-execution-system.md", "docs/CURRENT_STATE.md", "git:working-tree"],
+      "write_scope": ["plans/", "docs/", ".agents/", "orchestration/", "tasks/"],
+      "capabilities": [
+        "Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+        "Retract unsupported completion, production, ledger, security, and compliance claims",
+        "Map every public claim to current code and reproducible evidence",
+        "Freeze the US-first global-expansion product positioning and golden flow",
+        "Identify all release-path simulations, fallbacks, fixtures, and hidden manual steps",
+        "Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+        "Define the implementation cut line without removing the Prava golden path",
+        "Publish a truth baseline that cannot mark implementation nodes complete"
+      ]
+    },
+    {
+      "id": "G01",
+      "title": "Skills, roles, context, memory, and graph mechanics",
+      "profile": "graph",
+      "role": "context-compiler",
+      "depends_on": ["G00"],
+      "sources": ["plans/07-vapor-master-execution-system.md", "orchestration/roles.json", "orchestration/skill-router.json"],
+      "write_scope": ["orchestration/", ".agents/", "scripts/vapor-graph.mjs", "docs/ENGINE_STATE.md", "docs/PROJECT_MAP.md"],
+      "capabilities": [
+        "Validate the immutable hierarchical graph and append-only execution records",
+        "Route mandatory relevant skills before any node starts",
+        "Discover and vet missing skills through installed inventory, find-skills, and Skills.sh",
+        "Compile focused current-node context below the configured attention budget",
+        "Persist decisions, contracts, evidence, inputs, commits, and change impact",
+        "Schedule independent ready nodes while preserving exclusive resource locks",
+        "Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+        "Resume safely from the latest verified checkpoint after interruption"
+      ]
+    },
+    {
+      "id": "G02",
+      "title": "Official contracts, runtime feasibility, and missing inputs",
+      "profile": "contract",
+      "role": "contract-researcher",
+      "depends_on": ["G00", "G01"],
+      "sources": ["https://docs.prava.space/", "https://docs.linqapp.com/", "https://docs.senso.ai/", "docs/EVIDENCE/CONTRACT_MANIFEST.md"],
+      "write_scope": ["docs/EVIDENCE/", "orchestration/missing-inputs.json", "src/adapters/", "tests/contract/"],
+      "capabilities": [
+        "Select exactly one account-enabled Prava approval and one-time-card contract",
+        "Verify Linq message creation and Standard Webhooks reaction contracts",
+        "Verify Senso organization search authentication and response semantics",
+        "Record provider versions, terminal states, retries, idempotency, and unknowns",
+        "Probe local, deployed, and browser runtime reachability without leaking credentials",
+        "Build the missing-input registry with safe presence-only validation",
+        "Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+        "Produce a reviewer-approved contract manifest for every external call"
+      ]
+    },
+    {
+      "id": "G03",
+      "title": "Canonical domain, money, state, migrations, and durable audit",
+      "profile": "data",
+      "role": "database",
+      "depends_on": ["G02"],
+      "sources": ["migrations/", "src/domain/", "src/infrastructure/database/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["migrations/", "src/domain/", "src/infrastructure/database/", "tests/database/", "tests/unit/"],
+      "capabilities": [
+        "Define one canonical purchase-request aggregate and identifier model",
+        "Store all monetary values as integer minor units with ISO currency",
+        "Define one explicit purchase, approval, checkout, and result state machine",
+        "Reject invalid, duplicate, out-of-order, expired, and concurrent transitions",
+        "Reconcile migrations into one ordered repeatable deployment history",
+        "Enforce atomic provider, approval, transaction, and audit persistence",
+        "Implement durable unique constraints and append-only audit corrections",
+        "Prove empty-database migration, upgrade, rollback, backup, and restore behavior"
+      ]
+    },
+    {
+      "id": "G04",
+      "title": "Authentication, authorization, tenancy, RLS, secrets, and abuse boundaries",
+      "profile": "auth",
+      "role": "identity-security",
+      "depends_on": ["G02", "G03"],
+      "sources": ["src/domain/auth/", "src/infrastructure/auth/", "migrations/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["src/domain/auth/", "src/infrastructure/auth/", "src/app/api/", "migrations/", "tests/security/", "tests/integration/"],
+      "capabilities": [
+        "Verify user identity cryptographically on every protected server request",
+        "Derive organization and role only from durable membership",
+        "Enforce least-privilege RBAC for every API and workflow transition",
+        "Create complete RLS policies for every tenant-owned table and operation",
+        "Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+        "Separate public, server, sandbox, preview, and production configuration",
+        "Fail closed when any required secret, membership, policy, or database dependency is unavailable",
+        "Rate-limit and audit authentication, webhook, checkout, and public-demo abuse"
+      ]
+    },
+    {
+      "id": "G05",
+      "title": "Deterministic policy and human approval lifecycle",
+      "profile": "financial",
+      "role": "policy-approval",
+      "depends_on": ["G03", "G04"],
+      "sources": ["src/domain/policy/", "src/domain/transaction/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["src/domain/policy/", "src/domain/transaction/", "src/application/", "tests/unit/", "tests/integration/"],
+      "capabilities": [
+        "Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+        "Normalize merchant and category inputs without changing financial meaning",
+        "Explain allow, reject, and human-escalation decisions with stable reason codes",
+        "Prevent AI-generated text from issuing a consequential financial approval",
+        "Create approval expiry, assigned approver, and first-valid-decision semantics",
+        "Reject duplicate, conflicting, late, unauthorized, and replayed decisions",
+        "Bind every approval to one exact merchant, amount, currency, item count, and expiry",
+        "Persist policy inputs, decision, version, approver, and redacted audit evidence atomically"
+      ]
+    },
+    {
+      "id": "G06",
+      "title": "AI product discovery and meaningful Senso evidence",
+      "profile": "provider",
+      "role": "ai-senso",
+      "depends_on": ["G02", "G03", "G04"],
+      "sources": ["https://docs.senso.ai/", "src/adapters/senso/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["src/adapters/senso/", "src/application/", "src/app/api/", "tests/contract/", "tests/integration/"],
+      "capabilities": [
+        "Convert a purchase intent into bounded product and merchant discovery criteria",
+        "Call the real configured Senso organization search contract",
+        "Limit and authorize retrieval to the requesting tenant's knowledge context",
+        "Persist safe citations, content identifiers, excerpts, relevance, and policy version",
+        "Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+        "Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly",
+        "Make retrieved evidence materially affect deterministic policy or human review",
+        "Render source-backed discovery evidence without fabricated confidence or verified badges"
+      ]
+    },
+    {
+      "id": "G07",
+      "title": "Real Linq message approval and signed Tapback processing",
+      "profile": "provider",
+      "role": "linq",
+      "depends_on": ["G02", "G03", "G04", "G05"],
+      "sources": ["https://docs.linqapp.com/", "src/app/api/webhook/linq/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["src/adapters/linq/", "src/app/api/webhook/linq/", "src/application/", "tests/contract/", "tests/integration/"],
+      "capabilities": [
+        "Send a real Linq approval message with an idempotency key",
+        "Persist returned chat and message identifiers against one pending approval",
+        "Verify raw Standard Webhooks signatures and timestamp freshness",
+        "Durably reject duplicate webhook IDs and replayed reactions",
+        "Map only the documented like and dislike reactions to approve and reject",
+        "Require matching message, assigned approver, phone identity, pending state, and expiry",
+        "Enforce first-valid-decision behavior under duplicate and concurrent reactions",
+        "Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully"
+      ]
+    },
+    {
+      "id": "G08",
+      "title": "Real Prava purchase permission and one-time card flow",
+      "profile": "provider",
+      "role": "prava",
+      "depends_on": ["G02", "G03", "G04", "G05"],
+      "sources": ["https://docs.prava.space/", "src/adapters/prava/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["src/adapters/prava/", "src/application/", "src/app/api/checkout/", "tests/contract/", "tests/integration/"],
+      "capabilities": [
+        "Create or register the exact approved purchase through the selected Prava flow",
+        "Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+        "Complete the documented user or Passkey approval requirement",
+        "Invoke the approved permission to obtain a one-time checkout credential",
+        "Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+        "Prevent blind retries and credential reuse across timeout or uncertain-result states",
+        "Poll or receive the documented payment result and report status when required",
+        "Persist only safe Prava identifiers, states, errors, and correlation evidence"
+      ]
+    },
+    {
+      "id": "G09",
+      "title": "Isolated end-merchant checkout and expected sandbox decline",
+      "profile": "browser",
+      "role": "browser-checkout",
+      "depends_on": ["G05", "G08"],
+      "sources": ["plans/07-vapor-master-execution-system.md", "tests/e2e/", "provider-guidance:prava-sandbox-checkout"],
+      "write_scope": ["src/checkout/", "src/application/", "tests/e2e/", "playwright.config.ts", "docs/EVIDENCE/"],
+      "capabilities": [
+        "Select and validate one automatable end merchant and deterministic product scenario",
+        "Create a fresh isolated browser context with no stored payment or user data",
+        "Navigate product, cart, address, and checkout steps deterministically",
+        "Pass the one-time card directly from the secure server boundary to checkout memory",
+        "Prevent screenshots, traces, video, console, network logs, and errors from capturing card data",
+        "Attempt exactly one authorized sandbox checkout without blind credential retry",
+        "Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+        "Correlate merchant outcome, Prava result, VAPOR state, and redacted evidence"
+      ]
+    },
+    {
+      "id": "G10",
+      "title": "Server orchestration, API contracts, idempotency, and recovery",
+      "profile": "api",
+      "role": "api-backend",
+      "depends_on": ["G03", "G04", "G05", "G06", "G07", "G08", "G09"],
+      "sources": ["src/app/api/", "src/application/", "src/domain/", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["src/app/api/", "src/application/", "src/domain/", "src/lib/", "tests/integration/", "tests/contract/"],
+      "capabilities": [
+        "Expose one validated server API for starting and resuming the golden purchase flow",
+        "Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+        "Generate and propagate correlation IDs across requests, database, providers, browser, and evidence",
+        "Make client and provider retries idempotent without duplicating approvals or payment attempts",
+        "Recover durable workflow state after process restart and delayed webhook delivery",
+        "Handle partial database, provider, network, and browser failures without synthetic completion",
+        "Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation",
+        "Expose safe health and workflow status without leaking configuration or payment data"
+      ]
+    },
+    {
+      "id": "G11",
+      "title": "Truthful judge and customer product experience",
+      "profile": "ui",
+      "role": "frontend-product",
+      "depends_on": ["G06", "G07", "G08", "G09", "G10"],
+      "sources": ["src/app/", "plans/07-vapor-master-execution-system.md", "hackathon:judging-criteria"],
+      "write_scope": ["src/app/", "src/components/", "public/", "tests/e2e/"],
+      "capabilities": [
+        "Present the US-first procurement problem and product value without unsupported claims",
+        "Accept a real purchase intent and display product and Senso evidence",
+        "Show deterministic policy reasons and real Linq approval progress",
+        "Show Prava permission and masked one-time-card readiness without exposing credentials",
+        "Show merchant checkout attempt and expected sandbox decline accurately",
+        "Render a refresh-safe durable audit timeline from server state",
+        "Provide honest loading, waiting-input, unavailable, retryable, denied, and failed states",
+        "Deliver an accessible responsive under-two-minute judge journey on a public URL"
+      ]
+    },
+    {
+      "id": "G12",
+      "title": "Complete automated and browser verification",
+      "profile": "test",
+      "role": "test-reliability",
+      "depends_on": ["G10", "G11"],
+      "sources": ["tests/", "package.json", "playwright.config.ts", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["tests/", "playwright.config.ts", "vitest.config.ts", "package.json", "package-lock.json", "docs/EVIDENCE/"],
+      "capabilities": [
+        "Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+        "Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+        "Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+        "Test provider requests, responses, signatures, retries, timeouts, duplicates, and contract drift",
+        "Test approval and payment workflows under races, restarts, late events, and partial failure",
+        "Test the real sandbox golden path without treating mocks as integration proof",
+        "Test the public product with fresh-browser, responsive, and accessibility oracles",
+        "Measure meaningful critical-scenario coverage without padding line coverage"
+      ]
+    },
+    {
+      "id": "G13",
+      "title": "Security, privacy, payment-data, dependency, and skill hardening",
+      "profile": "security",
+      "role": "security-reviewer",
+      "depends_on": ["G04", "G08", "G09", "G10", "G11"],
+      "sources": ["plans/07-vapor-master-execution-system.md", "repository:git-history", "orchestration/skill-router.json"],
+      "write_scope": ["src/", "migrations/", "tests/security/", ".github/", "docs/EVIDENCE/", "orchestration/"],
+      "capabilities": [
+        "Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+        "Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+        "Rotate or revoke every credential ever committed or exposed",
+        "Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+        "Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+        "Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+        "Audit installed and newly discovered skills before granting tools, network, or secret access",
+        "Document incident containment, credential rotation, data retention, and deletion behavior"
+      ]
+    },
+    {
+      "id": "G14",
+      "title": "CI/CD, deployment, observability, resilience, backup, and rollback",
+      "profile": "ops",
+      "role": "release-operations",
+      "depends_on": ["G10", "G11", "G12", "G13"],
+      "sources": ["package.json", ".github/", "plans/07-vapor-master-execution-system.md", "deployment:vercel"],
+      "write_scope": [".github/", "vercel.json", "src/app/api/health/", "src/infrastructure/", "scripts/", "docs/runbooks/", "docs/EVIDENCE/"],
+      "capabilities": [
+        "Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+        "Separate local, preview, sandbox, and production configuration and secrets",
+        "Deploy an immutable commit-linked public HTTPS judge environment",
+        "Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+        "Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+        "Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+        "Create and test database backup, restoration, migration recovery, and data-retention operations",
+        "Prove rollback to the previous stable deployment without losing durable workflow state"
+      ]
+    },
+    {
+      "id": "G15",
+      "title": "Clean builder release battery and evidence freeze",
+      "profile": "test",
+      "role": "evidence-controller",
+      "depends_on": ["G12", "G13", "G14"],
+      "sources": ["plans/07-vapor-master-execution-system.md", ".agents/skills/vapor-release-gates/SKILL.md", "docs/EVIDENCE/"],
+      "write_scope": ["docs/EVIDENCE/", "orchestration/runs/", "orchestration/state.json"],
+      "capabilities": [
+        "Run the complete release battery sequentially from a clean dependency installation",
+        "Run repository, history, artifact, browser, log, and trace redaction scans",
+        "Prove the real Prava sandbox chain with safe correlated identifiers",
+        "Prove real Linq and Senso behavior with current account-enabled contracts",
+        "Verify the public URL from a fresh judge-safe browser context",
+        "Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+        "Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+        "Seal the builder snapshot without granting independent release approval"
+      ]
+    },
+    {
+      "id": "G16",
+      "title": "Professor Audit 1: architecture, data, identity, and security",
+      "profile": "audit",
+      "role": "audit-architecture",
+      "depends_on": ["G15"],
+      "sources": ["orchestration/audit-protocol.json", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["docs/EVIDENCE/AUDITS/", "orchestration/runs/"],
+      "capabilities": [
+        "Reconstruct architecture and data flow from the sealed repository without builder narrative",
+        "Challenge canonical state, money, migration, atomicity, idempotency, and audit invariants",
+        "Adversarially verify authentication, membership, RBAC, tenancy, RLS, and secret boundaries",
+        "Inspect dependency and skill supply-chain risk and historical credential exposure",
+        "Reproduce critical positive, negative, race, restart, and redaction oracles",
+        "Compare every architecture and security claim with raw current evidence",
+        "Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+        "Certify pass only for the exact sealed snapshot when no release blocker remains"
+      ]
+    },
+    {
+      "id": "G17",
+      "title": "Professor Audit 2: providers, runtime, concurrency, and recovery",
+      "profile": "audit",
+      "role": "audit-runtime",
+      "depends_on": ["G16"],
+      "sources": ["orchestration/audit-protocol.json", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["docs/EVIDENCE/AUDITS/", "orchestration/runs/"],
+      "capabilities": [
+        "Reconstruct provider and runtime behavior from sealed source and raw evidence",
+        "Verify exactly one current Prava contract and the complete sandbox golden chain",
+        "Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+        "Verify real Senso retrieval semantics, tenant scope, citations, and failure behavior",
+        "Stress retries, duplicates, races, late delivery, restart, uncertain result, and provider outage",
+        "Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+        "Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+        "Certify pass only for the same sealed snapshot when no release blocker remains"
+      ]
+    },
+    {
+      "id": "G18",
+      "title": "Professor Audit 3: product, deployment, operations, and claims",
+      "profile": "audit",
+      "role": "audit-release",
+      "depends_on": ["G17"],
+      "sources": ["orchestration/audit-protocol.json", "plans/07-vapor-master-execution-system.md"],
+      "write_scope": ["docs/EVIDENCE/AUDITS/", "orchestration/runs/"],
+      "capabilities": [
+        "Rebuild and test the sealed snapshot in a clean environment",
+        "Run the public product journey in a fresh unauthenticated or judge-safe browser",
+        "Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+        "Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+        "Test backup, restore, provider outage, rollback, and incident runbooks",
+        "Compare README, UI, demo, evidence, and track claims against shipped reality",
+        "Issue product and release findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+        "Certify the third consecutive clean pass only for the unchanged sealed snapshot"
+      ]
+    },
+    {
+      "id": "G19",
+      "title": "Codex handoff package and readiness gate",
+      "profile": "audit",
+      "role": "release-controller",
+      "depends_on": ["G18"],
+      "sources": ["plans/07-vapor-master-execution-system.md", "orchestration/audit-protocol.json"],
+      "write_scope": ["docs/EVIDENCE/CODEX_HANDOFF/", "docs/ENGINE_STATE.md", "orchestration/runs/", "orchestration/state.json"],
+      "capabilities": [
+        "Verify all G00 through G18 mandatory descendants are current PASS",
+        "Verify the missing-input registry and unresolved release-blocker count are zero",
+        "Verify all three professor passes bind to one unchanged sealed snapshot",
+        "Assemble commit, tree, deployment, contract, evidence, graph, and audit hashes",
+        "Assemble raw release outputs and redacted provider and browser proof",
+        "Record residual low-risk limitations and prohibit unsupported readiness claims",
+        "Generate exact Codex reproduction instructions without invoking Codex",
+        "Set READY_FOR_CODEX_INDEPENDENT_AUDIT and stop Antigravity execution"
+      ]
+    },
+    {
+      "id": "G20",
+      "title": "Post-Codex production access, bounded smoke, demo, and submission",
+      "profile": "human",
+      "role": "release-controller",
+      "depends_on": ["G19"],
+      "required_inputs": ["CODEX_INDEPENDENT_PASS"],
+      "sources": ["plans/07-vapor-master-execution-system.md", "hackathon:submission-checklist", "provider-guidance:production-access"],
+      "write_scope": ["docs/EVIDENCE/", "docs/DEVFOLIO_SUBMISSION_BRIEF.md", "deployment:production"],
+      "capabilities": [
+        "Ingest and verify the explicit Codex independent PASS for the sealed snapshot",
+        "Request Prava production access with the redacted sandbox proof",
+        "Configure separate production secrets without copying sandbox credentials",
+        "Run production configuration, health, and non-consequential smoke checks",
+        {
+          "title": "Execute at most one explicitly approved bounded production payment",
+          "human_gate": "H_PRODUCTION_PAYMENT"
+        },
+        "Prepare an under-two-minute human-led demo and redacted screenshots",
+        "Prepare factual short submission fields, links, technologies, and eligible tracks",
+        {
+          "title": "Publish Devfolio and verify the final status is Submitted",
+          "human_gate": "H_FINAL_SUBMISSION"
+        }
+      ]
+    }
+  ]
+}

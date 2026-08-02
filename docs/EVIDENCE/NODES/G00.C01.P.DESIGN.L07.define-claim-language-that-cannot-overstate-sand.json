@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.DESIGN.L07.define-claim-language-that-cannot-overstate-sand",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define claim language that cannot overstate sandbox, production, compliance, or traction for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Define claim language that cannot overstate sandbox, production, compliance, or traction — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:26:32.491Z",
+  "contains_secrets": false
+}

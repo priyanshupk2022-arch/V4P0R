@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Add or update the smallest oracle that fails before the change — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:37:53.261Z",
+  "contains_secrets": false
+}

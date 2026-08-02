@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:24:47.954Z",
+  "contains_secrets": false
+}

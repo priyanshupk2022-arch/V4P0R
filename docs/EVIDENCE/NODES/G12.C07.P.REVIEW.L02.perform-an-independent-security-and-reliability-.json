@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Test the public product with fresh-browser, responsive, and accessibility oracles\".",
+  "title": "Perform an independent security and reliability challenge — Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

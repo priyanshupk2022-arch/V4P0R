@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C01",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Create and test a threat model for users, tenants, providers, webhooks, browser, and operators\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Create and test a threat model for users, tenants, providers, webhooks, browser, and operators",
+  "timestamp": "2026-08-02T17:00:00.289Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
+  "title": "Hash and preserve reproducible redacted evidence — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

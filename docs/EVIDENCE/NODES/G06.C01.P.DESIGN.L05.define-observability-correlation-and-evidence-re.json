@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C01.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Convert a purchase intent into bounded product and merchant discovery criteria\".",
+  "title": "Define observability, correlation, and evidence requirements — Convert a purchase intent into bounded product and merchant discovery criteria",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

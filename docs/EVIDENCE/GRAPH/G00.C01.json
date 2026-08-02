@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:17:53.349Z",
+  "contains_secrets": false
+}

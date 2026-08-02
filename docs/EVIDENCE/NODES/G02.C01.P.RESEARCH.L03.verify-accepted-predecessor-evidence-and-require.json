@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Select exactly one account-enabled Prava approval and one-time-card contract\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:22:34.806Z",
+  "contains_secrets": false
+}

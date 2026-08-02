@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C07.P.IMPLEMENT.L07.call-only-approved-live-interfaces-and-remove-sy",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Call only approved live interfaces and remove synthetic provider fallbacks for capability \"Poll or receive the documented payment result and report status when required\".",
+  "title": "Call only approved live interfaces and remove synthetic provider fallbacks — Poll or receive the documented payment result and report status when required",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:30:05.723Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:40:36.448Z",
+  "contains_secrets": false
+}

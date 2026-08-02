@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Define security, privacy, and redaction requirements — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:29:42.743Z",
+  "contains_secrets": false
+}

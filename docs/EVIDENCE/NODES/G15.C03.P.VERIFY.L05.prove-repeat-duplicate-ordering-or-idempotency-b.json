@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Perform an independent security and reliability challenge — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C05.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Test approval and payment workflows under races, restarts, late events, and partial failure only after its preceding package evidence passes.",
+  "title": "review package for Test approval and payment workflows under races, restarts, late events, and partial failure",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

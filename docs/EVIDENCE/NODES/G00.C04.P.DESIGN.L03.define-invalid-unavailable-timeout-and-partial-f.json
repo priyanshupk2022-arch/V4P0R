@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:27:58.657Z",
+  "contains_secrets": false
+}

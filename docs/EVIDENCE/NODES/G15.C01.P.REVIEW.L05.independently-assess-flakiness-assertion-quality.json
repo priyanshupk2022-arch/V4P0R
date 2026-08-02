@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.REVIEW.L05.independently-assess-flakiness-assertion-quality",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

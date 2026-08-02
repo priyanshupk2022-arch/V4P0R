@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Prove rollback to the previous stable deployment without losing durable workflow state\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:02.893Z",
+  "contains_secrets": false
+}

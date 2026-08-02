@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:56.139Z",
+  "contains_secrets": false
+}

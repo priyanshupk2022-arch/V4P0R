@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.VERIFY.L09.prove-tests-fail-on-representative-mutations-and",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove tests fail on representative mutations and do not pass through fabricated fallbacks for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Prove tests fail on representative mutations and do not pass through fabricated fallbacks — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

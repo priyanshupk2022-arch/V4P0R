@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ke",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only\".",
+  "title": "Implement input, contract, and state validation — Keep PAN, CVV, expiry, tokens, and Passkey material in narrow ephemeral memory only",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

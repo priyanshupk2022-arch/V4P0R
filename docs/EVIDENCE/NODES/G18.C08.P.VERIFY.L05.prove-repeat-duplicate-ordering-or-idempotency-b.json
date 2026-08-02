@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

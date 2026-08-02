@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Inventory every shipped, partial, mocked, broken, missing, and unverified capability only after its preceding package evidence passes.",
+  "title": "research package for Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:20:13.734Z",
+  "contains_secrets": false
+}

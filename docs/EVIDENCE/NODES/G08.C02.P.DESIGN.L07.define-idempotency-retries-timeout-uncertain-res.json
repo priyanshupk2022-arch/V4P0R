@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.DESIGN.L07.define-idempotency-retries-timeout-uncertain-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define idempotency, retries, timeout, uncertain result, webhook, and correlation behavior for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Define idempotency, retries, timeout, uncertain result, webhook, and correlation behavior — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

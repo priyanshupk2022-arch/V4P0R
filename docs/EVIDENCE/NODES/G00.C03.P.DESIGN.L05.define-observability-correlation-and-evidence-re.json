@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Define observability, correlation, and evidence requirements — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:27:31.957Z",
+  "contains_secrets": false
+}

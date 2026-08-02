@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.IMPLEMENT.L07.execute-a-read-only-fresh-context-audit-and-writ",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Execute a read-only fresh-context audit and write only sidecar evidence for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Execute a read-only fresh-context audit and write only sidecar evidence — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

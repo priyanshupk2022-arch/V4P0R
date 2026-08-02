@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C03.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Generate and propagate correlation IDs across requests, database, providers, browser, and evidence\".",
+  "title": "Implement the primary behavior within the assigned write scope — Generate and propagate correlation IDs across requests, database, providers, browser, and evidence",
+  "timestamp": "2026-08-02T16:59:57.713Z",
+  "contains_secrets": false
+}

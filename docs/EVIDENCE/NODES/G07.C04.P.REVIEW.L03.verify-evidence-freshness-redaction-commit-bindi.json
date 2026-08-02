@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

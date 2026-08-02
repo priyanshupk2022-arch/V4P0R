@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-al",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches\".",
+  "title": "Implement input, contract, and state validation — Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

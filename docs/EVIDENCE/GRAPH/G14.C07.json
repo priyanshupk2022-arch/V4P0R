@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:02.893Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C05",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Prevent screenshots, traces, video, console, network logs, and errors from capturing card data\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Prevent screenshots, traces, video, console, network logs, and errors from capturing card data",
+  "timestamp": "2026-08-02T16:59:56.921Z",
+  "contains_secrets": false
+}

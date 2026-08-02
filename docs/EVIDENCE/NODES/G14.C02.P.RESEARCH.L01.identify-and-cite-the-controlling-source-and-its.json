@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Identify and cite the controlling source and its freshness — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

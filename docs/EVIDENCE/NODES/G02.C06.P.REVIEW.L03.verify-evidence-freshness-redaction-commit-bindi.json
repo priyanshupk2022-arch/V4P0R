@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:59:54.772Z",
+  "contains_secrets": false
+}

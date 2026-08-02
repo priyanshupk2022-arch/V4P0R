@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T16:05:34.094Z",
+  "contains_secrets": false
+}

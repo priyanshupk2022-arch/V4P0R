@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C06.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Require matching message, assigned approver, phone identity, pending state, and expiry\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Require matching message, assigned approver, phone identity, pending state, and expiry",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

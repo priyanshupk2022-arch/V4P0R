@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Render a refresh-safe durable audit timeline from server state\".",
+  "title": "Hash and preserve reproducible redacted evidence — Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

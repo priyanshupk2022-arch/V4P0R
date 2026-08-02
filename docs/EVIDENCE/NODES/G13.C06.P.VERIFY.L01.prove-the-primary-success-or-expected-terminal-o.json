@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Prove the primary success or expected terminal outcome — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

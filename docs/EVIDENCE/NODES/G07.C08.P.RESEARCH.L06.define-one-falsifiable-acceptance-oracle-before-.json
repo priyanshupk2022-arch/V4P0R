@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C08.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Surface delivered, waiting, approved, rejected, expired, and unavailable states truthfully",
+  "timestamp": "2026-08-02T16:59:56.247Z",
+  "contains_secrets": false
+}

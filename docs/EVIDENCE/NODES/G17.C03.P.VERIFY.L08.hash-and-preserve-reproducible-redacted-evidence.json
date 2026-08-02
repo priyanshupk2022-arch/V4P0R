@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Hash and preserve reproducible redacted evidence — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.877Z",
+  "contains_secrets": false
+}

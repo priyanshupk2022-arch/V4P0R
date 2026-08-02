@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

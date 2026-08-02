@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

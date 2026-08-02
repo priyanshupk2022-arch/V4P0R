@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

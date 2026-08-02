@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Prove behavior when a required input is missing or invalid — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

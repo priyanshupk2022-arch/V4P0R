@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Define observability, correlation, and evidence requirements — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Perform an independent security and reliability challenge — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

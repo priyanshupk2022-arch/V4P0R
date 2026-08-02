@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Render a refresh-safe durable audit timeline from server state\".",
+  "title": "Prove upstream and downstream integration against current contracts — Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

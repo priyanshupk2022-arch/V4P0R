@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:12.077Z",
+  "contains_secrets": false
+}

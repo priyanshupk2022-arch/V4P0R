@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Test the public product with fresh-browser, responsive, and accessibility oracles\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

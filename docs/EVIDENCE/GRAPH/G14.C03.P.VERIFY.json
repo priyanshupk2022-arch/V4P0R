@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Deploy an immutable commit-linked public HTTPS judge environment only after its preceding package evidence passes.",
+  "title": "verify package for Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.982Z",
+  "contains_secrets": false
+}

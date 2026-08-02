@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Certify pass only for the same sealed snapshot when no release blocker remains only after its preceding package evidence passes.",
+  "title": "verify package for Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.764Z",
+  "contains_secrets": false
+}

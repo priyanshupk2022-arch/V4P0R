@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open the design package for Run repository, history, artifact, browser, log, and trace redaction scans only after its preceding package evidence passes.",
+  "title": "design package for Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:05.081Z",
+  "contains_secrets": false
+}

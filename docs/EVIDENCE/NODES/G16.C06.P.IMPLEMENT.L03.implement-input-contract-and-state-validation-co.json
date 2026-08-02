@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C06.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Compare every architecture and security claim with raw current evidence\".",
+  "title": "Implement input, contract, and state validation — Compare every architecture and security claim with raw current evidence",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

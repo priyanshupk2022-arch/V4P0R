@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Add or update the smallest oracle that fails before the change — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:10.118Z",
+  "contains_secrets": false
+}

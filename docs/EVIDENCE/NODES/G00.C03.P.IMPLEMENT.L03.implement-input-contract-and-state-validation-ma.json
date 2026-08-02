@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ma",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Implement input, contract, and state validation — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:32:32.743Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C05.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Prevent screenshots, traces, video, console, network logs, and errors from capturing card data\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Prevent screenshots, traces, video, console, network logs, and errors from capturing card data",
+  "timestamp": "2026-08-02T16:59:57.047Z",
+  "contains_secrets": false
+}

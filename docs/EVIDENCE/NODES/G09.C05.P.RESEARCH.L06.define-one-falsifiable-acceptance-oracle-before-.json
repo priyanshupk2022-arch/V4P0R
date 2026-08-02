@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C05.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Prevent screenshots, traces, video, console, network logs, and errors from capturing card data\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Prevent screenshots, traces, video, console, network logs, and errors from capturing card data",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

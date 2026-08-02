@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Handle partial database, provider, network, and browser failures without synthetic completion\".",
+  "title": "Hash and preserve reproducible redacted evidence — Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C08.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Rate-limit and audit authentication, webhook, checkout, and public-demo abuse\".",
+  "title": "Prove the primary success or expected terminal outcome — Rate-limit and audit authentication, webhook, checkout, and public-demo abuse",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

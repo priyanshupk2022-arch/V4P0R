@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.VERIFY.L02.prove-the-primary-rejection-or-negative-outcome-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary rejection or negative outcome for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Prove the primary rejection or negative outcome — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

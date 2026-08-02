@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

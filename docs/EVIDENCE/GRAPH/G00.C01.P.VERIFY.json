@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Inventory every shipped, partial, mocked, broken, missing, and unverified capability only after its preceding package evidence passes.",
+  "title": "verify package for Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:36:02.205Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:14:44.546Z",
+  "contains_secrets": false
+}

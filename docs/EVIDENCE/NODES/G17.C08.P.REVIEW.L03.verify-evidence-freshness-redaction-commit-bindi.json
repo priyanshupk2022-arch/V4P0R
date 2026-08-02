@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Certify pass only for the same sealed snapshot when no release blocker remains\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

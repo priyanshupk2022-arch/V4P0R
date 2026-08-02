@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C01.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Select and validate one automatable end merchant and deterministic product scenario\".",
+  "title": "Prove behavior when a required input is missing or invalid — Select and validate one automatable end merchant and deterministic product scenario",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

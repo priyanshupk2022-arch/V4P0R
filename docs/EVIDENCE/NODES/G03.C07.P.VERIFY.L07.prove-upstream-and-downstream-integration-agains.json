@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C07.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Implement durable unique constraints and append-only audit corrections\".",
+  "title": "Prove upstream and downstream integration against current contracts — Implement durable unique constraints and append-only audit corrections",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

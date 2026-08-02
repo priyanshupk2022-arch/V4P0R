@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Add or update the smallest oracle that fails before the change — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:32:23.543Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

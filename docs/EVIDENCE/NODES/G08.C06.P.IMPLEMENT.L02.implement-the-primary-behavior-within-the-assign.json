@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Implement the primary behavior within the assigned write scope — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

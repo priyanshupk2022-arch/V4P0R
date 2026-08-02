@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.REVIEW.L05.independently-reconcile-claim-scope-graph-and-ev",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently reconcile claim, scope, graph, and evidence registers for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Independently reconcile claim, scope, graph, and evidence registers — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:44:56.957Z",
+  "contains_secrets": false
+}

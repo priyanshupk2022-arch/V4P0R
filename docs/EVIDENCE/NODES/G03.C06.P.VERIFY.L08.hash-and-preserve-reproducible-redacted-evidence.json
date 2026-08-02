@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Hash and preserve reproducible redacted evidence — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:43.545Z",
+  "contains_secrets": false
+}

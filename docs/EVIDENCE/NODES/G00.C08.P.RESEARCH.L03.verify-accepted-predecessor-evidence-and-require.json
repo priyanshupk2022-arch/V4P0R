@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:24:52.749Z",
+  "contains_secrets": false
+}

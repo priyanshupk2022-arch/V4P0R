@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Durably reject duplicate webhook IDs and replayed reactions only after its preceding package evidence passes.",
+  "title": "verify package for Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

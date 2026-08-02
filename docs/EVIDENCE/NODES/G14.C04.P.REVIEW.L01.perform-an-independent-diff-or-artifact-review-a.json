@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Provide health, readiness, structured redacted logs, metrics, traces, and correlation\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

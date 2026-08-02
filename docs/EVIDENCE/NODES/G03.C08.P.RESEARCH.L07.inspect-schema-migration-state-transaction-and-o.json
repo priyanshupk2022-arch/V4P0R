@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.RESEARCH.L07.inspect-schema-migration-state-transaction-and-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect schema, migration, state, transaction, and ownership conflicts for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
+  "title": "Inspect schema, migration, state, transaction, and ownership conflicts — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

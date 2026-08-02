@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Define security, privacy, and redaction requirements — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:11.553Z",
+  "contains_secrets": false
+}

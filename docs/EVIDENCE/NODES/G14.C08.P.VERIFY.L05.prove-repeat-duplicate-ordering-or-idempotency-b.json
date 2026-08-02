@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

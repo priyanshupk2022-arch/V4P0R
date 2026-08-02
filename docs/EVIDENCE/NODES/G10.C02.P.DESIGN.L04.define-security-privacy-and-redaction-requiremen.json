@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Define security, privacy, and redaction requirements — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

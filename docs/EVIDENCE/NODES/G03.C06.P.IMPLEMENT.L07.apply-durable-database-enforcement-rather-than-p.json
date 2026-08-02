@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C06.P.IMPLEMENT.L07.apply-durable-database-enforcement-rather-than-p",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Apply durable database enforcement rather than process-local assumptions for capability \"Enforce atomic provider, approval, transaction, and audit persistence\".",
+  "title": "Apply durable database enforcement rather than process-local assumptions — Enforce atomic provider, approval, transaction, and audit persistence",
+  "timestamp": "2026-08-02T17:00:09.882Z",
+  "contains_secrets": false
+}

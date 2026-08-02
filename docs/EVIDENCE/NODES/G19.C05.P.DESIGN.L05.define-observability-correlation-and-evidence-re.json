@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Assemble raw release outputs and redacted provider and browser proof\".",
+  "title": "Define observability, correlation, and evidence requirements — Assemble raw release outputs and redacted provider and browser proof",
+  "timestamp": "2026-08-02T17:00:11.553Z",
+  "contains_secrets": false
+}

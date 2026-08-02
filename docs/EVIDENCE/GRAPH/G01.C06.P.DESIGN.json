@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Schedule independent ready nodes while preserving exclusive resource locks only after its preceding package evidence passes.",
+  "title": "design package for Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:55:00.226Z",
+  "contains_secrets": false
+}

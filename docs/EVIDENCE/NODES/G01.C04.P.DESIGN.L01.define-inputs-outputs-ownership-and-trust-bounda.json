@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:57:11.842Z",
+  "contains_secrets": false
+}

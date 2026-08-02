@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Protect merchant URLs and callbacks against SSRF, open redirects, and untrusted navigation",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

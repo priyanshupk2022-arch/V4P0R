@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:21:34.673Z",
+  "contains_secrets": false
+}

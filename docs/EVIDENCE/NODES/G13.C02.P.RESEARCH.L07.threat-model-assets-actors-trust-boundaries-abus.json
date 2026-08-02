@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.RESEARCH.L07.threat-model-assets-actors-trust-boundaries-abus",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Threat-model assets, actors, trust boundaries, abuse cases, and supply-chain inputs — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

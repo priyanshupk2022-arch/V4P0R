@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Prove behavior when a required input is missing or invalid — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

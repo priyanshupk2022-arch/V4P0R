@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C06.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Require matching message, assigned approver, phone identity, pending state, and expiry\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Require matching message, assigned approver, phone identity, pending state, and expiry",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

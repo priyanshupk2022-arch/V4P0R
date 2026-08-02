@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Implement the primary behavior within the assigned write scope — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C07.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Recognize the documented insufficient-funds or test-card merchant decline as sandbox proof",
+  "timestamp": "2026-08-02T16:59:57.047Z",
+  "contains_secrets": false
+}

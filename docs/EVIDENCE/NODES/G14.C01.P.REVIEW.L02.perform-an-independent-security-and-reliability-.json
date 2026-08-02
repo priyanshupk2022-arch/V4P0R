@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation\".",
+  "title": "Perform an independent security and reliability challenge — Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.RESEARCH.L07.resolve-required-role-skill-resource-lock-and-co",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Resolve required role, skill, resource lock, and context sources for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Resolve required role, skill, resource lock, and context sources — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:51:58.806Z",
+  "contains_secrets": false
+}

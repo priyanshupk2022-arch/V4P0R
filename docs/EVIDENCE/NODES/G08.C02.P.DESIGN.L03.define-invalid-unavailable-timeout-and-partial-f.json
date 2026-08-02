@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

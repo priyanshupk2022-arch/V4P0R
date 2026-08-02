@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

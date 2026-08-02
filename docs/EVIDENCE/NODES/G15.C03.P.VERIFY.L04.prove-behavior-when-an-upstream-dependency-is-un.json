@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:05.643Z",
+  "contains_secrets": false
+}

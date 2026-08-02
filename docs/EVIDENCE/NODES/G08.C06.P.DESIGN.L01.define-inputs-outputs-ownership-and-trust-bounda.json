@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C06.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Prevent blind retries and credential reuse across timeout or uncertain-result states\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Prevent blind retries and credential reuse across timeout or uncertain-result states",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

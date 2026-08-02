@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C07.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles only after its preceding package evidence passes.",
+  "title": "research package for Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:08.065Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-en",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Enforce least-privilege RBAC for every API and workflow transition\".",
+  "title": "Implement input, contract, and state validation — Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.322Z",
+  "contains_secrets": false
+}

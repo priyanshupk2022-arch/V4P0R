@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L09.prove-no-historical-narrative-can-unlock-a-curre",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove no historical narrative can unlock a current implementation gate for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Prove no historical narrative can unlock a current implementation gate — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:39:13.600Z",
+  "contains_secrets": false
+}

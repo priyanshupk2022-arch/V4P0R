@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:57:49.968Z",
+  "contains_secrets": false
+}

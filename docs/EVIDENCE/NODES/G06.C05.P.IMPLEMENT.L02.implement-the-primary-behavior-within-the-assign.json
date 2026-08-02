@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Implement the primary behavior within the assigned write scope — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define observability, correlation, and evidence requirements — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:58:12.076Z",
+  "contains_secrets": false
+}

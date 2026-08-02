@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T15:52:31.665Z",
+  "contains_secrets": false
+}

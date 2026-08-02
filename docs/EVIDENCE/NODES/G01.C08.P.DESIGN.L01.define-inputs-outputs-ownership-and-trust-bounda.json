@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T15:59:43.149Z",
+  "contains_secrets": false
+}

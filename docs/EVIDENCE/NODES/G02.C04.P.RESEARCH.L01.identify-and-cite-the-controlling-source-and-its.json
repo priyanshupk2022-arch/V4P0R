@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Identify and cite the controlling source and its freshness — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:33:40.320Z",
+  "contains_secrets": false
+}

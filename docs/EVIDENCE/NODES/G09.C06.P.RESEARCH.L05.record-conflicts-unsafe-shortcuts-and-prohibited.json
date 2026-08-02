@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C06.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Attempt exactly one authorized sandbox checkout without blind credential retry\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Attempt exactly one authorized sandbox checkout without blind credential retry",
+  "timestamp": "2026-08-02T16:59:56.959Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Prove the primary success or expected terminal outcome — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:42:34.168Z",
+  "contains_secrets": false
+}

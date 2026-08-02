@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Test backup, restore, provider outage, rollback, and incident runbooks only after its preceding package evidence passes.",
+  "title": "design package for Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:09.783Z",
+  "contains_secrets": false
+}

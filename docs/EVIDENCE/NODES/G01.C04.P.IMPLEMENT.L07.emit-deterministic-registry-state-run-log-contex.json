@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:03:18.746Z",
+  "contains_secrets": false
+}

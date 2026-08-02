@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.596Z",
+  "contains_secrets": false
+}

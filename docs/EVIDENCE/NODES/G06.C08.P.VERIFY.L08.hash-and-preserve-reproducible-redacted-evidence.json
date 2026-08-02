@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Render source-backed discovery evidence without fabricated confidence or verified badges\".",
+  "title": "Hash and preserve reproducible redacted evidence — Render source-backed discovery evidence without fabricated confidence or verified badges",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

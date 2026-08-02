@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Reject invalid, duplicate, out-of-order, expired, and concurrent transitions\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Reject invalid, duplicate, out-of-order, expired, and concurrent transitions",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

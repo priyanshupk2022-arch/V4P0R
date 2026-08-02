@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.IMPLEMENT.L07.remove-or-quarantine-stale-completion-state-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove or quarantine stale completion state and unsupported authority for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Remove or quarantine stale completion state and unsupported authority — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:35:17.555Z",
+  "contains_secrets": false
+}

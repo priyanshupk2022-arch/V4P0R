@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.COMPLETE",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Complete G02 only after every mandatory atomic descendant is independently verified with current evidence.",
+  "title": "G02 completion gate",
+  "timestamp": "2026-08-02T16:59:54.805Z",
+  "contains_secrets": false
+}

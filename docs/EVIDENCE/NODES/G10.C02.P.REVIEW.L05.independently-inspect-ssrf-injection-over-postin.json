@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.REVIEW.L05.independently-inspect-ssrf-injection-over-postin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently inspect SSRF, injection, over-posting, data leak, and partial-commit paths for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Independently inspect SSRF, injection, over-posting, data leak, and partial-commit paths — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

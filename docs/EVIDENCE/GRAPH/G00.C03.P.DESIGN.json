@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Map every public claim to current code and reproducible evidence only after its preceding package evidence passes.",
+  "title": "design package for Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:25:29.881Z",
+  "contains_secrets": false
+}

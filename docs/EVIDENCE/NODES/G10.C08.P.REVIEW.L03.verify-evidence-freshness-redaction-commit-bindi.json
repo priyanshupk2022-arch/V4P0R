@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

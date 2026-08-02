@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:37:02.223Z",
+  "contains_secrets": false
+}

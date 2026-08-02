@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

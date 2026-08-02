@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:38:01.260Z",
+  "contains_secrets": false
+}

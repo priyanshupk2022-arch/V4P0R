@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Perform an independent security and reliability challenge — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

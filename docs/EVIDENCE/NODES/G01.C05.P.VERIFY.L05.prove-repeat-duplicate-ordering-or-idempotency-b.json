@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:14:10.785Z",
+  "contains_secrets": false
+}

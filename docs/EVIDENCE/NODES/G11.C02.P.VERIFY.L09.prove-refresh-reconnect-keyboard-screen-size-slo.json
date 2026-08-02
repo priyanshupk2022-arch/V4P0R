@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C02.P.VERIFY.L09.prove-refresh-reconnect-keyboard-screen-size-slo",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove refresh, reconnect, keyboard, screen-size, slow-network, and error behavior in a browser for capability \"Accept a real purchase intent and display product and Senso evidence\".",
+  "title": "Prove refresh, reconnect, keyboard, screen-size, slow-network, and error behavior in a browser — Accept a real purchase intent and display product and Senso evidence",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

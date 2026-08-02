@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Identify and cite the controlling source and its freshness — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:21:25.347Z",
+  "contains_secrets": false
+}

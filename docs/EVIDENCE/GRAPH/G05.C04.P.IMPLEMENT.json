@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C04.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Prevent AI-generated text from issuing a consequential financial approval only after its preceding package evidence passes.",
+  "title": "implement package for Prevent AI-generated text from issuing a consequential financial approval",
+  "timestamp": "2026-08-02T16:59:55.756Z",
+  "contains_secrets": false
+}

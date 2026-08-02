@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:57:17.275Z",
+  "contains_secrets": false
+}

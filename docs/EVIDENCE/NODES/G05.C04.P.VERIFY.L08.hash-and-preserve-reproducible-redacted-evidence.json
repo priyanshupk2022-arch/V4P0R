@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Prevent AI-generated text from issuing a consequential financial approval\".",
+  "title": "Hash and preserve reproducible redacted evidence — Prevent AI-generated text from issuing a consequential financial approval",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}

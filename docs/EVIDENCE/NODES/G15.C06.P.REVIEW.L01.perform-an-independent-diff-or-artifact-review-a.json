@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C06.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Freeze source commit, tree hash, deployment ID, contract hash, and evidence hash",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

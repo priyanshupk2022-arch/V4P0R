@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C05.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Map only the documented like and dislike reactions to approve and reject\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Map only the documented like and dislike reactions to approve and reject",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

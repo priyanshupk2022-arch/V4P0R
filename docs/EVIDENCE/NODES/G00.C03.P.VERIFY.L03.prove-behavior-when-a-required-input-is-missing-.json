@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Prove behavior when a required input is missing or invalid — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:38:40.935Z",
+  "contains_secrets": false
+}

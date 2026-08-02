@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

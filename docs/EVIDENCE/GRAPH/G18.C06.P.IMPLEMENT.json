@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Compare README, UI, demo, evidence, and track claims against shipped reality only after its preceding package evidence passes.",
+  "title": "implement package for Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:10.041Z",
+  "contains_secrets": false
+}

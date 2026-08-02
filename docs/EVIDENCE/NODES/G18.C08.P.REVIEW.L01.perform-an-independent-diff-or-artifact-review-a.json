@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C04.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Persist safe citations, content identifiers, excerpts, relevance, and policy version\".",
+  "title": "Perform an independent security and reliability challenge — Persist safe citations, content identifiers, excerpts, relevance, and policy version",
+  "timestamp": "2026-08-02T16:59:56.139Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Verify Linq message creation and Standard Webhooks reaction contracts\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Verify Linq message creation and Standard Webhooks reaction contracts",
+  "timestamp": "2026-08-02T16:55:05.562Z",
+  "contains_secrets": false
+}

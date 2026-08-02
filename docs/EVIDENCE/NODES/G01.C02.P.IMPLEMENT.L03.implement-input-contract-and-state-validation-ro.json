@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-ro",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Implement input, contract, and state validation — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:01:43.418Z",
+  "contains_secrets": false
+}

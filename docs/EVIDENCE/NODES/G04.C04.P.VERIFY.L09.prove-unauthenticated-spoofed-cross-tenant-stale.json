@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C04.P.VERIFY.L09.prove-unauthenticated-spoofed-cross-tenant-stale",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove unauthenticated, spoofed, cross-tenant, stale-session, and privilege-escalation refusal for capability \"Create complete RLS policies for every tenant-owned table and operation\".",
+  "title": "Prove unauthenticated, spoofed, cross-tenant, stale-session, and privilege-escalation refusal — Create complete RLS policies for every tenant-owned table and operation",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

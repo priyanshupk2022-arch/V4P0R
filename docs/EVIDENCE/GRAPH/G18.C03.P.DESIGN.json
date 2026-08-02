@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C03.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension only after its preceding package evidence passes.",
+  "title": "design package for Verify truthful UI mapping, accessibility, responsiveness, and under-two-minute comprehension",
+  "timestamp": "2026-08-02T17:00:09.783Z",
+  "contains_secrets": false
+}

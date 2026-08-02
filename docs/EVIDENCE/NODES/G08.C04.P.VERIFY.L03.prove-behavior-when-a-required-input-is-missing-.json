@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C04.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Invoke the approved permission to obtain a one-time checkout credential\".",
+  "title": "Prove behavior when a required input is missing or invalid — Invoke the approved permission to obtain a one-time checkout credential",
+  "timestamp": "2026-08-02T16:59:56.726Z",
+  "contains_secrets": false
+}

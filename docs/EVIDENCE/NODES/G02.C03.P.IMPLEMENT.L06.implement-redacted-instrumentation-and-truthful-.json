@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:32:06.220Z",
+  "contains_secrets": false
+}

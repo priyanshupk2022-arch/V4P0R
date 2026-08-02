@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Define observability, correlation, and evidence requirements — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.394Z",
+  "contains_secrets": false
+}

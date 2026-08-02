@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06.P.DESIGN.L07.define-accessible-responsive-idle-working-waitin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define accessible responsive idle, working, waiting, success, decline, unavailable, and failure states for capability \"Render a refresh-safe durable audit timeline from server state\".",
+  "title": "Define accessible responsive idle, working, waiting, success, decline, unavailable, and failure states — Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

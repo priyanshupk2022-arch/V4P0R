@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C04.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Create complete RLS policies for every tenant-owned table and operation\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Create complete RLS policies for every tenant-owned table and operation",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

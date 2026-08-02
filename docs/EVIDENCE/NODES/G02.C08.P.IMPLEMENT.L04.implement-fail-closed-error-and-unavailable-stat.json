@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:45:13.657Z",
+  "contains_secrets": false
+}

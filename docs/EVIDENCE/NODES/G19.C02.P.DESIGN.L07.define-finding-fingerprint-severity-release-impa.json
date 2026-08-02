@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.DESIGN.L07.define-finding-fingerprint-severity-release-impa",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define finding fingerprint, severity, release impact, reproduction, and restart scope for capability \"Verify the missing-input registry and unresolved release-blocker count are zero\".",
+  "title": "Define finding fingerprint, severity, release impact, reproduction, and restart scope — Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.553Z",
+  "contains_secrets": false
+}

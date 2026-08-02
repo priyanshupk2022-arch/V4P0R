@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

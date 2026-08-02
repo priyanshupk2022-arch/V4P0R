@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C07.P.VERIFY.L09.prove-unauthenticated-spoofed-cross-tenant-stale",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove unauthenticated, spoofed, cross-tenant, stale-session, and privilege-escalation refusal for capability \"Fail closed when any required secret, membership, policy, or database dependency is unavailable\".",
+  "title": "Prove unauthenticated, spoofed, cross-tenant, stale-session, and privilege-escalation refusal — Fail closed when any required secret, membership, policy, or database dependency is unavailable",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

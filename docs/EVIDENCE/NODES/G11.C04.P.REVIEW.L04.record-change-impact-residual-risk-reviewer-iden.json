@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

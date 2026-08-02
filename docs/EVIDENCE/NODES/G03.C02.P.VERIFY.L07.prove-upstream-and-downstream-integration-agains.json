@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Store all monetary values as integer minor units with ISO currency\".",
+  "title": "Prove upstream and downstream integration against current contracts — Store all monetary values as integer minor units with ISO currency",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Hash and preserve reproducible redacted evidence — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:06:21.271Z",
+  "contains_secrets": false
+}

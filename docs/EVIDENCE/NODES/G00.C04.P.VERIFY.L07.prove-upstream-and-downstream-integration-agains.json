@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove upstream and downstream integration against current contracts — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:51.442Z",
+  "contains_secrets": false
+}

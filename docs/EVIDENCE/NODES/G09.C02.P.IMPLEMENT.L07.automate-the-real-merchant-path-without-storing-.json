@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C02.P.IMPLEMENT.L07.automate-the-real-merchant-path-without-storing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Automate the real merchant path without storing or logging payment credentials for capability \"Create a fresh isolated browser context with no stored payment or user data\".",
+  "title": "Automate the real merchant path without storing or logging payment credentials — Create a fresh isolated browser context with no stored payment or user data",
+  "timestamp": "2026-08-02T16:59:57.124Z",
+  "contains_secrets": false
+}

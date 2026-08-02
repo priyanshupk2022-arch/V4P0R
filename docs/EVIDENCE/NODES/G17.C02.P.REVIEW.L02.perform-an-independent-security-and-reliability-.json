@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Perform an independent security and reliability challenge — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

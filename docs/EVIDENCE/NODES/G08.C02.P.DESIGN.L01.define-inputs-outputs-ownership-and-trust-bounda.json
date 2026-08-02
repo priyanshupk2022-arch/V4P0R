@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

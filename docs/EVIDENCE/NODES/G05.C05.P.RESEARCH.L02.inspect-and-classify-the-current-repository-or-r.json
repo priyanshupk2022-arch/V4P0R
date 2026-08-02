@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Create approval expiry, assigned approver, and first-valid-decision semantics\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

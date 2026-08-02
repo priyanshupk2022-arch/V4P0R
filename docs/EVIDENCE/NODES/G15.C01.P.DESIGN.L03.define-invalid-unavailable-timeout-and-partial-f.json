@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C01.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Run the complete release battery sequentially from a clean dependency installation\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Run the complete release battery sequentially from a clean dependency installation",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

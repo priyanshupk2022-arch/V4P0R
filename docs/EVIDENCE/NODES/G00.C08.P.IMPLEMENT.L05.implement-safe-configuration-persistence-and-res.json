@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:35:44.563Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C01.P.REVIEW.L05.run-a-fresh-user-comprehension-test-without-code",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Run a fresh-user comprehension test without code knowledge or team-only access for capability \"Present the US-first procurement problem and product value without unsupported claims\".",
+  "title": "Run a fresh-user comprehension test without code knowledge or team-only access — Present the US-first procurement problem and product value without unsupported claims",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

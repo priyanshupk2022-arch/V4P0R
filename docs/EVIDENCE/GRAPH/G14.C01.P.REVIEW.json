@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation only after its preceding package evidence passes.",
+  "title": "review package for Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:04.378Z",
+  "contains_secrets": false
+}

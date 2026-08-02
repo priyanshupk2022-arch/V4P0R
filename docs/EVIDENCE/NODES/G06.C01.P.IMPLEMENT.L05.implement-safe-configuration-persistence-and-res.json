@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C01.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Convert a purchase intent into bounded product and merchant discovery criteria\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Convert a purchase intent into bounded product and merchant discovery criteria",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Handle partial database, provider, network, and browser failures without synthetic completion\".",
+  "title": "Perform an independent security and reliability challenge — Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:58.253Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:52:58.105Z",
+  "contains_secrets": false
+}

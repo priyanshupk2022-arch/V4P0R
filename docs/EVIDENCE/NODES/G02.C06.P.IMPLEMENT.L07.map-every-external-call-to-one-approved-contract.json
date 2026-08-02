@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.IMPLEMENT.L07.map-every-external-call-to-one-approved-contract",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every external call to one approved contract record for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Map every external call to one approved contract record — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:59:45.503Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove the primary success or expected terminal outcome — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:39:19.008Z",
+  "contains_secrets": false
+}

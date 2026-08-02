@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:35:14.841Z",
+  "contains_secrets": false
+}

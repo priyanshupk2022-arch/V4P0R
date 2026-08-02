@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C07.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Generate graph coverage with zero stale, failed, waiting, or unverified mandatory nodes",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

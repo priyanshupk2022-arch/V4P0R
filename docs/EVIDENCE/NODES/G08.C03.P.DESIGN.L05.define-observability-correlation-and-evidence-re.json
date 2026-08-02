@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Define observability, correlation, and evidence requirements — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

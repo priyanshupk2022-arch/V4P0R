@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:30:10.194Z",
+  "contains_secrets": false
+}

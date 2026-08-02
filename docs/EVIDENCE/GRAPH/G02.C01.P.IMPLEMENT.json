@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C01.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Select exactly one account-enabled Prava approval and one-time-card contract only after its preceding package evidence passes.",
+  "title": "implement package for Select exactly one account-enabled Prava approval and one-time-card contract",
+  "timestamp": "2026-08-02T16:53:32.786Z",
+  "contains_secrets": false
+}

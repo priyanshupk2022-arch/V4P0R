@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C08.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Measure meaningful critical-scenario coverage without padding line coverage\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Measure meaningful critical-scenario coverage without padding line coverage",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

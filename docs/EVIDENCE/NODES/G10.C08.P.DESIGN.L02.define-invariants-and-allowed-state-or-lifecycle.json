@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

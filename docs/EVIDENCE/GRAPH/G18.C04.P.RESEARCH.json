@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts only after its preceding package evidence passes.",
+  "title": "research package for Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:09.536Z",
+  "contains_secrets": false
+}

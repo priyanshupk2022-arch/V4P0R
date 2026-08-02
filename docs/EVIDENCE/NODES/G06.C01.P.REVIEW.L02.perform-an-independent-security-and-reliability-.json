@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C01.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Convert a purchase intent into bounded product and merchant discovery criteria\".",
+  "title": "Perform an independent security and reliability challenge — Convert a purchase intent into bounded product and merchant discovery criteria",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

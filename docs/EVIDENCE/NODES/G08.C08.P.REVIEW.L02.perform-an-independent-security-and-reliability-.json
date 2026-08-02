@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C08.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Persist only safe Prava identifiers, states, errors, and correlation evidence\".",
+  "title": "Perform an independent security and reliability challenge — Persist only safe Prava identifiers, states, errors, and correlation evidence",
+  "timestamp": "2026-08-02T16:59:56.873Z",
+  "contains_secrets": false
+}

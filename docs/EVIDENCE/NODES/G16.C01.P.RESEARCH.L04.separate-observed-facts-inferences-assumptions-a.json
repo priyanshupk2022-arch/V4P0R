@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

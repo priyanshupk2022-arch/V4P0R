@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C08.P.RESEARCH.L07.trace-every-identity-tenant-role-session-and-cal",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Trace every identity, tenant, role, session, and caller-controlled input for capability \"Rate-limit and audit authentication, webhook, checkout, and public-demo abuse\".",
+  "title": "Trace every identity, tenant, role, session, and caller-controlled input — Rate-limit and audit authentication, webhook, checkout, and public-demo abuse",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

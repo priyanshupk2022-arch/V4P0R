@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Route mandatory relevant skills before any node starts only after its preceding package evidence passes.",
+  "title": "implement package for Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:00:25.131Z",
+  "contains_secrets": false
+}

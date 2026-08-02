@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

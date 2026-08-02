@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C04.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Show Prava permission and masked one-time-card readiness without exposing credentials\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Show Prava permission and masked one-time-card readiness without exposing credentials",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

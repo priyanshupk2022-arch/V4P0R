@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C04.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts only after its preceding package evidence passes.",
+  "title": "design package for Verify deployment identity, configuration separation, health, logs, metrics, traces, and alerts",
+  "timestamp": "2026-08-02T17:00:09.783Z",
+  "contains_secrets": false
+}

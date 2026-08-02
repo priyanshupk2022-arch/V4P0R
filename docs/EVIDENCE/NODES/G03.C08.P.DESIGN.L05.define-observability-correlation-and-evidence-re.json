@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
+  "title": "Define observability, correlation, and evidence requirements — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

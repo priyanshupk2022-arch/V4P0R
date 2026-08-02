@@ -1,0 +1,254 @@
+{
+  "version": "1.0.0",
+  "authority": "plans/07-vapor-master-execution-system.md",
+  "generated_at": "2026-08-02T15:08:26.366Z",
+  "graph_hash": "1d8fa87bcd173ba0c7794e898c0cf09781821eaf63c352a8fb97007a1dc7ccbe",
+  "root": "VAPOR.ROOT",
+  "antigravity_terminal": "G19.COMPLETE",
+  "journey_terminal": "G20.COMPLETE",
+  "counts": {
+    "total": 6931,
+    "atomic_leaves": 5880,
+    "by_level": {
+      "L0": 1,
+      "L1": 42,
+      "L2": 168,
+      "L3": 840,
+      "L4": 5880
+    },
+    "by_outcome": {
+      "MISSION": 1,
+      "G00": 330,
+      "G01": 330,
+      "G02": 330,
+      "G03": 330,
+      "G04": 330,
+      "G05": 330,
+      "G06": 330,
+      "G07": 330,
+      "G08": 330,
+      "G09": 330,
+      "G10": 330,
+      "G11": 330,
+      "G12": 330,
+      "G13": 330,
+      "G14": 330,
+      "G15": 330,
+      "G16": 330,
+      "G17": 330,
+      "G18": 330,
+      "G19": 330,
+      "G20": 330
+    },
+    "by_kind": {
+      "gate": 43,
+      "capability": 168,
+      "package": 840,
+      "research": 1176,
+      "design": 1176,
+      "implementation": 1174,
+      "test": 1512,
+      "evidence": 680,
+      "audit": 160,
+      "human": 2
+    },
+    "by_profile": {
+      "governance": 331,
+      "graph": 330,
+      "contract": 330,
+      "data": 330,
+      "auth": 330,
+      "financial": 330,
+      "provider": 990,
+      "browser": 330,
+      "api": 330,
+      "ui": 330,
+      "test": 660,
+      "security": 330,
+      "ops": 330,
+      "audit": 1320,
+      "human": 330
+    }
+  },
+  "outcomes": [
+    {
+      "id": "G00",
+      "title": "Control-plane correction and repository truth baseline",
+      "depends_on": [
+        "VAPOR.ROOT"
+      ]
+    },
+    {
+      "id": "G01",
+      "title": "Skills, roles, context, memory, and graph mechanics",
+      "depends_on": [
+        "G00"
+      ]
+    },
+    {
+      "id": "G02",
+      "title": "Official contracts, runtime feasibility, and missing inputs",
+      "depends_on": [
+        "G00",
+        "G01"
+      ]
+    },
+    {
+      "id": "G03",
+      "title": "Canonical domain, money, state, migrations, and durable audit",
+      "depends_on": [
+        "G02"
+      ]
+    },
+    {
+      "id": "G04",
+      "title": "Authentication, authorization, tenancy, RLS, secrets, and abuse boundaries",
+      "depends_on": [
+        "G02",
+        "G03"
+      ]
+    },
+    {
+      "id": "G05",
+      "title": "Deterministic policy and human approval lifecycle",
+      "depends_on": [
+        "G03",
+        "G04"
+      ]
+    },
+    {
+      "id": "G06",
+      "title": "AI product discovery and meaningful Senso evidence",
+      "depends_on": [
+        "G02",
+        "G03",
+        "G04"
+      ]
+    },
+    {
+      "id": "G07",
+      "title": "Real Linq message approval and signed Tapback processing",
+      "depends_on": [
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "G08",
+      "title": "Real Prava purchase permission and one-time card flow",
+      "depends_on": [
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "G09",
+      "title": "Isolated end-merchant checkout and expected sandbox decline",
+      "depends_on": [
+        "G05",
+        "G08"
+      ]
+    },
+    {
+      "id": "G10",
+      "title": "Server orchestration, API contracts, idempotency, and recovery",
+      "depends_on": [
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09"
+      ]
+    },
+    {
+      "id": "G11",
+      "title": "Truthful judge and customer product experience",
+      "depends_on": [
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ]
+    },
+    {
+      "id": "G12",
+      "title": "Complete automated and browser verification",
+      "depends_on": [
+        "G10",
+        "G11"
+      ]
+    },
+    {
+      "id": "G13",
+      "title": "Security, privacy, payment-data, dependency, and skill hardening",
+      "depends_on": [
+        "G04",
+        "G08",
+        "G09",
+        "G10",
+        "G11"
+      ]
+    },
+    {
+      "id": "G14",
+      "title": "CI/CD, deployment, observability, resilience, backup, and rollback",
+      "depends_on": [
+        "G10",
+        "G11",
+        "G12",
+        "G13"
+      ]
+    },
+    {
+      "id": "G15",
+      "title": "Clean builder release battery and evidence freeze",
+      "depends_on": [
+        "G12",
+        "G13",
+        "G14"
+      ]
+    },
+    {
+      "id": "G16",
+      "title": "Professor Audit 1: architecture, data, identity, and security",
+      "depends_on": [
+        "G15"
+      ]
+    },
+    {
+      "id": "G17",
+      "title": "Professor Audit 2: providers, runtime, concurrency, and recovery",
+      "depends_on": [
+        "G16"
+      ]
+    },
+    {
+      "id": "G18",
+      "title": "Professor Audit 3: product, deployment, operations, and claims",
+      "depends_on": [
+        "G17"
+      ]
+    },
+    {
+      "id": "G19",
+      "title": "Codex handoff package and readiness gate",
+      "depends_on": [
+        "G18"
+      ]
+    },
+    {
+      "id": "G20",
+      "title": "Post-Codex production access, bounded smoke, demo, and submission",
+      "depends_on": [
+        "G19"
+      ]
+    }
+  ]
+}

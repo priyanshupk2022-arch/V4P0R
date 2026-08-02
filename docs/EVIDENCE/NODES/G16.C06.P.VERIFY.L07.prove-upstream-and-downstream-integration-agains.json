@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Compare every architecture and security claim with raw current evidence\".",
+  "title": "Prove upstream and downstream integration against current contracts — Compare every architecture and security claim with raw current evidence",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.VERIFY.L09.prove-clean-deployment-public-smoke-provider-out",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove clean deployment, public smoke, provider outage, backup, restore, and rollback for capability \"Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation\".",
+  "title": "Prove clean deployment, public smoke, provider outage, backup, restore, and rollback — Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

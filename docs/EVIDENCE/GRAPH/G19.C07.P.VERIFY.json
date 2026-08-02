@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Generate exact Codex reproduction instructions without invoking Codex only after its preceding package evidence passes.",
+  "title": "verify package for Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:11.993Z",
+  "contains_secrets": false
+}

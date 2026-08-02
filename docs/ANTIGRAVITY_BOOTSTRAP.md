@@ -1,99 +1,85 @@
-# VAPOR Antigravity Bootstrap Packet
+# VAPOR Antigravity Bootstrap
 
-## Mission and why
+## What this starts
 
-Build a judge-ready, message-native procurement agent for the Agentic Commerce Hackathon within the available time. The value proposition is controlled autonomous purchasing for startup/SMB finance teams:
+This packet starts implementation. It is not a graph review, planning-only request, or permission to stop at a narrative handoff.
 
-`employee request -> Senso evidence -> deterministic policy -> Linq human approval -> Prava one-time payment credential -> merchant checkout attempt -> redacted audit result`
+Authoritative inputs:
 
-The objective is a truthful, repeatable end-to-end sandbox demo. The post-sandbox sequence is:
+1. `.agents/rules/vapor-engine.md`
+2. `.agents/skills/vapor-engine/SKILL.md`
+3. `plans/07-vapor-master-execution-system.md`
+4. `orchestration/generated/vapor-graph-index.json`
+5. `orchestration/generated/vapor-graph-summary.md`
+6. `orchestration/state.json`
 
-`Codex independent verification/fixes -> Prava production request -> bounded production smoke test -> demo recording -> submission`
+Do not load the entire 5,880-leaf registry into one model context. Query ready nodes and compile one focused context pack per active package.
 
-## Absolute product proof
+## Exact launch message
 
-The hackathon-team requirement supplied by the user is authoritative:
+Paste this into the existing Antigravity conversation opened on the VAPOR repository:
 
-1. AI agent discovers or decides on one product.
-2. Prava session/mandate approves that exact purchase.
-3. A one-time card is issued after approval.
-4. Browser automation attempts the checkout at the end merchant.
-5. The merchant declines the sandbox/test card for insufficient funds; this expected decline is successful sandbox proof.
+```text
+You are VAPOR's Parent Build Orchestrator. EXECUTE the production graph; do not merely review, summarize, re-plan, or stop at "human handoff."
 
-Do not call session/intent creation a completed order. Do not treat the expected merchant decline as an application success or hide it.
+Repository authority:
+1. Read .agents/rules/vapor-engine.md completely.
+2. Read .agents/skills/vapor-engine/SKILL.md completely and follow every linked required project skill.
+3. Read plans/07-vapor-master-execution-system.md completely.
+4. Treat plans/03 through plans/06 and historical readiness claims as non-authoritative wherever they conflict with plan 07 or current evidence.
 
-## Contract selection rule
+Preflight:
+- Preserve all current work; do not reset, discard, or overwrite unrelated user changes.
+- Run `node scripts/vapor-graph.mjs build`, `validate`, `summary`, and `ready --limit 25`. Never use `--reset-state` during normal resume.
+- The graph currently represents 6,931 connected nodes with 5,880 meaningful atomic leaves. Never load the whole registry into one subagent context.
+- Begin from the first ready node and continue through the graph.
 
-Read `$vapor-contracts` before any provider implementation. First verify which Prava contract the current account/SDK supports:
+Execution authority:
+- You may research, install vetted relevant skills, edit code, add tests, create isolated worktrees, commit, push, open/update PRs, call sandbox providers, deploy, run public browser smoke tests, and record demo assets whenever the graph requires them.
+- Only a real consequential production payment and final Devfolio publication require fresh human approval.
+- Do not request approval for ordinary code, tests, commits, integration, sandbox calls, deployment, or demo preparation.
 
-- SDK intent/mandate path: card selection/enrollment -> `registerIntent()` -> Passkey -> `invokeIntent()` -> one-time credential -> merchant checkout; or
-- session path: only if the account-specific documentation exposes it.
+Mandatory execution behavior:
+- Use the assigned role from orchestration/roles.json for every node. Every specialist operates with PhD-level principal judgment and 30+ years equivalent responsibility, challenges contradictions, flags impossible/unsafe requirements, and proposes justified improvements.
+- Before every node, route and completely read relevant mandatory skills from orchestration/skill-router.json. Use installed find-skills and Skills.sh to discover a vetted missing skill; security-review it before installation. Do not load irrelevant skills.
+- Dispatch independent specialist subagents in parallel only with disjoint write scopes/resource locks. The parent coordinates; an implementer never approves its own node.
+- Use `node scripts/vapor-graph.mjs context <node-id>` and give each subagent only its focused context, exact files, contracts, failures, oracles, and evidence destination.
+- Resolve exact test/command/browser/provider oracles before RUNNING.
+- Every success must be backed by current redacted evidence and an independent reviewer. Never accept an agent narrative as proof.
 
-Select one path, record it in `docs/EVIDENCE/CONTRACT_MANIFEST.md`, and never mix endpoint/header/response assumptions from both paths.
+Missing inputs:
+- If a credential, key, access grant, phone, account setting, merchant detail, or external artifact is missing, add its NAME ONLY to orchestration/missing-inputs.json with purpose, secure paste destination, validation method, and dependent nodes.
+- Mark only dependent nodes WAITING_INPUT and keep all unrelated ready nodes executing.
+- Never print, persist, commit, screenshot, trace, or prompt with the secret value.
+- Present one consolidated missing-input checklist after all independent work is exhausted, validate supplied inputs safely, and automatically resume the waiting nodes.
 
-## Current repository truth
+Truth and provider rules:
+- First rebuild the current truth baseline. Existing ENGINE_STATE PASS claims, tests, UI, adapters, and evidence are untrusted until reverified.
+- No random IDs, fake provider responses, offline success fallback, simulated release-path approval, fake checkout, or invented API fields.
+- Use one account-enabled Prava contract only. The required sandbox chain is product decision -> exact approval/mandate -> required user approval -> one-time card -> end-merchant checkout attempt -> expected sandbox/test-card decline -> correlated redacted VAPOR audit state.
+- Linq and Senso must be real and materially connected to the outcome.
+- PAN, CVV, payment tokens, API keys, Passkey material, and unrestricted PII must never enter source, DB, logs, traces, screenshots, analytics, prompts, or evidence.
 
-Baseline commit: `af31250`. Existing code is a partial scaffold, not trusted production evidence.
+Completion:
+- Continue through implementation, tests, security, live integrations, public deployment, observability, backup/restore, rollback, and the full clean release battery.
+- Seal one final source/deployment/evidence snapshot.
+- Run all three fresh-context, mutually blind, read-only professor audits from orchestration/audit-protocol.json.
+- Any release-blocking or mandatory finding triggers bounded repair, independent retest, a new sealed snapshot, and all three audits again. False positives must be proven; accepted non-blocking residual risk must be explicit. Three consecutive clean audits are mandatory.
+- Stop only after G00-G19 and every mandatory descendant PASS, zero missing inputs/release blockers remain, and the complete Codex handoff package is sealed.
+- Your only successful final message is exactly: READY_FOR_CODEX_INDEPENDENT_AUDIT
+- Do not invoke Codex yourself.
 
-- `src/adapters/prava/createCard.ts` and `lockCard.ts` use unsupported/fake fallback behavior.
-- `src/adapters/prava/createSession.ts` uses stale response assumptions and fabricated fallback behavior.
-- `src/app/api/checkout/session/route.ts` and `src/app/api/reconciliation/route.ts` currently return synthetic/static paths.
-- `src/app/api/webhook/linq/route.ts` uses an invented/optional webhook contract and lacks real Tapback ownership checks.
-- `services/vapor-ai-python/main.py` uses incorrect Senso behavior and fabricated verified outputs.
-- `src/infrastructure/auth/authMiddleware.ts` trusts caller headers and invalid bearer-token logic.
-- `src/infrastructure/database/supabaseClient.ts` has non-atomic financial writes and success-on-failure fallback.
-- `migrations/001_initial_schema.sql` and `migrations/002_sandbox_pilot_schema.sql` conflict; RLS is enabled without explicit policies.
-- There is no judge-facing page, browser E2E suite, CI, coverage gate, or trustworthy deployment evidence yet.
-- Credential-like values and test payment data require removal/rotation. Never repeat their values in reports.
+Start execution now and continue autonomously until that terminal condition or until only named user-supplied inputs remain.
+```
 
-`README.md`, `PRODUCTION_READINESS.md`, and the prior N0 manifest contain claims that need evidence correction. Do not use them as proof.
+## Expected first response
 
-## Technology map
+The orchestrator should report only:
 
-| Area | Location | Current status |
-|---|---|---|
-| Next.js API and future UI | `src/app/` | API scaffold only; UI absent |
-| Domain policy/state | `src/domain/` | Useful partial logic; verify against new flow |
-| Provider adapters | `src/adapters/` | Replace contract-incompatible behavior |
-| Auth/database | `src/infrastructure/` | Unsafe/incomplete; owner is trust-data workstream |
-| SQL | `migrations/` | Reconcile before applying remotely |
-| Tests | `tests/` | 66 tests; passing is not integration proof |
-| Extra Rust/Go/Python services | `services/` | Non-critical unless a real demo flow requires one |
-| Plans/skills | `plans/`, `.agents/skills/` | Source of execution workflow |
+- graph validation count/hash;
+- active run ID;
+- first ready wave and subagent ownership;
+- any immediately detected missing-input names;
+- confirmation that graph execution has started; feature implementation is claimed only when its first implementation node actually begins.
 
-## Required behavior boundaries
-
-- Use integer minor units plus ISO currency in durable business state.
-- Verify identity; derive tenant/role from membership, never request headers.
-- Make approval/provider operations idempotent, durable and fail closed.
-- AI can summarize evidence but cannot be the final financial approver.
-- Never persist, log, screenshot, trace, return, commit, or prompt with PAN/CVV/payment token/API key/Passkey data.
-- All golden-path provider behavior must be live sandbox/production behavior; demo fixtures are only clearly labeled fallback UI.
-- Do not begin production access/request until Codex independently signs the sandbox result.
-
-## Execution graph and source files
-
-Read these in order:
-
-1. `plans/04-vapor-engine-workflow.md` — orchestration graph, timebox and workstream ownership.
-2. `plans/00-master-roadmap.md` — product/judging contract and frozen invariants.
-3. Current node only from `plans/01-hackathon-critical-path.md`.
-4. `$vapor-contracts` — provider truth.
-5. `$vapor-release-gates` — completion tests.
-6. `docs/ENGINE_STATE.md` and `docs/PROJECT_MAP.md` — current memory.
-
-## Required artifacts
-
-Create/update only with real evidence:
-
-- `docs/EVIDENCE/CONTRACT_MANIFEST.md`
-- `docs/EVIDENCE/NODE-<id>.md`
-- `docs/ENGINE_STATE.md`
-- `docs/PROJECT_MAP.md`
-- browser trace/video and redacted screenshots
-
-## Completion protocol
-
-Parent orchestrator owns the integrated repository. Subagents receive only a focused context pack and return artifacts. The parent runs test oracles. A fresh-context internal verifier may return `READY FOR INDEPENDENT REVIEW` only when all sandbox nodes, raw command outputs, browser E2E, redacted Prava proof, and release gates exist.
-
-That status is a handoff to Codex, not a final approval. Codex independently tests and fixes. Only after Codex sandbox PASS may the team request production access.
+It must not answer with “review complete,” “planning complete,” `READY FOR HUMAN HANDOFF`, or a new one-shot implementation summary.

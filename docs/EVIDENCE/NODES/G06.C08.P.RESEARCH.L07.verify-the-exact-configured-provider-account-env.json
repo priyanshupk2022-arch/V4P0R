@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C08.P.RESEARCH.L07.verify-the-exact-configured-provider-account-env",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify the exact configured provider account, environment, auth, and response contract for capability \"Render source-backed discovery evidence without fabricated confidence or verified badges\".",
+  "title": "Verify the exact configured provider account, environment, auth, and response contract — Render source-backed discovery evidence without fabricated confidence or verified badges",
+  "timestamp": "2026-08-02T16:59:55.651Z",
+  "contains_secrets": false
+}

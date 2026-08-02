@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C07.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Test the public product with fresh-browser, responsive, and accessibility oracles\".",
+  "title": "Define security, privacy, and redaction requirements — Test the public product with fresh-browser, responsive, and accessibility oracles",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

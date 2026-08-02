@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C06.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Render a refresh-safe durable audit timeline from server state\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Render a refresh-safe durable audit timeline from server state",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:06:08.409Z",
+  "contains_secrets": false
+}

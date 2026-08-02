@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C03",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify raw Standard Webhooks signatures and timestamp freshness\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify raw Standard Webhooks signatures and timestamp freshness",
+  "timestamp": "2026-08-02T16:59:56.192Z",
+  "contains_secrets": false
+}

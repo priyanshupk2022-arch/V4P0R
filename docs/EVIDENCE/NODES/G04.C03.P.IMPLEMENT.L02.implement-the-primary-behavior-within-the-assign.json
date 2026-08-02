@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Enforce least-privilege RBAC for every API and workflow transition\".",
+  "title": "Implement the primary behavior within the assigned write scope — Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.322Z",
+  "contains_secrets": false
+}

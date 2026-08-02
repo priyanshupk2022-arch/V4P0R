@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C08.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Produce a reviewer-approved contract manifest for every external call\".",
+  "title": "Define observability, correlation, and evidence requirements — Produce a reviewer-approved contract manifest for every external call",
+  "timestamp": "2026-08-02T16:44:50.718Z",
+  "contains_secrets": false
+}

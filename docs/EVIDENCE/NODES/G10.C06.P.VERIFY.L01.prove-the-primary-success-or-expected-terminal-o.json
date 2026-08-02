@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C06.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Handle partial database, provider, network, and browser failures without synthetic completion\".",
+  "title": "Prove the primary success or expected terminal outcome — Handle partial database, provider, network, and browser failures without synthetic completion",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

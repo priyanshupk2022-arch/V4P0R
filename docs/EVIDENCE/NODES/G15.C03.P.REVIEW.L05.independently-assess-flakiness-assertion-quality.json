@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.REVIEW.L05.independently-assess-flakiness-assertion-quality",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Independently assess flakiness, assertion quality, blind spots, and evidence integrity — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

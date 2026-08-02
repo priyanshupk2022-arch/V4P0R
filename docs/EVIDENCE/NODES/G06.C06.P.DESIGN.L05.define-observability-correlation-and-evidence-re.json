@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C06.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly\".",
+  "title": "Define observability, correlation, and evidence requirements — Handle no-result, low-relevance, timeout, malformed, and unavailable responses honestly",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

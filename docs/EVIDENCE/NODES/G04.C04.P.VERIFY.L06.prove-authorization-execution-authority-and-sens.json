@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Create complete RLS policies for every tenant-owned table and operation\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Create complete RLS policies for every tenant-owned table and operation",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

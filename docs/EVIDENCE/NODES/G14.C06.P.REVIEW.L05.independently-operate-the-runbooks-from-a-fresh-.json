@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C06.P.REVIEW.L05.independently-operate-the-runbooks-from-a-fresh-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently operate the runbooks from a fresh environment for capability \"Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks\".",
+  "title": "Independently operate the runbooks from a fresh environment — Implement bounded retries, circuit breakers, provider outage behavior, and operational runbooks",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

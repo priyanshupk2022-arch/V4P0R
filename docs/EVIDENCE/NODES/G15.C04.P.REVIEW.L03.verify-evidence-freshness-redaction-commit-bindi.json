@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Prove real Linq and Senso behavior with current account-enabled contracts\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:06.107Z",
+  "contains_secrets": false
+}

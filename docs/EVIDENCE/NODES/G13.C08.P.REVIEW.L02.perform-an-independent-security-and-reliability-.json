@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Perform an independent security and reliability challenge — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.633Z",
+  "contains_secrets": false
+}

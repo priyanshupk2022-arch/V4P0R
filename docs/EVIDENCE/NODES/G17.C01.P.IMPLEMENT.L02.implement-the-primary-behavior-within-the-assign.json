@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Implement the primary behavior within the assigned write scope — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

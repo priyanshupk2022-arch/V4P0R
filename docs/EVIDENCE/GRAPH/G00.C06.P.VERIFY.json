@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Record the current branch, dirty worktree, baseline commit, and untrusted artifacts only after its preceding package evidence passes.",
+  "title": "verify package for Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:36:29.097Z",
+  "contains_secrets": false
+}

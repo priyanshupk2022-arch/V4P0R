@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C01.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation only after its preceding package evidence passes.",
+  "title": "design package for Create deterministic CI for clean install, lint, typecheck, tests, build, security, and graph validation",
+  "timestamp": "2026-08-02T17:00:03.302Z",
+  "contains_secrets": false
+}

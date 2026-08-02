@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C03.P.VERIFY.L09.prove-trace-screenshot-video-console-and-network",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove trace, screenshot, video, console, and network artifacts contain no payment data for capability \"Navigate product, cart, address, and checkout steps deterministically\".",
+  "title": "Prove trace, screenshot, video, console, and network artifacts contain no payment data — Navigate product, cart, address, and checkout steps deterministically",
+  "timestamp": "2026-08-02T16:59:57.192Z",
+  "contains_secrets": false
+}

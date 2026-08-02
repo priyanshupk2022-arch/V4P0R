@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:47:31.627Z",
+  "contains_secrets": false
+}

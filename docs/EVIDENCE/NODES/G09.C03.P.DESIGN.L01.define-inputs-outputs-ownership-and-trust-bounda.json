@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C03.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Navigate product, cart, address, and checkout steps deterministically\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Navigate product, cart, address, and checkout steps deterministically",
+  "timestamp": "2026-08-02T16:59:57.047Z",
+  "contains_secrets": false
+}

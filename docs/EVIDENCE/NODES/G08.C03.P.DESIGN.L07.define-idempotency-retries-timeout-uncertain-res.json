@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C03.P.DESIGN.L07.define-idempotency-retries-timeout-uncertain-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define idempotency, retries, timeout, uncertain result, webhook, and correlation behavior for capability \"Complete the documented user or Passkey approval requirement\".",
+  "title": "Define idempotency, retries, timeout, uncertain result, webhook, and correlation behavior — Complete the documented user or Passkey approval requirement",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

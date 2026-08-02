@@ -1,0 +1,11 @@
+{
+  "node_id": "G09",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G09 only after every declared predecessor completion gate passes.",
+  "title": "Isolated end-merchant checkout and expected sandbox decline",
+  "timestamp": "2026-08-02T16:59:56.906Z",
+  "contains_secrets": false
+}

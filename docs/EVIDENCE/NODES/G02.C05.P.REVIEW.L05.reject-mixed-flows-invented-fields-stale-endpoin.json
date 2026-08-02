@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.REVIEW.L05.reject-mixed-flows-invented-fields-stale-endpoin",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Reject mixed flows, invented fields, stale endpoints, and credential-bearing evidence for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Reject mixed flows, invented fields, stale endpoints, and credential-bearing evidence — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:59:54.753Z",
+  "contains_secrets": false
+}

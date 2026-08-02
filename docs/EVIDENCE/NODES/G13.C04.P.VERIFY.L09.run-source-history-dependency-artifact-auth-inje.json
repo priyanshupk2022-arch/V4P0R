@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C04.P.VERIFY.L09.run-source-history-dependency-artifact-auth-inje",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks for capability \"Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks\".",
+  "title": "Run source, history, dependency, artifact, auth, injection, and payment-data adversarial checks — Test broken access control, injection, XSS, CSRF, SSRF, redirect, and webhook attacks",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

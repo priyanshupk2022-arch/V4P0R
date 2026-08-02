@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Test clean migrations, constraints, atomicity, RLS, backup, and restoration only after its preceding package evidence passes.",
+  "title": "verify package for Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.654Z",
+  "contains_secrets": false
+}

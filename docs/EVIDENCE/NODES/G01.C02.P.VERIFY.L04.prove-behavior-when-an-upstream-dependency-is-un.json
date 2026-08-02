@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:06:47.986Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:10.829Z",
+  "contains_secrets": false
+}

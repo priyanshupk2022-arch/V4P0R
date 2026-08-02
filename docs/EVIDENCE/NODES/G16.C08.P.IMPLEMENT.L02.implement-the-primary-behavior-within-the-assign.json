@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Implement the primary behavior within the assigned write scope — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Prove upstream and downstream integration against current contracts — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:59:54.695Z",
+  "contains_secrets": false
+}

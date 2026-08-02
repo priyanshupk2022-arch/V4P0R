@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Verify all G00 through G18 mandatory descendants are current PASS\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:11.089Z",
+  "contains_secrets": false
+}

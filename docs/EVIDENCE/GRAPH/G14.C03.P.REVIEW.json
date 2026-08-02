@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.REVIEW",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the review package for Deploy an immutable commit-linked public HTTPS judge environment only after its preceding package evidence passes.",
+  "title": "review package for Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:04.378Z",
+  "contains_secrets": false
+}

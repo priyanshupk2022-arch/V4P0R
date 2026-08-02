@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05.P.RESEARCH.L07.trace-every-identity-tenant-role-session-and-cal",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Trace every identity, tenant, role, session, and caller-controlled input for capability \"Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths\".",
+  "title": "Trace every identity, tenant, role, session, and caller-controlled input — Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C05.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Create approval expiry, assigned approver, and first-valid-decision semantics\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Create approval expiry, assigned approver, and first-valid-decision semantics",
+  "timestamp": "2026-08-02T16:59:55.795Z",
+  "contains_secrets": false
+}

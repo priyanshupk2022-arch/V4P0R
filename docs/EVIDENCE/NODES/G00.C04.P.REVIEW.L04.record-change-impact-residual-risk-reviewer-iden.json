@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:45:45.600Z",
+  "contains_secrets": false
+}

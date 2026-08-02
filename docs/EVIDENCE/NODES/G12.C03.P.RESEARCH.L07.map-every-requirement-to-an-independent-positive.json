@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C03.P.RESEARCH.L07.map-every-requirement-to-an-independent-positive",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every requirement to an independent positive and negative oracle for capability \"Test API validation, authentication, RBAC, tenant isolation, and consistent errors\".",
+  "title": "Map every requirement to an independent positive and negative oracle — Test API validation, authentication, RBAC, tenant isolation, and consistent errors",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Verify the missing-input registry and unresolved release-blocker count are zero\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

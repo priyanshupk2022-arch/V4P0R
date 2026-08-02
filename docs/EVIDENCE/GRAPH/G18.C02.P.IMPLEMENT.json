@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Run the public product journey in a fresh unauthenticated or judge-safe browser only after its preceding package evidence passes.",
+  "title": "implement package for Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:10.041Z",
+  "contains_secrets": false
+}

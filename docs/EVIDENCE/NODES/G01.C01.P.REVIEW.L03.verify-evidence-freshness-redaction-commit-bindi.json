@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:14:55.199Z",
+  "contains_secrets": false
+}

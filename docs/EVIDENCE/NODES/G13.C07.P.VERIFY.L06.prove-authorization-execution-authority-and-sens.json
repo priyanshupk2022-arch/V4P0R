@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Audit installed and newly discovered skills before granting tools, network, or secret access\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

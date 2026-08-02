@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Hash and preserve reproducible redacted evidence — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T16:12:24.042Z",
+  "contains_secrets": false
+}

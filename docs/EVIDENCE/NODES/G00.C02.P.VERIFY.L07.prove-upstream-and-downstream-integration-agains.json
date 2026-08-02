@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Prove upstream and downstream integration against current contracts — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:38:13.479Z",
+  "contains_secrets": false
+}

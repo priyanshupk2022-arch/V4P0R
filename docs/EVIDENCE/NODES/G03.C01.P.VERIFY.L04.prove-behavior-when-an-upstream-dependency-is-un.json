@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C01.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Define one canonical purchase-request aggregate and identifier model\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Define one canonical purchase-request aggregate and identifier model",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

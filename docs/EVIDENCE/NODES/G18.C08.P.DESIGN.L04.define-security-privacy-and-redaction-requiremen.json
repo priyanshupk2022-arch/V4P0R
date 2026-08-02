@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C08.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Certify the third consecutive clean pass only for the unchanged sealed snapshot\".",
+  "title": "Define security, privacy, and redaction requirements — Certify the third consecutive clean pass only for the unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

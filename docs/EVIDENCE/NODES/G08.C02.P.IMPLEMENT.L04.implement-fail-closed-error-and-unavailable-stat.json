@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C02.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Bind merchant, amount, currency, item count, use limit, and expiry to the permission\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Bind merchant, amount, currency, item count, use limit, and expiry to the permission",
+  "timestamp": "2026-08-02T16:59:56.501Z",
+  "contains_secrets": false
+}

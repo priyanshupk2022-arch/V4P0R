@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Implement the primary behavior within the assigned write scope — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:01:06.458Z",
+  "contains_secrets": false
+}

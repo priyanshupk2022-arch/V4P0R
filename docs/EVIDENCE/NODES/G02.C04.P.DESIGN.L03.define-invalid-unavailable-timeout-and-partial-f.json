@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:34:27.079Z",
+  "contains_secrets": false
+}

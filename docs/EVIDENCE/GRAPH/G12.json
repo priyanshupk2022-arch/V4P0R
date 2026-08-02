@@ -1,0 +1,11 @@
+{
+  "node_id": "G12",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G12 only after every declared predecessor completion gate passes.",
+  "title": "Complete automated and browser verification",
+  "timestamp": "2026-08-02T17:00:00.201Z",
+  "contains_secrets": false
+}

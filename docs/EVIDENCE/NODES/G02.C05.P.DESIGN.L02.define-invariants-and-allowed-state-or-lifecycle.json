@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:48:51.943Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:44:08.411Z",
+  "contains_secrets": false
+}

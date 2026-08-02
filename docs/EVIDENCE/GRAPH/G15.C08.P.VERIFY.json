@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Open the verify package for Seal the builder snapshot without granting independent release approval only after its preceding package evidence passes.",
+  "title": "verify package for Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.521Z",
+  "contains_secrets": false
+}

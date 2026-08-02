@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Verify the missing-input registry and unresolved release-blocker count are zero\".",
+  "title": "Implement the primary behavior within the assigned write scope — Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.856Z",
+  "contains_secrets": false
+}

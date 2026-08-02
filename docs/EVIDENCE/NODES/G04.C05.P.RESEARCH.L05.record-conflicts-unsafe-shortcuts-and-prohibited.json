@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C05.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Reject cross-tenant identifiers, spoofed headers, stale sessions, and confused deputy paths",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

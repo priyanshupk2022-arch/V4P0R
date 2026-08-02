@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C02.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Retract unsupported completion, production, ledger, security, and compliance claims\".",
+  "title": "Prove behavior when a required input is missing or invalid — Retract unsupported completion, production, ledger, security, and compliance claims",
+  "timestamp": "2026-08-02T15:37:48.376Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

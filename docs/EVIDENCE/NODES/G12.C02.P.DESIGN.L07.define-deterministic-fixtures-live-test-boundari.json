@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C02.P.DESIGN.L07.define-deterministic-fixtures-live-test-boundari",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning for capability \"Test clean migrations, constraints, atomicity, RLS, backup, and restoration\".",
+  "title": "Define deterministic fixtures, live-test boundaries, race control, and coverage meaning — Test clean migrations, constraints, atomicity, RLS, backup, and restoration",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

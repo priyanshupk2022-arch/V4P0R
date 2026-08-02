@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:07.703Z",
+  "contains_secrets": false
+}

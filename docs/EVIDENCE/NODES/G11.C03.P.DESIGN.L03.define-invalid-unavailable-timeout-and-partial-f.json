@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:59.065Z",
+  "contains_secrets": false
+}

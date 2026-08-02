@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T15:51:31.308Z",
+  "contains_secrets": false
+}

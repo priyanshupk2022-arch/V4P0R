@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Add or update the smallest oracle that fails before the change — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:01:01.696Z",
+  "contains_secrets": false
+}

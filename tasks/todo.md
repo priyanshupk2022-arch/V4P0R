@@ -1,5 +1,7 @@
 # VAPOR Execution Todo List
 
+> Historical N0-N9 checklist. It is not current execution state. Use the generated G00-G20 graph and `orchestration/state.json`; checked boxes here do not unlock any node.
+
 ## Node N0: Truth Baseline and Scope Freeze
 - [x] Create feature inventory table classifying all features (REAL, PARTIAL, MOCK/STATIC, UNSUPPORTED, ABSENT)
 - [x] Record clean baseline outputs for test, build, typecheck and audit

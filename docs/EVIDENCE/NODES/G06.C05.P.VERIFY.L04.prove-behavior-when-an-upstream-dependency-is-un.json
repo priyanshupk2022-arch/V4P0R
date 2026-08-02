@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:56.010Z",
+  "contains_secrets": false
+}

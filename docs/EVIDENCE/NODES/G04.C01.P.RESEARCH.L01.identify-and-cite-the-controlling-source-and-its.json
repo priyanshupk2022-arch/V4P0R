@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C01.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Verify user identity cryptographically on every protected server request\".",
+  "title": "Identify and cite the controlling source and its freshness — Verify user identity cryptographically on every protected server request",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

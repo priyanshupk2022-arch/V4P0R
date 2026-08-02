@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Hash and preserve reproducible redacted evidence — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:07:09.442Z",
+  "contains_secrets": false
+}

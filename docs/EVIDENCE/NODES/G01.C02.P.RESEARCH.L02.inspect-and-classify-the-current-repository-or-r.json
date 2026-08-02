@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T15:50:14.906Z",
+  "contains_secrets": false
+}

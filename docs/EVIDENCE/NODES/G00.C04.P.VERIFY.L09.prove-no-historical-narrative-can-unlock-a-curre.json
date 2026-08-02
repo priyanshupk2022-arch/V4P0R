@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.VERIFY.L09.prove-no-historical-narrative-can-unlock-a-curre",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove no historical narrative can unlock a current implementation gate for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Prove no historical narrative can unlock a current implementation gate — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:40:02.208Z",
+  "contains_secrets": false
+}

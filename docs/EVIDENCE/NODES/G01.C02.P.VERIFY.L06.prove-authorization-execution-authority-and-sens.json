@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:06:58.693Z",
+  "contains_secrets": false
+}

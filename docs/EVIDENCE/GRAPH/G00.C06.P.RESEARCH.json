@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C06.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Record the current branch, dirty worktree, baseline commit, and untrusted artifacts only after its preceding package evidence passes.",
+  "title": "research package for Record the current branch, dirty worktree, baseline commit, and untrusted artifacts",
+  "timestamp": "2026-08-02T15:20:37.774Z",
+  "contains_secrets": false
+}

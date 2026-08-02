@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C03.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Verify real Linq message ownership, signatures, reactions, expiry, and first decision\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Verify real Linq message ownership, signatures, reactions, expiry, and first decision",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

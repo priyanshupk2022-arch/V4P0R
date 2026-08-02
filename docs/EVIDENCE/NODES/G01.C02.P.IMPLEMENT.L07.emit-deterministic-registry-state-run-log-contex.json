@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.IMPLEMENT.L07.emit-deterministic-registry-state-run-log-contex",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Emit deterministic registry, state, run-log, context, and coverage artifacts for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Emit deterministic registry, state, run-log, context, and coverage artifacts — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:02:02.268Z",
+  "contains_secrets": false
+}

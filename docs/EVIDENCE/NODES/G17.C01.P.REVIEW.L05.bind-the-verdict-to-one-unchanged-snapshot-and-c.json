@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.REVIEW.L05.bind-the-verdict-to-one-unchanged-snapshot-and-c",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Bind the verdict to one unchanged snapshot and certify no self-approval occurred — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:09.157Z",
+  "contains_secrets": false
+}

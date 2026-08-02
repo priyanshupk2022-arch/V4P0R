@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:58.695Z",
+  "contains_secrets": false
+}

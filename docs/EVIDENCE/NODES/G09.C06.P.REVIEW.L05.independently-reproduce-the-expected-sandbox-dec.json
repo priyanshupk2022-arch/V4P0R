@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C06.P.REVIEW.L05.independently-reproduce-the-expected-sandbox-dec",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently reproduce the expected sandbox decline and provider correlation for capability \"Attempt exactly one authorized sandbox checkout without blind credential retry\".",
+  "title": "Independently reproduce the expected sandbox decline and provider correlation — Attempt exactly one authorized sandbox checkout without blind credential retry",
+  "timestamp": "2026-08-02T16:59:57.277Z",
+  "contains_secrets": false
+}

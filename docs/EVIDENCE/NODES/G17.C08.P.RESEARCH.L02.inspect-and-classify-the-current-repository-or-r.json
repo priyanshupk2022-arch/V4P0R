@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C08.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Certify pass only for the same sealed snapshot when no release blocker remains\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Certify pass only for the same sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

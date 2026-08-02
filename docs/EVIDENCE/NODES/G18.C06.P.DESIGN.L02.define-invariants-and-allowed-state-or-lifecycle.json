@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C06.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Compare README, UI, demo, evidence, and track claims against shipped reality\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Compare README, UI, demo, evidence, and track claims against shipped reality",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

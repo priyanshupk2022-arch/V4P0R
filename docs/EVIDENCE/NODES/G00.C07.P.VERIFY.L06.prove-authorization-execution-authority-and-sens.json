@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C07.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Define the implementation cut line without removing the Prava golden path\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Define the implementation cut line without removing the Prava golden path",
+  "timestamp": "2026-08-02T15:42:12.364Z",
+  "contains_secrets": false
+}

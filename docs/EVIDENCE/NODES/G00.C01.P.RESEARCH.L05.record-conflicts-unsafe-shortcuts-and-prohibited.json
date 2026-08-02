@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:21:11.545Z",
+  "contains_secrets": false
+}

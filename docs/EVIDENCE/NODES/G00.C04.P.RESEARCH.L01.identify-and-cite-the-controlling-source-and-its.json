@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Freeze the US-first global-expansion product positioning and golden flow\".",
+  "title": "Identify and cite the controlling source and its freshness — Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:22:31.049Z",
+  "contains_secrets": false
+}

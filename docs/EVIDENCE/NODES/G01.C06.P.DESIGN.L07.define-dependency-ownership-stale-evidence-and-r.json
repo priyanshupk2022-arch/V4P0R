@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN.L07.define-dependency-ownership-stale-evidence-and-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define dependency, ownership, stale-evidence, and resume semantics for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define dependency, ownership, stale-evidence, and resume semantics — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:59:01.013Z",
+  "contains_secrets": false
+}

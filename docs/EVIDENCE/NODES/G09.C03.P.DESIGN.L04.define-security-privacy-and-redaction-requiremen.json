@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C03.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Navigate product, cart, address, and checkout steps deterministically\".",
+  "title": "Define security, privacy, and redaction requirements — Navigate product, cart, address, and checkout steps deterministically",
+  "timestamp": "2026-08-02T16:59:57.047Z",
+  "contains_secrets": false
+}

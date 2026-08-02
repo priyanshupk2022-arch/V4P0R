@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C03.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Define one explicit purchase, approval, checkout, and result state machine\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Define one explicit purchase, approval, checkout, and result state machine",
+  "timestamp": "2026-08-02T16:59:54.972Z",
+  "contains_secrets": false
+}

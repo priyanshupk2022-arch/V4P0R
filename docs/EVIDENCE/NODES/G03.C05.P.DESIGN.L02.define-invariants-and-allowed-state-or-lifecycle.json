@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C05.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Reconcile migrations into one ordered repeatable deployment history\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Reconcile migrations into one ordered repeatable deployment history",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

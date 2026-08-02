@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C02.P.REVIEW.L05.independently-review-every-critical-or-high-path",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently review every Critical or High path and every accepted residual risk for capability \"Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII\".",
+  "title": "Independently review every Critical or High path and every accepted residual risk — Scan current files and Git history for secrets, PAN, CVV, tokens, Passkey data, and unsafe PII",
+  "timestamp": "2026-08-02T17:00:02.257Z",
+  "contains_secrets": false
+}

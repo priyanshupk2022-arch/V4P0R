@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C01.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Reconstruct provider and runtime behavior from sealed source and raw evidence\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Reconstruct provider and runtime behavior from sealed source and raw evidence",
+  "timestamp": "2026-08-02T17:00:08.335Z",
+  "contains_secrets": false
+}

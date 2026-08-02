@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C06.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Schedule independent ready nodes while preserving exclusive resource locks\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Schedule independent ready nodes while preserving exclusive resource locks",
+  "timestamp": "2026-08-02T15:58:39.395Z",
+  "contains_secrets": false
+}

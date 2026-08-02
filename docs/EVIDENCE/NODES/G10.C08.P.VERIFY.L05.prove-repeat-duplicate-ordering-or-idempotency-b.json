@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

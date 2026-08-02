@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04.P.VERIFY.L09.prove-clean-deployment-public-smoke-provider-out",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove clean deployment, public smoke, provider outage, backup, restore, and rollback for capability \"Provide health, readiness, structured redacted logs, metrics, traces, and correlation\".",
+  "title": "Prove clean deployment, public smoke, provider outage, backup, restore, and rollback — Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

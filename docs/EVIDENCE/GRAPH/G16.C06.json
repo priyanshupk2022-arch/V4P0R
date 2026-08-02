@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C06",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Compare every architecture and security claim with raw current evidence\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Compare every architecture and security claim with raw current evidence",
+  "timestamp": "2026-08-02T17:00:06.401Z",
+  "contains_secrets": false
+}

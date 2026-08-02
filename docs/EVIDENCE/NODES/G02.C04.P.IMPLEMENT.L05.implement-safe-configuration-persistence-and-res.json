@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:53:19.883Z",
+  "contains_secrets": false
+}

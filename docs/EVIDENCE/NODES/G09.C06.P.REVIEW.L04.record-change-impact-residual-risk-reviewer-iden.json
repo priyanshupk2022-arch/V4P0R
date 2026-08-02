@@ -1,0 +1,11 @@
+{
+  "node_id": "G09.C06.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "browser-checkout",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Attempt exactly one authorized sandbox checkout without blind credential retry\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Attempt exactly one authorized sandbox checkout without blind credential retry",
+  "timestamp": "2026-08-02T16:59:57.277Z",
+  "contains_secrets": false
+}

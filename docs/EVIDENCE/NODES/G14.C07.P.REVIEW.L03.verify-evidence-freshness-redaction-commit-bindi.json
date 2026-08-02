@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C07.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Create and test database backup, restoration, migration recovery, and data-retention operations\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Create and test database backup, restoration, migration recovery, and data-retention operations",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

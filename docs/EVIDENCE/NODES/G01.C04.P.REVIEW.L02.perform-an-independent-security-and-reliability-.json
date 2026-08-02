@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Perform an independent security and reliability challenge — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:15:55.435Z",
+  "contains_secrets": false
+}

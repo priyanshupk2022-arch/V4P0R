@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:34:18.263Z",
+  "contains_secrets": false
+}

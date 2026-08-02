@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:26:11.353Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C04.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Invoke the approved permission to obtain a one-time checkout credential\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Invoke the approved permission to obtain a one-time checkout credential",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

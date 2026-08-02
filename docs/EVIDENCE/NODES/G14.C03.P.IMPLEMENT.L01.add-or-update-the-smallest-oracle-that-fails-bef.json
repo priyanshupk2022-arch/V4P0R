@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Add or update the smallest oracle that fails before the change — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.684Z",
+  "contains_secrets": false
+}

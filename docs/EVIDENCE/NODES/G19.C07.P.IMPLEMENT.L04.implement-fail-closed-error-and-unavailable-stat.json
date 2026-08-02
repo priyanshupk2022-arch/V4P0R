@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C07.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Generate exact Codex reproduction instructions without invoking Codex\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Generate exact Codex reproduction instructions without invoking Codex",
+  "timestamp": "2026-08-02T17:00:11.856Z",
+  "contains_secrets": false
+}

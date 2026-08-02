@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:34:22.783Z",
+  "contains_secrets": false
+}

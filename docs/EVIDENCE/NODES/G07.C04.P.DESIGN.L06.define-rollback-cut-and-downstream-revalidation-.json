@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C04.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Durably reject duplicate webhook IDs and replayed reactions\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Durably reject duplicate webhook IDs and replayed reactions",
+  "timestamp": "2026-08-02T16:59:56.373Z",
+  "contains_secrets": false
+}

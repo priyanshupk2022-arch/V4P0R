@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:00.509Z",
+  "contains_secrets": false
+}

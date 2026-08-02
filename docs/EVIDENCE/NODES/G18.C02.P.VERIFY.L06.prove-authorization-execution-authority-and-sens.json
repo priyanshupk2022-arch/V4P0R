@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:10.359Z",
+  "contains_secrets": false
+}

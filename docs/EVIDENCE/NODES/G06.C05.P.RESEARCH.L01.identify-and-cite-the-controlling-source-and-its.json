@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C05.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Distinguish retrieval relevance from fraud probability, approval, or merchant certification\".",
+  "title": "Identify and cite the controlling source and its freshness — Distinguish retrieval relevance from fraud probability, approval, or merchant certification",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

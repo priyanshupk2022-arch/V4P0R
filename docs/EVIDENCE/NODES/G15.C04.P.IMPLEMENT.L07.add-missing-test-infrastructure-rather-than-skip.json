@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C04.P.IMPLEMENT.L07.add-missing-test-infrastructure-rather-than-skip",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Add missing test infrastructure rather than skipping absent checks for capability \"Prove real Linq and Senso behavior with current account-enabled contracts\".",
+  "title": "Add missing test infrastructure rather than skipping absent checks — Prove real Linq and Senso behavior with current account-enabled contracts",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

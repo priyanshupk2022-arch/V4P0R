@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C03.P.REVIEW.L03.verify-evidence-freshness-redaction-commit-bindi",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Explain allow, reject, and human-escalation decisions with stable reason codes\".",
+  "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Explain allow, reject, and human-escalation decisions with stable reason codes",
+  "timestamp": "2026-08-02T16:59:56.059Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C02.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Run repository, history, artifact, browser, log, and trace redaction scans\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Run repository, history, artifact, browser, log, and trace redaction scans",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

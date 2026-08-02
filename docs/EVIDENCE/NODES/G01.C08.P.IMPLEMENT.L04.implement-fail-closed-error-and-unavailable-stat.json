@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:05:53.804Z",
+  "contains_secrets": false
+}

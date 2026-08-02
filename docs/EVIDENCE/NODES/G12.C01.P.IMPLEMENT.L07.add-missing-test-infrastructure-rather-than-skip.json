@@ -1,0 +1,11 @@
+{
+  "node_id": "G12.C01.P.IMPLEMENT.L07.add-missing-test-infrastructure-rather-than-skip",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "test-reliability",
+  "reviewer": "evidence-controller",
+  "requirement": "Add missing test infrastructure rather than skipping absent checks for capability \"Cover policy, money, state-machine, and normalization invariants with unit and property tests\".",
+  "title": "Add missing test infrastructure rather than skipping absent checks — Cover policy, money, state-machine, and normalization invariants with unit and property tests",
+  "timestamp": "2026-08-02T17:00:01.311Z",
+  "contains_secrets": false
+}

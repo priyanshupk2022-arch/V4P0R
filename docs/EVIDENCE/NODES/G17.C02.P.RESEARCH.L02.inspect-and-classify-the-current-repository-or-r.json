@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

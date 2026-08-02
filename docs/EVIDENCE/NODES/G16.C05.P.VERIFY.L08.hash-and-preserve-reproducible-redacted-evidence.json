@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C05.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Reproduce critical positive, negative, race, restart, and redaction oracles\".",
+  "title": "Hash and preserve reproducible redacted evidence — Reproduce critical positive, negative, race, restart, and redaction oracles",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C01.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Validate the immutable hierarchical graph and append-only execution records\".",
+  "title": "Prove upstream and downstream integration against current contracts — Validate the immutable hierarchical graph and append-only execution records",
+  "timestamp": "2026-08-02T16:06:15.988Z",
+  "contains_secrets": false
+}

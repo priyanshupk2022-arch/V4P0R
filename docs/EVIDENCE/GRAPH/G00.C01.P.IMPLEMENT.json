@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Inventory every shipped, partial, mocked, broken, missing, and unverified capability only after its preceding package evidence passes.",
+  "title": "implement package for Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:30:36.495Z",
+  "contains_secrets": false
+}

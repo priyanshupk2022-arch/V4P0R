@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C08.P.VERIFY.L09.reject-orphan-duplicate-cycle-unreachable-collis",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Reject orphan, duplicate, cycle, unreachable, collision, and padding cases for capability \"Resume safely from the latest verified checkpoint after interruption\".",
+  "title": "Reject orphan, duplicate, cycle, unreachable, collision, and padding cases — Resume safely from the latest verified checkpoint after interruption",
+  "timestamp": "2026-08-02T16:21:25.981Z",
+  "contains_secrets": false
+}

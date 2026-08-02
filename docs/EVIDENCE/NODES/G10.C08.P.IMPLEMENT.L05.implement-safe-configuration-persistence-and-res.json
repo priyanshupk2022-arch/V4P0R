@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C08.P.IMPLEMENT.L05.implement-safe-configuration-persistence-and-res",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Expose safe health and workflow status without leaking configuration or payment data\".",
+  "title": "Implement safe configuration, persistence, and restart behavior — Expose safe health and workflow status without leaking configuration or payment data",
+  "timestamp": "2026-08-02T16:59:57.713Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C05.P.IMPLEMENT.L02.implement-the-primary-behavior-within-the-assign",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement the primary behavior within the assigned write scope for capability \"Persist decisions, contracts, evidence, inputs, commits, and change impact\".",
+  "title": "Implement the primary behavior within the assigned write scope — Persist decisions, contracts, evidence, inputs, commits, and change impact",
+  "timestamp": "2026-08-02T16:03:29.358Z",
+  "contains_secrets": false
+}

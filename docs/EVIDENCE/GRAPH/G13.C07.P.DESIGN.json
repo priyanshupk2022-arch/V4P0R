@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C07.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Audit installed and newly discovered skills before granting tools, network, or secret access only after its preceding package evidence passes.",
+  "title": "design package for Audit installed and newly discovered skills before granting tools, network, or secret access",
+  "timestamp": "2026-08-02T17:00:01.011Z",
+  "contains_secrets": false
+}

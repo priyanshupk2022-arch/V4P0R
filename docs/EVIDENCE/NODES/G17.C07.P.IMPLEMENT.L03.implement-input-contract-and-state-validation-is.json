@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C07.P.IMPLEMENT.L03.implement-input-contract-and-state-validation-is",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement input, contract, and state validation for capability \"Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Implement input, contract, and state validation — Issue provider and runtime findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:08.566Z",
+  "contains_secrets": false
+}

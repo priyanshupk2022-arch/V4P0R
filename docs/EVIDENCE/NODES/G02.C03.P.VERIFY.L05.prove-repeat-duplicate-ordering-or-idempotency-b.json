@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:53:22.843Z",
+  "contains_secrets": false
+}

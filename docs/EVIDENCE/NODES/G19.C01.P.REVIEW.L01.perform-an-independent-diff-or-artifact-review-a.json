@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

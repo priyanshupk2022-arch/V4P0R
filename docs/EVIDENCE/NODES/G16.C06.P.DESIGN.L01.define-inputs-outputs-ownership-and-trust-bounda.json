@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C06.P.DESIGN.L01.define-inputs-outputs-ownership-and-trust-bounda",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Compare every architecture and security claim with raw current evidence\".",
+  "title": "Define inputs, outputs, ownership, and trust boundaries — Compare every architecture and security claim with raw current evidence",
+  "timestamp": "2026-08-02T17:00:06.776Z",
+  "contains_secrets": false
+}

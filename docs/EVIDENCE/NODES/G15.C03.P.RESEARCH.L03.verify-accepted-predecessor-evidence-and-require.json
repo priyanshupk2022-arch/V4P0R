@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

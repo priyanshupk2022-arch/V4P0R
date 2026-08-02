@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C01.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Send a real Linq approval message with an idempotency key\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Send a real Linq approval message with an idempotency key",
+  "timestamp": "2026-08-02T16:59:56.774Z",
+  "contains_secrets": false
+}

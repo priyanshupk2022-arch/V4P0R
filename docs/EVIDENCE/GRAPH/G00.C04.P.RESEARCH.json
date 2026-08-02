@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C04.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Freeze the US-first global-expansion product positioning and golden flow only after its preceding package evidence passes.",
+  "title": "research package for Freeze the US-first global-expansion product positioning and golden flow",
+  "timestamp": "2026-08-02T15:20:28.155Z",
+  "contains_secrets": false
+}

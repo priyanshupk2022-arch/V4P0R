@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.VERIFY.L04.prove-behavior-when-an-upstream-dependency-is-un",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Prove behavior when an upstream dependency is unavailable — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:38:46.456Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:01:57.584Z",
+  "contains_secrets": false
+}

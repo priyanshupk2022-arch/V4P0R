@@ -1,0 +1,64 @@
+{
+  "version": "1.1.0",
+  "policy": {
+    "single_use": true,
+    "must_match_exact_gated_node": true,
+    "must_match_current_graph_hash": true,
+    "must_name_human_approver": true,
+    "must_be_unexpired": true,
+    "must_have_immutable_evidence": true,
+    "invalidate_on_material_change": true,
+    "reserve_and_consume_atomically_before_action": true
+  },
+  "gates": {
+    "H_PRODUCTION_PAYMENT": {
+      "approved": false,
+      "approved_by": null,
+      "approved_at": null,
+      "expires_at": null,
+      "node_id": null,
+      "graph_hash": null,
+      "scope_hash": null,
+      "scope_details": {
+        "source_commit": null,
+        "codex_pass_id": null,
+        "environment": "production",
+        "provider_account_safe_id": null,
+        "operation": null,
+        "merchant": null,
+        "amount_minor": null,
+        "currency": null,
+        "item_count": null,
+        "maximum_attempts": 1
+      },
+      "approval_evidence": null,
+      "approval_evidence_hash": null,
+      "consumed_at": null,
+      "consumed_by": null,
+      "consumption_evidence": null
+    },
+    "H_FINAL_SUBMISSION": {
+      "approved": false,
+      "approved_by": null,
+      "approved_at": null,
+      "expires_at": null,
+      "node_id": null,
+      "graph_hash": null,
+      "scope_hash": null,
+      "scope_details": {
+        "source_commit": null,
+        "codex_pass_id": null,
+        "devfolio_project_safe_id": null,
+        "public_product_url": null,
+        "github_url": null,
+        "youtube_url": null,
+        "submission_manifest_hash": null
+      },
+      "approval_evidence": null,
+      "approval_evidence_hash": null,
+      "consumed_at": null,
+      "consumed_by": null,
+      "consumption_evidence": null
+    }
+  }
+}

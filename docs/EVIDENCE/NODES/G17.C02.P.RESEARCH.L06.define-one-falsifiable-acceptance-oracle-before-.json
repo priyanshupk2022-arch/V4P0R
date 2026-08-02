@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C02.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Verify exactly one current Prava contract and the complete sandbox golden chain\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Verify exactly one current Prava contract and the complete sandbox golden chain",
+  "timestamp": "2026-08-02T17:00:08.120Z",
+  "contains_secrets": false
+}

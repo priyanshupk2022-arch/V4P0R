@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C03.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Map every public claim to current code and reproducible evidence\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Map every public claim to current code and reproducible evidence",
+  "timestamp": "2026-08-02T15:22:02.830Z",
+  "contains_secrets": false
+}

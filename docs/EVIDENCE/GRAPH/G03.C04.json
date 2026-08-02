@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C04",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Reject invalid, duplicate, out-of-order, expired, and concurrent transitions\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Reject invalid, duplicate, out-of-order, expired, and concurrent transitions",
+  "timestamp": "2026-08-02T16:59:54.818Z",
+  "contains_secrets": false
+}

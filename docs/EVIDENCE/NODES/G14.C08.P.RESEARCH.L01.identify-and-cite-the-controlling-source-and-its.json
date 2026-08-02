@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.RESEARCH.L01.identify-and-cite-the-controlling-source-and-its",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Identify and cite the controlling source and its freshness for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Identify and cite the controlling source and its freshness — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

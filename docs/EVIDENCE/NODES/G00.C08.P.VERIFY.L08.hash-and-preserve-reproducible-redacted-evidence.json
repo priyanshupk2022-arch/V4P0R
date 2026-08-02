@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Hash and preserve reproducible redacted evidence — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:43:11.799Z",
+  "contains_secrets": false
+}

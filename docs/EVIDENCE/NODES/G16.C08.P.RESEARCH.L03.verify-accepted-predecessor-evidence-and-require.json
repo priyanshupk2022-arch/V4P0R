@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C08.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Certify pass only for the exact sealed snapshot when no release blocker remains\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Certify pass only for the exact sealed snapshot when no release blocker remains",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C01.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Verify all G00 through G18 mandatory descendants are current PASS\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Verify all G00 through G18 mandatory descendants are current PASS",
+  "timestamp": "2026-08-02T17:00:11.307Z",
+  "contains_secrets": false
+}

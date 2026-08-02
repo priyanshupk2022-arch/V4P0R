@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Build the missing-input registry with safe presence-only validation\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:39:31.877Z",
+  "contains_secrets": false
+}

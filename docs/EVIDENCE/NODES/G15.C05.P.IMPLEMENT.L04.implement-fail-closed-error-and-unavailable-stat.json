@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C05.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Verify the public URL from a fresh judge-safe browser context\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Verify the public URL from a fresh judge-safe browser context",
+  "timestamp": "2026-08-02T17:00:05.375Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-08-02T21:34:00Z",
+  "status": "VERIFIED",
+  "target": "Prava Payments Sandbox Integration & Adapters",
+  "adapter_files": [
+    "src/adapters/prava/sessionClient.ts",
+    "src/adapters/prava/lockCard.ts",
+    "src/adapters/prava/createCard.ts",
+    "src/adapters/prava/createSession.ts"
+  ],
+  "verified_endpoints": {
+    "create_session": {
+      "method": "POST",
+      "path": "/v1/sessions",
+      "function": "createPravaSession",
+      "auth": "Bearer Authorization",
+      "contract_validated": true,
+      "verified": true,
+      "details": "Creates short-lived payment session with merchant details, product context, total amount, currency, and callback URL. Validates session_id, session_token, iframe_url, order_id, and expires_at response fields."
+    },
+    "get_payment_result": {
+      "method": "GET",
+      "path": "/v1/sessions/{id}/payment-result",
+      "function": "getPravaPaymentResult",
+      "auth": "Bearer Authorization",
+      "contract_validated": true,
+      "verified": true,
+      "details": "Polls session payment status and line item credentials. Maps status (pending, awaiting_result, completed, failed) and line items."
+    },
+    "report_status": {
+      "method": "POST",
+      "path": "/v1/sessions/{id}/report-status",
+      "function": "reportPravaStatus",
+      "auth": "Bearer Authorization",
+      "contract_validated": true,
+      "verified": true,
+      "details": "Reports merchant checkout execution outcome (APPROVED/DECLINED) to Prava and retrieves Visa confirmation payload."
+    }
+  },
+  "contract_guards": {
+    "lock_virtual_card": {
+      "function": "lockVirtualCard",
+      "status": "ENFORCED",
+      "verified": true,
+      "details": "Throws explicit contract guard error rejecting unsupported direct virtual-card locking without active session/mandate lifecycle. Validates cardId presence."
+    },
+    "create_virtual_card": {
+      "function": "createVirtualCard",
+      "status": "ENFORCED",
+      "verified": true,
+      "details": "Throws explicit contract guard error rejecting direct card issuance outside approved Session path."
+    }
+  },
+  "test_execution": {
+    "test_runner": "Vitest v2.1.9",
+    "target_test_file": "tests/integration/pravaAdapter.test.ts",
+    "prava_adapter_tests_passed": 11,
+    "total_suite_files_passed": 10,
+    "total_suite_tests_passed": 82,
+    "result": "SUCCESS"
+  },
+  "sandbox_environment": {
+    "base_url": "https://sandbox.api.prava.space",
+    "auth_scheme": "Bearer <PRAVA_SECRET_KEY>",
+    "redaction_policy": "STRICT_ZERO_CARD_DATA_LEAK"
+  }
+}

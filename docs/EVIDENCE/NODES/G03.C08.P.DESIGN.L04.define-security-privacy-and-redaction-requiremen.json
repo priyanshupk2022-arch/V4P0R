@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
+  "title": "Define security, privacy, and redaction requirements — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

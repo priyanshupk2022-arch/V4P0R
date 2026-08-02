@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C03.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Generate and propagate correlation IDs across requests, database, providers, browser, and evidence\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Generate and propagate correlation IDs across requests, database, providers, browser, and evidence",
+  "timestamp": "2026-08-02T16:59:57.453Z",
+  "contains_secrets": false
+}

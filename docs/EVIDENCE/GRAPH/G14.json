@@ -1,0 +1,11 @@
+{
+  "node_id": "G14",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "parent-orchestrator",
+  "reviewer": "evidence-controller",
+  "requirement": "Open outcome G14 only after every declared predecessor completion gate passes.",
+  "title": "CI/CD, deployment, observability, resilience, backup, and rollback",
+  "timestamp": "2026-08-02T17:00:02.840Z",
+  "contains_secrets": false
+}

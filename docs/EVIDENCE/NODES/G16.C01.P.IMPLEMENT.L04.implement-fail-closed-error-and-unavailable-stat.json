@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C01.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Reconstruct architecture and data flow from the sealed repository without builder narrative\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Reconstruct architecture and data flow from the sealed repository without builder narrative",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

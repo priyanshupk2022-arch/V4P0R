@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:35:47.227Z",
+  "contains_secrets": false
+}

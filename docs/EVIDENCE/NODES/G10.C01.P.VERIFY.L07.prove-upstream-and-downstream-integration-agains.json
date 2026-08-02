@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C01.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Expose one validated server API for starting and resuming the golden purchase flow\".",
+  "title": "Prove upstream and downstream integration against current contracts — Expose one validated server API for starting and resuming the golden purchase flow",
+  "timestamp": "2026-08-02T16:59:57.979Z",
+  "contains_secrets": false
+}

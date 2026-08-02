@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C08.P.DESIGN.L06.define-rollback-cut-and-downstream-revalidation-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Rate-limit and audit authentication, webhook, checkout, and public-demo abuse\".",
+  "title": "Define rollback, cut, and downstream revalidation impact — Rate-limit and audit authentication, webhook, checkout, and public-demo abuse",
+  "timestamp": "2026-08-02T16:59:55.256Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Define security, privacy, and redaction requirements — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:45:01.860Z",
+  "contains_secrets": false
+}

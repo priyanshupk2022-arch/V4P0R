@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C08.P.DESIGN.L02.define-invariants-and-allowed-state-or-lifecycle",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define invariants and allowed state or lifecycle transitions for capability \"Seal the builder snapshot without granting independent release approval\".",
+  "title": "Define invariants and allowed state or lifecycle transitions — Seal the builder snapshot without granting independent release approval",
+  "timestamp": "2026-08-02T17:00:05.140Z",
+  "contains_secrets": false
+}

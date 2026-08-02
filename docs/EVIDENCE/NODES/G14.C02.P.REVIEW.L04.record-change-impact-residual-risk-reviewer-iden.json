@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Separate local, preview, sandbox, and production configuration and secrets\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:04.502Z",
+  "contains_secrets": false
+}

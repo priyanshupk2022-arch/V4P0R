@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C02.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Verify the missing-input registry and unresolved release-blocker count are zero only after its preceding package evidence passes.",
+  "title": "design package for Verify the missing-input registry and unresolved release-blocker count are zero",
+  "timestamp": "2026-08-02T17:00:11.445Z",
+  "contains_secrets": false
+}

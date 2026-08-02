@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C08.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Prove empty-database migration, upgrade, rollback, backup, and restore behavior only after its preceding package evidence passes.",
+  "title": "research package for Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
+  "timestamp": "2026-08-02T16:59:54.829Z",
+  "contains_secrets": false
+}

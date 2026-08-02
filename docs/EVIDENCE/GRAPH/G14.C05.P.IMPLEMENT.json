@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C05.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches only after its preceding package evidence passes.",
+  "title": "implement package for Alert on provider failures, webhook backlog, auth abuse, workflow stalls, and audit mismatches",
+  "timestamp": "2026-08-02T17:00:03.604Z",
+  "contains_secrets": false
+}

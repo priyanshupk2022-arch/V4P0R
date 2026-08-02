@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C03.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Define one explicit purchase, approval, checkout, and result state machine\".",
+  "title": "Prove behavior when a required input is missing or invalid — Define one explicit purchase, approval, checkout, and result state machine",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

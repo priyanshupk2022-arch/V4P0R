@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Prove rollback to the previous stable deployment without losing durable workflow state\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Prove rollback to the previous stable deployment without losing durable workflow state",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

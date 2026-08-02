@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C03.P.REVIEW.L02.perform-an-independent-security-and-reliability-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent security and reliability challenge for capability \"Show deterministic policy reasons and real Linq approval progress\".",
+  "title": "Perform an independent security and reliability challenge — Show deterministic policy reasons and real Linq approval progress",
+  "timestamp": "2026-08-02T16:59:59.984Z",
+  "contains_secrets": false
+}

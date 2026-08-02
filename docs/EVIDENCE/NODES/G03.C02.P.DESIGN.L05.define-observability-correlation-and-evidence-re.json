@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C02.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Store all monetary values as integer minor units with ISO currency\".",
+  "title": "Define observability, correlation, and evidence requirements — Store all monetary values as integer minor units with ISO currency",
+  "timestamp": "2026-08-02T16:59:54.910Z",
+  "contains_secrets": false
+}

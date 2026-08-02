@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C05.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Probe local, deployed, and browser runtime reachability without leaking credentials\".",
+  "title": "Hash and preserve reproducible redacted evidence — Probe local, deployed, and browser runtime reachability without leaking credentials",
+  "timestamp": "2026-08-02T16:59:54.695Z",
+  "contains_secrets": false
+}

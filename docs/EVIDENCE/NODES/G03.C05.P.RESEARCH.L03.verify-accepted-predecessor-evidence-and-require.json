@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C05.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Reconcile migrations into one ordered repeatable deployment history\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Reconcile migrations into one ordered repeatable deployment history",
+  "timestamp": "2026-08-02T16:59:54.848Z",
+  "contains_secrets": false
+}

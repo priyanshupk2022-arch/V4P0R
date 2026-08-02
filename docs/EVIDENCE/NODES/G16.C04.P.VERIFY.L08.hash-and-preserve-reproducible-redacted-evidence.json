@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C04.P.VERIFY.L08.hash-and-preserve-reproducible-redacted-evidence",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Hash and preserve reproducible redacted evidence for capability \"Inspect dependency and skill supply-chain risk and historical credential exposure\".",
+  "title": "Hash and preserve reproducible redacted evidence — Inspect dependency and skill supply-chain risk and historical credential exposure",
+  "timestamp": "2026-08-02T17:00:07.307Z",
+  "contains_secrets": false
+}

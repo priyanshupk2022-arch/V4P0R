@@ -1,0 +1,11 @@
+{
+  "node_id": "G07.C05.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "linq",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Map only the documented like and dislike reactions to approve and reject\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Map only the documented like and dislike reactions to approve and reject",
+  "timestamp": "2026-08-02T16:59:56.637Z",
+  "contains_secrets": false
+}

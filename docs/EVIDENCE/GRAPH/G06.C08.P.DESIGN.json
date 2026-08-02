@@ -1,0 +1,11 @@
+{
+  "node_id": "G06.C08.P.DESIGN",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "ai-senso",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the design package for Render source-backed discovery evidence without fabricated confidence or verified badges only after its preceding package evidence passes.",
+  "title": "design package for Render source-backed discovery evidence without fabricated confidence or verified badges",
+  "timestamp": "2026-08-02T16:59:55.685Z",
+  "contains_secrets": false
+}

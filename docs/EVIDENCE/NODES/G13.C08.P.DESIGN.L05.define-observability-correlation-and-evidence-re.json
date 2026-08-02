@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.DESIGN.L05.define-observability-correlation-and-evidence-re",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Define observability, correlation, and evidence requirements for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Define observability, correlation, and evidence requirements — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:01.217Z",
+  "contains_secrets": false
+}

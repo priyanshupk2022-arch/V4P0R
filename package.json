@@ -1,13 +1,15 @@
 {
   "name": "vapor",
   "version": "1.0.0",
-  "description": "VAPOR Backend Engine",
+  "description": "VAPOR Message-Native Spend Governance & Prava Payments Engine",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.0.0",
@@ -19,6 +21,7 @@
     "zod": "^3.22.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@types/node": "^20.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",

@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C02.P.REVIEW.L05.challenge-ledger-terminology-and-transaction-gua",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Challenge ledger terminology and transaction guarantees against actual database behavior for capability \"Store all monetary values as integer minor units with ISO currency\".",
+  "title": "Challenge ledger terminology and transaction guarantees against actual database behavior — Store all monetary values as integer minor units with ISO currency",
+  "timestamp": "2026-08-02T16:59:55.103Z",
+  "contains_secrets": false
+}

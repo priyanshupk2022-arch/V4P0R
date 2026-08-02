@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C07.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Issue architecture and security findings with fingerprints, severity, reproduction, impact, and remediation oracles",
+  "timestamp": "2026-08-02T17:00:06.562Z",
+  "contains_secrets": false
+}

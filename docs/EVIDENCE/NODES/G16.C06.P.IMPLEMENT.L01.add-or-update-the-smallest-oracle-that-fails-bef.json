@@ -1,0 +1,11 @@
+{
+  "node_id": "G16.C06.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-architecture",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Compare every architecture and security claim with raw current evidence\".",
+  "title": "Add or update the smallest oracle that fails before the change — Compare every architecture and security claim with raw current evidence",
+  "timestamp": "2026-08-02T17:00:07.064Z",
+  "contains_secrets": false
+}

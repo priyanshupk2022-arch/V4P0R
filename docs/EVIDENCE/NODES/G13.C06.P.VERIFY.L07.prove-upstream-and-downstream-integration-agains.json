@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C06.P.VERIFY.L07.prove-upstream-and-downstream-integration-agains",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove upstream and downstream integration against current contracts for capability \"Audit production dependencies, licenses, lockfile integrity, and build supply chain\".",
+  "title": "Prove upstream and downstream integration against current contracts — Audit production dependencies, licenses, lockfile integrity, and build supply chain",
+  "timestamp": "2026-08-02T17:00:02.141Z",
+  "contains_secrets": false
+}

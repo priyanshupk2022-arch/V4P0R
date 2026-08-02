@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C02",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Open and coordinate the evidence-gated capability \"Separate local, preview, sandbox, and production configuration and secrets\" after its outcome, inputs, skills, ownership, and sources are ready.",
+  "title": "Separate local, preview, sandbox, and production configuration and secrets",
+  "timestamp": "2026-08-02T17:00:02.893Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C04.P.RESEARCH.L02.inspect-and-classify-the-current-repository-or-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Prevent AI-generated text from issuing a consequential financial approval\".",
+  "title": "Inspect and classify the current repository or runtime behavior — Prevent AI-generated text from issuing a consequential financial approval",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C05.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege only after its preceding package evidence passes.",
+  "title": "research package for Enforce CSP, CORS, secure cookies, request limits, redaction, and least privilege",
+  "timestamp": "2026-08-02T17:00:00.359Z",
+  "contains_secrets": false
+}

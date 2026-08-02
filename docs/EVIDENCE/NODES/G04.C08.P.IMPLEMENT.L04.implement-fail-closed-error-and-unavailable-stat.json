@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C08.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Rate-limit and audit authentication, webhook, checkout, and public-demo abuse\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Rate-limit and audit authentication, webhook, checkout, and public-demo abuse",
+  "timestamp": "2026-08-02T16:59:55.322Z",
+  "contains_secrets": false
+}

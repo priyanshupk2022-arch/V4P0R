@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C02.P.VERIFY.L03.prove-behavior-when-a-required-input-is-missing-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove behavior when a required input is missing or invalid for capability \"Route mandatory relevant skills before any node starts\".",
+  "title": "Prove behavior when a required input is missing or invalid — Route mandatory relevant skills before any node starts",
+  "timestamp": "2026-08-02T16:06:42.610Z",
+  "contains_secrets": false
+}

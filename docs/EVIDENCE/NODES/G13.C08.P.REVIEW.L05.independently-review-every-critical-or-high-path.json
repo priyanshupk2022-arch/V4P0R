@@ -1,0 +1,11 @@
+{
+  "node_id": "G13.C08.P.REVIEW.L05.independently-review-every-critical-or-high-path",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "security-reviewer",
+  "reviewer": "evidence-controller",
+  "requirement": "Independently review every Critical or High path and every accepted residual risk for capability \"Document incident containment, credential rotation, data retention, and deletion behavior\".",
+  "title": "Independently review every Critical or High path and every accepted residual risk — Document incident containment, credential rotation, data retention, and deletion behavior",
+  "timestamp": "2026-08-02T17:00:02.633Z",
+  "contains_secrets": false
+}

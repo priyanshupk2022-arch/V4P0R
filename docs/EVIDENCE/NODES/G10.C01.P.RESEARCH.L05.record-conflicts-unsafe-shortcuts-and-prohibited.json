@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C01.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Expose one validated server API for starting and resuming the golden purchase flow\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Expose one validated server API for starting and resuming the golden purchase flow",
+  "timestamp": "2026-08-02T16:59:57.376Z",
+  "contains_secrets": false
+}

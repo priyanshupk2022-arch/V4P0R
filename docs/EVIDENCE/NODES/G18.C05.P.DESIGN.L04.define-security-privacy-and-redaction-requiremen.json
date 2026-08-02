@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C05.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Test backup, restore, provider outage, rollback, and incident runbooks\".",
+  "title": "Define security, privacy, and redaction requirements — Test backup, restore, provider outage, rollback, and incident runbooks",
+  "timestamp": "2026-08-02T17:00:09.835Z",
+  "contains_secrets": false
+}

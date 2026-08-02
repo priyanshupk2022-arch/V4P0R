@@ -1,0 +1,11 @@
+{
+  "node_id": "G08.C01.P.RESEARCH",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "prava",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the research package for Create or register the exact approved purchase through the selected Prava flow only after its preceding package evidence passes.",
+  "title": "research package for Create or register the exact approved purchase through the selected Prava flow",
+  "timestamp": "2026-08-02T16:59:56.214Z",
+  "contains_secrets": false
+}

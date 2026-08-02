@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C03.P.DESIGN.L03.define-invalid-unavailable-timeout-and-partial-f",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Define invalid, unavailable, timeout, and partial-failure behavior for capability \"Enforce least-privilege RBAC for every API and workflow transition\".",
+  "title": "Define invalid, unavailable, timeout, and partial-failure behavior — Enforce least-privilege RBAC for every API and workflow transition",
+  "timestamp": "2026-08-02T16:59:55.256Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C01.P.RESEARCH.L07.trace-merchant-amount-currency-item-policy-appro",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Trace merchant, amount, currency, item, policy, approval, and state bindings for capability \"Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically\".",
+  "title": "Trace merchant, amount, currency, item, policy, approval, and state bindings — Evaluate transaction limits, budgets, merchants, MCCs, currencies, and policy versions deterministically",
+  "timestamp": "2026-08-02T16:59:55.568Z",
+  "contains_secrets": false
+}

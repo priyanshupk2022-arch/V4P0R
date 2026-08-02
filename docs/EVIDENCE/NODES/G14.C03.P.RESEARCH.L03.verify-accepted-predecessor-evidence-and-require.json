@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.RESEARCH.L03.verify-accepted-predecessor-evidence-and-require",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Verify accepted predecessor evidence and required inputs — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

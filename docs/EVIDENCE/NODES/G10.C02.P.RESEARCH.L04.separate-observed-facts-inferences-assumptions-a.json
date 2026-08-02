@@ -1,0 +1,11 @@
+{
+  "node_id": "G10.C02.P.RESEARCH.L04.separate-observed-facts-inferences-assumptions-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "api-backend",
+  "reviewer": "evidence-controller",
+  "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Return consistent typed success, waiting, unavailable, declined, and failure envelopes\".",
+  "title": "Separate observed facts, inferences, assumptions, and unknowns — Return consistent typed success, waiting, unavailable, declined, and failure envelopes",
+  "timestamp": "2026-08-02T16:59:57.376Z",
+  "contains_secrets": false
+}

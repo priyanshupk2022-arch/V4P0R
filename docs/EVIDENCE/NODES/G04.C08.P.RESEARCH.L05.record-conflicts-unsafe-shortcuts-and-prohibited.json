@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C08.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Rate-limit and audit authentication, webhook, checkout, and public-demo abuse\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Rate-limit and audit authentication, webhook, checkout, and public-demo abuse",
+  "timestamp": "2026-08-02T16:59:55.188Z",
+  "contains_secrets": false
+}

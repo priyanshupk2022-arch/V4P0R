@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C04.P.IMPLEMENT.L07.map-every-external-call-to-one-approved-contract",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Map every external call to one approved contract record for capability \"Record provider versions, terminal states, retries, idempotency, and unknowns\".",
+  "title": "Map every external call to one approved contract record — Record provider versions, terminal states, retries, idempotency, and unknowns",
+  "timestamp": "2026-08-02T16:49:12.202Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G17.C06.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-runtime",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence only after its preceding package evidence passes.",
+  "title": "implement package for Inspect one-time-card isolation and absence from storage, logs, traces, screenshots, and evidence",
+  "timestamp": "2026-08-02T17:00:08.509Z",
+  "contains_secrets": false
+}

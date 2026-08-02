@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C01.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Inventory every shipped, partial, mocked, broken, missing, and unverified capability\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Inventory every shipped, partial, mocked, broken, missing, and unverified capability",
+  "timestamp": "2026-08-02T15:31:32.405Z",
+  "contains_secrets": false
+}

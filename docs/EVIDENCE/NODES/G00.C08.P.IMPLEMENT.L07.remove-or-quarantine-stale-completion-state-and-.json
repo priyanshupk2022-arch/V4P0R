@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.IMPLEMENT.L07.remove-or-quarantine-stale-completion-state-and-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Remove or quarantine stale completion state and unsupported authority for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Remove or quarantine stale completion state and unsupported authority — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:35:55.467Z",
+  "contains_secrets": false
+}

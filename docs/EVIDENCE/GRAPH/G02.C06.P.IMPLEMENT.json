@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C06.P.IMPLEMENT",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the implement package for Build the missing-input registry with safe presence-only validation only after its preceding package evidence passes.",
+  "title": "implement package for Build the missing-input registry with safe presence-only validation",
+  "timestamp": "2026-08-02T16:40:22.152Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C03.P.RESEARCH.L07.inspect-environment-deployment-ci-provider-datab",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Inspect environment, deployment, CI, provider, database, and operational dependencies for capability \"Deploy an immutable commit-linked public HTTPS judge environment\".",
+  "title": "Inspect environment, deployment, CI, provider, database, and operational dependencies — Deploy an immutable commit-linked public HTTPS judge environment",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

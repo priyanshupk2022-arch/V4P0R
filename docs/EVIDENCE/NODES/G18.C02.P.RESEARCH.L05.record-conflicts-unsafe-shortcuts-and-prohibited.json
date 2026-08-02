@@ -1,0 +1,11 @@
+{
+  "node_id": "G18.C02.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "audit-release",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Run the public product journey in a fresh unauthenticated or judge-safe browser\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Run the public product journey in a fresh unauthenticated or judge-safe browser",
+  "timestamp": "2026-08-02T17:00:09.626Z",
+  "contains_secrets": false
+}

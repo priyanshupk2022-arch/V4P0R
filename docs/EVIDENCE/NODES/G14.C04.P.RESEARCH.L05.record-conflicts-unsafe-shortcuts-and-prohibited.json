@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04.P.RESEARCH.L05.record-conflicts-unsafe-shortcuts-and-prohibited",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Record conflicts, unsafe shortcuts, and prohibited interpretations for capability \"Provide health, readiness, structured redacted logs, metrics, traces, and correlation\".",
+  "title": "Record conflicts, unsafe shortcuts, and prohibited interpretations — Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:03.095Z",
+  "contains_secrets": false
+}

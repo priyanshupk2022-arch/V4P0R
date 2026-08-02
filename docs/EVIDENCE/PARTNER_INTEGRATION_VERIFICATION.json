@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-08-02T21:33:45Z",
+  "status": "VERIFIED",
+  "target": "VAPOR Linq & Senso Partner Integration",
+  "verified_adapters": {
+    "linq_webhook": {
+      "file": "src/app/api/webhook/linq/route.ts",
+      "test_file": "tests/integration/partnerIntegration.test.ts",
+      "status": "VERIFIED",
+      "details": {
+        "hmac_signature": "Standard Webhooks HMAC-SHA256 signature verification over ${webhook-id}.${webhook-timestamp}.${rawBody} with v1, base64 or hex format and raw payload HMAC fallback using timing-safe comparison",
+        "replay_protection": "Stale timestamp rejection (>300s window returning 400) and duplicate webhook-id deduplication (returning 200 ignored)",
+        "reaction_mapping": "Tapback reactions mapped: like/thumbsup/approve/confirm/reaction.added:like => APPROVE (card ACTIVE, state AUTHORIZED); dislike/thumbsdown/reject/decline/reaction.added:dislike => REJECT (card LOCKED via lockVirtualCard, state DECLINED)",
+        "ledger_integration": "Records state transitions atomically in Supabase Double-Entry Ledger via recordDoubleEntryLedger"
+      }
+    },
+    "senso_search": {
+      "file": "src/adapters/senso/search.ts",
+      "test_file": "tests/integration/partnerIntegration.test.ts",
+      "status": "VERIFIED",
+      "details": {
+        "endpoint": "https://apiv2.senso.ai/api/v1/org/search",
+        "authentication": "X-API-Key header authentication",
+        "search_query": "POST /org/search with query string and max_results limit",
+        "evidence_fields": "Parses content_id, title, chunk_text, score, source_url, total_results, processing_time_ms",
+        "fallback": "Grounded policy evidence fallback for sandbox testing and offline operation"
+      }
+    }
+  },
+  "test_execution": {
+    "framework": "Vitest 2.1.9",
+    "test_files_passed": 10,
+    "total_tests_passed": 74,
+    "results": [
+      "✓ tests/unit/centsMath.test.ts (8 tests)",
+      "✓ tests/unit/stateMachine.test.ts (30 tests)",
+      "✓ tests/unit/policyEvaluator.test.ts (6 tests)",
+      "✓ tests/unit/authorizationEngine.test.ts (3 tests)",
+      "✓ tests/unit/hmacValidator.test.ts (7 tests)",
+      "✓ tests/integration/partnerIntegration.test.ts (8 tests)",
+      "✓ tests/integration/sandboxPilot.test.ts (3 tests)",
+      "✓ tests/integration/backendSealed.test.ts (3 tests)",
+      "✓ tests/unit/config.test.ts (3 tests)",
+      "✓ tests/integration/pravaAdapter.test.ts (3 tests)"
+    ]
+  }
+}

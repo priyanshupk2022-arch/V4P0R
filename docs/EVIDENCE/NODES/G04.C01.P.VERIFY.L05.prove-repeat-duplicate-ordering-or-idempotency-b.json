@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C01.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Verify user identity cryptographically on every protected server request\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Verify user identity cryptographically on every protected server request",
+  "timestamp": "2026-08-02T16:59:55.396Z",
+  "contains_secrets": false
+}

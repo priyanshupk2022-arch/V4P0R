@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C07.P.VERIFY",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Open the verify package for Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success only after its preceding package evidence passes.",
+  "title": "verify package for Reject mixed provider paths, stale fields, undocumented fallbacks, and synthetic success",
+  "timestamp": "2026-08-02T16:59:14.073Z",
+  "contains_secrets": false
+}

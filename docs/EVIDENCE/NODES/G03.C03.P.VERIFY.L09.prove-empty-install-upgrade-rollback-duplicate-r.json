@@ -1,0 +1,11 @@
+{
+  "node_id": "G03.C03.P.VERIFY.L09.prove-empty-install-upgrade-rollback-duplicate-r",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "database",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove empty install, upgrade, rollback, duplicate, race, restart, and restore behavior for capability \"Define one explicit purchase, approval, checkout, and result state machine\".",
+  "title": "Prove empty install, upgrade, rollback, duplicate, race, restart, and restore behavior — Define one explicit purchase, approval, checkout, and result state machine",
+  "timestamp": "2026-08-02T16:59:55.036Z",
+  "contains_secrets": false
+}

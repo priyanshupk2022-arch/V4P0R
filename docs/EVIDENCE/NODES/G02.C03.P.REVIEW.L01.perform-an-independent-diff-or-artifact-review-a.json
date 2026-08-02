@@ -1,0 +1,11 @@
+{
+  "node_id": "G02.C03.P.REVIEW.L01.perform-an-independent-diff-or-artifact-review-a",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "contract-researcher",
+  "reviewer": "evidence-controller",
+  "requirement": "Perform an independent diff or artifact review against the requirement for capability \"Verify Senso organization search authentication and response semantics\".",
+  "title": "Perform an independent diff or artifact review against the requirement — Verify Senso organization search authentication and response semantics",
+  "timestamp": "2026-08-02T16:33:07.611Z",
+  "contains_secrets": false
+}

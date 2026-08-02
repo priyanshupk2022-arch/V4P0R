@@ -1,0 +1,11 @@
+{
+  "node_id": "G11.C02.P.VERIFY.L01.prove-the-primary-success-or-expected-terminal-o",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "frontend-product",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove the primary success or expected terminal outcome for capability \"Accept a real purchase intent and display product and Senso evidence\".",
+  "title": "Prove the primary success or expected terminal outcome — Accept a real purchase intent and display product and Senso evidence",
+  "timestamp": "2026-08-02T16:59:59.671Z",
+  "contains_secrets": false
+}

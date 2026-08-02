@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.IMPLEMENT.L01.add-or-update-the-smallest-oracle-that-fails-bef",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Add or update the smallest oracle that fails before the change for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Add or update the smallest oracle that fails before the change — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:02:45.268Z",
+  "contains_secrets": false
+}

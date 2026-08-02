@@ -1,0 +1,11 @@
+{
+  "node_id": "G19.C03.P.REVIEW.L04.record-change-impact-residual-risk-reviewer-iden",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-controller",
+  "reviewer": "evidence-controller",
+  "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Verify all three professor passes bind to one unchanged sealed snapshot\".",
+  "title": "Record change impact, residual risk, reviewer identity, and final decision — Verify all three professor passes bind to one unchanged sealed snapshot",
+  "timestamp": "2026-08-02T17:00:12.361Z",
+  "contains_secrets": false
+}

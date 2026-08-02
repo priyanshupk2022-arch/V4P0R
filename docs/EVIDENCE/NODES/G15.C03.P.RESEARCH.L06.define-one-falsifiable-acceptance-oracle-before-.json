@@ -1,0 +1,11 @@
+{
+  "node_id": "G15.C03.P.RESEARCH.L06.define-one-falsifiable-acceptance-oracle-before-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "evidence-controller",
+  "reviewer": "truth-baseline",
+  "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Prove the real Prava sandbox chain with safe correlated identifiers\".",
+  "title": "Define one falsifiable acceptance oracle before any implementation — Prove the real Prava sandbox chain with safe correlated identifiers",
+  "timestamp": "2026-08-02T17:00:04.965Z",
+  "contains_secrets": false
+}

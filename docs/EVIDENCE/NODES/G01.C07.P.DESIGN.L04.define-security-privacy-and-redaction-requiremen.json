@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C07.P.DESIGN.L04.define-security-privacy-and-redaction-requiremen",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Define security, privacy, and redaction requirements for capability \"Detect graph drift, stale evidence, ownership collisions, and revalidation impact\".",
+  "title": "Define security, privacy, and redaction requirements — Detect graph drift, stale evidence, ownership collisions, and revalidation impact",
+  "timestamp": "2026-08-02T15:59:21.319Z",
+  "contains_secrets": false
+}

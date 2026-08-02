@@ -1,0 +1,11 @@
+{
+  "node_id": "G04.C06.P.IMPLEMENT.L06.implement-redacted-instrumentation-and-truthful-",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "identity-security",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Separate public, server, sandbox, preview, and production configuration\".",
+  "title": "Implement redacted instrumentation and truthful claims or UI mapping — Separate public, server, sandbox, preview, and production configuration",
+  "timestamp": "2026-08-02T16:59:55.322Z",
+  "contains_secrets": false
+}

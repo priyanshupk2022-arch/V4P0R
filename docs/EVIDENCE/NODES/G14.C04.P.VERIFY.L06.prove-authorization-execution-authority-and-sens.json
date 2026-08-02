@@ -1,0 +1,11 @@
+{
+  "node_id": "G14.C04.P.VERIFY.L06.prove-authorization-execution-authority-and-sens",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "release-operations",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Provide health, readiness, structured redacted logs, metrics, traces, and correlation\".",
+  "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Provide health, readiness, structured redacted logs, metrics, traces, and correlation",
+  "timestamp": "2026-08-02T17:00:04.096Z",
+  "contains_secrets": false
+}

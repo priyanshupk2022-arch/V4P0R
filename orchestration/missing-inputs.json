@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "INPUT.CODEX-INDEPENDENT-PASS",
+      "name": "CODEX_INDEPENDENT_PASS",
+      "reason": "G20 may start only after the user invokes Codex and Codex independently passes the sealed G19 snapshot.",
+      "secure_destination": "Record only the safe Codex verdict/evidence reference under docs/EVIDENCE/CODEX_HANDOFF; never include secrets.",
+      "validation_method": "Verify verdict, source commit, graph hash, snapshot hash, and evidence hash match G19.",
+      "dependent_nodes": ["G20"],
+      "status": "MISSING",
+      "created_at": "2026-08-02T00:00:00.000Z",
+      "updated_at": "2026-08-02T00:00:00.000Z",
+      "evidence": null
+    }
+  ],
+  "allowed_statuses": ["MISSING", "PROVIDED_UNVERIFIED", "VERIFIED", "REJECTED"],
+  "secret_handling": "Store only the input name, purpose, secure destination, validation method, dependent nodes, and redacted evidence. Never store the value."
+}

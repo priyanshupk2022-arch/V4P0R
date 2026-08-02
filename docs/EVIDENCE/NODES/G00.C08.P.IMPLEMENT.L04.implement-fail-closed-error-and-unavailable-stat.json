@@ -1,0 +1,11 @@
+{
+  "node_id": "G00.C08.P.IMPLEMENT.L04.implement-fail-closed-error-and-unavailable-stat",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "truth-baseline",
+  "reviewer": "evidence-controller",
+  "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Publish a truth baseline that cannot mark implementation nodes complete\".",
+  "title": "Implement fail-closed error and unavailable-state behavior — Publish a truth baseline that cannot mark implementation nodes complete",
+  "timestamp": "2026-08-02T15:35:39.141Z",
+  "contains_secrets": false
+}

@@ -1,0 +1,11 @@
+{
+  "node_id": "G01.C04.P.REVIEW.L05.forward-test-the-control-path-with-a-fresh-agent",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "context-compiler",
+  "reviewer": "evidence-controller",
+  "requirement": "Forward-test the control path with a fresh agent and bounded context for capability \"Compile focused current-node context below the configured attention budget\".",
+  "title": "Forward-test the control path with a fresh agent and bounded context — Compile focused current-node context below the configured attention budget",
+  "timestamp": "2026-08-02T16:16:11.522Z",
+  "contains_secrets": false
+}

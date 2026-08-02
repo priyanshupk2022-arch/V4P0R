@@ -1,0 +1,11 @@
+{
+  "node_id": "G05.C03.P.VERIFY.L05.prove-repeat-duplicate-ordering-or-idempotency-b",
+  "decision": "PASS",
+  "verdict": "PASS",
+  "actor": "policy-approval",
+  "reviewer": "evidence-controller",
+  "requirement": "Prove repeat, duplicate, ordering, or idempotency behavior for capability \"Explain allow, reject, and human-escalation decisions with stable reason codes\".",
+  "title": "Prove repeat, duplicate, ordering, or idempotency behavior — Explain allow, reject, and human-escalation decisions with stable reason codes",
+  "timestamp": "2026-08-02T16:59:55.924Z",
+  "contains_secrets": false
+}
