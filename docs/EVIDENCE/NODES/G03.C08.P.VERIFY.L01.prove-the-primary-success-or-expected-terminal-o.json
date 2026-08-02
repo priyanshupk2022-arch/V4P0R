@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Prove the primary success or expected terminal outcome for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Prove the primary success or expected terminal outcome — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:55.036Z",
+  "timestamp": "2026-08-02T17:06:04.772Z",
   "contains_secrets": false
 }

@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Open the design package for Implement durable unique constraints and append-only audit corrections only after its preceding package evidence passes.",
   "title": "design package for Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.892Z",
+  "timestamp": "2026-08-02T17:01:53.772Z",
   "contains_secrets": false
 }

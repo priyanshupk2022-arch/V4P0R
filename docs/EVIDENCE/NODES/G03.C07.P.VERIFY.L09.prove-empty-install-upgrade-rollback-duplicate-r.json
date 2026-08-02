@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Prove empty install, upgrade, rollback, duplicate, race, restart, and restore behavior for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Prove empty install, upgrade, rollback, duplicate, race, restart, and restore behavior — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:55.036Z",
+  "timestamp": "2026-08-02T17:03:42.693Z",
   "contains_secrets": false
 }

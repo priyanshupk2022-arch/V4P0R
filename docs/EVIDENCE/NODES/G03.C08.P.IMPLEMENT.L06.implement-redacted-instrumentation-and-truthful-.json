@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Implement redacted instrumentation and truthful claims or UI mapping — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.972Z",
+  "timestamp": "2026-08-02T17:05:51.167Z",
   "contains_secrets": false
 }

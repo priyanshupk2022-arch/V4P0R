@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define rollback, cut, and downstream revalidation impact for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Define rollback, cut, and downstream revalidation impact — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.256Z",
+  "timestamp": "2026-08-02T17:08:31.777Z",
   "contains_secrets": false
 }

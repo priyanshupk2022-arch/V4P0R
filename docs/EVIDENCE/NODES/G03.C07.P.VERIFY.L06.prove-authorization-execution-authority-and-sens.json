@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Prove authorization, execution-authority, and sensitive-data boundaries for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Prove authorization, execution-authority, and sensitive-data boundaries — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:55.036Z",
+  "timestamp": "2026-08-02T17:03:30.063Z",
   "contains_secrets": false
 }

@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define one falsifiable acceptance oracle before any implementation for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Define one falsifiable acceptance oracle before any implementation — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.848Z",
+  "timestamp": "2026-08-02T17:01:45.498Z",
   "contains_secrets": false
 }

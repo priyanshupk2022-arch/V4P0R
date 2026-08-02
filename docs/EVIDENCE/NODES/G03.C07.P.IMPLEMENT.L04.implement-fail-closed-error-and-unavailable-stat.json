@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Implement fail-closed error and unavailable-state behavior — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.972Z",
+  "timestamp": "2026-08-02T17:02:46.798Z",
   "contains_secrets": false
 }

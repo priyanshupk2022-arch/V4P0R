@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Implement safe configuration, persistence, and restart behavior — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.322Z",
+  "timestamp": "2026-08-02T17:09:03.935Z",
   "contains_secrets": false
 }

@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define inputs, outputs, ownership, and trust boundaries for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Define inputs, outputs, ownership, and trust boundaries — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.256Z",
+  "timestamp": "2026-08-02T17:08:08.972Z",
   "contains_secrets": false
 }

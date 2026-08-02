@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Open the implement package for Prove empty-database migration, upgrade, rollback, backup, and restore behavior only after its preceding package evidence passes.",
   "title": "implement package for Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.954Z",
+  "timestamp": "2026-08-02T17:05:24.077Z",
   "contains_secrets": false
 }

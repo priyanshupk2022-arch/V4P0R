@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Verify evidence freshness, redaction, commit binding, and oracle result for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Verify evidence freshness, redaction, commit binding, and oracle result — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:55.103Z",
+  "timestamp": "2026-08-02T17:06:59.080Z",
   "contains_secrets": false
 }

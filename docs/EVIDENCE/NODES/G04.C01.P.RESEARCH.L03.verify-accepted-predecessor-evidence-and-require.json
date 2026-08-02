@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Verify accepted predecessor evidence and required inputs — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.188Z",
+  "timestamp": "2026-08-02T17:07:41.050Z",
   "contains_secrets": false
 }

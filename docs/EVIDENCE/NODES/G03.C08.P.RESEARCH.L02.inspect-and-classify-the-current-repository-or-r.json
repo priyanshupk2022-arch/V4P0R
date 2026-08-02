@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Inspect and classify the current repository or runtime behavior for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Inspect and classify the current repository or runtime behavior — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.848Z",
+  "timestamp": "2026-08-02T17:04:24.408Z",
   "contains_secrets": false
 }

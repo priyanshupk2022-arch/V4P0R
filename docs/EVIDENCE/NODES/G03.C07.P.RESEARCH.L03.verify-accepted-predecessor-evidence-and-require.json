@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Verify accepted predecessor evidence and required inputs for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Verify accepted predecessor evidence and required inputs — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.848Z",
+  "timestamp": "2026-08-02T17:01:33.914Z",
   "contains_secrets": false
 }

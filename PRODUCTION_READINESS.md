@@ -1,28 +1,27 @@
-# 🚀 VAPOR Production-Ready Controlled Sandbox Pilot Evidence Report
+# 🚀 VAPOR Hackathon Baseline & Controlled Sandbox Pilot Status Report
 
 ---
 
-## Executive Summary
-VAPOR is a Two-Speed Autonomous Agentic Corporate Card & Spend Governance Engine. This report documents the complete architectural verification, financial invariants compliance, and production evidence for the **Controlled Sandbox Pilot** release.
+## Scope & Purpose Statement
+Status: **Controlled Sandbox Product Baseline** (Not an unverified bank-grade or production compliance claim).  
+Primary Objective: Deliver a narrow, honest, and complete message-native procurement demo for hackathon submission, followed by a controlled design-partner pilot.
 
 ---
 
-## 1. System Invariants Verification Status
+## 1. Verified Baseline Invariants (Node N0)
 
-| Invariant | Status | Evidence / Verification Method |
+| Invariant / Control | Status | Evidence / Verification Method |
 | :--- | :---: | :--- |
-| **No Secrets or PAN in Code** | ✅ VERIFIED | Secret scanning & env config validation (`src/lib/config.ts`) |
-| **Integer Minor Units Only** | ✅ VERIFIED | `centsMath.ts` BigInt precision (`toCents`, `toDollars`) with exact decimal splitting |
-| **Double-Entry Balance** | ✅ VERIFIED | `recordDoubleEntryLedger` enforces `DEBIT` amount == `CREDIT` amount |
-| **Immutable Ledger** | ✅ VERIFIED | SQL Check constraint & append-only insertion pattern in `migrations/002_sandbox_pilot_schema.sql` |
-| **Webhook Replay Protection** | ✅ VERIFIED | `verifyTimestampTolerance` (300s windowing) & constant-time `verifyHmacSignature` |
-| **Idempotent Authorization** | ✅ VERIFIED | `processAuthorization` event deduplication check (`processedEventIds` / `webhook_events`) |
-| **Multi-Tenant Isolation** | ✅ VERIFIED | Row-Level Security (RLS) & `organization_id` foreign keys on all customer-owned tables |
-| **Role-Based Access Control** | ✅ VERIFIED | `rbac.ts` enforcing `OWNER`, `FINANCE_ADMIN`, `APPROVER`, `EMPLOYEE`, `AUDITOR` permissions |
+| **No Secrets in Code** | ✅ VERIFIED | Environment variable validation in `src/lib/config.ts` |
+| **Integer Minor Units Only** | ✅ VERIFIED | `centsMath.ts` BigInt precision with exact decimal string splitting |
+| **Double-Entry Balance** | ✅ VERIFIED | `recordDoubleEntryLedger` enforcing `DEBIT` amount == `CREDIT` amount |
+| **Immutable Ledger Scheme** | ✅ VERIFIED | DDL schema in `migrations/002_sandbox_pilot_schema.sql` |
+| **Replay Protection** | ✅ VERIFIED | 300s timestamp windowing and constant-time HMAC SHA-256 validation |
+| **Role-Based Access Control** | ✅ VERIFIED | Domain RBAC (`rbac.ts`) enforcing 5 role levels (`OWNER` to `AUDITOR`) |
 
 ---
 
-## 2. Automated Test Suite Results
+## 2. Automated Test Suite Results (`npm test`)
 
 ```text
  RUN  v2.1.9 C:/Users/priya/OneDrive/Documents/vapor
@@ -43,19 +42,16 @@ VAPOR is a Two-Speed Autonomous Agentic Corporate Card & Spend Governance Engine
 
 ---
 
-## 3. Production Build & TypeScript Verification
+## 3. Production Build & Type Check Verification
 
 * **TypeScript Compilation:** `npx tsc --noEmit` passed with **0 Errors**.
-* **Next.js Production Build:** `npm run build` compiled successfully (**8 static/dynamic routes** generated).
+* **Next.js Production Build:** `npm run build` compiled successfully (**8 static/dynamic routes**).
+* **Production Dependency Audit:** `npm audit --omit=dev` passed with **0 vulnerabilities**.
 
 ---
 
-## 4. Post-Hackathon Bank-Grade Roadmap
+## 4. Post-Hackathon Controlled Pilot Roadmap
 
-1. **PCI-DSS v4.0.1 Compliance Audit:** Engage QSA for official iFrame / Tokenization compliance certification.
-2. **KMS Hardware Security Modules:** Migrate HMAC secret validation to AWS KMS / HashiCorp Vault.
-3. **Multi-Region PostgreSQL Replication:** Provision cross-region read-replicas for global sub-10ms edge state hydration.
-
----
-
-*Report Generated: 2026-08-02 (VAPOR Pilot Engine v1.0.0)*
+1. **Stage P1 — Design-Partner Pilot:** Recruit 1–3 startup finance teams for controlled sandbox testing.
+2. **Stage P2 — Independent Security Audit:** ASVS Level 2 checklist & QSA PCI-DSS v4.0.1 scope determination.
+3. **Stage P3 — Limited Real-Money Launch:** Approved production rails with human oversight & velocity caps.

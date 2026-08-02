@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Trace every identity, tenant, role, session, and caller-controlled input for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Trace every identity, tenant, role, session, and caller-controlled input — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.188Z",
+  "timestamp": "2026-08-02T17:08:00.108Z",
   "contains_secrets": false
 }

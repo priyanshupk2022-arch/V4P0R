@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define security, privacy, and redaction requirements for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Define security, privacy, and redaction requirements — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.910Z",
+  "timestamp": "2026-08-02T17:02:10.326Z",
   "contains_secrets": false
 }

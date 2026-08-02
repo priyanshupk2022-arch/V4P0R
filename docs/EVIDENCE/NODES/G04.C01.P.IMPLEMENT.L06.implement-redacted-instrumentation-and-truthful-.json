@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement redacted instrumentation and truthful claims or UI mapping for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Implement redacted instrumentation and truthful claims or UI mapping — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.322Z",
+  "timestamp": "2026-08-02T17:09:08.377Z",
   "contains_secrets": false
 }

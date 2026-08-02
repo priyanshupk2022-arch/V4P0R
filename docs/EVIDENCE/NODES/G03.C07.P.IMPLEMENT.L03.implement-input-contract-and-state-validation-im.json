@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement input, contract, and state validation for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Implement input, contract, and state validation — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.972Z",
+  "timestamp": "2026-08-02T17:02:42.346Z",
   "contains_secrets": false
 }

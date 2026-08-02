@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define observability, correlation, and evidence requirements for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Define observability, correlation, and evidence requirements — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.910Z",
+  "timestamp": "2026-08-02T17:02:14.772Z",
   "contains_secrets": false
 }

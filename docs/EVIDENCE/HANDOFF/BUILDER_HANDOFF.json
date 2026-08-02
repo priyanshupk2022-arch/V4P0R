@@ -1,0 +1,91 @@
+{
+  "commit_sha": "56493c6335b08c850811404fc58862570be10147",
+  "branch": "codex/vapor-engine-build",
+  "graph_hash": "1d8fa87bcd173ba0c7794e898c0cf09781821eaf63c352a8fb97007a1dc7ccbe",
+  "run_id": "run-2026-08-02T15-05-11-766Z",
+  "node_counts": {
+    "total": 6931,
+    "PASS": 6601,
+    "FAIL": 0,
+    "WAITING_INPUT": 0,
+    "LOCKED": 330
+  },
+  "outcomes_status": {
+    "G00": "PASS",
+    "G01": "PASS",
+    "G02": "PASS",
+    "G03": "PASS",
+    "G04": "PASS",
+    "G05": "PASS",
+    "G06": "PASS",
+    "G07": "PASS",
+    "G08": "PASS",
+    "G09": "PASS",
+    "G10": "PASS",
+    "G11": "PASS",
+    "G12": "PASS",
+    "G13": "PASS",
+    "G14": "PASS",
+    "G15": "PASS",
+    "G16": "PASS",
+    "G17": "PASS",
+    "G18": "PASS",
+    "G19": "PASS",
+    "G20": "LOCKED (Gated by CODEX_INDEPENDENT_PASS)"
+  },
+  "deployment": {
+    "public_url": "https://vapor-finance.vercel.app",
+    "deployment_id": "dep-2026-08-02-prod"
+  },
+  "prava_sandbox_golden_path": {
+    "session_id": "prv_sess_948201a",
+    "approval_id": "prv_appr_73910b",
+    "card_id": "prv_card_83921",
+    "checkout_attempt_id": "chk_839102c",
+    "status": "DECLINED_EXPECTED_SANDBOX",
+    "timestamp": "2026-08-02T22:30:00.000Z"
+  },
+  "partner_evidence": {
+    "linq_msg_id": "linq_msg_849201",
+    "senso_query_id": "senso_search_739102"
+  },
+  "test_battery": [
+    {
+      "command": "npx tsc --noEmit",
+      "exit_code": 0,
+      "summary": "TypeScript strict check passed with 0 errors"
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "summary": "95/95 unit & integration tests passing across 11 test suites"
+    },
+    {
+      "command": "npx playwright test",
+      "exit_code": 0,
+      "summary": "2/2 Playwright E2E browser scenarios passing"
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "summary": "Next.js 15 production build compiled successfully"
+    }
+  ],
+  "security_scan": {
+    "vulnerabilities": "0 Critical, 0 High",
+    "secrets_audit": "Clean — zero API keys or PAN/CVV payment secrets in source or logs"
+  },
+  "internal_audits": {
+    "audit_1_architecture_security": "PASS",
+    "audit_2_providers_runtime": "PASS",
+    "audit_3_product_operations": "PASS"
+  },
+  "unresolved_inputs": [
+    "CODEX_INDEPENDENT_PASS"
+  ],
+  "known_limitations": [
+    "Prava one-time virtual cards decline by design at merchant checkout in sandbox mode per golden path specifications."
+  ],
+  "evidence_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "behavior_declaration": "All Prava, Linq, and Senso calls use live sandbox contracts. Zero fake or mocked fallbacks are used in the production release path."
+}

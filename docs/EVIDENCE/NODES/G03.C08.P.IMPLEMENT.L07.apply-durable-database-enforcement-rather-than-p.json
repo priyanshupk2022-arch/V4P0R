@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Apply durable database enforcement rather than process-local assumptions for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Apply durable database enforcement rather than process-local assumptions — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.972Z",
+  "timestamp": "2026-08-02T17:05:55.725Z",
   "contains_secrets": false
 }

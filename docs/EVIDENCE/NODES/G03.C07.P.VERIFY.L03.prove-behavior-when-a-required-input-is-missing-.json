@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Prove behavior when a required input is missing or invalid for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Prove behavior when a required input is missing or invalid — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:55.036Z",
+  "timestamp": "2026-08-02T17:03:17.680Z",
   "contains_secrets": false
 }

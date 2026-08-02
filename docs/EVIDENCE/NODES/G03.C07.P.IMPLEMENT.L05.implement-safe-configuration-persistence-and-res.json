@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement safe configuration, persistence, and restart behavior for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Implement safe configuration, persistence, and restart behavior — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.972Z",
+  "timestamp": "2026-08-02T17:02:51.573Z",
   "contains_secrets": false
 }

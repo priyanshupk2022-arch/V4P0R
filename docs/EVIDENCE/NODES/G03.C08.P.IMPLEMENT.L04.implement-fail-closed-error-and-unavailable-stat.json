@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Implement fail-closed error and unavailable-state behavior — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.972Z",
+  "timestamp": "2026-08-02T17:05:41.905Z",
   "contains_secrets": false
 }

@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Prove behavior when an upstream dependency is unavailable for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Prove behavior when an upstream dependency is unavailable — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:55.036Z",
+  "timestamp": "2026-08-02T17:06:18.093Z",
   "contains_secrets": false
 }

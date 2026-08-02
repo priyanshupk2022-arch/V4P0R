@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Open outcome G04 only after every declared predecessor completion gate passes.",
   "title": "Authentication, authorization, tenancy, RLS, secrets, and abuse boundaries",
-  "timestamp": "2026-08-02T16:59:55.149Z",
+  "timestamp": "2026-08-02T17:07:17.903Z",
   "contains_secrets": false
 }

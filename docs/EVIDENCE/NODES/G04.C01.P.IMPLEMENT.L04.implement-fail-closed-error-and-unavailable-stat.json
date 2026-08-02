@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement fail-closed error and unavailable-state behavior for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Implement fail-closed error and unavailable-state behavior — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.322Z",
+  "timestamp": "2026-08-02T17:08:59.291Z",
   "contains_secrets": false
 }

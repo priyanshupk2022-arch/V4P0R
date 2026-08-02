@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Prove behavior when a required input is missing or invalid for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Prove behavior when a required input is missing or invalid — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:55.036Z",
+  "timestamp": "2026-08-02T17:06:13.734Z",
   "contains_secrets": false
 }

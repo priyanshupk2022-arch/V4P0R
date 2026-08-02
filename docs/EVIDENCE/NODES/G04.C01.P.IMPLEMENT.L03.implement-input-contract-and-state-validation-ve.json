@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Implement input, contract, and state validation for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Implement input, contract, and state validation — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.322Z",
+  "timestamp": "2026-08-02T17:08:55.008Z",
   "contains_secrets": false
 }

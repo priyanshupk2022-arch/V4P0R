@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Open and coordinate the evidence-gated capability \"Verify user identity cryptographically on every protected server request\" after its outcome, inputs, skills, ownership, and sources are ready.",
   "title": "Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.158Z",
+  "timestamp": "2026-08-02T17:07:22.495Z",
   "contains_secrets": false
 }

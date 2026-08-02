@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Record change impact, residual risk, reviewer identity, and final decision for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Record change impact, residual risk, reviewer identity, and final decision — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:55.103Z",
+  "timestamp": "2026-08-02T17:04:03.558Z",
   "contains_secrets": false
 }

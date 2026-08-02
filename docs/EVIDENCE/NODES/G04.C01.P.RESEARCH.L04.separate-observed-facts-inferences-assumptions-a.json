@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Verify user identity cryptographically on every protected server request\".",
   "title": "Separate observed facts, inferences, assumptions, and unknowns — Verify user identity cryptographically on every protected server request",
-  "timestamp": "2026-08-02T16:59:55.188Z",
+  "timestamp": "2026-08-02T17:07:45.736Z",
   "contains_secrets": false
 }

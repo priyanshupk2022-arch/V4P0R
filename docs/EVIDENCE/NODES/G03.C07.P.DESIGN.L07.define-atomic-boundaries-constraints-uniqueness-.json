@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define atomic boundaries, constraints, uniqueness, correction, and restoration semantics for capability \"Implement durable unique constraints and append-only audit corrections\".",
   "title": "Define atomic boundaries, constraints, uniqueness, correction, and restoration semantics — Implement durable unique constraints and append-only audit corrections",
-  "timestamp": "2026-08-02T16:59:54.910Z",
+  "timestamp": "2026-08-02T17:02:23.775Z",
   "contains_secrets": false
 }

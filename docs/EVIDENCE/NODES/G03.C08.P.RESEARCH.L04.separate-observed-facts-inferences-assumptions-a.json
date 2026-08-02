@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Separate observed facts, inferences, assumptions, and unknowns for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Separate observed facts, inferences, assumptions, and unknowns — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.848Z",
+  "timestamp": "2026-08-02T17:04:32.828Z",
   "contains_secrets": false
 }

@@ -6,6 +6,6 @@
   "reviewer": "evidence-controller",
   "requirement": "Define security, privacy, and redaction requirements for capability \"Prove empty-database migration, upgrade, rollback, backup, and restore behavior\".",
   "title": "Define security, privacy, and redaction requirements — Prove empty-database migration, upgrade, rollback, backup, and restore behavior",
-  "timestamp": "2026-08-02T16:59:54.910Z",
+  "timestamp": "2026-08-02T17:05:06.905Z",
   "contains_secrets": false
 }
