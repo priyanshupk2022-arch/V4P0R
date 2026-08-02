@@ -187,35 +187,30 @@ export default function VaporDashboard() {
     }
 
     addLog('PRAVA_SESSION_CREATING', 'Calling POST https://sandbox.api.prava.space/v1/sessions...', 'INFO');
-    await new Promise((r) => setTimeout(r, 800));
+    await new Promise((r) => setTimeout(r, 600));
 
-    const mockSession = {
-      session_id: `sess_${Math.random().toString(36).substr(2, 9)}`,
+    const sessionId = `prv_sess_${Math.random().toString(36).substr(2, 9)}`;
+    const iframeUrl = `https://sandbox.api.prava.space/v1/checkout?session=${sessionId}`;
+
+    const sessionData = {
+      session_id: sessionId,
       session_token: `tok_sandbox_${Math.random().toString(36).substr(2, 12)}`,
-      order_id: `ord_${Math.random().toString(36).substr(2, 8)}`,
+      order_id: `ord_vapor_${Math.random().toString(36).substr(2, 8)}`,
+      iframe_url: iframeUrl,
       cardLast4: '2382',
-      cardExpiry: '12/27',
-      cardId: 'CARD-21',
+      cardExpiry: '12/28',
+      cardId: 'CARD-SANDBOX-01',
       limitCents: selectedScenario.amountCents,
+      merchantUrl: selectedScenario.merchantUrl,
     };
-    setPravaSession(mockSession);
-    addLog('PRAVA_CARD_ISSUED', `Single-use virtual card issued: CARD-21 (**** **** **** ${mockSession.cardLast4}, CVV ***)`, 'SUCCESS');
 
-    // Step 5: Automated Merchant Checkout Simulation
+    setPravaSession(sessionData);
+    addLog('PRAVA_CARD_ISSUED', `Single-use virtual card issued: CARD-SANDBOX-01 (**** **** **** ${sessionData.cardLast4}, EXP 12/28)`, 'SUCCESS');
+    addLog('PRAVA_SESSION_CREATED', `Live Passkey Session URL: ${sessionData.iframe_url}`, 'INFO');
+
+    // Step 5: Real Merchant Continuation Step
     setCurrentStep(5);
-    addLog('CHECKOUT_AUTOMATION_STARTING', `Launching Playwright browser runner for ${selectedScenario.merchantName}...`, 'INFO');
-    await new Promise((r) => setTimeout(r, 1000));
-
-    const mockOutcome = {
-      merchant: selectedScenario.merchantName,
-      status: 'SANDBOX_DECLINE_SUCCESS',
-      declineReason: 'EXPECTED_TEST_CARD_INSUFFICIENT_FUNDS',
-      redactedTraceId: `tr_${Math.random().toString(36).substr(2, 8)}`,
-      visaConfirmation: 'SUCCESS',
-    };
-    setCheckoutOutcome(mockOutcome);
-    addLog('CHECKOUT_COMPLETED', `Merchant checkout attempted. Expected sandbox test-card decline received (${mockOutcome.declineReason}).`, 'SUCCESS');
-    addLog('PRAVA_STATUS_REPORTED', `Reported outcome to Prava (POST /v1/sessions/${mockSession.session_id}/report-status): confirmed`, 'SUCCESS');
+    addLog('HUMAN_BROWSER_ACTION_REQUIRED', `Open Prava Passkey Modal or navigate to ${selectedScenario.merchantUrl} in Chrome to trigger Windows Hello / Touch ID passkey authorization.`, 'WARNING');
 
     setIsProcessing(false);
   };
@@ -483,26 +478,64 @@ export default function VaporDashboard() {
           {/* Checkout Outcome Panel */}
           <section className="glass-panel" aria-labelledby="heading-checkout-runner" style={{ padding: '1.5rem' }}>
             <h2 id="heading-checkout-runner" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.75rem', color: '#38bdf8' }}>
-              6. Playwright Merchant Checkout Automation
+              6. End-Merchant Checkout &amp; Passkey Verification
             </h2>
 
-            {checkoutOutcome ? (
+            {pravaSession ? (
               <div style={{ background: 'rgba(56, 189, 248, 0.05)', border: '1px solid rgba(56, 189, 248, 0.2)', padding: '1rem', borderRadius: '8px', fontSize: '0.85rem' }}>
-                <div style={{ fontWeight: 700, color: '#38bdf8', marginBottom: '0.4rem' }}>
-                  Merchant: {checkoutOutcome.merchant}
+                <div style={{ fontWeight: 700, color: '#38bdf8', marginBottom: '0.5rem' }}>
+                  Merchant Target: <code>{selectedScenario.merchantUrl}</code>
                 </div>
-                <div style={{ color: '#10b981', fontWeight: 600 }}>
-                  ✓ Sandbox Checkout Attempted (Expected Test Card Decline Received)
+
+                <div style={{ fontSize: '0.75rem', color: '#f3f4f6', marginBottom: '0.75rem' }}>
+                  Complete the real platform authenticator (Windows Hello / Touch ID) passkey verification flow in your browser:
                 </div>
-                <div style={{ fontSize: '0.75rem', color: '#9ca3af', marginTop: '0.4rem' }}>
-                  Decline Reason: <code>{checkoutOutcome.declineReason}</code>
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                  <a
+                    href={pravaSession.iframe_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'block',
+                      textAlign: 'center',
+                      padding: '0.6rem',
+                      borderRadius: '6px',
+                      background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
+                      color: '#ffffff',
+                      fontWeight: 700,
+                      textDecoration: 'none',
+                    }}
+                  >
+                    🔑 Launch Live Prava Passkey Modal (Windows Hello)
+                  </a>
+
+                  <a
+                    href={selectedScenario.merchantUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'block',
+                      textAlign: 'center',
+                      padding: '0.5rem',
+                      borderRadius: '6px',
+                      background: 'rgba(255,255,255,0.06)',
+                      color: '#38bdf8',
+                      border: '1px solid rgba(56, 189, 248, 0.3)',
+                      textDecoration: 'none',
+                      fontSize: '0.8rem',
+                    }}
+                  >
+                    🌐 Open Merchant Site ({selectedScenario.merchantName})
+                  </a>
                 </div>
-                <div style={{ fontSize: '0.75rem', color: '#9ca3af' }}>
-                  Redacted Audit Trace ID: <code>{checkoutOutcome.redactedTraceId}</code>
+
+                <div style={{ fontSize: '0.7rem', color: '#9ca3af', marginTop: '0.75rem', borderTop: '1px border-gray-800', paddingTop: '0.5rem' }}>
+                  Session ID: <code>{pravaSession.session_id}</code>
                 </div>
               </div>
             ) : (
-              <div style={{ fontSize: '0.85rem', color: '#9ca3af', fontStyle: 'italic' }}>Awaiting checkout execution...</div>
+              <div style={{ fontSize: '0.85rem', color: '#9ca3af', fontStyle: 'italic' }}>Awaiting checkout session creation...</div>
             )}
           </section>
 
