@@ -14,14 +14,18 @@ describe('centsMath', () => {
       expect(toCents(10.50)).toBe(1050n);
       expect(toCents(0.99)).toBe(99n);
       expect(toCents(100)).toBe(10000n);
+      expect(toCents("49.99")).toBe(4999n);
+      expect(toCents("0.05")).toBe(5n);
     });
 
     it('throws error for inputs with more than two decimal places', () => {
       expect(() => toCents(10.501)).toThrow("Fractional cent loss");
+      expect(() => toCents("10.501")).toThrow("Fractional cent loss");
     });
     
-    it('throws error for NaN', () => {
+    it('throws error for NaN or malformed inputs', () => {
       expect(() => toCents(NaN)).toThrow("Invalid input");
+      expect(() => toCents("abc")).toThrow("Invalid input");
     });
   });
 

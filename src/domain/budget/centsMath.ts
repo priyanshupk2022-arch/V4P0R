@@ -5,21 +5,37 @@ export class InsufficientFundsError extends Error {
   }
 }
 
-export function toCents(dollars: number): bigint {
-  if (typeof dollars !== 'number' || isNaN(dollars)) {
-    throw new Error("Invalid input: dollars must be a number");
+export function toCents(dollars: number | string): bigint {
+  if (typeof dollars === 'number') {
+    if (isNaN(dollars)) {
+      throw new Error("Invalid input: dollars must be a valid number");
+    }
+    dollars = dollars.toString();
   }
-  
-  // To avoid floating point precision issues, check if it has more than 2 decimal places.
-  const dollarsStr = dollars.toString();
-  const decimalIndex = dollarsStr.indexOf('.');
-  if (decimalIndex !== -1 && dollarsStr.length - decimalIndex - 1 > 2) {
+
+  if (typeof dollars !== 'string') {
+    throw new Error("Invalid input: dollars must be a number or string");
+  }
+
+  const trimmed = dollars.trim();
+  if (!trimmed || !/^-?\d+(\.\d+)?$/.test(trimmed)) {
+    throw new Error("Invalid input: malformed numeric string");
+  }
+
+  const isNegative = trimmed.startsWith('-');
+  const cleanStr = isNegative ? trimmed.slice(1) : trimmed;
+  const parts = cleanStr.split('.');
+  const whole = parts[0];
+  const decimal = parts[1] || '';
+
+  if (decimal.length > 2) {
     throw new Error("Fractional cent loss: input has more than two decimal places");
   }
 
-  // Safely convert by multiplying by 100 and rounding, then to BigInt
-  const centsFloat = Math.round(dollars * 100);
-  return BigInt(centsFloat);
+  const paddedDecimal = decimal.padEnd(2, '0');
+  const centsValue = BigInt(whole) * 100n + BigInt(paddedDecimal);
+
+  return isNegative ? -centsValue : centsValue;
 }
 
 export function toDollars(cents: bigint): string {
