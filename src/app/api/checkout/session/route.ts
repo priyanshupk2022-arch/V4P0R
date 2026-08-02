@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createPravaSession } from '../../../../adapters/prava/createSession';
 import { recordDoubleEntryLedger } from '../../../../infrastructure/database/supabaseClient';
 import { toCents } from '../../../../domain/budget/centsMath';
+import { normalizeUnicodeInput } from '../../../../infrastructure/security/hmacValidator';
 
 export async function POST(req: NextRequest) {
   try {
@@ -15,33 +16,37 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const amountNum = parseFloat(totalAmount);
-    if (isNaN(amountNum) || amountNum <= 0) {
+    // 1. Sanitize & Normalize Inputs
+    const cleanMerchantName = normalizeUnicodeInput(merchantName);
+    const cleanUserEmail = userEmail.trim().toLowerCase();
+
+    // 2. Safe Arbitrary-Precision Cent Conversion
+    const amountCents = toCents(totalAmount);
+    if (amountCents <= 0n) {
       return NextResponse.json(
-        { error: 'Invalid totalAmount. Must be a positive number.' },
+        { error: 'Invalid totalAmount. Must be greater than zero.' },
         { status: 400 }
       );
     }
 
-    const amountCents = toCents(amountNum);
     const sessionId = `sess_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
 
-    // 1. Invoke Prava Create Session Adapter
+    // 3. Invoke Prava Create Session Adapter
     const pravaSession = await createPravaSession({
       user_id: userId,
-      user_email: userEmail,
+      user_email: cleanUserEmail,
       total_amount: totalAmount.toString(),
       currency: 'USD',
       purchase_context: [
         {
           merchant_details: {
-            name: merchantName,
+            name: cleanMerchantName,
             url: merchantUrl || 'https://vapor.app',
             country_code_iso2: 'US',
           },
           product_details: items || [
             {
-              description: `${merchantName} Service Fee`,
+              description: `${cleanMerchantName} Service Fee`,
               unit_price: totalAmount.toString(),
               quantity: 1,
             },
@@ -52,12 +57,12 @@ export async function POST(req: NextRequest) {
       callback_url: `${req.nextUrl.origin}/api/webhook/prava`,
     });
 
-    // 2. Record INITIATED transaction in Supabase Double-Entry Ledger
+    // 4. Record INITIATED transaction in Supabase Double-Entry Ledger
     await recordDoubleEntryLedger({
       transactionId: sessionId,
       accountId: `acc_${userId}`,
       amountCents: amountCents,
-      merchantName: merchantName,
+      merchantName: cleanMerchantName,
       status: 'INITIATED',
     });
 
