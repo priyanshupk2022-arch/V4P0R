@@ -1,8 +1,11 @@
 import crypto from 'crypto';
 
+export function generateHmacSignature(payload: string | Buffer, secret: string): string {
+  return crypto.createHmac('sha256', secret).update(payload).digest('hex');
+}
+
 export function verifyHmacSignature(payload: string | Buffer, signature: string, secret: string): boolean {
-  const hmac = crypto.createHmac('sha256', secret);
-  const digest = hmac.update(payload).digest('hex');
+  const digest = generateHmacSignature(payload, secret);
   
   // Convert strings to buffers for timingSafeEqual
   const signatureBuffer = Buffer.from(signature);
