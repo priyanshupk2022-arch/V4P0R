@@ -1,0 +1,7 @@
+node_modules
+.next
+docs/EVIDENCE/NODES
+playwright-report
+test-results
+orchestration/runs
+.git
