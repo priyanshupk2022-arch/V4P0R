@@ -65,7 +65,7 @@ test.describe('VAPOR Real-Time Financial Circuit Breaker & Partner Flow E2E', ()
 
     // 4. Verify Senso AI evidence card populates
     await expect(page.getByText('Senso AI Evidence Grounding')).toBeVisible();
-    await expect(page.getByText(/Grounding doc retrieved/i)).toBeVisible({ timeout: 5000 });
+    await expect(page.locator('p').filter({ hasText: /Grounding doc retrieved/i })).toBeVisible({ timeout: 5000 });
 
     // 5. Verify Deterministic Spend Policy Engine decision
     await expect(page.getByText('Deterministic Spend Policy Engine')).toBeVisible();
