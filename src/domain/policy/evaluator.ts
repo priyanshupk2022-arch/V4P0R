@@ -1,4 +1,5 @@
 import { subCents } from '../budget/centsMath';
+import { normalizeUnicodeInput } from '../../infrastructure/security/hmacValidator';
 
 export interface CardPolicy {
   cardId: string;
@@ -36,10 +37,13 @@ export function evaluateCardPolicy(
     };
   }
 
+  // Normalize incoming merchant name to prevent zero-width space and homoglyph bypasses
+  const normalizedRequestedMerchant = normalizeUnicodeInput(ctx.merchantName);
+
   // Check Merchant Name Whitelist
   if (policy.allowedMerchants && policy.allowedMerchants.length > 0) {
     const matched = policy.allowedMerchants.some(
-      (m) => m.toLowerCase() === ctx.merchantName.toLowerCase()
+      (m) => normalizeUnicodeInput(m).toLowerCase() === normalizedRequestedMerchant.toLowerCase()
     );
     if (!matched) {
       return {
