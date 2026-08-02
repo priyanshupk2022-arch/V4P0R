@@ -373,7 +373,7 @@ export default function CircuitBreakerHomepage() {
                 {isProcessing ? 'Evaluating Policy...' : `Trip Circuit Breaker (${selectedScenario.title})`}
               </button>
               <span style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>
-                Deterministic evaluation against live Senso policy index.
+                Deterministic evaluation against policy index. <span className="badge badge-neutral">DEMO DATA</span>
               </span>
             </div>
 
@@ -412,7 +412,7 @@ export default function CircuitBreakerHomepage() {
                       🛑 CIRCUIT BREAKER TRIPPED — PREVENTED FINANCIAL LOSS: {evalResult.preventedLoss}
                     </span>
                     <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
-                      Purchase mandate denied. Virtual credential not issued. Transaction recorded in redacted audit log.
+                      Purchase mandate denied. Virtual credential not issued. Transaction recorded in audit log.
                     </p>
                   </div>
                 )}
@@ -422,9 +422,9 @@ export default function CircuitBreakerHomepage() {
                   <div style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#1f1a10', borderRadius: '6px', border: '1px solid var(--accent-warning)' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                       <div>
-                        <h4 style={{ color: 'var(--accent-warning)', fontWeight: 700 }}>Linq iMessage CFO Tapback Interface</h4>
+                        <h4 style={{ color: 'var(--accent-warning)', fontWeight: 700 }}>Linq iMessage CFO Tapback Interface <span className="badge badge-warning">DEMO SIMULATION</span></h4>
                         <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
-                          Message dispatched to CFO phone (+1 415-***-8920). Simulate CFO Tapback reaction below:
+                          Message dispatched to CFO phone. Simulate CFO Tapback reaction in demo:
                         </p>
                       </div>
 
@@ -434,7 +434,7 @@ export default function CircuitBreakerHomepage() {
                           disabled={linqStatus !== 'PENDING'}
                           className="btn-primary"
                         >
-                          👍 Approve Purchase
+                          👍 Approve Purchase (Simulated)
                         </button>
                         <button
                           onClick={() => handleLinqTapback(false)}
@@ -442,19 +442,19 @@ export default function CircuitBreakerHomepage() {
                           className="btn-secondary"
                           style={{ borderColor: 'var(--accent-danger)', color: 'var(--accent-danger)' }}
                         >
-                          👎 Reject Purchase
+                          👎 Reject Purchase (Simulated)
                         </button>
                       </div>
                     </div>
 
                     {linqStatus === 'APPROVED' && (
                       <div style={{ marginTop: '0.75rem', fontSize: '0.875rem', color: 'var(--accent-safe)', fontWeight: 600 }}>
-                        ✅ CFO Tapback Verified: Purchase approved via Linq iMessage.
+                        ✅ [DEMO SIMULATION] CFO Tapback Simulated: Purchase approved in demo mode.
                       </div>
                     )}
                     {linqStatus === 'REJECTED' && (
                       <div style={{ marginTop: '0.75rem', fontSize: '0.875rem', color: 'var(--accent-danger)', fontWeight: 600 }}>
-                        🛑 CFO Tapback Verified: Purchase denied via Linq iMessage. Prevented unbudgeted loss of $4,999.00.
+                        🛑 [DEMO SIMULATION] CFO Tapback Simulated: Purchase denied in demo mode.
                       </div>
                     )}
                   </div>

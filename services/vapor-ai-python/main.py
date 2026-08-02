@@ -12,9 +12,9 @@ app = FastAPI(
     version="1.0.0"
 )
 
-SENSO_API_KEY = os.getenv("SENSO_API_KEY", "tgr_rWrmoDTPqphCw439Gt9zVYoSrjG-ZpqxYn5apBF8iT0")
-LINQ_API_KEY = os.getenv("LINQ_API_KEY", "fad4f25f-325f-52f8-b8c0-c15282e248d8")
-SENSO_BASE_URL = os.getenv("SENSO_BASE_URL", "https://api.senso.ai/v1")
+SENSO_API_KEY = os.getenv("SENSO_API_KEY", "")
+LINQ_API_KEY = os.getenv("LINQ_API_KEY", "")
+SENSO_BASE_URL = os.getenv("SENSO_BASE_URL", "https://apiv2.senso.ai/api/v1")
 
 class QueryRequest(BaseModel):
     query: str
@@ -37,37 +37,53 @@ def health_check():
 
 @app.post("/ai/rag/query")
 def senso_rag_query(req: QueryRequest):
-    # Attempt real Senso API call if available, otherwise return grounded fallback
-    grounded_citation = "VAPOR Financial Policy Section 4.2 - Automated Spend Limits"
-    grounded_text = f"VAPOR AI Risk Guardrail: Evaluated query '{req.query}' for user '{req.user_id}'. Approved under standard corporate policy."
+    if not SENSO_API_KEY:
+        return {
+            "status": "EVIDENCE_UNAVAILABLE",
+            "user_id": req.user_id,
+            "query": req.query,
+            "citation": None,
+            "grounded_response": None,
+            "policy_verified": False,
+            "reason": "SENSO_API_KEY missing",
+            "timestamp": time.time()
+        }
     
-    if SENSO_API_KEY and not SENSO_API_KEY.startswith("mock"):
-        try:
-            headers = {
-                "Authorization": f"Bearer {SENSO_API_KEY}",
-                "Content-Type": "application/json"
-            }
-            body = json.dumps({"query": req.query, "limit": 3}).encode("utf-8")
-            url = f"{SENSO_BASE_URL}/search"
-            request = urllib.request.Request(url, data=body, headers=headers, method="POST")
-            
-            with urllib.request.urlopen(request, timeout=3.0) as resp:
-                if resp.status == 200:
-                    data = json.loads(resp.read().decode("utf-8"))
-                    results = data.get("results", [])
-                    if results:
-                        grounded_citation = results[0].get("title", grounded_citation)
-                        grounded_text = results[0].get("snippet", grounded_text)
-        except Exception:
-            # High-availability fallback if Senso network is unreachable
-            pass
+    try:
+        headers = {
+            "X-API-Key": SENSO_API_KEY,
+            "Content-Type": "application/json"
+        }
+        body = json.dumps({"query": req.query, "max_results": 3}).encode("utf-8")
+        url = f"{SENSO_BASE_URL}/org/search"
+        request = urllib.request.Request(url, data=body, headers=headers, method="POST")
+        with urllib.request.urlopen(request, timeout=3.0) as resp:
+            if resp.status == 200:
+                data = json.loads(resp.read().decode("utf-8"))
+                results = data.get("results", []) or data.get("data", [])
+                if results and isinstance(results, list):
+                    first = results[0]
+                    return {
+                        "status": "SUCCESS",
+                        "user_id": req.user_id,
+                        "query": req.query,
+                        "citation": first.get("title") or first.get("content_id"),
+                        "grounded_response": first.get("chunk_text") or first.get("content"),
+                        "relevance_score": first.get("relevance_score"),
+                        "policy_verified": True,
+                        "timestamp": time.time()
+                    }
+    except Exception as exc:
+        pass
 
     return {
+        "status": "EVIDENCE_UNAVAILABLE",
         "user_id": req.user_id,
         "query": req.query,
-        "citation": grounded_citation,
-        "grounded_response": grounded_text,
-        "policy_verified": True,
+        "citation": None,
+        "grounded_response": None,
+        "policy_verified": False,
+        "reason": "Senso API request failed or timed out",
         "timestamp": time.time()
     }
 

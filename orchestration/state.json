@@ -4,12 +4,12 @@
   "graph_hash": "1d8fa87bcd173ba0c7794e898c0cf09781821eaf63c352a8fb97007a1dc7ccbe",
   "created_at": "2026-08-02T15:05:11.766Z",
   "updated_at": "2026-08-02T16:59:47.787Z",
-  "audit_epoch": 0,
+  "audit_epoch": 1,
   "consecutive_clean_professor_passes": 0,
   "audit_snapshot_hash": null,
   "audit_passes": {},
   "consumed_gates": {},
-  "terminal_status": "GRAPH_READY_NOT_EXECUTED",
+  "terminal_status": "REPAIR_IN_PROGRESS",
   "default_status": "LOCKED",
   "nodes": {
     "VAPOR.ROOT": {

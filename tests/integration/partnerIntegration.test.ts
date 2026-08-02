@@ -4,8 +4,18 @@ import { searchSensoKnowledgeBase } from '../../src/adapters/senso/search';
 import { generateHmacSignature } from '../../src/infrastructure/security/hmacValidator';
 import crypto from 'crypto';
 
+const mockSeenEvents = new Map<string, any>();
 vi.mock('../../src/infrastructure/database/supabaseClient', () => ({
   recordDoubleEntryLedger: vi.fn().mockResolvedValue({ success: true, id: 'tx_ledger_001' }),
+  checkAndRecordWebhookEvent: vi.fn().mockImplementation(async (rec: any) => {
+    if (mockSeenEvents.has(rec.eventId)) {
+      return { isDuplicate: true, result: mockSeenEvents.get(rec.eventId) };
+    }
+    return { isDuplicate: false, result: undefined };
+  }),
+  updateWebhookEventResult: vi.fn().mockImplementation(async (provider: string, eventId: string, result: any) => {
+    mockSeenEvents.set(eventId, { status: 'ignored', message: 'Duplicate webhook-id rejected' });
+  }),
 }));
 
 vi.mock('../../src/adapters/prava/lockCard', () => ({
