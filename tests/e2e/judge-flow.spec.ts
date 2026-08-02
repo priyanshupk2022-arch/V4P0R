@@ -1,14 +1,58 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('VAPOR Judge Golden Path E2E Flow', () => {
-  test('should render judge UI, execute purchase scenario, and display Senso, Policy, Prava card & Redacted Audit', async ({ page }) => {
+test.describe('VAPOR Real-Time Financial Circuit Breaker & Partner Flow E2E', () => {
+
+  test('Primary Homepage: Real-Time Financial Circuit Breaker & Offboarding', async ({ page }) => {
+    // 1. Open primary homepage
+    await page.goto('/');
+
+    // 2. Verify VAPOR brand, tagline, and navigation
+    await expect(page.getByText('VAPOR', { exact: true })).toBeVisible();
+    await expect(page.getByText(/Real-time financial circuit breaker for employee SaaS/i)).toBeVisible();
+    await expect(page.getByText(/SANDBOX CIRCUIT BREAKER/i)).toBeVisible();
+    await expect(page.getByRole('link', { name: /Prava Partner Journey/i })).toBeVisible();
+
+    // 3. Verify telemetry metric cards
+    await expect(page.getByText('Prevented Financial Loss')).toBeVisible();
+    await expect(page.getByText('Circuit Breaker Status')).toBeVisible();
+
+    // 4. Test Spend-Spike Anomaly Circuit Breaker Trip
+    const tripBtn = page.getByRole('button', { name: /Trip Circuit Breaker/i });
+    await expect(tripBtn).toBeVisible();
+    await tripBtn.click();
+
+    // 5. Verify Deterministic Policy Block & Prevented Loss Explanation
+    await expect(page.getByText('DETERMINISTIC EVALUATION RESULT')).toBeVisible({ timeout: 5000 });
+    await expect(page.getByText(/DECISION: BLOCKED/i)).toBeVisible();
+    await expect(page.getByText(/CIRCUIT BREAKER TRIPPED — PREVENTED FINANCIAL LOSS/i)).toBeVisible();
+
+    // 6. Test Navigation Tabs (Inventory & Employee Offboarding)
+    const inventoryTab = page.getByRole('button', { name: /Subscription & Mandate Inventory/i });
+    await inventoryTab.click();
+    await expect(page.getByRole('cell', { name: 'AWS Cloud Engine' })).toBeVisible();
+    await expect(page.getByText('Alex Vance (Designer)')).toBeVisible();
+
+    const offboardingTab = page.getByRole('button', { name: /Employee Offboarding Protocol/i });
+    await offboardingTab.click();
+    await expect(page.getByText('Target Employee: Alex Vance')).toBeVisible();
+
+    const revokeBtn = page.getByRole('button', { name: /Deauthorize & Revoke All Mandates/i });
+    await revokeBtn.click();
+    await expect(page.getByText(/Revocation Confirmed: Prevented \$570\.00\/mo ghost SaaS loss/i)).toBeVisible();
+
+    // 7. Verify Redacted Audit Timeline
+    await expect(page.getByText('Durable Redacted Audit Timeline')).toBeVisible();
+    await expect(page.getByText(/EMPLOYEE_OFFBOARDED/i)).toBeVisible();
+  });
+
+  test('Dedicated Prava Partner Journey (/demo/prava): Virtual Card & Merchant Checkout Proof', async ({ page }) => {
     // Enable E2E UI navigation mode
     await page.addInitScript(() => {
       (window as any).__E2E_MOCK_PASSKEY__ = true;
     });
 
-    // 1. Open VAPOR judge dashboard
-    await page.goto('/');
+    // 1. Open dedicated Prava partner flow
+    await page.goto('/demo/prava');
 
     // 2. Verify header titles and environment status badges
     await expect(page.getByRole('heading', { name: 'VAPOR' })).toBeVisible();
@@ -40,11 +84,11 @@ test.describe('VAPOR Judge Golden Path E2E Flow', () => {
     await expect(page.getByText(/PRAVA_STATUS_REPORTED/i)).toBeVisible({ timeout: 8000 });
   });
 
-  test('should trigger Linq iMessage approval for high-value scenario', async ({ page }) => {
+  test('Prava Partner Journey: Linq iMessage approval for high-value scenario', async ({ page }) => {
     await page.addInitScript(() => {
       (window as any).__E2E_MOCK_PASSKEY__ = true;
     });
-    await page.goto('/');
+    await page.goto('/demo/prava');
 
     // Select Scenario 2 ($4,999.00 USD - High Value)
     await page.getByText(/High-Value SaaS/i).click();
@@ -66,4 +110,5 @@ test.describe('VAPOR Judge Golden Path E2E Flow', () => {
     await expect(page.getByText('Credential isolated from VAPOR UI')).toBeVisible({ timeout: 8000 });
     await expect(page.getByText(/Sandbox Checkout Attempted/i)).toBeVisible({ timeout: 8000 });
   });
+
 });

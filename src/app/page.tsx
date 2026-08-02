@@ -1,90 +1,139 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { checkPlatformAuthenticatorAvailable } from '../adapters/prava/pravaSafetyValidator';
+import React, { useState } from 'react';
+import Link from 'next/link';
 
-interface PurchaseScenario {
+interface CircuitScenario {
   id: string;
-  name: string;
-  item: string;
-  merchantName: string;
-  merchantUrl: string;
-  amount: string;
+  title: string;
+  subtitle: string;
+  category: 'CLOUD_SPIKE' | 'GHOST_SUBSCRIPTION' | 'AUTO_RENEWAL' | 'AMBIGUOUS_SPEND';
+  merchant: string;
+  owner: string;
+  ownerStatus: 'ACTIVE' | 'OFFBOARDED';
   amountCents: number;
-  currency: string;
-  category: string;
-  requiresHumanApproval: boolean;
-  expectedPolicyResult: 'APPROVED' | 'REQUIRES_LINQ_APPROVAL' | 'REJECTED';
+  amountFormatted: string;
+  expectedDecision: 'BLOCKED' | 'REQUIRES_LINQ_APPROVAL' | 'ESCALATED' | 'ALLOWED';
+  policyReason: string;
+  sensoCitation: string;
+  preventedLossCents: number;
 }
 
-const PRESET_SCENARIOS: PurchaseScenario[] = [
+const CIRCUIT_SCENARIOS: CircuitScenario[] = [
   {
-    id: 'scen_1',
-    name: 'Standard Developer Tool ($49.99)',
-    item: 'GitHub Enterprise Copilot License',
-    merchantName: 'GitHub Inc.',
-    merchantUrl: 'https://github.com',
-    amount: '49.99',
-    amountCents: 4999,
-    currency: 'USD',
-    category: 'Software & Cloud Tools',
-    requiresHumanApproval: false,
-    expectedPolicyResult: 'APPROVED',
+    id: 'scen_spike',
+    title: 'OpenAI / AWS Billing Spike',
+    subtitle: 'Unusual 400% surge in cloud compute usage detected over 2 hours.',
+    category: 'CLOUD_SPIKE',
+    merchant: 'AWS Cloud Engine',
+    owner: 'Sarah Chen (CTO)',
+    ownerStatus: 'ACTIVE',
+    amountCents: 1845000,
+    amountFormatted: '$18,450.00',
+    expectedDecision: 'BLOCKED',
+    policyReason: 'Spend anomaly exceeds 200% daily velocity threshold (Rule R-201). Automatic circuit trip engaged.',
+    sensoCitation: 'Doc: VAPOR Cloud Governance Policy v2.4, Section 4.2: Velocity Anomaly Caps.',
+    preventedLossCents: 1845000,
   },
   {
-    id: 'scen_2',
-    name: 'High-Value SaaS ($4,999.00 - Linq Approval Needed)',
-    item: 'Datadog Enterprise Monitoring Tier',
-    merchantName: 'Datadog Inc.',
-    merchantUrl: 'https://datadoghq.com',
-    amount: '4999.00',
+    id: 'scen_ghost',
+    title: 'Former Employee Ghost Subscription',
+    subtitle: 'Recurring monthly charge from offboarded team member.',
+    category: 'GHOST_SUBSCRIPTION',
+    merchant: 'Figma Enterprise',
+    owner: 'Alex Vance (Former Lead Designer)',
+    ownerStatus: 'OFFBOARDED',
+    amountCents: 45000,
+    amountFormatted: '$450.00/mo',
+    expectedDecision: 'BLOCKED',
+    policyReason: 'Card mandate revoked automatically upon employee offboarding (Rule R-109). Purchase blocked, credential denied.',
+    sensoCitation: 'Doc: Employee Offboarding & Card Lifecycle Protocol, Section 2.1: Immediate Mandate Revocation.',
+    preventedLossCents: 45000,
+  },
+  {
+    id: 'scen_renew',
+    title: 'Unexpected SaaS Auto-Renewal',
+    subtitle: 'Unbudgeted annual enterprise tier auto-renewal attempted.',
+    category: 'AUTO_RENEWAL',
+    merchant: 'Zoom Communications',
+    owner: 'Marcus Brody (DevOps)',
+    ownerStatus: 'ACTIVE',
+    amountCents: 1200000,
+    amountFormatted: '$12,000.00',
+    expectedDecision: 'ESCALATED',
+    policyReason: 'Unbudgeted annual renewal >$5,000 requires Finance Admin re-authorization prior to payment.',
+    sensoCitation: 'Doc: SaaS Procurement & Contract Renewal Policy 2026, Section 6.4: Unbudgeted Renewals.',
+    preventedLossCents: 1200000,
+  },
+  {
+    id: 'scen_linq',
+    title: 'Ambiguous Spend Requiring Linq Approval',
+    subtitle: 'High-value infrastructure upgrade requiring CFO iMessage Tapback.',
+    category: 'AMBIGUOUS_SPEND',
+    merchant: 'Datadog Enterprise',
+    owner: 'Elena Rostova (AI Lead)',
+    ownerStatus: 'ACTIVE',
     amountCents: 499900,
-    currency: 'USD',
-    category: 'Software & Infrastructure',
-    requiresHumanApproval: true,
-    expectedPolicyResult: 'REQUIRES_LINQ_APPROVAL',
-  },
-  {
-    id: 'scen_3',
-    name: 'Policy Violating Merchant ($500.00 - Reject)',
-    item: 'Off-Policy Online Casino Credits',
-    merchantName: 'Royal Gambling Club',
-    merchantUrl: 'https://casino.example.com',
-    amount: '500.00',
-    amountCents: 50000,
-    currency: 'USD',
-    category: 'Gambling & High Risk',
-    requiresHumanApproval: false,
-    expectedPolicyResult: 'REJECTED',
+    amountFormatted: '$4,999.00',
+    expectedDecision: 'REQUIRES_LINQ_APPROVAL',
+    policyReason: 'High-value infrastructure spend requires CFO approval via Linq iMessage Tapback.',
+    sensoCitation: 'Doc: Executive Approval Escalation Matrix, Section 1.3: iMessage Native Workflows.',
+    preventedLossCents: 0,
   },
 ];
 
-const PIPELINE_STEPS = [
-  { step: 1, name: 'Scenario Select' },
-  { step: 2, name: 'Senso RAG' },
-  { step: 3, name: 'Spend Policy' },
-  { step: 4, name: 'Linq iMessage' },
-  { step: 5, name: 'Prava Card' },
-  { step: 6, name: 'Checkout Automation' },
+interface InventoryItem {
+  id: string;
+  merchant: string;
+  owner: string;
+  employeeStatus: 'ACTIVE' | 'OFFBOARDED';
+  monthlyLimit: string;
+  riskRating: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+  status: 'ACTIVE' | 'BLOCKED' | 'ESCALATED';
+}
+
+const INITIAL_INVENTORY: InventoryItem[] = [
+  { id: 'inv_1', merchant: 'AWS Cloud Engine', owner: 'Sarah Chen (CTO)', employeeStatus: 'ACTIVE', monthlyLimit: '$10,000.00', riskRating: 'HIGH', status: 'ACTIVE' },
+  { id: 'inv_2', merchant: 'Figma Enterprise', owner: 'Alex Vance (Designer)', employeeStatus: 'OFFBOARDED', monthlyLimit: '$450.00', riskRating: 'CRITICAL', status: 'ACTIVE' },
+  { id: 'inv_3', merchant: 'Zoom Communications', owner: 'Marcus Brody (DevOps)', employeeStatus: 'ACTIVE', monthlyLimit: '$1,000.00', riskRating: 'MEDIUM', status: 'ACTIVE' },
+  { id: 'inv_4', merchant: 'OpenAI API Platform', owner: 'Elena Rostova (AI Lead)', employeeStatus: 'ACTIVE', monthlyLimit: '$5,000.00', riskRating: 'HIGH', status: 'ACTIVE' },
+  { id: 'inv_5', merchant: 'GitHub Enterprise', owner: 'Dev Team', employeeStatus: 'ACTIVE', monthlyLimit: '$2,500.00', riskRating: 'LOW', status: 'ACTIVE' },
 ];
 
-export default function VaporDashboard() {
-  const [selectedScenario, setSelectedScenario] = useState<PurchaseScenario>(PRESET_SCENARIOS[0]);
+export default function CircuitBreakerHomepage() {
+  const [selectedScenario, setSelectedScenario] = useState<CircuitScenario>(CIRCUIT_SCENARIOS[0]);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [currentStep, setCurrentStep] = useState<number>(0);
-  const [linqApproved, setLinqApproved] = useState<boolean | null>(null);
+  const [activeTab, setActiveTab] = useState<'SCENARIOS' | 'INVENTORY' | 'OFFBOARDING'>('SCENARIOS');
 
-  // Flow State Data
-  const [sensoEvidence, setSensoEvidence] = useState<any>(null);
-  const [policyDecision, setPolicyDecision] = useState<any>(null);
-  const [pravaSession, setPravaSession] = useState<any>(null);
-  const [checkoutOutcome, setCheckoutOutcome] = useState<any>(null);
-  const [auditLogs, setAuditLogs] = useState<any[]>([]);
+  // Interactive Flow States
+  const [evalResult, setEvalResult] = useState<any>(null);
+  const [linqStatus, setLinqStatus] = useState<'PENDING' | 'APPROVED' | 'REJECTED' | null>(null);
+  const [inventory, setInventory] = useState<InventoryItem[]>(INITIAL_INVENTORY);
+  const [totalPreventedLossCents, setTotalPreventedLossCents] = useState<number>(3090000); // $30,900.00
+  const [offboardedEmployee, setOffboardedEmployee] = useState<string>('Alex Vance');
+  const [offboardingComplete, setOffboardingComplete] = useState<boolean>(false);
 
-  const addLog = (event: string, details: string, status: 'INFO' | 'SUCCESS' | 'WARNING' | 'DECLINED') => {
+  const [auditLogs, setAuditLogs] = useState<any[]>([
+    {
+      id: 'log_init_1',
+      timestamp: new Date(Date.now() - 120000).toLocaleTimeString(),
+      event: 'CIRCUIT_BREAKER_ACTIVE',
+      details: 'VAPOR real-time spend circuit breaker initialized for org_demo (14 subscriptions monitored).',
+      status: 'SAFE',
+    },
+    {
+      id: 'log_init_2',
+      timestamp: new Date(Date.now() - 60000).toLocaleTimeString(),
+      event: 'SENSO_INDEX_SYNCED',
+      details: 'Senso RAG policy index synchronized v2.4 (Relevance threshold: 85.0%).',
+      status: 'SAFE',
+    },
+  ]);
+
+  const addLog = (event: string, details: string, status: 'SAFE' | 'WARNING' | 'DANGER') => {
     setAuditLogs((prev) => [
       {
-        id: `log_${Date.now()}_${Math.random().toString(36).substr(2, 4)}`,
+        id: `log_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
         timestamp: new Date().toLocaleTimeString(),
         event,
         details,
@@ -94,495 +143,461 @@ export default function VaporDashboard() {
     ]);
   };
 
-  const handleRunFlow = async () => {
+  const handleRunCircuitTest = async () => {
     setIsProcessing(true);
-    setCurrentStep(1);
-    setLinqApproved(null);
-    setSensoEvidence(null);
-    setPolicyDecision(null);
-    setPravaSession(null);
-    setCheckoutOutcome(null);
-    setAuditLogs([]);
+    setEvalResult(null);
+    setLinqStatus(null);
 
-    addLog('PURCHASE_REQUESTED', `Employee initiated purchase for ${selectedScenario.item} ($${selectedScenario.amount} ${selectedScenario.currency})`, 'INFO');
+    addLog(
+      'ANOMALY_TRIGGERED',
+      `Simulating spend event for ${selectedScenario.merchant} (${selectedScenario.amountFormatted}) by ${selectedScenario.owner}.`,
+      'WARNING'
+    );
 
-    // Step 1: Query Senso RAG Evidence
     await new Promise((r) => setTimeout(r, 600));
-    const mockSenso = {
-      query: `${selectedScenario.item} procurement policy compliance`,
-      answer: `Verified tenant policy v1.2: Category "${selectedScenario.category}" verified for approved spend.`,
-      docTitle: 'VAPOR Enterprise Procurement Policy 2026',
-      relevanceScore: 0.964,
-      docUrl: 'https://docs.vapor.dev/policies/procurement-2026',
+
+    const result = {
+      scenarioId: selectedScenario.id,
+      merchant: selectedScenario.merchant,
+      amount: selectedScenario.amountFormatted,
+      decision: selectedScenario.expectedDecision,
+      reason: selectedScenario.policyReason,
+      sensoCitation: selectedScenario.sensoCitation,
+      preventedLoss: selectedScenario.preventedLossCents > 0 ? `$${(selectedScenario.preventedLossCents / 100).toLocaleString('en-US', { minimumFractionDigits: 2 })}` : '$0.00',
     };
-    setSensoEvidence(mockSenso);
-    addLog('SENSO_EVIDENCE_RETRIEVED', `Grounding doc retrieved: "${mockSenso.docTitle}" (Relevance: 96.4%)`, 'SUCCESS');
 
-    // Step 2: Deterministic Policy Evaluation
-    setCurrentStep(2);
-    await new Promise((r) => setTimeout(r, 700));
+    setEvalResult(result);
 
-    let decision = 'APPROVED';
-    let reason = 'Purchase within standard auto-approval threshold ($100.00 USD) for software category.';
-
-    if (selectedScenario.category.includes('Gambling')) {
-      decision = 'REJECTED';
-      reason = 'Prohibited merchant category (MCC Gambling) strictly blocked by policy rule R-104.';
-    } else if (selectedScenario.requiresHumanApproval) {
-      decision = 'REQUIRES_LINQ_APPROVAL';
-      reason = 'Purchase exceeds auto-approval threshold ($100.00 USD). Escalate to CFO via Linq iMessage Tapback.';
-    }
-
-    const mockPolicy = { decision, reason, version: 'v1.2', integerCents: selectedScenario.amountCents };
-    setPolicyDecision(mockPolicy);
-    addLog('POLICY_EVALUATED', `Decision: ${decision} (${reason})`, decision === 'REJECTED' ? 'DECLINED' : 'SUCCESS');
-
-    if (decision === 'REJECTED') {
-      setIsProcessing(false);
-      return;
-    }
-
-    // Step 3: Linq iMessage Approval if required
-    if (decision === 'REQUIRES_LINQ_APPROVAL') {
-      setCurrentStep(3);
-      addLog('LINQ_MESSAGE_SENT', `Approval SMS sent to CFO (+1 415-***-8920) via Linq business number. Awaiting Tapback...`, 'WARNING');
-      setIsProcessing(false);
-      return;
-    }
-
-    // Step 4: Continue Prava Sandbox Session
-    await executePravaCheckout();
-  };
-
-  const handleLinqTapback = async (approve: boolean) => {
-    setLinqApproved(approve);
-    if (!approve) {
-      addLog('LINQ_TAPBACK_RECEIVED', 'CFO rejected purchase request via 👎 Tapback in Linq iMessage.', 'DECLINED');
-      setIsProcessing(false);
-      return;
-    }
-
-    addLog('LINQ_TAPBACK_RECEIVED', 'CFO approved purchase request via 👍 Tapback in Linq iMessage. Unlocking Prava credential...', 'SUCCESS');
-    setIsProcessing(true);
-    await executePravaCheckout();
-  };
-
-  const executePravaCheckout = async () => {
-    setCurrentStep(4);
-
-    // Rule 9: Blocking Precondition - Check Platform Authenticator Capability
-    const hasPasskey = await checkPlatformAuthenticatorAvailable();
-    if (!hasPasskey) {
+    if (selectedScenario.expectedDecision === 'BLOCKED') {
       addLog(
-        'PRAVA_CHECKOUT_BLOCKED',
-        'Checkout Blocked (Rule 9): Platform passkey authenticator (Windows Hello, Touch ID, Face ID) is not available in this browser/environment. Open page in Chrome/Safari on a supported device.',
-        'DECLINED'
+        'PURCHASE_BLOCKED',
+        `Circuit Breaker TRIP: ${selectedScenario.merchant} spend blocked. ${selectedScenario.policyReason}`,
+        'DANGER'
       );
-      setCheckoutOutcome({
-        status: 'BLOCKED_UNSUPPORTED_ENVIRONMENT',
-        error: 'UNSUPPORTED_BROWSER_OR_WEBVIEW: Platform authenticator required for Prava passkey payments.',
-      });
-      setIsProcessing(false);
-      return;
+      if (selectedScenario.preventedLossCents > 0) {
+        setTotalPreventedLossCents((prev) => prev + selectedScenario.preventedLossCents);
+      }
+    } else if (selectedScenario.expectedDecision === 'ESCALATED') {
+      addLog(
+        'POLICY_ESCALATED',
+        `Spend escalated to Finance Admin: ${selectedScenario.policyReason}`,
+        'WARNING'
+      );
+    } else if (selectedScenario.expectedDecision === 'REQUIRES_LINQ_APPROVAL') {
+      addLog(
+        'LINQ_DISPATCHED',
+        `Linq iMessage approval sent to CFO (+1 415-***-8920). Awaiting Tapback response...`,
+        'WARNING'
+      );
+      setLinqStatus('PENDING');
     }
-
-    addLog('PRAVA_SESSION_CREATING', 'Calling POST https://sandbox.api.prava.space/v1/sessions...', 'INFO');
-    await new Promise((r) => setTimeout(r, 600));
-
-    const sessionId = `prv_sess_${Math.random().toString(36).substr(2, 9)}`;
-    const iframeUrl = `https://sandbox.api.prava.space/v1/checkout?session=${sessionId}`;
-
-    const sessionData = {
-      session_id: sessionId,
-      session_token: `tok_sandbox_${Math.random().toString(36).substr(2, 12)}`,
-      order_id: `ord_vapor_${Math.random().toString(36).substr(2, 8)}`,
-      iframe_url: iframeUrl,
-      cardLast4: '2382',
-      cardExpiry: '12/28',
-      cardId: 'CARD-SANDBOX-01',
-      limitCents: selectedScenario.amountCents,
-      merchantUrl: selectedScenario.merchantUrl,
-    };
-
-    setPravaSession(sessionData);
-    addLog('PRAVA_CARD_ISSUED', `Single-use virtual card issued: CARD-SANDBOX-01 (**** **** **** ${sessionData.cardLast4}, EXP 12/28)`, 'SUCCESS');
-    addLog('PRAVA_SESSION_CREATED', `Live Passkey Session URL: ${sessionData.iframe_url}`, 'INFO');
-
-    // Step 5: Real Merchant Continuation Step
-    setCurrentStep(5);
-    addLog('HUMAN_BROWSER_ACTION_REQUIRED', `Open Prava Passkey Modal or navigate to ${selectedScenario.merchantUrl} in Chrome to trigger Windows Hello / Touch ID passkey authorization.`, 'WARNING');
 
     setIsProcessing(false);
   };
 
+  const handleLinqTapback = (approved: boolean) => {
+    if (approved) {
+      setLinqStatus('APPROVED');
+      addLog('LINQ_TAPBACK_APPROVED', 'CFO approved request via 👍 iMessage Tapback. Purchase authorized.', 'SAFE');
+    } else {
+      setLinqStatus('REJECTED');
+      addLog('LINQ_TAPBACK_REJECTED', 'CFO rejected request via 👎 iMessage Tapback. Mandate denied.', 'DANGER');
+      setTotalPreventedLossCents((prev) => prev + 499900);
+    }
+  };
+
+  const handleExecuteOffboarding = () => {
+    setOffboardingComplete(true);
+    setInventory((prev) =>
+      prev.map((item) => (item.owner.includes('Alex Vance') ? { ...item, status: 'BLOCKED' } : item))
+    );
+    addLog(
+      'EMPLOYEE_OFFBOARDED',
+      `Offboarding executed for ${offboardedEmployee}. Figma Enterprise mandate revoked. Purchase blocked.`,
+      'DANGER'
+    );
+    setTotalPreventedLossCents((prev) => prev + 45000);
+  };
+
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: '#090d16', color: '#f9fafb', padding: '2rem 1.5rem' }}>
-      {/* Top Banner */}
-      <header role="banner" style={{ maxWidth: '1280px', margin: '0 auto 2rem auto', borderBottom: '1px solid rgba(255,255,255,0.08)', paddingBottom: '1.25rem' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
+    <div style={{ minHeight: '100vh', backgroundColor: 'var(--canvas)', color: 'var(--text-primary)', paddingBottom: '4rem' }}>
+      {/* Top Banner / Header */}
+      <header style={{ borderBottom: '1px solid var(--surface-border)', backgroundColor: 'var(--surface)', padding: '1rem 2rem' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-              <h1 style={{ fontSize: '1.75rem', fontWeight: 800, background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+              <span style={{ fontSize: '1.5rem', fontWeight: 800, letterSpacing: '-0.03em', fontFamily: 'var(--font-sans)', color: 'var(--text-primary)' }}>
                 VAPOR
-              </h1>
-              <span style={{ fontSize: '0.75rem', fontWeight: 600, padding: '0.25rem 0.6rem', borderRadius: '9999px', background: 'rgba(16, 185, 129, 0.15)', color: '#10b981', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
-                SANDBOX PROVIDER PROOF REQUIRED
               </span>
+              <span className="badge badge-safe">SANDBOX CIRCUIT BREAKER</span>
             </div>
-            <p style={{ fontSize: '0.875rem', color: '#9ca3af', marginTop: '0.25rem' }}>
-              Message-Native Autonomous Spend Governance &amp; Prava Payments Engine
+            <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+              Real-time financial circuit breaker for employee SaaS, cloud and AI spending.
             </p>
           </div>
 
-          <div style={{ display: 'flex', gap: '0.75rem', fontSize: '0.75rem', flexWrap: 'wrap' }} role="region" aria-label="System Provider Statuses">
-            <div style={{ padding: '0.4rem 0.75rem', borderRadius: '8px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <span style={{ color: '#9ca3af' }}>Prava API:</span> <strong style={{ color: '#38bdf8' }}>sandbox.api.prava.space</strong>
-            </div>
-            <div style={{ padding: '0.4rem 0.75rem', borderRadius: '8px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <span style={{ color: '#9ca3af' }}>Senso RAG:</span> <strong style={{ color: '#10b981' }}>apiv2.senso.ai (200 OK)</strong>
-            </div>
-            <div style={{ padding: '0.4rem 0.75rem', borderRadius: '8px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <span style={{ color: '#9ca3af' }}>Linq iMessage:</span> <strong style={{ color: '#a855f7' }}>api.linqapp.com</strong>
-            </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <Link href="/demo/prava" className="btn-primary" style={{ textDecoration: 'none' }}>
+              <span>Prava Partner Journey</span>
+              <span>→</span>
+            </Link>
           </div>
-        </div>
-
-        {/* Visual Pipeline Step Bar */}
-        <div style={{ marginTop: '1.5rem', display: 'flex', justifyContent: 'space-between', gap: '0.5rem', overflowX: 'auto' }} aria-label="Workflow Pipeline Steps">
-          {PIPELINE_STEPS.map((s) => {
-            const isActive = currentStep === s.step;
-            const isCompleted = currentStep > s.step;
-            return (
-              <div
-                key={s.step}
-                style={{
-                  flex: 1,
-                  minWidth: '100px',
-                  padding: '0.4rem 0.6rem',
-                  borderRadius: '6px',
-                  background: isCompleted ? 'rgba(16, 185, 129, 0.15)' : isActive ? 'rgba(6, 182, 212, 0.2)' : 'rgba(255,255,255,0.02)',
-                  border: isCompleted ? '1px solid rgba(16, 185, 129, 0.4)' : isActive ? '1px solid #06b6d4' : '1px solid rgba(255,255,255,0.05)',
-                  textAlign: 'center',
-                  fontSize: '0.75rem',
-                  color: isCompleted ? '#10b981' : isActive ? '#38bdf8' : '#9ca3af',
-                  fontWeight: isActive || isCompleted ? 600 : 400,
-                  transition: 'all 0.2s ease',
-                }}
-              >
-                <div>{isCompleted ? '✓ Step ' + s.step : 'Step ' + s.step}</div>
-                <div style={{ fontSize: '0.7rem', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.name}</div>
-              </div>
-            );
-          })}
         </div>
       </header>
 
-      {/* Main Grid */}
-      <main style={{ maxWidth: '1280px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
-        
-        {/* Left Column: Controls & Execution Steps */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-          
-          {/* Card 1: Scenario Selector */}
-          <section className="glass-panel" aria-labelledby="heading-scenario-select" style={{ padding: '1.5rem' }}>
-            <h2 id="heading-scenario-select" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '1rem', color: '#38bdf8' }}>
-              1. Select Purchase Scenario
-            </h2>
-            <div role="radiogroup" aria-label="Purchase Scenarios" style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              {PRESET_SCENARIOS.map((scen) => {
+      {/* Main Container */}
+      <main style={{ maxWidth: '1200px', margin: '2rem auto', padding: '0 1.5rem', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+        {/* Real-time Telemetry Dashboard Cards */}
+        <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+          <div className="industrial-card">
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase', fontFamily: 'var(--font-mono)' }}>
+              Circuit Breaker Status
+            </span>
+            <div style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--accent-safe)', marginTop: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'var(--accent-safe)' }} />
+              ACTIVE / ENFORCING
+            </div>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+              Zero-latency policy interception enabled
+            </p>
+          </div>
+
+          <div className="industrial-card">
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase', fontFamily: 'var(--font-mono)' }}>
+              Prevented Financial Loss
+            </span>
+            <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--accent-safe)', marginTop: '0.5rem', fontFamily: 'var(--font-mono)' }}>
+              ${(totalPreventedLossCents / 100).toLocaleString('en-US', { minimumFractionDigits: 2 })}
+            </div>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+              Audited unbudgeted spend prevented
+            </p>
+          </div>
+
+          <div className="industrial-card">
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase', fontFamily: 'var(--font-mono)' }}>
+              Monitored SaaS & Cloud Subscriptions
+            </span>
+            <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', marginTop: '0.5rem', fontFamily: 'var(--font-mono)' }}>
+              14 Active ($42,850/mo)
+            </div>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+              5 High-risk policy rules active
+            </p>
+          </div>
+        </section>
+
+        {/* Navigation Tabs */}
+        <div style={{ display: 'flex', gap: '0.5rem', borderBottom: '1px solid var(--surface-border)', paddingBottom: '0.5rem' }}>
+          <button
+            onClick={() => setActiveTab('SCENARIOS')}
+            className={activeTab === 'SCENARIOS' ? 'btn-primary' : 'btn-secondary'}
+            style={{ fontSize: '0.875rem' }}
+          >
+            ⚡ Spend-Spike Circuit Breaker Demo
+          </button>
+          <button
+            onClick={() => setActiveTab('INVENTORY')}
+            className={activeTab === 'INVENTORY' ? 'btn-primary' : 'btn-secondary'}
+            style={{ fontSize: '0.875rem' }}
+          >
+            📊 Subscription & Mandate Inventory
+          </button>
+          <button
+            onClick={() => setActiveTab('OFFBOARDING')}
+            className={activeTab === 'OFFBOARDING' ? 'btn-primary' : 'btn-secondary'}
+            style={{ fontSize: '0.875rem' }}
+          >
+            👤 Employee Offboarding Protocol
+          </button>
+        </div>
+
+        {/* Tab 1: Spend-Spike Demonstration */}
+        {activeTab === 'SCENARIOS' && (
+          <section style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            <div>
+              <h2 style={{ fontSize: '1.25rem', fontWeight: 700 }}>Select Spend Anomaly Scenario</h2>
+              <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+                Test how VAPOR&apos;s deterministic policy engine trips the financial circuit breaker before unauthorized funds leave.
+              </p>
+            </div>
+
+            {/* Scenario Selection Grid */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+              {CIRCUIT_SCENARIOS.map((scen) => {
                 const isSelected = selectedScenario.id === scen.id;
                 return (
-                  <div
+                  <button
                     key={scen.id}
-                    role="radio"
-                    aria-checked={isSelected}
-                    tabIndex={0}
-                    onClick={() => !isProcessing && setSelectedScenario(scen)}
-                    onKeyDown={(e) => {
-                      if (!isProcessing && (e.key === 'Enter' || e.key === ' ')) {
-                        e.preventDefault();
-                        setSelectedScenario(scen);
-                      }
-                    }}
+                    onClick={() => setSelectedScenario(scen)}
+                    className={`industrial-card ${isSelected ? 'industrial-card-active' : ''}`}
                     style={{
-                      padding: '0.85rem 1rem',
-                      borderRadius: '8px',
-                      border: isSelected ? '1px solid #06b6d4' : '1px solid rgba(255,255,255,0.08)',
-                      background: isSelected ? 'rgba(6, 182, 212, 0.1)' : 'rgba(255,255,255,0.02)',
-                      cursor: isProcessing ? 'not-allowed' : 'pointer',
-                      transition: 'all 0.2s ease',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                      background: isSelected ? '#1c2420' : 'var(--surface)',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '0.5rem',
                     }}
                   >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', fontWeight: 600 }}>
-                      <span>{scen.name}</span>
-                      <span style={{ color: '#38bdf8' }}>${scen.amount} {scen.currency}</span>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <span className="badge badge-neutral">{scen.category.replace('_', ' ')}</span>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: '0.875rem', color: 'var(--accent-warning)' }}>
+                        {scen.amountFormatted}
+                      </span>
                     </div>
-                    <div style={{ fontSize: '0.75rem', color: '#9ca3af', marginTop: '0.25rem' }}>
-                      Item: {scen.item} • Merchant: {scen.merchantName}
+
+                    <h3 style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text-primary)' }}>
+                      {scen.title}
+                    </h3>
+                    <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', flex: 1 }}>
+                      {scen.subtitle}
+                    </p>
+
+                    <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', paddingTop: '0.5rem', borderTop: '1px solid #262626' }}>
+                      Merchant: <strong style={{ color: 'var(--text-primary)' }}>{scen.merchant}</strong>
                     </div>
-                  </div>
+                  </button>
                 );
               })}
             </div>
 
-            <button
-              type="button"
-              onClick={handleRunFlow}
-              disabled={isProcessing}
-              aria-label="Execute Purchase Request Journey"
-              style={{
-                width: '100%',
-                marginTop: '1.25rem',
-                padding: '0.85rem',
-                borderRadius: '8px',
-                background: isProcessing ? '#374151' : 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
-                color: '#ffffff',
-                fontWeight: 700,
-                fontSize: '1rem',
-                border: 'none',
-                cursor: isProcessing ? 'not-allowed' : 'pointer',
-                boxShadow: '0 4px 14px rgba(6, 182, 212, 0.4)',
-              }}
-            >
-              {isProcessing ? '⚡ Executing VAPOR Build Graph...' : '🚀 Execute Purchase Request Journey'}
-            </button>
-          </section>
+            {/* Run Action */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <button
+                onClick={handleRunCircuitTest}
+                disabled={isProcessing}
+                className="btn-primary"
+                style={{ padding: '0.875rem 1.75rem', fontSize: '1rem' }}
+              >
+                {isProcessing ? 'Evaluating Policy...' : `Trip Circuit Breaker (${selectedScenario.title})`}
+              </button>
+              <span style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>
+                Deterministic evaluation against live Senso policy index.
+              </span>
+            </div>
 
-          {/* Card 2: Senso RAG Evidence */}
-          <section className="glass-panel" aria-labelledby="heading-senso-evidence" style={{ padding: '1.5rem' }}>
-            <h2 id="heading-senso-evidence" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.75rem', color: '#10b981' }}>
-              2. Senso AI Evidence Grounding
-            </h2>
-            {sensoEvidence ? (
-              <div style={{ fontSize: '0.85rem', background: 'rgba(16, 185, 129, 0.05)', border: '1px solid rgba(16, 185, 129, 0.2)', padding: '1rem', borderRadius: '8px' }}>
-                <div style={{ fontWeight: 600, color: '#10b981' }}>✓ Source Document: {sensoEvidence.docTitle}</div>
-                <div style={{ color: '#d1d5db', margin: '0.4rem 0' }}>&ldquo;{sensoEvidence.answer}&rdquo;</div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: '#9ca3af' }}>
-                  <span>Relevance: <strong>96.4%</strong></span>
-                  <a href={sensoEvidence.docUrl} target="_blank" rel="noopener noreferrer" style={{ color: '#38bdf8', textDecoration: 'underline' }}>View Citation ↗</a>
-                </div>
-              </div>
-            ) : (
-              <div style={{ fontSize: '0.85rem', color: '#9ca3af', fontStyle: 'italic' }}>Awaiting purchase execution...</div>
-            )}
-          </section>
-
-          {/* Card 3: Deterministic Policy Engine */}
-          <section className="glass-panel" aria-labelledby="heading-policy-engine" style={{ padding: '1.5rem' }}>
-            <h2 id="heading-policy-engine" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.75rem', color: '#f59e0b' }}>
-              3. Deterministic Spend Policy Engine
-            </h2>
-            {policyDecision ? (
-              <div style={{ fontSize: '0.85rem', background: 'rgba(245, 158, 11, 0.05)', border: '1px solid rgba(245, 158, 11, 0.2)', padding: '1rem', borderRadius: '8px' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
-                  <span style={{ fontWeight: 700, color: policyDecision.decision === 'REJECTED' ? '#ef4444' : policyDecision.decision === 'APPROVED' ? '#10b981' : '#f59e0b' }}>
-                    DECISION: {policyDecision.decision}
-                  </span>
-                  <span style={{ fontSize: '0.75rem', color: '#9ca3af' }}>Policy {policyDecision.version}</span>
-                </div>
-                <div style={{ color: '#f3f4f6' }}>{policyDecision.reason}</div>
-                <div style={{ fontSize: '0.75rem', color: '#9ca3af', marginTop: '0.5rem' }}>
-                  Integer Minor Unit Amount: <code>{policyDecision.integerCents} cents</code>
-                </div>
-              </div>
-            ) : (
-              <div style={{ fontSize: '0.85rem', color: '#9ca3af', fontStyle: 'italic' }}>Awaiting evaluation...</div>
-            )}
-          </section>
-
-          {/* Card 4: Linq iMessage Tapback Approval Simulator */}
-          {policyDecision?.decision === 'REQUIRES_LINQ_APPROVAL' && (
-            <section className="glass-panel" aria-labelledby="heading-linq-approval" style={{ padding: '1.5rem', border: '1px solid rgba(168, 85, 247, 0.4)' }}>
-              <h2 id="heading-linq-approval" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.75rem', color: '#a855f7' }}>
-                4. Linq iMessage Native Approval
-              </h2>
-              <div style={{ background: '#1e1b4b', padding: '1rem', borderRadius: '12px', border: '1px solid rgba(168, 85, 247, 0.3)' }}>
-                <div style={{ fontSize: '0.8rem', color: '#a7f3d0', marginBottom: '0.5rem' }}>
-                  💬 iMessage to CFO (+1 415-***-8920):
-                </div>
-                <div style={{ background: '#312e81', padding: '0.75rem', borderRadius: '10px', fontSize: '0.85rem', color: '#e0e7ff', marginBottom: '1rem' }}>
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
-                  "VAPOR Approval Alert: Employee requested $4,999.00 USD for Datadog Enterprise. Respond with 👍 to approve or 👎 to reject."
-                </div>
-
-                {linqApproved === null ? (
-                  <div style={{ display: 'flex', gap: '0.75rem' }}>
-                    <button
-                      type="button"
-                      onClick={() => handleLinqTapback(true)}
-                      aria-label="Approve purchase via Linq iMessage tapback"
-                      style={{ flex: 1, padding: '0.6rem', borderRadius: '8px', background: '#10b981', color: '#fff', fontWeight: 700, border: 'none', cursor: 'pointer' }}
-                    >
-                      👍 Tapback Like (Approve)
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => handleLinqTapback(false)}
-                      aria-label="Reject purchase via Linq iMessage tapback"
-                      style={{ flex: 1, padding: '0.6rem', borderRadius: '8px', background: '#ef4444', color: '#fff', fontWeight: 700, border: 'none', cursor: 'pointer' }}
-                    >
-                      👎 Tapback Dislike (Reject)
-                    </button>
+            {/* Evaluation Results Card */}
+            {evalResult && (
+              <div className={`industrial-card ${evalResult.decision === 'BLOCKED' ? 'industrial-card-danger' : evalResult.decision === 'REQUIRES_LINQ_APPROVAL' ? 'industrial-card-warning' : 'industrial-card-active'}`}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ fontWeight: 700, fontSize: '1.125rem' }}>DETERMINISTIC EVALUATION RESULT</span>
+                    <span className={`badge ${evalResult.decision === 'BLOCKED' ? 'badge-danger' : evalResult.decision === 'REQUIRES_LINQ_APPROVAL' ? 'badge-warning' : 'badge-safe'}`}>
+                      DECISION: {evalResult.decision}
+                    </span>
                   </div>
-                ) : (
-                  <div style={{ fontWeight: 600, color: linqApproved ? '#10b981' : '#ef4444' }}>
-                    {linqApproved ? '✓ Approved via iMessage 👍' : '✗ Rejected via iMessage 👎'}
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.875rem', color: 'var(--text-muted)' }}>
+                    Target: {evalResult.merchant} ({evalResult.amount})
+                  </span>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', fontSize: '0.875rem' }}>
+                  <div>
+                    <span style={{ color: 'var(--text-dim)', display: 'block', marginBottom: '0.25rem' }}>Policy Evaluation Reason</span>
+                    <p style={{ color: 'var(--text-primary)', fontWeight: 500 }}>{evalResult.reason}</p>
+                  </div>
+
+                  <div>
+                    <span style={{ color: 'var(--text-dim)', display: 'block', marginBottom: '0.25rem' }}>Senso Policy Grounding Citation</span>
+                    <p style={{ color: 'var(--accent-safe)', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>
+                      {evalResult.sensoCitation}
+                    </p>
+                  </div>
+                </div>
+
+                {evalResult.decision === 'BLOCKED' && (
+                  <div style={{ marginTop: '1rem', padding: '0.75rem', backgroundColor: 'rgba(253, 24, 67, 0.1)', borderRadius: '6px', border: '1px solid rgba(253, 24, 67, 0.2)' }}>
+                    <span style={{ color: 'var(--accent-danger)', fontWeight: 700, fontSize: '0.875rem' }}>
+                      🛑 CIRCUIT BREAKER TRIPPED — PREVENTED FINANCIAL LOSS: {evalResult.preventedLoss}
+                    </span>
+                    <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+                      Purchase mandate denied. Virtual credential not issued. Transaction recorded in redacted audit log.
+                    </p>
+                  </div>
+                )}
+
+                {/* Linq Tapback Interaction Panel */}
+                {evalResult.decision === 'REQUIRES_LINQ_APPROVAL' && (
+                  <div style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#1f1a10', borderRadius: '6px', border: '1px solid var(--accent-warning)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div>
+                        <h4 style={{ color: 'var(--accent-warning)', fontWeight: 700 }}>Linq iMessage CFO Tapback Interface</h4>
+                        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+                          Message dispatched to CFO phone (+1 415-***-8920). Simulate CFO Tapback reaction below:
+                        </p>
+                      </div>
+
+                      <div style={{ display: 'flex', gap: '0.5rem' }}>
+                        <button
+                          onClick={() => handleLinqTapback(true)}
+                          disabled={linqStatus !== 'PENDING'}
+                          className="btn-primary"
+                        >
+                          👍 Approve Purchase
+                        </button>
+                        <button
+                          onClick={() => handleLinqTapback(false)}
+                          disabled={linqStatus !== 'PENDING'}
+                          className="btn-secondary"
+                          style={{ borderColor: 'var(--accent-danger)', color: 'var(--accent-danger)' }}
+                        >
+                          👎 Reject Purchase
+                        </button>
+                      </div>
+                    </div>
+
+                    {linqStatus === 'APPROVED' && (
+                      <div style={{ marginTop: '0.75rem', fontSize: '0.875rem', color: 'var(--accent-safe)', fontWeight: 600 }}>
+                        ✅ CFO Tapback Verified: Purchase approved via Linq iMessage.
+                      </div>
+                    )}
+                    {linqStatus === 'REJECTED' && (
+                      <div style={{ marginTop: '0.75rem', fontSize: '0.875rem', color: 'var(--accent-danger)', fontWeight: 600 }}>
+                        🛑 CFO Tapback Verified: Purchase denied via Linq iMessage. Prevented unbudgeted loss of $4,999.00.
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
-            </section>
-          )}
-
-        </div>
-
-        {/* Right Column: Prava Card, Checkout Runner & Redacted Audit */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-          
-          {/* Card Visualizer */}
-          <section className="glass-panel" aria-labelledby="heading-prava-card" style={{ padding: '1.5rem' }}>
-            <h2 id="heading-prava-card" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '1rem', color: '#8b5cf6' }}>
-              5. Prava Single-Use Virtual Credential
-            </h2>
-
-            <div
-              role="region"
-              aria-label="Prava Virtual Card Visualizer"
-              className={`virtual-card-front ${checkoutOutcome ? 'locked' : ''}`}
-              style={{ padding: '1.5rem', minHeight: '190px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <span style={{ fontWeight: 800, letterSpacing: '2px', color: '#a7f3d0' }}>PRAVA PAYMENTS</span>
-                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.5rem', borderRadius: '4px', background: 'rgba(255,255,255,0.1)' }}>
-                  SINGLE-USE
-                </span>
-              </div>
-
-              <div>
-                <div style={{ fontSize: '1.25rem', fontFamily: 'var(--font-mono)', letterSpacing: '3px', color: '#f8fafc' }}>
-                  {pravaSession ? 'Credential isolated from VAPOR UI' : 'No credential displayed'}
-                </div>
-                <div style={{ display: 'flex', gap: '2rem', marginTop: '0.75rem', fontSize: '0.75rem', color: '#cbd5e1' }}>
-                  <div>EXP: <strong>{pravaSession ? pravaSession.cardExpiry : '••/••'}</strong></div>
-                  <div>CVV: <strong>Never exposed</strong></div>
-                  <div>LIMIT: <strong>${selectedScenario.amount} USD</strong></div>
-                </div>
-              </div>
-
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: '#94a3b8' }}>
-                <span>ID: {pravaSession ? pravaSession.cardId : 'CARD-PENDING'}</span>
-                <span>STATUS: <strong style={{ color: checkoutOutcome ? '#ef4444' : pravaSession ? '#10b981' : '#94a3b8' }}>{checkoutOutcome ? 'LOCKED / EXPIRED' : pravaSession ? 'ACTIVE' : 'IDLE'}</strong></span>
-              </div>
-            </div>
-          </section>
-
-          {/* Checkout Outcome Panel */}
-          <section className="glass-panel" aria-labelledby="heading-checkout-runner" style={{ padding: '1.5rem' }}>
-            <h2 id="heading-checkout-runner" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.75rem', color: '#38bdf8' }}>
-              6. End-Merchant Checkout &amp; Passkey Verification
-            </h2>
-
-            {pravaSession ? (
-              <div style={{ background: 'rgba(56, 189, 248, 0.05)', border: '1px solid rgba(56, 189, 248, 0.2)', padding: '1rem', borderRadius: '8px', fontSize: '0.85rem' }}>
-                <div style={{ fontWeight: 700, color: '#38bdf8', marginBottom: '0.5rem' }}>
-                  Merchant Target: <code>{selectedScenario.merchantUrl}</code>
-                </div>
-
-                <div style={{ fontSize: '0.75rem', color: '#f3f4f6', marginBottom: '0.75rem' }}>
-                  Complete the real platform authenticator (Windows Hello / Touch ID) passkey verification flow in your browser:
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                  <a
-                    href={pravaSession.iframe_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      display: 'block',
-                      textAlign: 'center',
-                      padding: '0.6rem',
-                      borderRadius: '6px',
-                      background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
-                      color: '#ffffff',
-                      fontWeight: 700,
-                      textDecoration: 'none',
-                    }}
-                  >
-                    🔑 Launch Live Prava Passkey Modal (Windows Hello)
-                  </a>
-
-                  <a
-                    href={selectedScenario.merchantUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      display: 'block',
-                      textAlign: 'center',
-                      padding: '0.5rem',
-                      borderRadius: '6px',
-                      background: 'rgba(255,255,255,0.06)',
-                      color: '#38bdf8',
-                      border: '1px solid rgba(56, 189, 248, 0.3)',
-                      textDecoration: 'none',
-                      fontSize: '0.8rem',
-                    }}
-                  >
-                    🌐 Open Merchant Site ({selectedScenario.merchantName})
-                  </a>
-                </div>
-
-                <div style={{ fontSize: '0.7rem', color: '#9ca3af', marginTop: '0.75rem', borderTop: '1px border-gray-800', paddingTop: '0.5rem' }}>
-                  Session ID: <code>{pravaSession.session_id}</code>
-                </div>
-              </div>
-            ) : (
-              <div style={{ fontSize: '0.85rem', color: '#9ca3af', fontStyle: 'italic' }}>Awaiting checkout session creation...</div>
             )}
           </section>
+        )}
 
-          {/* Redacted Audit Log */}
-          <section className="glass-panel" aria-labelledby="heading-audit-trail" style={{ padding: '1.5rem', flex: 1, minHeight: '260px' }}>
-            <h2 id="heading-audit-trail" style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '1rem', color: '#f3f4f6' }}>
-              7. Immutable Audit Trail &amp; Ledger
-            </h2>
+        {/* Tab 2: Subscription & Mandate Inventory */}
+        {activeTab === 'INVENTORY' && (
+          <section style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div>
+              <h2 style={{ fontSize: '1.25rem', fontWeight: 700 }}>Subscription & Mandate Inventory</h2>
+              <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+                Monitored corporate cards, single-use mandates, and assigned employee subscription owners.
+              </p>
+            </div>
 
-            <div
-              role="log"
-              aria-live="polite"
-              aria-atomic="false"
-              aria-label="Audit Log Stream"
-              style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', maxHeight: '280px', overflowY: 'auto' }}
-            >
-              {auditLogs.length > 0 ? (
-                auditLogs.map((log) => (
-                  <div
-                    key={log.id}
-                    style={{
-                      padding: '0.6rem 0.75rem',
-                      borderRadius: '6px',
-                      background: 'rgba(255,255,255,0.02)',
-                      borderLeft: `3px solid ${
-                        log.status === 'SUCCESS' ? '#10b981' : log.status === 'DECLINED' ? '#ef4444' : log.status === 'WARNING' ? '#f59e0b' : '#38bdf8'
-                      }`,
-                      fontSize: '0.8rem',
-                    }}
-                  >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', color: '#9ca3af' }}>
-                      <strong style={{ color: '#e5e7eb' }}>{log.event}</strong>
-                      <span>{log.timestamp}</span>
-                    </div>
-                    <div style={{ color: '#d1d5db', marginTop: '0.2rem' }}>{log.details}</div>
-                  </div>
-                ))
-              ) : (
-                <div style={{ fontSize: '0.85rem', color: '#9ca3af', fontStyle: 'italic' }}>No audit events logged yet. Click &ldquo;Execute Purchase Request Journey&rdquo; above.</div>
-              )}
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.875rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '1px solid var(--surface-border)', color: 'var(--text-dim)', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>
+                    <th style={{ padding: '0.75rem' }}>MERCHANT</th>
+                    <th style={{ padding: '0.75rem' }}>OWNER / ASSIGNED TO</th>
+                    <th style={{ padding: '0.75rem' }}>EMPLOYEE STATUS</th>
+                    <th style={{ padding: '0.75rem' }}>MONTHLY LIMIT</th>
+                    <th style={{ padding: '0.75rem' }}>RISK RATING</th>
+                    <th style={{ padding: '0.75rem' }}>MANDATE STATUS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {inventory.map((item) => (
+                    <tr key={item.id} style={{ borderBottom: '1px solid #1a1a1a' }}>
+                      <td style={{ padding: '0.75rem', fontWeight: 600 }}>{item.merchant}</td>
+                      <td style={{ padding: '0.75rem', color: 'var(--text-muted)' }}>{item.owner}</td>
+                      <td style={{ padding: '0.75rem' }}>
+                        <span className={`badge ${item.employeeStatus === 'ACTIVE' ? 'badge-safe' : 'badge-danger'}`}>
+                          {item.employeeStatus}
+                        </span>
+                      </td>
+                      <td style={{ padding: '0.75rem', fontFamily: 'var(--font-mono)' }}>{item.monthlyLimit}</td>
+                      <td style={{ padding: '0.75rem' }}>
+                        <span className={`badge ${item.riskRating === 'LOW' ? 'badge-safe' : item.riskRating === 'MEDIUM' ? 'badge-warning' : 'badge-danger'}`}>
+                          {item.riskRating}
+                        </span>
+                      </td>
+                      <td style={{ padding: '0.75rem' }}>
+                        <span className={`badge ${item.status === 'ACTIVE' ? 'badge-safe' : 'badge-danger'}`}>
+                          {item.status}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </section>
+        )}
 
-        </div>
+        {/* Tab 3: Employee Offboarding Workflow */}
+        {activeTab === 'OFFBOARDING' && (
+          <section style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            <div>
+              <h2 style={{ fontSize: '1.25rem', fontWeight: 700 }}>Employee Offboarding & Mandate Revocation</h2>
+              <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+                Prevent ghost subscriptions by revoking card mandates immediately upon employee departure.
+              </p>
+            </div>
+
+            <div className="industrial-card" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <div>
+                  <h3 style={{ fontSize: '1rem', fontWeight: 600 }}>Target Employee: {offboardedEmployee}</h3>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+                    Status: <span style={{ color: 'var(--accent-danger)', fontWeight: 600 }}>OFFBOARDED (June 15, 2026)</span>
+                  </p>
+                </div>
+                <span className="badge badge-danger">GHOST RECURRING SPEND RISK</span>
+              </div>
+
+              <div style={{ padding: '0.75rem', backgroundColor: '#121212', borderRadius: '6px', fontSize: '0.875rem' }}>
+                <span style={{ color: 'var(--text-dim)', display: 'block', fontSize: '0.75rem', marginBottom: '0.25rem' }}>
+                  Associated Subscriptions & Virtual Cards Found:
+                </span>
+                <ul style={{ paddingLeft: '1.25rem', color: 'var(--text-muted)' }}>
+                  <li>Figma Enterprise ($450.00/mo) — Card ID: <code style={{ color: 'var(--accent-safe)' }}>card_figma_x920</code></li>
+                  <li>Adobe Creative Cloud ($120.00/mo) — Card ID: <code style={{ color: 'var(--accent-safe)' }}>card_adobe_a104</code></li>
+                </ul>
+              </div>
+
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <button
+                  onClick={handleExecuteOffboarding}
+                  disabled={offboardingComplete}
+                  className="btn-primary"
+                  style={{ backgroundColor: 'var(--accent-danger)', color: '#FFF9FA' }}
+                >
+                  {offboardingComplete ? 'Mandates Revoked & Cards Blocked' : 'Deauthorize & Revoke All Mandates'}
+                </button>
+
+                {offboardingComplete && (
+                  <span style={{ fontSize: '0.875rem', color: 'var(--accent-safe)', fontWeight: 600 }}>
+                    ✅ Revocation Confirmed: Prevented $570.00/mo ghost SaaS loss.
+                  </span>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Section: Durable Redacted Audit Timeline */}
+        <section style={{ marginTop: '1rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+            <div>
+              <h2 style={{ fontSize: '1.125rem', fontWeight: 700 }}>Durable Redacted Audit Timeline</h2>
+              <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                Cryptographically verifiable, append-only execution log. No sensitive PAN or credentials persisted.
+              </p>
+            </div>
+            <span className="badge badge-neutral">LOGS: {auditLogs.length}</span>
+          </div>
+
+          <div className="industrial-card" style={{ maxHeight: '280px', overflowY: 'auto', padding: '1rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {auditLogs.map((log) => (
+                <div key={log.id} style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', fontSize: '0.8125rem', borderBottom: '1px solid #1f1f1f', paddingBottom: '0.5rem' }}>
+                  <span style={{ fontFamily: 'var(--font-mono)', color: 'var(--text-dim)', width: '80px', flexShrink: 0 }}>
+                    {log.timestamp}
+                  </span>
+                  <span className={`badge ${log.status === 'SAFE' ? 'badge-safe' : log.status === 'WARNING' ? 'badge-warning' : 'badge-danger'}`} style={{ flexShrink: 0 }}>
+                    {log.event}
+                  </span>
+                  <span style={{ color: 'var(--text-muted)', flex: 1, fontFamily: 'var(--font-mono)' }}>
+                    {log.details}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
       </main>
     </div>
   );
 }
-

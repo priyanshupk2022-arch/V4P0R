@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { extractSessionFromHeaders } from '../../../infrastructure/auth/authMiddleware';
 import { hasPermission } from '../../../domain/auth/rbac';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(req: NextRequest) {
   const session = await extractSessionFromHeaders(req);
   if (!session) {
