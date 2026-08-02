@@ -103,12 +103,12 @@ describe('Prava Card Adapter & Session Client Contract Suite', () => {
       await expect(
         createPravaSession({
           user_id: 'usr_fail',
-          user_email: 'fail@vapor.dev',
+          user_email: 'fail@vapor.com',
           total_amount: '0.00',
           currency: 'USD',
           purchase_context: [],
         })
-      ).rejects.toThrow('Prava session creation failed with HTTP 400');
+      ).rejects.toThrow('Prava session creation failed: HTTP 400');
     });
 
     it('throws contract mismatch error when response lacks mandatory fields', async () => {
@@ -125,7 +125,7 @@ describe('Prava Card Adapter & Session Client Contract Suite', () => {
       await expect(
         createPravaSession({
           user_id: 'usr_invalid',
-          user_email: 'invalid@vapor.dev',
+          user_email: 'invalid@vapor.com',
           total_amount: '10.00',
           currency: 'USD',
           purchase_context: [],
@@ -183,7 +183,7 @@ describe('Prava Card Adapter & Session Client Contract Suite', () => {
       );
 
       await expect(getPravaPaymentResult('sess_missing')).rejects.toThrow(
-        'Prava payment-result request failed with HTTP 404'
+        'Prava payment-result request failed: HTTP 404'
       );
     });
   });
@@ -231,7 +231,7 @@ describe('Prava Card Adapter & Session Client Contract Suite', () => {
           txn_ref_id: 'ref_line_01',
           txn_status: 'APPROVED',
         })
-      ).rejects.toThrow('Prava report-status request failed with HTTP 500');
+      ).rejects.toThrow('Prava report-status request failed: HTTP 500');
     });
   });
 });

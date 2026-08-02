@@ -89,12 +89,26 @@ function getSecretKey(): string {
   return key;
 }
 
+import { validateCustomerEmail, validateMerchantUrl } from './pravaSafetyValidator';
+
 /**
  * Creates a short-lived Prava payment session (POST /v1/sessions)
  */
 export async function createPravaSession(
   req: CreatePravaSessionRequest
 ): Promise<CreatePravaSessionResponse> {
+  // Rule 1: Validate customer email TLD
+  validateCustomerEmail(req.user_email);
+
+  // Rule 2: Validate merchant URLs in purchase_context
+  if (Array.isArray(req.purchase_context)) {
+    for (const ctx of req.purchase_context) {
+      if (ctx?.merchant_details?.url) {
+        validateMerchantUrl(ctx.merchant_details.url);
+      }
+    }
+  }
+
   const endpoint = `${env.PRAVA_BASE_URL}/v1/sessions`;
   const secretKey = getSecretKey();
 
@@ -119,7 +133,18 @@ export async function createPravaSession(
   });
 
   if (!res.ok) {
-    throw new Error(`Prava session creation failed with HTTP ${res.status}`);
+    let errDetail = `HTTP ${res.status}`;
+    try {
+      const errJson = await res.json();
+      if (errJson?.error) {
+        errDetail = `[${errJson.error.code || errJson.error}] ${errJson.error.message || JSON.stringify(errJson.error)}`;
+      } else if (errJson?.message) {
+        errDetail = `[${errJson.code || 'PRAVA_ERROR'}] ${errJson.message}`;
+      }
+    } catch {
+      // JSON parse fallback
+    }
+    throw new Error(`Prava session creation failed: ${errDetail}`);
   }
 
   const data = await res.json();
@@ -158,7 +183,18 @@ export async function getPravaPaymentResult(sessionId: string): Promise<GetPayme
   });
 
   if (!res.ok) {
-    throw new Error(`Prava payment-result request failed with HTTP ${res.status}`);
+    let errDetail = `HTTP ${res.status}`;
+    try {
+      const errJson = await res.json();
+      if (errJson?.error) {
+        errDetail = `[${errJson.error.code || errJson.error}] ${errJson.error.message || JSON.stringify(errJson.error)}`;
+      } else if (errJson?.message) {
+        errDetail = `[${errJson.code || 'PRAVA_ERROR'}] ${errJson.message}`;
+      }
+    } catch {
+      // JSON parse fallback
+    }
+    throw new Error(`Prava payment-result request failed: ${errDetail}`);
   }
   return await res.json();
 }
@@ -173,18 +209,31 @@ export async function reportPravaStatus(
   const endpoint = `${env.PRAVA_BASE_URL}/v1/sessions/${sessionId}/report-status`;
   const secretKey = getSecretKey();
 
+  const bodyContent = req ? JSON.stringify(req) : '{}';
+
   const res = await fetch(endpoint, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${secretKey}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(req),
+      body: bodyContent,
       signal: AbortSignal.timeout(5000),
   });
 
   if (!res.ok) {
-    throw new Error(`Prava report-status request failed with HTTP ${res.status}`);
+    let errDetail = `HTTP ${res.status}`;
+    try {
+      const errJson = await res.json();
+      if (errJson?.error) {
+        errDetail = `[${errJson.error.code || errJson.error}] ${errJson.error.message || JSON.stringify(errJson.error)}`;
+      } else if (errJson?.message) {
+        errDetail = `[${errJson.code || 'PRAVA_ERROR'}] ${errJson.message}`;
+      }
+    } catch {
+      // JSON parse fallback
+    }
+    throw new Error(`Prava report-status request failed: ${errDetail}`);
   }
   return await res.json();
 }
