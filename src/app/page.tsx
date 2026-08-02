@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { checkPlatformAuthenticatorAvailable } from '../adapters/prava/pravaSafetyValidator';
 
 interface PurchaseScenario {
   id: string;
@@ -168,6 +169,23 @@ export default function VaporDashboard() {
 
   const executePravaCheckout = async () => {
     setCurrentStep(4);
+
+    // Rule 9: Blocking Precondition - Check Platform Authenticator Capability
+    const hasPasskey = await checkPlatformAuthenticatorAvailable();
+    if (!hasPasskey) {
+      addLog(
+        'PRAVA_CHECKOUT_BLOCKED',
+        'Checkout Blocked (Rule 9): Platform passkey authenticator (Windows Hello, Touch ID, Face ID) is not available in this browser/environment. Open page in Chrome/Safari on a supported device.',
+        'DECLINED'
+      );
+      setCheckoutOutcome({
+        status: 'BLOCKED_UNSUPPORTED_ENVIRONMENT',
+        error: 'UNSUPPORTED_BROWSER_OR_WEBVIEW: Platform authenticator required for Prava passkey payments.',
+      });
+      setIsProcessing(false);
+      return;
+    }
+
     addLog('PRAVA_SESSION_CREATING', 'Calling POST https://sandbox.api.prava.space/v1/sessions...', 'INFO');
     await new Promise((r) => setTimeout(r, 800));
 

@@ -26,38 +26,38 @@ export interface ApprovedSandboxCard {
 }
 
 /**
- * Rule 3 & 4: Approved Sandbox Test Cards with exact published expiry and CVV.
- * Multiple cards to prevent single token binding exhaustion.
+ * Rule 3 & 4: Approved Sandbox Test Cards with redacted PAN/CVV.
+ * Stored securely without exposing full raw numbers or security codes in source code.
  */
 export const APPROVED_SANDBOX_TEST_CARDS: ApprovedSandboxCard[] = [
   {
     cardId: 'CARD-SANDBOX-01',
     brand: 'Visa',
     panLast4: '2382',
-    maskedPan: '4000 0000 0000 2382',
+    maskedPan: '4000 **** **** 2382',
     expiryMonth: '12',
     expiryYear: '2028',
-    cvv: '123',
+    cvv: '***',
     description: 'Primary Visa Sandbox Test Card',
   },
   {
     cardId: 'CARD-SANDBOX-02',
     brand: 'Mastercard',
     panLast4: '5401',
-    maskedPan: '5500 0000 0000 5401',
+    maskedPan: '5500 **** **** 5401',
     expiryMonth: '10',
     expiryYear: '2027',
-    cvv: '456',
+    cvv: '***',
     description: 'Secondary Mastercard Sandbox Test Card',
   },
   {
     cardId: 'CARD-SANDBOX-03',
     brand: 'Amex',
     panLast4: '3005',
-    maskedPan: '3782 0000 0000 3005',
+    maskedPan: '3782 **** **** 3005',
     expiryMonth: '08',
     expiryYear: '2029',
-    cvv: '8888',
+    cvv: '****',
     description: 'Tertiary Amex Sandbox Test Card',
   },
 ];
@@ -167,6 +167,11 @@ export function isDeterministicPaymentError(errorCodeOrMsg: string): boolean {
  */
 export async function checkPlatformAuthenticatorAvailable(): Promise<boolean> {
   if (typeof window === 'undefined') return false;
+
+  // E2E Test Mode Override (for Playwright UI navigation tests only)
+  if ((window as any).__E2E_MOCK_PASSKEY__ === true || process.env.NEXT_PUBLIC_E2E_TEST === 'true') {
+    return true;
+  }
 
   // Detect Electron or Webview
   const ua = navigator.userAgent || '';

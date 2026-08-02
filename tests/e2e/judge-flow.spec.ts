@@ -2,6 +2,11 @@ import { test, expect } from '@playwright/test';
 
 test.describe('VAPOR Judge Golden Path E2E Flow', () => {
   test('should render judge UI, execute purchase scenario, and display Senso, Policy, Prava card & Redacted Audit', async ({ page }) => {
+    // Enable E2E UI navigation mode
+    await page.addInitScript(() => {
+      (window as any).__E2E_MOCK_PASSKEY__ = true;
+    });
+
     // 1. Open VAPOR judge dashboard
     await page.goto('/');
 
@@ -36,6 +41,9 @@ test.describe('VAPOR Judge Golden Path E2E Flow', () => {
   });
 
   test('should trigger Linq iMessage approval for high-value scenario', async ({ page }) => {
+    await page.addInitScript(() => {
+      (window as any).__E2E_MOCK_PASSKEY__ = true;
+    });
     await page.goto('/');
 
     // Select Scenario 2 ($4,999.00 USD - High Value)
