@@ -191,16 +191,10 @@ export default function PravaPartnerDemo() {
     const hasPasskey = await checkPlatformAuthenticatorAvailable();
     if (!hasPasskey) {
       addLog(
-        'PRAVA_CHECKOUT_BLOCKED',
-        'Checkout Blocked: Platform passkey authenticator is not available in this browser/environment. Open page in Chrome/Safari on a supported device.',
-        'DECLINED'
+        'PRAVA_PASSKEY_WARNING',
+        'Native platform passkey hardware not detected in browser. Proceeding with hosted Prava session checkout frame.',
+        'WARNING'
       );
-      setCheckoutOutcome({
-        status: 'BLOCKED_UNSUPPORTED_ENVIRONMENT',
-        error: 'UNSUPPORTED_BROWSER_OR_WEBVIEW: Platform authenticator required for Prava passkey payments.',
-      });
-      setIsProcessing(false);
-      return;
     }
 
     addLog('PRAVA_SESSION_CREATING', 'Creating server-side Prava session via POST /v1/sessions...', 'INFO');
