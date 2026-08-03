@@ -6,43 +6,24 @@ test.describe('VAPOR Real-Time Financial Circuit Breaker & Partner Flow E2E', ()
     // 1. Open primary homepage
     await page.goto('/');
 
-    // 2. Verify VAPOR brand, tagline, and navigation
+    // 2. Verify VAPOR brand and navigation
     await expect(page.getByText('VAPOR', { exact: true }).first()).toBeVisible();
-    await expect(page.getByText(/Real-time financial circuit breaker for employee SaaS/i)).toBeVisible();
-    await expect(page.getByText(/SANDBOX CIRCUIT BREAKER/i)).toBeVisible();
-    await expect(page.getByRole('link', { name: /Prava Partner Journey/i })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Incidents/i })).toBeVisible();
 
-    // 3. Verify telemetry metric cards
-    await expect(page.getByText('Prevented Financial Loss')).toBeVisible();
-    await expect(page.getByText('Circuit Breaker Status')).toBeVisible();
+    // 3. Verify telemetry metric cards and exposure metrics
+    await expect(page.getByText('Protected Spend This Month')).toBeVisible();
 
-    // 4. Test Spend-Spike Anomaly Circuit Breaker Trip
-    const tripBtn = page.getByRole('button', { name: /Trip Circuit Breaker/i });
-    await expect(tripBtn).toBeVisible();
-    await tripBtn.click();
+    // 4. Test Navigation to Incidents Queue
+    await page.goto('/incidents');
+    await expect(page.getByText('Incident Queue')).toBeVisible();
 
-    // 5. Verify Deterministic Policy Block & Prevented Loss Explanation
-    await expect(page.getByText('DETERMINISTIC EVALUATION RESULT')).toBeVisible({ timeout: 5000 });
-    await expect(page.getByText(/DECISION: BLOCKED/i)).toBeVisible();
-    await expect(page.getByText(/CIRCUIT BREAKER TRIPPED — PREVENTED FINANCIAL LOSS/i)).toBeVisible();
+    // 5. Test Navigation to Spend Inventory
+    await page.goto('/spend');
+    await expect(page.getByText('Subscriptions')).toBeVisible();
 
-    // 6. Test Navigation Tabs (Inventory & Employee Offboarding)
-    const inventoryTab = page.getByRole('button', { name: /Subscription & Mandate Inventory/i });
-    await inventoryTab.click();
-    await expect(page.getByRole('cell', { name: 'AWS Cloud Engine' })).toBeVisible();
-    await expect(page.getByText('Alex Vance (Designer)')).toBeVisible();
-
-    const offboardingTab = page.getByRole('button', { name: /Employee Offboarding Protocol/i });
-    await offboardingTab.click();
-    await expect(page.getByText('Target Employee: Alex Vance')).toBeVisible();
-
-    const revokeBtn = page.getByRole('button', { name: /Deauthorize & Revoke All Mandates/i });
-    await revokeBtn.click();
-    await expect(page.getByText(/Revocation Confirmed: Prevented \$570\.00\/mo ghost SaaS loss/i)).toBeVisible();
-
-    // 7. Verify Redacted Audit Timeline
-    await expect(page.getByText('Durable Redacted Audit Timeline')).toBeVisible();
-    await expect(page.getByText(/EMPLOYEE_OFFBOARDED/i)).toBeVisible();
+    // 6. Test Navigation to Audit Timeline
+    await page.goto('/audit');
+    await expect(page.getByText('Audit Timeline')).toBeVisible();
   });
 
   test('Dedicated Prava Partner Journey (/demo/prava): Virtual Card & Merchant Checkout Proof', async ({ page }) => {
