@@ -451,6 +451,37 @@ export default function PravaPartnerDemo() {
             <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
               Session ID: <code style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)' }}>{pravaSession.session_id}</code> | Order ID: <code style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)' }}>{pravaSession.order_id}</code>
             </p>
+
+            {pravaSession.iframe_url && (
+              <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)' }}>
+                    Prava Hosted Passkey & Payment Interface:
+                  </span>
+                  <a
+                    href={pravaSession.iframe_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary"
+                    style={{ fontSize: '0.75rem', padding: '0.375rem 0.75rem', textDecoration: 'none' }}
+                  >
+                    Open Hosted Prava Checkout Page ↗
+                  </a>
+                </div>
+                <iframe
+                  src={pravaSession.iframe_url}
+                  style={{
+                    width: '100%',
+                    height: '420px',
+                    border: '1px solid var(--surface-border)',
+                    borderRadius: '8px',
+                    backgroundColor: '#0D0D0D',
+                  }}
+                  title="Prava Hosted Checkout Passkey Interface"
+                  allow="publickey-credentials-get *; publickey-credentials-create *"
+                />
+              </div>
+            )}
           </section>
         )}
 
