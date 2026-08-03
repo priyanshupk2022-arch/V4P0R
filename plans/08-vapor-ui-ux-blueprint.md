@@ -18,6 +18,8 @@ Primary audience: US finance leaders, FinOps teams, IT/security administrators, 
 
 Primary promise: **Stop risky company spend before it becomes a bill.**
 
+Expanded product promise: **Know who owns every subscription, why the company pays for it, when it renews, and whether the next charge should be allowed.**
+
 ## 2. Non-negotiable design rules
 
 - Do not copy Frentix's logo, assets, exact palette, gradient, geometry, navigation arrangement, copy, charts, or sample data.
@@ -100,6 +102,15 @@ Desktop sidebar / mobile bottom navigation:
 Secondary utilities: global search, organization switcher, environment badge, provider health, help, and profile.
 
 Demo shortcut: **Run judge journey** opens one preconfigured incident and never bypasses real provider states.
+
+The primary navigation expands to six durable product domains once the underlying data exists:
+
+1. **Overview** — financial exposure, active incidents, savings, and renewals.
+2. **Incidents** — decisions that require investigation or approval.
+3. **Subscriptions** — every recurring SaaS, AI, and cloud commitment.
+4. **People** — employees, agents, ownership, department, and offboarding impact.
+5. **Payments** — Prava permissions/sessions and merchant outcomes.
+6. **Audit** — redacted, correlated evidence and change history.
 
 ## 5. Core screen blueprints
 
@@ -194,6 +205,202 @@ Never show multiple enabled primary actions simultaneously.
 - Offboarding action previews affected subscriptions and requires confirmation.
 - API spike detail compares current spend with the configured baseline; no invented AI risk score.
 
+### Screen I — Subscription command center `/subscriptions`
+
+This is the commercial center of VAPOR. It answers “what are we paying for, who owns it, and what happens next?”
+
+- Filters: category, department, owner, status, renewal window, billing cadence, risk, and payment state.
+- Default table fields: vendor, product/plan, category, owner, department, amount, cadence, next renewal, usage signal, auto-renew state, and risk.
+- Saved views: Renewing in 30 days, No active owner, Offboarded owner, Unused/unknown usage, Price increased, Policy violation, and AI/API spend.
+- Bulk actions require review: assign owner, request justification, schedule renewal review, propose cancellation, or change policy.
+- “Cancel” is never shown as completed unless an official provider/vendor operation confirms it.
+- Mobile converts rows into compact subscription cards with owner, amount, renewal, and next action.
+
+### Screen J — Subscription detail `/subscriptions/[id]`
+
+Header:
+
+- Vendor and product name.
+- Lifecycle status: trial, active, paused, cancellation pending, cancelled, expired, or unknown.
+- Current recurring amount, cadence, next renewal, annualized committed spend, and payment control state.
+
+Sections:
+
+1. **Ownership** — employee UID, name, role, department, manager, cost center, business owner, and technical owner.
+2. **Commercials** — plan, seats, unit price, currency, contract start/end, renewal date, notice period, auto-renew, and source of truth.
+3. **Usage** — last activity, active seats, assigned seats, utilization, and evidence timestamp. Unknown usage stays unknown.
+4. **Payment** — Prava permission/session reference, merchant descriptor, limit, policy, and recent outcomes; credentials remain hidden.
+5. **Risk** — orphaned owner, offboarded owner, duplicate category, unusual increase, policy mismatch, and missing evidence.
+6. **History** — created, owner changes, approvals, renewals, payments, policy decisions, and offboarding actions.
+
+Primary action changes by state: Assign owner, Review renewal, Request justification, Adjust policy, Pause payment authority, or View merchant outcome.
+
+### Screen K — Employee spend profile `/people/[employeeUid]`
+
+Employee UID is an immutable internal UUID. Payroll ID, email, and provider IDs are external identifiers and must not become the primary key.
+
+Header:
+
+- Name, role, department, manager, employment status, start date, optional end date, cost center, and internal UID.
+- Spend summary: monthly recurring spend, annualized commitment, active subscriptions, pending requests, cards/permissions, and unresolved incidents.
+
+Sections:
+
+- Owned subscriptions.
+- Assigned licenses.
+- Purchase requests and approvals.
+- Payment permissions and outcomes.
+- Policy exceptions.
+- Last verified activity.
+- Offboarding impact preview.
+
+Employment status values: invited, active, leave, offboarding scheduled, offboarded, and archived.
+
+### Screen L — Offboarding control room `/people/[employeeUid]/offboarding`
+
+The UI creates an impact plan before taking action:
+
+1. Identify subscriptions owned by the employee.
+2. Separate business ownership from assigned seat/access.
+3. Identify active payment permissions/cards.
+4. Identify upcoming renewals and cancellation windows.
+5. Assign transfer owners for business-critical tools.
+6. Propose revoke, transfer, retain, or investigate per item.
+7. Require human confirmation for destructive actions.
+8. Record provider-confirmed outcomes and unresolved work.
+
+Never treat employee termination as automatic subscription cancellation. Some tools must be transferred, retained for legal/data reasons, or investigated.
+
+### Screen M — Category intelligence `/categories/[categoryId]`
+
+- Category hierarchy, monthly/annualized spend, vendors, subscriptions, owners, departments, duplicates, and trend.
+- Compare tools only when the underlying capability tags are known.
+- Highlight category concentration and duplicate-tool opportunities without claiming savings until an action is confirmed.
+- Show “unclassified” as a first-class queue; never force low-confidence categorization.
+
+### Screen N — Renewal calendar `/renewals`
+
+- Calendar/list toggle for renewals at 7, 30, 60, and 90 days.
+- Each renewal exposes owner, notice deadline, amount, usage evidence, policy, and decision status.
+- Workflow: evidence collection → owner justification → finance decision → payment-policy update → confirmed outcome.
+
+## 6.1 Canonical category taxonomy
+
+Use a two-level taxonomy with an optional confidence/source field:
+
+```text
+SaaS
+  Productivity
+  Collaboration
+  Developer tools
+  Design and creative
+  Sales and CRM
+  Marketing
+  Finance and accounting
+  HR and recruiting
+  Security and identity
+  Data and analytics
+  Customer support
+  Legal and compliance
+
+Cloud infrastructure
+  Compute
+  Storage
+  Database
+  Networking
+  Observability
+  Security
+  Data platform
+
+AI
+  Model API
+  Agent platform
+  Model hosting
+  Vector database
+  AI developer tooling
+  AI productivity
+
+Professional services
+Hardware and devices
+Travel and expenses
+Other
+Unclassified
+```
+
+Category records contain `category_id`, `parent_category_id`, `name`, `source`, `confidence`, `reviewed_by`, and `reviewed_at`. Rules and human review outrank AI suggestions.
+
+## 6.2 Canonical commercial data model
+
+The UI and backend share these durable objects:
+
+- **Organization** — tenant, currency, timezone, policy defaults.
+- **Employee** — internal UID, employment lifecycle, department, manager, and cost center.
+- **Vendor** — canonical vendor identity plus observed merchant descriptors/domains.
+- **Product** — vendor offering and capability tags.
+- **Subscription** — recurring commercial relationship and lifecycle.
+- **Subscription ownership** — business owner, technical owner, finance owner, and assigned users with effective dates.
+- **Purchase intent** — requested merchant, item, amount, currency, purpose, and requester.
+- **Policy decision** — deterministic verdict, rules, version, and reasons.
+- **Approval** — approver, channel, correlation, expiry, and first valid outcome.
+- **Payment authority** — Prava permission/session references and exact constraints.
+- **Transaction** — provider-derived merchant outcome in integer minor units.
+- **Risk signal** — observed condition, severity, source, timestamp, and resolution.
+- **Audit event** — actor, action, object, correlation ID, redacted evidence, and persistence status.
+
+Required subscription fields:
+
+```text
+subscription_id
+organization_id
+vendor_id
+product_id
+category_id
+status
+billing_cadence
+amount_minor
+currency
+start_date
+contract_end_date
+next_renewal_date
+cancellation_notice_date
+auto_renew
+seat_count
+active_seat_count
+business_owner_employee_uid
+technical_owner_employee_uid
+cost_center
+department
+payment_authority_reference
+usage_evidence_at
+source_system
+created_at
+updated_at
+```
+
+Amounts always use integer minor units plus ISO currency. Dates store UTC timestamps while the interface renders the organization's timezone.
+
+## 6.3 Product lifecycle flows
+
+### New purchase
+
+`request → identity/ownership → category → Senso evidence → deterministic policy → Linq approval if needed → Prava authority → merchant outcome → subscription created or linked → audit`
+
+### Recurring charge
+
+`renewal approaching → owner and usage evidence → policy evaluation → allow/review/block → payment outcome → next renewal updated → audit`
+
+### Spend anomaly
+
+`provider/usage signal → baseline comparison → incident → owner investigation → policy action → payment control where officially supported → resolution → audit`
+
+### Employee offboarding
+
+`employment event → impact discovery → transfer/revoke/retain plan → human confirmation → supported provider actions → unresolved queue → audit`
+
+### Orphaned subscription
+
+`missing/inactive owner → manager/department lookup → temporary finance owner → justification request → transfer/cancel/investigate decision → audit`
+
 ## 6. Judge journey
 
 Use a persistent seven-step progress rail:
@@ -259,6 +466,12 @@ src/components/
   evidence/PravaPermission.tsx
   evidence/MerchantOutcome.tsx
   audit/AuditTimeline.tsx
+  subscriptions/SubscriptionTable.tsx
+  subscriptions/SubscriptionSummary.tsx
+  subscriptions/RenewalPanel.tsx
+  people/EmployeeSpendProfile.tsx
+  people/OffboardingImpact.tsx
+  categories/CategoryBreakdown.tsx
 ```
 
 - Prefer server components for read-only data.
@@ -279,6 +492,10 @@ Preferred:
 - “Waiting for the assigned approver”
 - “Expected sandbox decline recorded”
 - “No durable audit record yet”
+- “No active owner assigned”
+- “Renewal decision due in 12 days”
+- “Usage evidence is unavailable”
+- “Transfer ownership before offboarding”
 
 Forbidden without evidence:
 
@@ -366,11 +583,14 @@ Guard:
 
 ### Phase 4 — Spend, cards, and audit
 
-Build spend inventory, safe card/permission state, offboarding preview, and redacted audit search/export.
+Build subscriptions, employee spend profiles, category intelligence, renewal workflow, safe card/permission state, offboarding control room, and redacted audit search/export.
 
 Verify:
 
 - Destructive actions require review/confirmation.
+- Subscription ownership has effective dates and preserves history.
+- Employee offboarding distinguishes ownership transfer, access revocation, payment control, and cancellation.
+- Category AI suggestions remain reviewable and expose their source/confidence.
 - Audit persistence labels match actual storage.
 - Exports pass secret/PAN/CVV scans.
 
@@ -436,4 +656,3 @@ The redesign passes when:
 6. Keyboard, contrast, focus, reduced motion, and semantic states pass.
 7. No copyrighted Frentix expression has been copied.
 8. The deployed app and demo video show the same behavior.
-
