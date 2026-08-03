@@ -1,19 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
-  --canvas: #0A0A0A;
-  --surface: #171717;
-  --surface-border: #262626;
-  --surface-hover: #222222;
+  --canvas: #080A0F;
+  --surface-1: #0F131C;
+  --surface-2: #151B27;
+  --surface-3: #1B2331;
+  --border-subtle: #263044;
+  --border-strong: #3A4761;
+  --text-primary: #F7F8FC;
+  --text-secondary: #AAB4C5;
+  --text-muted: #748095;
+  --vapor-primary: #7C5CFF;
+  --vapor-primary-hover: #9279FF;
+  --signal-safe: #35E6B0;
+  --signal-warning: #FFC857;
+  --signal-danger: #FF6174;
+  --signal-info: #58B8FF;
+  --provider-senso: #35E6B0;
+  --provider-linq: #58B8FF;
+  --provider-prava: #A879FF;
+  --focus: #C7B9FF;
 
-  --accent-safe: #21F1A8;
-  --accent-warning: #FFBE0B;
-  --accent-danger: #FD1843;
-  --accent-muted: #333333;
-
-  --text-primary: #FFF9FA;
-  --text-muted: #A3A3A3;
-  --text-dim: #737373;
+  /* Legacy aliases for old pages */
+  --surface: var(--surface-1);
+  --surface-border: var(--border-subtle);
+  --surface-hover: var(--surface-2);
+  --accent-safe: var(--signal-safe);
+  --accent-warning: var(--signal-warning);
+  --accent-danger: var(--signal-danger);
+  --accent-muted: var(--surface-3);
+  --text-dim: var(--text-muted);
 
   --font-sans: 'Satoshi', 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;

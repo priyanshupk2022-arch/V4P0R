@@ -7,7 +7,7 @@ test.describe('VAPOR Real-Time Financial Circuit Breaker & Partner Flow E2E', ()
     await page.goto('/');
 
     // 2. Verify VAPOR brand, tagline, and navigation
-    await expect(page.getByText('VAPOR', { exact: true })).toBeVisible();
+    await expect(page.getByText('VAPOR', { exact: true }).first()).toBeVisible();
     await expect(page.getByText(/Real-time financial circuit breaker for employee SaaS/i)).toBeVisible();
     await expect(page.getByText(/SANDBOX CIRCUIT BREAKER/i)).toBeVisible();
     await expect(page.getByRole('link', { name: /Prava Partner Journey/i })).toBeVisible();
