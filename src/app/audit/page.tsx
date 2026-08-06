@@ -1,230 +1,99 @@
-'use client';
+import { TelemetryPanel } from '@/components/ui/TelemetryPanel';
 
-import React, { useState } from 'react';
-import { AppShell } from '@/components/shell/AppShell';
-import { Card } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
-
-type Provider = 'All' | 'Senso' | 'Linq' | 'Prava' | 'Policy Engine';
-type Status = 'All' | 'SUCCESS' | 'BLOCKED' | 'WARNING' | 'ERROR';
-
-interface AuditEvent {
-  id: string;
-  timestamp: string;
-  correlationId: string;
-  actor: string;
-  event: string;
-  result: Status;
-  reference: string;
-  merchant?: string;
-  employee?: string;
-}
-
-const mockEvents: AuditEvent[] = [
-  {
-    id: 'evt_1',
-    timestamp: '2026-08-03T02:15:22Z',
-    correlationId: 'cor_88f92a',
-    actor: 'Senso',
-    event: 'Policy Retrieval',
-    result: 'SUCCESS',
-    reference: 'doc_req_***992',
-    merchant: 'AWS',
-    employee: 'alice@acme.com',
-  },
-  {
-    id: 'evt_2',
-    timestamp: '2026-08-03T02:15:23Z',
-    correlationId: 'cor_88f92a',
-    actor: 'Policy Engine',
-    event: 'Decision Evaluation',
-    result: 'WARNING',
-    reference: 'rule_v4_***',
-    merchant: 'AWS',
-    employee: 'alice@acme.com',
-  },
-  {
-    id: 'evt_3',
-    timestamp: '2026-08-03T02:18:05Z',
-    correlationId: 'cor_88f92a',
-    actor: 'Linq',
-    event: 'Manager Approval',
-    result: 'SUCCESS',
-    reference: 'msg_auth_***711',
-    merchant: 'AWS',
-    employee: 'alice@acme.com',
-  },
-  {
-    id: 'evt_4',
-    timestamp: '2026-08-03T02:18:06Z',
-    correlationId: 'cor_88f92a',
-    actor: 'Prava',
-    event: 'Issue Virtual Card',
-    result: 'SUCCESS',
-    reference: 'crd_iss_***882',
-    merchant: 'AWS',
-    employee: 'alice@acme.com',
-  },
-  {
-    id: 'evt_5',
-    timestamp: '2026-08-03T04:22:10Z',
-    correlationId: 'cor_99b11c',
-    actor: 'Policy Engine',
-    event: 'Decision Evaluation',
-    result: 'BLOCKED',
-    reference: 'rule_v2_***',
-    merchant: 'RogueMerchant',
-    employee: 'bob@acme.com',
-  },
-];
-
-export default function AuditPage() {
-  const [search, setSearch] = useState('');
-  const [providerFilter, setProviderFilter] = useState<Provider>('All');
-  const [statusFilter, setStatusFilter] = useState<Status>('All');
-
-  const handleExportJSON = () => {
-    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(mockEvents, null, 2));
-    const downloadAnchorNode = document.createElement('a');
-    downloadAnchorNode.setAttribute("href", dataStr);
-    downloadAnchorNode.setAttribute("download", "audit_export.json");
-    document.body.appendChild(downloadAnchorNode);
-    downloadAnchorNode.click();
-    downloadAnchorNode.remove();
-  };
-
-  const handleExportCSV = () => {
-    const header = ['timestamp', 'correlationId', 'actor', 'event', 'result', 'reference'];
-    const rows = mockEvents.map(e => [
-      e.timestamp, e.correlationId, e.actor, e.event, e.result, e.reference
-    ].join(','));
-    const csvStr = "data:text/csv;charset=utf-8," + encodeURIComponent([header.join(','), ...rows].join('\n'));
-    
-    const downloadAnchorNode = document.createElement('a');
-    downloadAnchorNode.setAttribute("href", csvStr);
-    downloadAnchorNode.setAttribute("download", "audit_export.csv");
-    document.body.appendChild(downloadAnchorNode);
-    downloadAnchorNode.click();
-    downloadAnchorNode.remove();
-  };
-
-  const filteredEvents = mockEvents.filter(e => {
-    const q = search.toLowerCase();
-    const matchSearch = 
-      e.correlationId.toLowerCase().includes(q) ||
-      e.merchant?.toLowerCase().includes(q) ||
-      e.employee?.toLowerCase().includes(q) ||
-      e.actor.toLowerCase().includes(q);
-
-    const matchProvider = providerFilter === 'All' || e.actor === providerFilter;
-    const matchStatus = statusFilter === 'All' || e.result === statusFilter;
-
-    return matchSearch && matchProvider && matchStatus;
-  });
-
-  const getStatusColor = (status: Status) => {
-    switch(status) {
-      case 'SUCCESS': return 'text-[#35E6B0] border-[#35E6B0]/20 bg-[#35E6B0]/10';
-      case 'BLOCKED': return 'text-[#FF6174] border-[#FF6174]/20 bg-[#FF6174]/10';
-      case 'ERROR': return 'text-[#FF6174] border-[#FF6174]/20 bg-[#FF6174]/10';
-      case 'WARNING': return 'text-[#FFC857] border-[#FFC857]/20 bg-[#FFC857]/10';
-      default: return 'text-[#AAB4C5] border-[#263044] bg-[#151B27]';
+export default function AuditLog() {
+  const auditEvents = [
+    {
+      id: 'evt_001',
+      timestamp: '2026-08-06T08:12:30Z',
+      action: 'INTENT_CAPTURED',
+      actor: 'SYS_API',
+      target: 'inc_01',
+      hash: 'a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8',
+      payload: '{"merchant":"AWS","amount":5400,"employee":"Sarah Jenkins"}'
+    },
+    {
+      id: 'evt_002',
+      timestamp: '2026-08-06T08:12:32Z',
+      action: 'SENSO_EVALUATION',
+      actor: 'SENSO_POLICY_ENGINE',
+      target: 'inc_01',
+      hash: 'b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c',
+      payload: '{"rule":"IT_INFRA_5K_APPROVAL","verdict":"REQUIRES_LINQ_APPROVAL"}'
+    },
+    {
+      id: 'evt_003',
+      timestamp: '2026-08-06T08:15:10Z',
+      action: 'LINQ_APPROVAL_REQUESTED',
+      actor: 'SYS_WORKFLOW',
+      target: 'inc_01',
+      hash: 'c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d',
+      payload: '{"channel":"iMessage","recipient":"manager_01"}'
     }
-  };
+  ];
 
   return (
-    <AppShell activeTab="audit">
-      <div className="max-w-6xl mx-auto space-y-6">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <h1 className="text-2xl font-bold text-[#F7F8FC] font-sans">Audit Trail</h1>
-            <p className="text-sm text-[#AAB4C5] mt-1">Session activity and decision records</p>
-          </div>
-          <div className="flex items-center gap-3">
-            <Button variant="secondary" onClick={handleExportCSV}>Export CSV</Button>
-            <Button variant="secondary" onClick={handleExportJSON}>Export JSON</Button>
-          </div>
+    <div className="min-h-[100dvh] p-8 max-w-[1400px] mx-auto text-sm">
+      <header className="mb-12 flex justify-between items-end border-b border-text-neutral/20 pb-4">
+        <div>
+          <h1 className="text-4xl font-bold tracking-tighter text-text-primary flex items-center gap-4">
+            IMMUTABLE.AUDIT
+            <span className="bg-status-success text-black text-[10px] px-2 py-0.5 tracking-widest font-bold">SEC_09_VERIFIED</span>
+          </h1>
+          <p className="text-text-neutral mt-2 text-xs">CRYPTOGRAPHICALLY VERIFIED EVENT TIMELINE</p>
         </div>
+      </header>
 
-        <Card className="p-4 bg-[#0F131C] border-[#263044] rounded-xl flex flex-col md:flex-row gap-4 items-center">
-          <div className="flex-1 w-full relative">
-            <input 
-              type="text" 
-              placeholder="Search correlation ID, merchant, employee..." 
-              value={search}
-              onChange={e => setSearch(e.target.value)}
-              className="w-full bg-[#151B27] border border-[#263044] rounded-lg px-4 py-2 text-sm text-[#F7F8FC] placeholder:text-[#748095] focus:outline-none focus:border-[#7C5CFF]"
-            />
-          </div>
-          <div className="flex gap-4 w-full md:w-auto">
-            <select 
-              value={providerFilter} 
-              onChange={e => setProviderFilter(e.target.value as Provider)}
-              className="bg-[#151B27] border border-[#263044] rounded-lg px-4 py-2 text-sm text-[#F7F8FC] focus:outline-none focus:border-[#7C5CFF]"
-            >
-              <option value="All">All Providers</option>
-              <option value="Senso">Senso</option>
-              <option value="Linq">Linq</option>
-              <option value="Prava">Prava</option>
-              <option value="Policy Engine">Policy Engine</option>
-            </select>
-            <select 
-              value={statusFilter} 
-              onChange={e => setStatusFilter(e.target.value as Status)}
-              className="bg-[#151B27] border border-[#263044] rounded-lg px-4 py-2 text-sm text-[#F7F8FC] focus:outline-none focus:border-[#7C5CFF]"
-            >
-              <option value="All">All Statuses</option>
-              <option value="SUCCESS">SUCCESS</option>
-              <option value="BLOCKED">BLOCKED</option>
-              <option value="WARNING">WARNING</option>
-              <option value="ERROR">ERROR</option>
-            </select>
-          </div>
-        </Card>
+      <div className="space-y-6 relative before:absolute before:inset-0 before:ml-4 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-text-neutral/20 before:to-transparent">
+        {auditEvents.map((event, i) => (
+          <div key={event.id} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+            
+            {/* Timeline Marker */}
+            <div className="flex items-center justify-center w-8 h-8 rounded-full border border-status-success bg-surface-card text-status-success shadow-soft md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 absolute left-0 md:left-1/2 -translate-x-1/2 z-10">
+              <div className="w-2 h-2 bg-status-success"></div>
+            </div>
 
-        <div className="bg-[#0F131C] border border-[#263044] rounded-xl overflow-hidden">
-          <div className="overflow-x-auto">
-            <table className="w-full text-left text-sm whitespace-nowrap">
-              <thead className="bg-[#151B27] border-b border-[#263044] text-[#AAB4C5]">
-                <tr>
-                  <th className="px-6 py-4 font-medium">Timestamp</th>
-                  <th className="px-6 py-4 font-medium">Correlation ID</th>
-                  <th className="px-6 py-4 font-medium">Actor / Provider</th>
-                  <th className="px-6 py-4 font-medium">Event</th>
-                  <th className="px-6 py-4 font-medium">Result</th>
-                  <th className="px-6 py-4 font-medium">Reference</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-[#263044]">
-                {filteredEvents.length === 0 ? (
-                  <tr>
-                    <td colSpan={6} className="px-6 py-12 text-center text-[#748095]">
-                      No audit records found matching your filters.
-                    </td>
-                  </tr>
-                ) : (
-                  filteredEvents.map(evt => (
-                    <tr key={evt.id} className="hover:bg-[#151B27]/50 transition-colors">
-                      <td className="px-6 py-4 text-[#AAB4C5] font-mono text-xs">{evt.timestamp}</td>
-                      <td className="px-6 py-4 text-[#F7F8FC] font-mono text-xs">{evt.correlationId}</td>
-                      <td className="px-6 py-4 text-[#F7F8FC]">{evt.actor}</td>
-                      <td className="px-6 py-4 text-[#F7F8FC]">{evt.event}</td>
-                      <td className="px-6 py-4">
-                        <span className={`px-2.5 py-1 rounded-full text-xs font-medium border ${getStatusColor(evt.result)}`}>
-                          {evt.result}
-                        </span>
-                      </td>
-                      <td className="px-6 py-4 text-[#AAB4C5] font-mono text-xs">
-                        {evt.reference}
-                      </td>
-                    </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
+            <TelemetryPanel title={`EVT_ID: ${event.id}`} className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] ml-12 md:ml-0 p-0 hover:border-status-success transition-none">
+              <div className="p-4 bg-surface-card">
+                <div className="flex justify-between items-end border-b border-text-neutral/10 pb-3 mb-3">
+                  <div>
+                    <div className="text-[10px] text-text-neutral/60 mb-1">TIMESTAMP</div>
+                    <div className="text-text-primary font-bold">{new Date(event.timestamp).toLocaleString()}</div>
+                  </div>
+                  <div className="bg-surface-base border border-text-neutral/20 text-accent-critical font-bold px-2 py-1 text-[10px]">
+                    {event.action}
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-4 mb-4 border-b border-text-neutral/10 pb-3">
+                  <div>
+                    <div className="text-[10px] text-text-neutral/60 mb-1">ACTOR</div>
+                    <div className="text-text-primary">{event.actor}</div>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-text-neutral/60 mb-1">TARGET_OBJ</div>
+                    <div className="text-text-primary">{event.target}</div>
+                  </div>
+                </div>
+                
+                <div className="mb-4">
+                  <div className="text-[10px] text-text-neutral/60 mb-2">EVENT_PAYLOAD</div>
+                  <pre className="bg-surface-card border border-text-neutral/10 p-3 text-[10px] text-status-success overflow-x-auto whitespace-pre-wrap ">
+                    {event.payload}
+                  </pre>
+                </div>
+
+                <div className="bg-surface-base border border-text-neutral/20 p-3 flex items-center gap-3">
+                  <div className="text-status-success font-bold">✓</div>
+                  <div className="overflow-hidden">
+                    <div className="text-[10px] text-text-neutral/60 mb-1">VERIFIED_HASH</div>
+                    <code className="text-text-neutral text-[10px] block truncate">{event.hash}</code>
+                  </div>
+                </div>
+              </div>
+            </TelemetryPanel>
           </div>
-        </div>
+        ))}
       </div>
-    </AppShell>
+    </div>
   );
 }

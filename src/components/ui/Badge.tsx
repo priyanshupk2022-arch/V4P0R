@@ -1,51 +1,45 @@
 import React from 'react';
-import styles from './ui.module.css';
+import { AlertCircle, CheckCircle2, ShieldAlert } from 'lucide-react';
 
-export type BadgeStatus = 'LIVE' | 'SANDBOX' | 'PENDING' | 'UNAVAILABLE' | 'ERROR' | 'DEMO';
+export type RiskLevel = 'LOW' | 'MEDIUM' | 'HIGH';
 
-export interface BadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
-  status: BadgeStatus;
-  showIcon?: boolean;
+export interface BadgeProps {
+  level: RiskLevel;
+  rationale: string;
+  className?: string;
 }
 
-export const Badge = React.forwardRef<HTMLSpanElement, BadgeProps>(
-  ({ status, showIcon = true, className = '', ...props }, ref) => {
-    let statusClass = '';
-    let iconClass = '';
-
-    switch (status) {
-      case 'LIVE':
-        statusClass = styles.badgeLive;
-        iconClass = styles.badgeIconLive;
-        break;
-      case 'SANDBOX':
-        statusClass = styles.badgeSandbox;
-        iconClass = styles.badgeIconSandbox;
-        break;
-      case 'PENDING':
-        statusClass = styles.badgePending;
-        iconClass = styles.badgeIconPending;
-        break;
-      case 'UNAVAILABLE':
-        statusClass = styles.badgeUnavailable;
-        iconClass = styles.badgeIconUnavailable;
-        break;
-      case 'ERROR':
-        statusClass = styles.badgeError;
-        iconClass = styles.badgeIconError;
-        break;
-      case 'DEMO':
-        statusClass = styles.badgeDemo;
-        iconClass = styles.badgeIconDemo;
-        break;
+export function Badge({ level, rationale, className = '' }: BadgeProps) {
+  const config = {
+    LOW: {
+      color: 'bg-status-success/10 text-status-success border-status-success/20',
+      icon: CheckCircle2,
+      label: 'Low Risk'
+    },
+    MEDIUM: {
+      color: 'bg-status-warning/10 text-status-warning border-status-warning/20',
+      icon: AlertCircle,
+      label: 'Medium Risk'
+    },
+    HIGH: {
+      color: 'bg-status-error/10 text-status-error border-status-error/20',
+      icon: ShieldAlert,
+      label: 'High Risk'
     }
+  };
 
-    return (
-      <span ref={ref} className={`${styles.badge} ${statusClass} ${className}`} {...props}>
-        {showIcon && <span className={`${styles.badgeIcon} ${iconClass}`} aria-hidden="true" />}
-        {status}
-      </span>
-    );
-  }
-);
-Badge.displayName = 'Badge';
+  const { color, icon: Icon, label } = config[level];
+
+  // Accessible Risk Badges: Must include role="status" and aria-label as specified.
+  return (
+    <div 
+      role="status" 
+      aria-label={`${label}: ${rationale}`}
+      title={rationale}
+      className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-sm border text-sm font-medium ${color} ${className}`}
+    >
+      <Icon className="w-4 h-4" aria-hidden="true" />
+      <span>{label}</span>
+    </div>
+  );
+}

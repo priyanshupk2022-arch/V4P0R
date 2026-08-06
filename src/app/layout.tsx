@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { AppShell } from '../components/shell/AppShell';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'VAPOR Enterprise Fintech Control Plane',
-  description: 'Ultra-Low Latency Corporate Card Issuing & AI Fraud Risk Engine',
+  title: 'VAPOR | Command Center',
+  description: 'Core Design System & App Shell for VAPOR',
 };
 
 export default function RootLayout({
@@ -13,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`antialiased ${inter.className}`}>
+        <AppShell>
+          {children}
+        </AppShell>
+      </body>
     </html>
   );
 }
